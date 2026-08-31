@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<article class="example example-like"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.5.18</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Using Simpson’s Rule.</span>
+</h2>
+<div class="para">Approximate <span class="process-math">\(\ds\int_0^1 e^{-x^2}\, dx\)</span> using Simpson’s Rule and 4 equally spaced subintervals.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_num5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para">We begin by making a table of values as we have in the past, as shown in <a href="sec_numerical_integration.html#fig_num5a" class="xref" data-knowl="./knowl/xref/fig_num5a.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.5.19(a)">Figure 1.5.19(a)</a>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_num5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like">
+<div class="sidebyside">
+<div class="sbsrow" style="margin-left:1.5%;margin-right:1.5%;grid-template-columns:41.2371134020619% 55.6701030927835%;column-gap:3%;">
+<div class="sbspanel sbspanel--top top" style="">
+<figure class="figure figure-like"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b0 r0 l0 t0 lines"><span class="process-math">\(x_i\)</span></th>
+<th scope="col" class="l m b0 r0 l0 t0 lines"><span class="process-math">\(e^{-x_i^2}\)</span></th>
+</tr>
+<tr>
+<td class="l m b1 r0 l0 t0 lines"></td>
+<td class="l m b1 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.25\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.939\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.5\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.779\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.75\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.570\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.368\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+</table>
+<figcaption><span class="codenumber">(a)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 1.5.19(a)"><a tabindex="-1" href="#fig_num5a" title="Copy heading and permalink for Figure 1.5.19(a)" aria-label="Copy heading and permalink for Figure 1.5.19(a)">🔗</a></div></figcaption>
+</figure>
+</div>
+<div class="sbspanel sbspanel--top top" style="">
+<figure class="figure figure-like"><div class="image-box">
+<img src="generated/latex-image/img_num5b.svg" role="img" class="contained" alt="Approximating the integral of e^{-x^2} using Simpson’s rule"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="fig_num5b-2-description">
+<div class="para" id="fig_num5b-2-2-1">The graph of <span class="process-math">\(e^{-x^2}\)</span> starts from <span class="process-math">\((0, 1)\)</span> and slopes downwards to the right in the positive <span class="process-math">\(x\)</span> direction. We consider the are under the curve from <span class="process-math">\((0, 1)\)</span> to <span class="process-math">\((1, 0.25)\)</span> in the first quadrant. The area is subdivided into four equally spaced intervals. The top of the intervals are parts of parabolas that track the curve of <span class="process-math">\(e^{-x^2}\text{.}\)</span> These approximating curves are almost identical to the parts of the graph they are tracking thus resulting in a much more accurate approximation.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#fig_num5b-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div></details>
+</div>
+<figcaption><span class="codenumber">(b)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 1.5.19(b)"><a tabindex="-1" href="#fig_num5b" title="Copy heading and permalink for Figure 1.5.19(b)" aria-label="Copy heading and permalink for Figure 1.5.19(b)">🔗</a></div></figcaption>
+</figure>
+</div>
+</div>
+</div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.5.19<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A table of values to approximate <span class="process-math">\(\int_0^1e^{-x^2}\, dx\text{,}\)</span> along with a graph of the function<div class="autopermalink" aria-hidden="true" data-description="Figure 1.5.19"><a tabindex="-1" href="#fig_num5" title="Copy heading and permalink for Figure 1.5.19" aria-label="Copy heading and permalink for Figure 1.5.19">🔗</a></div></figcaption>
+</figure>
+<div class="para logical">
+<div class="para">Simpson’s Rule states that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int_0^1e^{-x^2}\, dx \approx \frac{0.25}{3}\Big[1+4(0.939)+2(0.779)+4(0.570) + 0.368\Big] = 0.7468\overline{3}\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_num5-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">Recall in <a href="sec_numerical_integration.html#ex_num1" class="xref" data-knowl="./knowl/xref/ex_num1.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 1.5.2: Approximating definite integrals with rectangles">Example 1.5.2</a> we stated that the correct answer, accurate to 4 places after the decimal, was 0.7468. Our approximation with Simpson’s Rule, with 4 subintervals, is better than our approximation with the Trapezoidal Rule using 5!<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_num5-3-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">
+<a href="sec_numerical_integration.html#fig_num5b" class="xref" data-knowl="./knowl/xref/fig_num5b.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.5.19(b)">Figure 1.5.19(b)</a> shows <span class="process-math">\(f(x) = e^{-x^2}\)</span> along with its approximating parabolas, demonstrating how good our approximation is. The approximating curves are nearly indistinguishable from the actual function.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_num5-3-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 1.5.18.1"><a tabindex="-1" href="#ex_num5-3" title="Copy heading and permalink for Solution 1.5.18.1" aria-label="Copy heading and permalink for Solution 1.5.18.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 1.5.18: Using Simpson’s Rule"><a tabindex="-1" href="#ex_num5" title="Copy heading and permalink for Example 1.5.18: Using Simpson’s Rule" aria-label="Copy heading and permalink for Example 1.5.18: Using Simpson’s Rule">🔗</a></div>
+</article><span class="incontext"><a class="internal" href="sec_numerical_integration.html#ex_num5">In Context</a></span>
+</body>
+</html>

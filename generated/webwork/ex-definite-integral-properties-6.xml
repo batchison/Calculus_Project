@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-definite-integral-properties-6" assembly-id="ex-definite-integral-properties-6">
+  <static seed="51">
+    <statement><p><m>\int_5^0 \big(s(t) - r(t)\big)\, dt</m></p>
+<p><fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-7</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_2_24.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.2.24)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+The values of several definite integrals are given as follows:
+
+[```\int_0^3s(t)\,dt = 10 \quad \int_3^5s(t)\,dt = 8 \quad \int_3^5r(t)\,dt = -1 \quad \int_0^5r(t)\,dt = 11```]
+
+Use these values and properties of definite integrals to evaluate the indicated definite integral.
+
+[`\int_5^0 \big(s(t) - r(t)\big)\, dt`]
+
+[_]{'-7'}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

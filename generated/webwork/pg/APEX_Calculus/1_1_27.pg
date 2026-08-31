@@ -1,0 +1,68 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.1.27)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserFormulaUpToConstant.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$c = list_random('a'..'d','k','m','n','p'..'s');
+if($envir{problemSeed}==1){$c='a'};
+Context()->flags->set(reduceConstants=>0);
+Context()->constants->add($c=>Real(exp(pi/sqrt(2)+sin(1))));
+$f = Formula("$c")->reduce;
+$F = FormulaUpToConstant("$c x")->reduce;
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate the indefinite integral. Don't forget your constant of integration!
+
+[`\int [$f]\, dx`]
+
+[_]{$F}{40}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

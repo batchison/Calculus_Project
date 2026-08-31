@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-riemann-write-sum-8" assembly-id="ex-riemann-write-sum-8">
+  <static seed="63">
+    <statement><p><m>\sum\limits_{i=1}^{4} {\left(-1\right)^{i}\cos\mathopen{}\left(\pi i\right)}</m></p>
+<p><fillin characters="20" name="AnSwEr0001"/></p>
+<p><fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>1+1+1+1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>4</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_3_5_12.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.3.5.12)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PCCmacros.pl",
+  "bizarroArithmetic.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$lb = random(0,1,1);
+$ub = random(4,6,1);
+if($envir{problemSeed}==1){$lb=0;$ub=5;};
+Context()->variables->are(i=>'Real');
+$f = Formula("(-1)^i cos(pi i)")->reduce;
+@i = ($lb..$ub);
+@fi = map{$f->eval(i=>$_)}(@i);
+$string = join('+',@fi);
+$sum = Real($string);
+Context("Form");
+Context()->operators->set(
+  '+' => {class => 'bizarro::BOP::add', isCommand => 1},
+  '-' => {class => 'bizarro::BOP::subtract', isCommand => 1},
+);
+$terms = Formula("$string");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Write out each term of the summation and compute the sum.
+
+[`\sum\limits_{i=[$lb]}^{[$ub]} [$f]`]
+
+[@KeyboardInstructions('Enter the sum of terms here. For example, [|1+2+3|]*.')@]**
+
+[_]{$terms}{20}
+
+[@KeyboardInstructions('Enter the actual sum here.')@]**
+
+[_]{$sum}{20}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

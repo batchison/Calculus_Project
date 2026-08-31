@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-deriv-interpret-review-2" assembly-id="ex-deriv-interpret-review-2">
+  <static seed="16">
+    <statement><p><m>f(x)=(x-2)^3</m></p>
+<p><fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>3\mathopen{}\left(x-2\right)^{2}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/2_2.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.2)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGessaymacros.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+$answer = Formula("3(x-2)^2");
+$showwork = '[@ explanation_box(message => "Show your work using the definition of the derivative.") @]*';
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Use the definition of the derivative to compute the derivative of [`f\text{.}`]
+
+[`f(x)=(x-2)^3`]
+
+[_]{$answer}{10}
+
+[$showwork]**
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

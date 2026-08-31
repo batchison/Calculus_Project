@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-definite-integral-geometry-2" assembly-id="ex-definite-integral-geometry-2">
+  <static seed="33">
+    <introduction><!-- PTX:WARNING: PGML wanted to center align here. -->
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/ex-definite-integral-geometry-2-image-1" width="100%">
+<shortdescription>Graph of function f(x).</shortdescription>
+</image>
+</introduction>
+    <task>
+      <statement><p><m>\int_0^2 f(x)\, dx</m></p>
+<p><fillin characters="3" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-4</m>
+        </p>
+      </answer>
+    </task>
+    <task>
+      <statement><p><m>\int_0^3 f(x)\, dx</m></p>
+<p><fillin characters="3" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-5</m>
+        </p>
+      </answer>
+    </task>
+    <task>
+      <statement><p><m>\int_0^5 f(x)\, dx</m></p>
+<p><fillin characters="3" name="AnSwEr0003"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-3</m>
+        </p>
+      </answer>
+    </task>
+    <task>
+      <statement><p><m>\int_2^5 f(x)\, dx</m></p>
+<p><fillin characters="3" name="AnSwEr0004"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+    </task>
+    <task>
+      <statement><p><m>\int_5^3 f(x)\, dx</m></p>
+<p><fillin characters="3" name="AnSwEr0005"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-2</m>
+        </p>
+      </answer>
+    </task>
+    <task>
+      <statement><p><m>\int_0^3 -2f(x)\, dx</m></p>
+<p><fillin characters="3" name="AnSwEr0006"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>10</m>
+        </p>
+      </answer>
+    </task>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_2_6.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.2.6)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGlateximage.pl",
+  "scaffold.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+COMMENT('This problem is scaffolded with multiple parts');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+@a = (-4,-5,-3,1,-2,10);
+
+$image_1 = createLaTeXImage();
+$image_1->addToPreamble(latexImagePreamble());
+$image_1->BEGIN_LATEX_IMAGE
+\begin{tikzpicture}
+  \begin{axis}[
+      xtick={1,2,3,4,5},
+      ymin=-2.2,
+      ymax=2.2,
+      xmin=-.9,
+      xmax=5.5
+    ]
+    \addplot+ [domain=0:2] {-2};
+    \addplot [firstcurvestyle,domain=2:3] {2*x-6};
+    \addplot [firstcurvestyle,domain=3:5] {x-3};
+    \draw (axis cs:3.2,-1.5) node { \(y = f(x)\)};
+  \end{axis}
+\end{tikzpicture}
+
+END_LATEX_IMAGE
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+A graph of a function [`f(x)`] is given. Using the geometry of the graph, evaluate the definite integrals.
+
+>> [@image(insertGraph($image_1), width=>600, alt=>qq"Graph of function f(x).")@]*  <<
+
+END_PGML
+
+############################################################
+# Scaffold
+############################################################
+Scaffold::Begin(numbered => 1,is_open => "correct_or_first_incorrect",can_open => always,);
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`\int_0^2 f(x)\, dx`]
+
+[_]{$a[0]}{3}
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`\int_0^3 f(x)\, dx`]
+
+[_]{$a[1]}{3}
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`\int_0^5 f(x)\, dx`]
+
+[_]{$a[2]}{3}
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`\int_2^5 f(x)\, dx`]
+
+[_]{$a[3]}{3}
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`\int_5^3 f(x)\, dx`]
+
+[_]{$a[4]}{3}
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`\int_0^3 -2f(x)\, dx`]
+
+[_]{$a[5]}{3}
+
+END_PGML
+
+Section::End();
+
+Scaffold::End();
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

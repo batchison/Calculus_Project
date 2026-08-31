@@ -1,0 +1,75 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.1.32)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "contextFraction.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$a = random(2,9,1);
+$b = non_zero_random(-9,9,1);
+$m = random(1,2,1);
+$x0 = non_zero_random(-2,2,1);
+$f0 = non_zero_random(-9,9,1);
+if($envir{problemSeed}==1){$a=4;$b=-3;$m=2;$x0=-1;$f0=9};
+$f = Formula("$a x^3 + $b x^$m")->reduce;
+Context("Fraction");
+($num1,$den1) = Fraction($a,4)->value;
+($num2,$den2) = Fraction($b,$m+1)->value;
+$F = Formula("$num1 x^4/$den1 + $num2 x^($m+1)/$den2");
+$c = Fraction($f0 - $F->eval(x=>$x0));
+$F = Formula("$num1 x^4/$den1 + $num2 x^($m+1)/$den2 + $c")->reduce;
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find the function determined by the given initial value problem.
+
+[`\fp(x) = [$f]`] and [`f([$x0])= [$f0]`]
+
+[_]{$F}{40}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

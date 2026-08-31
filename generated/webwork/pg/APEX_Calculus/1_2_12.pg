@@ -1,0 +1,149 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.2.12)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGlateximage.pl",
+  "scaffold.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+COMMENT('This problem is scaffolded with multiple parts');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+@a = (Formula("4/pi"),Formula("-4/pi"),Formula("0"),Formula("2/pi"));
+
+$image_1 = createLaTeXImage();
+$image_1->addToPreamble(latexImagePreamble());
+$image_1->BEGIN_LATEX_IMAGE
+\begin{tikzpicture}
+  \begin{axis}[
+      axis on top,
+      xtick={1,2,3,4},
+      ymin=-1.5,
+      ymax=1.5,
+      xmin=-.9,
+      xmax=4.5
+    ]
+    \addplot [firstcurvestyle,areastyle,domain=0:4] {sin(deg(3.14159*x/2))} \closedcycle;
+    \addplot [firstcurvestyle,domain=0:4,samples=50] {sin(deg(3.14159*x/2))};
+    \draw (axis cs:3,0.75) node { \(f(x)=\sin(\pi x/2)\)};
+    \draw (axis cs:1,.6) node { \(4/\pi\)};
+    \draw (axis cs:3,-.6) node { \(4/\pi\)};
+  \end{axis}
+\end{tikzpicture}
+
+END_LATEX_IMAGE
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+A graph of a function [`f(x)`] is given; the numbers inside the shaded regions give the area of that region. Evaluate the definite integrals using this area information.
+
+>> [@image(insertGraph($image_1), width=>600, alt=>qq"Graph of sine function with angle as multiple of pi/2.")@]*  <<
+
+END_PGML
+
+############################################################
+# Scaffold
+############################################################
+Scaffold::Begin(numbered => 1,is_open => "correct_or_first_incorrect",can_open => always,);
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`\int_0^2 f(x)\, dx`]
+
+[_]{$a[0]}{4}
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`\int_2^4 f(x)\, dx`]
+
+[_]{$a[1]}{4}
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`\int_0^4 f(x)\, dx`]
+
+[_]{$a[2]}{4}
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`\int_0^1 f(x)\, dx`]
+
+[_]{$a[3]}{4}
+
+END_PGML
+
+Section::End();
+
+Scaffold::End();
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

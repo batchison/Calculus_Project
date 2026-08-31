@@ -1,0 +1,72 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.4.6.40)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "contextFraction.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$low = 1;
+$m = random(1,9,1);
+if($envir{problemSeed}==1){$m=1;};
+$high = Formula("e^$m")->reduce;
+$D = $high - $low;
+Context("Fraction");
+Context()->variables->are(t=>'Real');
+$f = Formula("1/t");
+$F = Formula("ln(t)");
+$A = Formula("$m/(e^$m - 1)");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find the average value of the function on the given interval.
+
+[`y=\ds[$f]`] on [`\left[[$low],[$high]\right]`]
+
+[_]{$A}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

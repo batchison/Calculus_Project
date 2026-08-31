@@ -1,0 +1,72 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.3.5.21)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$lb = 1;
+$ub = random(8,12,1);
+($a,$b,$c,$d) = random_subset(4,-12..-1,1..12);
+if($envir{problemSeed}==1){$ub=10;$a=-4;$b=10;$c=-7;$d=11;};
+Context()->variables->are(i=>'Real');
+Context()->noreduce('(-x)+y','(-x)-y');
+$f = Formula("$a i^3 + $b i^2 + $c i + $d")->reduce;
+@i = ($lb..$ub);
+@fi = map{$f->eval(i=>$_)}(@i);
+$string = join('+',@fi);
+$sum = Real($string);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate the summation using Theorem[$NBSP]*1.3.7.
+
+[`\sum\limits_{i=[$lb]}^{[$ub]} \left([$f]\right)`]
+
+[_]{$sum}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

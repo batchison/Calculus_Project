@@ -1,0 +1,68 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.4)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextFraction.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$r=list_random([2,2],[3,2],[4,2],[5,2],[6,2],[7,2],[8,2],[9,2],[2,3],[3,3],[4,3],[2,5],[2,6]);
+if($envir{problemSeed}==1){$r=[3,2];};
+($b,$n)=@{$r};
+$a=$b**$n;
+$f = ($n==2) ? '\sqrt{x}' : "\\sqrt[$n]{x}";
+Context("Fraction");
+$ans=Fraction(1,$n*($b)**($n-1));
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Numerically approximate the derivative.
+
+[`f'([$a])`] where [`f(x) = [$f]`]
+
+[_]{$ans}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

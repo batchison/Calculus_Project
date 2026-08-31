@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-limit-infinity-review-4" assembly-id="ex-limit-infinity-review-4">
+  <static seed="10">
+    <statement><p>Find <m>\lim\limits_{x\to e} \ln(x)\text{.}</m></p>
+<p><fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>1</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_12.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.12)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PCCmacros.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+Context()->strings->add('does not exist'=>{alias=>'DNE'});
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find [`\lim\limits_{x\to e} \ln(x)\text{.}`]
+
+[@KeyboardInstructions('If you need to enter [`\infty\text{,}`] you may type [|infinity|]*, or just [|INF|]*. If the limit does not exist, you may type [|does not exist|]*, or just [|DNE|]*.')@]**
+
+[_]{'1'}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-FTC-defint-evaluate-13" assembly-id="ex-FTC-defint-evaluate-13">
+  <static seed="99">
+    <statement><p><m>\ds\int_{0}^{243} {\sqrt[5]{x}}\, dx</m></p>
+<p><fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>{\frac{1215}{2}}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_4_6_17.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.4.6.17)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserRoot.pl",
+  "contextForm.pl",
+  "contextFraction.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$n = random(3,5,1);
+($low,$high) = num_sort(random_subset(2,0**$n,1**$n,2**$n,3**$n,4**$n));
+if($envir{problemSeed}==1){$n=3;$low=1;$high=8;};
+parser::Root->Enable;
+$f = Formula("root($n,x)")->reduce;
+Context("Fraction");
+$r = Fraction($high**(1/$n + 1)/(1/$n + 1) - $low**(1/$n + 1)/(1/$n + 1));
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate the definite integral.
+
+[`\ds\int_{[$low]}^{[$high]} [$f]\, dx`]
+
+[_]{$r}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-deriv-intro-review-2" assembly-id="ex-deriv-intro-review-2">
+  <static seed="12">
+    <statement><p>Use the Bisection Method to approximate, accurate to two decimal places, the root of <m>g(x) = {x^{3}+\left(-2\right)x^{2}+9x+2}</m> on <m>[-0.3,-0.2]\text{.}</m></p>
+<p><fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-0.211289</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_14.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.14)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PCCmacros.pl",
+  "PGessaymacros.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$a=non_zero_random(-4,4,1);
+$low = int(($a)**2/3)+1;
+$b=random($low,9,1);
+$c=non_zero_random(-3,3,1);
+if($envir{problemSeed}==1){$a=1;$b=1;$c=-1;};
+$f=Formula("x^3+$a x^2+$b x + $c");
+$fp=$f->D('x');
+Context("Numeric")->flags->set(tolType=>'absolute',tolerance=>0.005);
+$r=0;
+do {
+  $r=$r-($f->eval(x=>$r))/($fp->eval(x=>$r));
+} until ($r==$r-($f->eval(x=>$r))/($fp->eval(x=>$r)));
+if ($r>0) {
+  $A=int($r*10)/10;
+  $B=$A+0.1;
+} else {
+  $B=int($r*10)/10;
+  $A=$B-0.1;
+};
+$showwork = '[@ explanation_box(message => "Show the steps you used applying the Bisection Method.") @]*';
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Use the Bisection Method to approximate, accurate to two decimal places, the root of [`g(x) = [$f]`] on [`[[$A],[$B]]\text{.}`]
+
+[@KeyboardInstructions('Enter the approximation:')@]**
+
+[_]{$r}{10}
+
+[$showwork]**
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

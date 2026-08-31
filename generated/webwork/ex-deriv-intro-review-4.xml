@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-deriv-intro-review-4" assembly-id="ex-deriv-intro-review-4">
+  <static seed="14">
+    <introduction><p>Use the graph of <m>f(x)</m> provided to answer the following.</p>
+<!-- PTX:WARNING: PGML wanted to center align here. -->
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/ex-deriv-intro-review-4-image-1" width="47%">
+<shortdescription>The graph of a function with a jump discontinuity at -3.</shortdescription>
+</image>
+</introduction>
+    <task>
+      <statement><p><m>\lim\limits_{x\to-3^-} f(x)</m></p>
+<p><fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+    </task>
+    <task>
+      <statement><p><m>\lim\limits_{x\to-3^+} f(x)</m></p>
+<p><fillin characters="10" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+    </task>
+    <task>
+      <statement><p><m>\lim\limits_{x\to-3} f(x)</m></p>
+<p><fillin characters="10" name="AnSwEr0003"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{DNE}</m>
+        </p>
+      </answer>
+    </task>
+    <task>
+      <statement><p>Where is <m>f</m> continuous?</p>
+<p><fillin characters="15" name="AnSwEr0004"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\left(-\infty ,-3\right)\cup \left(-3,\infty \right)</m>
+        </p>
+      </answer>
+    </task>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_16.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.16)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGlateximage.pl",
+  "scaffold.pl",
+  "PCCmacros.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+COMMENT('This problem is scaffolded with multiple parts');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+@L=(1,3,Compute("DNE"));
+Context("Interval");
+$cont=Compute("(-inf,-3)U(-3,inf)");
+
+$image_1 = createLaTeXImage();
+$image_1->addToPreamble(latexImagePreamble());
+$image_1->BEGIN_LATEX_IMAGE
+\begin{tikzpicture}
+\begin{axis}[
+      ymin=-1.1,ymax=3.3,%
+      xmin=-5.1,xmax=0.5,%
+]
+
+\addplot [firstcurvestyle,domain=-4.5:-3] {(x+3)^2+1};
+\addplot [firstcurvestyle,domain=-3:-1] {-(x+3)^2+3};
+\filldraw [fill=white] (axis cs:-3,1) circle (2.4pt);
+\filldraw [fill=white] (axis cs:-3,3) circle (2.4pt);
+\filldraw [fill=black] (axis cs:-3,2) circle (2.4pt);
+
+\end{axis}
+\end{tikzpicture}
+
+END_LATEX_IMAGE
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Use the graph of [`f(x)`] provided to answer the following.
+
+>> [@image(insertGraph($image_1), width=>282, alt=>qq"The graph of a function with a jump discontinuity at -3.")@]*  <<
+
+[@KeyboardInstructions('If you need to enter [`\infty\text{,}`] you may type [|infinity|]*, or just [|INF|]*. If the limit does not exist, you may type [|does not exist|]*, or just [|DNE|]*.')@]**
+
+END_PGML
+
+############################################################
+# Scaffold
+############################################################
+Scaffold::Begin(numbered => 1,is_open => "correct_or_first_incorrect",can_open => always,);
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`\lim\limits_{x\to-3^-} f(x)`]
+
+[_]{$L[0]}{10}
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`\lim\limits_{x\to-3^+} f(x)`]
+
+[_]{$L[1]}{10}
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`\lim\limits_{x\to-3} f(x)`]
+
+[_]{$L[2]}{10}
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+Where is [`f`] continuous?
+
+[@KeyboardInstructions('Answer using interval notation. If you need to write [`\infty\text{,}`] you may type [|inf|]* or [|infinity|]*. If you need the union symbol, [`\cup\text{,}`] you may type the capital letter [|U|]*.')@]**
+
+[_]{$cont}{15}
+
+END_PGML
+
+Section::End();
+
+Scaffold::End();
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

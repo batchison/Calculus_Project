@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-antiderivatives-evaluate-2" assembly-id="ex-antiderivatives-evaluate-2">
+  <static seed="3">
+    <statement><p><m>\int {x^{4}}\, dx</m></p>
+<p><fillin characters="40" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>{\frac{1}{5}}x^{5}+C</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_1_10.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.1.10)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserFormulaUpToConstant.pl",
+  "contextForm.pl",
+  "contextFraction.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$n = random(2,9,1);
+if($envir{problemSeed}==1){$n=9};
+$f = Formula("x^$n");
+Context("Fraction");
+$F = FormulaUpToConstant("1/($n+1) x^($n+1)");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate the indefinite integral. Don't forget your constant of integration!
+
+[`\int [$f]\, dx`]
+
+[_]{$F}{40}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

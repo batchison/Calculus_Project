@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-antiderivatives-evaluate-16" assembly-id="ex-antiderivatives-evaluate-16">
+  <static seed="17">
+    <statement><p><m>\int {\left(t^{5}-6\right)\mathopen{}\left(t^{6}+7t\right)}\, dt</m></p>
+<p><fillin characters="40" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{t^{12}}{12}+\frac{t^{7}}{7}-21t^{2}+C</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_1_24.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.1.24)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserFormulaUpToConstant.pl",
+  "contextForm.pl",
+  "contextFraction.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$m = random(2,5,1);
+($a,$b) = random_subset(2,-9..-1,1..9);
+if($envir{problemSeed}==1){$m=2;$a=3;$b=-2};
+Context("Fraction");
+Context()->variables->are(t=>'Real');
+$n = $m+1;
+$f = Formula("(t^$m+$a)(t^$n+$b t)")->reduce;
+($num2,$den2) = Fraction($b/($m+2) + $a/($n+1))->value;
+($num3,$den3) = Fraction($a*$b,2)->value;
+$F = FormulaUpToConstant("t^($m+$n+1)/($m+$n+1) + $num2 t^($n+1)/$den2 + $num3 t^2/$den3")->reduce;
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate the indefinite integral. Don't forget your constant of integration!
+
+[`\int [$f]\, dt`]
+
+[_]{$F}{40}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

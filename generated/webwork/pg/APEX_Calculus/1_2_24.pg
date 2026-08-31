@@ -1,0 +1,65 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.2.24)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+The values of several definite integrals are given as follows:
+
+[```\int_0^3s(t)\,dt = 10 \quad \int_3^5s(t)\,dt = 8 \quad \int_3^5r(t)\,dt = -1 \quad \int_0^5r(t)\,dt = 11```]
+
+Use these values and properties of definite integrals to evaluate the indicated definite integral.
+
+[`\int_5^0 \big(s(t) - r(t)\big)\, dt`]
+
+[_]{'-7'}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

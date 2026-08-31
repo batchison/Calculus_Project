@@ -1,0 +1,70 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.1.9)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserFormulaUpToConstant.pl",
+  "contextForm.pl",
+  "contextFraction.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$a = random(2,9,1);
+$n = random(2,9,1);
+if($envir{problemSeed}==1){$a=3;$n=3};
+$f = Formula("$a x^$n");
+Context("Fraction");
+$b = Fraction($a,$n+1);
+$F = FormulaUpToConstant("$b x^($n+1)");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate the indefinite integral. Don't forget your constant of integration!
+
+[`\int [$f]\, dx`]
+
+[_]{$F}{40}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

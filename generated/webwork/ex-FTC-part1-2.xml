@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-FTC-part1-2" assembly-id="ex-FTC-part1-2">
+  <static seed="132">
+    <statement><p><m>F(x) = \ds\int_{{x^{4}}}^{-5} {t^{4}}\, dt</m></p>
+<p><fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-4x^{19}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_4_6_56.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.4.6.56)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$m = random(2,5,1);
+$high = random(-9,9,1);
+if($envir{problemSeed}==1){$m=3;$high=0;};
+Context()->variables->add(t=>'Real');
+$low = Formula("x^$m");
+$f = Formula("t^$m");
+$D = Formula("-$m x^($m**2+$m-1)")->reduce;
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find [`F'(x)\text{.}`]
+
+[`F(x) = \ds\int_{[$low]}^{[$high]} [$f]\, dt`]
+
+[_]{$D}{30}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

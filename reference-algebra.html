@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>APEX Algebra</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: true,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+lang: "en-US",
+});
+</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta name="twitter:image" content="https://opentext.uleth.ca/apex-calculus/external/images/APEX.png">
+<meta property="og:image" content="https://opentext.uleth.ca/apex-calculus/external/images/APEX.png">
+<meta name="twitter:image:alt" content="Document Logo">
+<meta property="og:image:alt" content="Document Logo">
+<meta name="twitter:title" content="APEX Calculus">
+<meta property="og:title" content="APEX Calculus">
+<meta property="book:title" content="APEX Calculus">
+<meta name="twitter:description" content="A traditional calculus textbook with many exercises and few proofs, covering calculus from limits to vector calculus.">
+<meta property="og:description" content="A traditional calculus textbook with many exercises and few proofs, covering calculus from limits to vector calculus.">
+<meta name="twitter:card" content="summary_large_image">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.52"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.52"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.2.10';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.e3f9706509fcf6f7.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.c5ba0ffa5f963084.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.efe427683fc41f98.css">
+<script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="_static/pretext/js/dist/pretext-webwork.js"></script><script src="https://webwork-dev.uleth.ca/webwork2_files/node_modules/iframe-resizer/js/iframeResizer.min.js"></script><script src="https://cdn.geogebra.org/apps/deployggb.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="APEX" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead" role="banner"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href="http://www.apexcalculus.com"><img src="external/images/APEX.png" alt="Logo image"></a><div class="title-container">
+<div class="heading ptx-banner-heading"><a href="apex-calculus.html"><span class="title">APEX Calculus</span></a></div>
+<p class="byline">Gregory Hartman, Ph.D., Sean Fitzpatrick, Ph.D. (Editor), Alex Jordan, Ph.D. (Editor), Carly Vollet, M.S. (Editor)</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button id="ptx-toc-toggle" type="button" aria-controls="ptx-sidebar" class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="terminology-index.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="ptx-search-box">
+<div class="ptx-search-widget"><button id="ptx-search-button" type="button" class="ptx-search-button button" title="Search Book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<dialog id="ptx-search-dialog" class="ptx-dialog ptx-search-dialog"><div class="ptx-search-dialog-controls">
+<input aria-label="Search term" id="ptx-search-terms" class="ptx-search-terms" type="text" name="terms" placeholder="Search terms"><button aria-label="Close" id="ptx-search-close" class="ptx-search-close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div id="ptx-search-status" class="ptx-search-status" aria-live="polite" aria-atomic="true"></div>
+<h2 class="heading ptx-search-results-heading">Search Results: </h2>
+<div id="ptx-search-empty" class="ptx-search-empty"><span>No results.</span></div>
+<ol id="ptx-search-results" class="ptx-search-results"></ol></dialog>
+</div>
+<span class="nav-other-controls"><button type="button" id="ptx-calculator-toggle" class="ptx-calculator-toggle button" title="Calculator"><span class="icon material-symbols-outlined" aria-hidden="true">&#xea5f;</span><span class="name">Calculator</span></button><dialog id="ptx-calculator-container" class="ptx-dialog ptx-calculator-container" aria-label="Calculator"><div id="ptx-geogebra-calculator" class="ptx-geogebra-calculator"></div>
+<script id="ptx-geogebra-calculator-params">
+let ggbParams = {
+    "appName": "graphing"
+};
+</script></dialog><button id="ptx-read-aloud-button" class="ptx-read-aloud-button button" title="Read aloud" aria-expanded="false"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf1bc;</span><span class="name">Read aloud</span></button><div id="ptx-read-aloud-player" class="ptx-read-aloud-player" hidden="hidden" role="group" aria-label="Read aloud">
+<button id="ptx-read-aloud-prev" class="button" title="Previous sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe045;</span></button><button id="ptx-read-aloud-toggle" class="ptx-read-aloud-toggle button" title="Play"><span class="ptx-read-aloud-icon-play"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></span><span class="ptx-read-aloud-icon-pause"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe034;</span></span></button><button id="ptx-read-aloud-next" class="button" title="Next sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe044;</span></button><a id="ptx-read-aloud-continue" class="ptx-read-aloud-continue button" hidden="hidden">Continue<span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></a><button id="ptx-read-aloud-settings-button" class="ptx-read-aloud-settings-button button" title="Reading settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe429;</span></button>
+</div>
+<dialog class="ptx-dialog ptx-read-aloud-settings-popup" id="ptx-read-aloud-settings-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Read aloud settings</h2>
+<button class="ptx-read-aloud-settings-close-button button" id="ptx-read-aloud-settings-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label for="ptx-read-aloud-voice"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe91f;</span><span>Voice</span></label><select id="ptx-read-aloud-voice"></select><label class="ptx-readability-slider-label" for="ptx-read-aloud-rate"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe9e4;</span><span>Reading speed</span><output id="ptx-read-aloud-rate-value" for="ptx-read-aloud-rate">1×</output></label><input type="range" id="ptx-read-aloud-rate" min="0.5" max="2" step="0.1" value="1"><label for="ptx-read-aloud-asides"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d7;</span><span>Collapsed content</span></label><select id="ptx-read-aloud-asides"><option value="skip">Announce, do not read</option>
+<option value="read">Read automatically</option></select><label for="ptx-read-aloud-autoscroll"><input type="checkbox" id="ptx-read-aloud-autoscroll" checked><span>Follow along (auto-scroll)</span></label><label for="ptx-read-aloud-autocontinue"><input type="checkbox" id="ptx-read-aloud-autocontinue"><span>Continue to the next page automatically</span></label>
+</div></dialog><button id="ptx-readability-options-button" class="ptx-readability-options-button button" title="Readability settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf6f1;</span><span class="name">Readability settings</span></button><dialog class="ptx-dialog ptx-readability-options-popup" id="ptx-readability-options-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Readability settings</h2>
+<button class="ptx-readability-options-close-button button" id="ptx-readability-options-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-line-height"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe240;</span><span>Line height</span><output id="ptx-readability-line-height-value" for="ptx-readability-line-height">1.35</output></label><input type="range" id="ptx-readability-line-height" min="1.10" max="3" step="0.05" value="1.35">
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-font-size"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe245;</span><span>Content font size</span><output id="ptx-readability-font-size-value" for="ptx-readability-font-size">100%</output></label><input type="range" id="ptx-readability-font-size" min="0.8" max="1.5" step="0.05" value="1">
+</div>
+<fieldset class="ptx-readability-options-group ptx-readability-options-group-theme">
+<legend>Theme</legend>
+<label for="ptx-readability-theme-system"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-system" value="system"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe1ab;</span><span>System</span></label><label for="ptx-readability-theme-light"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-light" value="light"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe518;</span><span>Light</span></label><label for="ptx-readability-theme-dark"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-dark" value="dark"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span>Dark</span></label>
+</fieldset>
+<fieldset class="ptx-readability-options-group">
+<legend>Assistive technologies</legend>
+<label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
+</fieldset>
+<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="reference-area-volume.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="appendix-reference.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="reference-formulas.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand\blank[2]{\,\colorbox{gray}{$\phantom{\rule{#1pt}{#2pt}}$}\,}
+\newcommand{\highlight}[1]{{\color{blue}{#1}}}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\fp}{f\hskip.75pt '}
+\newcommand{\fpp}{f\hskip.75pt ''}
+
+\newcommand{\lz}[2]{\frac{d#1}{d#2}}
+\newcommand{\lzn}[3]{\frac{d^{#1}#2}{d#3^{#1}}}
+\newcommand{\lzo}[1]{\frac{d}{d#1}}
+\newcommand{\lzoo}[2]{{\frac{d}{d#1}}{\left(#2\right)}}
+\newcommand{\lzon}[2]{\frac{d^{#1}}{d#2^{#1}}}
+\newcommand{\lzoa}[3]{\left.{\frac{d#1}{d#2}}\right|_{#3}}
+\newcommand{\plz}[2]{\frac{\partial#1}{\partial#2}}
+\newcommand{\plzoa}[3]{\left.{\frac{\partial#1}{\partial#2}}\right|_{#3}}
+
+\newcommand{\inflim}[1][n]{\lim\limits_{#1 \to \infty}}
+
+\newcommand{\primeskip}{\hskip.75pt }
+\newcommand{\infser}[1][1]{\sum_{n=#1}^\infty}
+\newcommand{\Fp}{F\hskip.75pt '}
+\newcommand{\Fpp}{F\hskip.75pt ''}
+\newcommand{\yp}{y\hskip.75pt '}
+\newcommand{\gp}{g\hskip.75pt '}
+\newcommand{\dx}{\Delta x}
+\newcommand{\dy}{\Delta y}
+\newcommand{\ddz}{\Delta z}
+\newcommand{\thet}{\theta}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\vnorm}[1]{\left\lVert\vec #1\right\rVert}
+\newcommand{\snorm}[1]{\left|\left|\,#1\,\right|\right|}
+\newcommand{\la}{\left\langle}
+\newcommand{\ra}{\right\rangle}
+\newcommand{\dotp}[2]{\vec #1 \cdot \vec #2}
+\newcommand{\proj}[2]{\text{proj}_{\,\vec #2}{\,\vec #1}}
+\newcommand{\crossp}[2]{\vec #1 \times \vec #2}
+\newcommand{\veci}{\vec i}
+\newcommand{\vecj}{\vec j}
+\newcommand{\veck}{\vec k}
+\newcommand{\vecu}{\vec u}
+\newcommand{\vecv}{\vec v}
+\newcommand{\vecw}{\vec w}
+\newcommand{\vecx}{\vec x}
+\newcommand{\vecy}{\vec y}
+\newcommand{\vrp}{\vec r\hskip0.75pt '}
+\newcommand{\vrpp}{\vec r\hskip0.75pt ''}
+\newcommand{\vsp}{\vec s\hskip0.75pt '}
+\newcommand{\vrt}{\vec r(t)}
+\newcommand{\vst}{\vec s(t)}
+\newcommand{\vvt}{\vec v(t)}
+\newcommand{\vat}{\vec a(t)}
+\newcommand{\px}{\partial x}
+\newcommand{\py}{\partial y}
+\newcommand{\pz}{\partial z}
+\newcommand{\pf}{\partial f}
+\newcommand{\unittangent}{\vec{{}T}}
+\newcommand{\unitnormal}{\vec{N}}
+\newcommand{\unittangentprime}{\vec{{}T}\hskip0.75pt '}
+\newcommand{\R}{mathbb{R}}
+\newcommand{\mathN}{\mathbb{N}}
+\newcommand{\surfaceS}{\mathcal{S}}
+\newcommand{\zerooverzero}{\displaystyle \raisebox{8pt}{\text{``\ }}\frac{0}{0}\raisebox{8pt}{\textit{ ''}}}
+\newcommand{\abs}[1]{\left\lvert #1\right\rvert}
+\newcommand{\sech}{\operatorname{sech}}
+\newcommand{\csch}{\operatorname{csch}}
+\newcommand{\curl}{\operatorname{curl}}
+\newcommand{\divv}{\operatorname{div}}
+\newcommand{\Hess}{\operatorname{Hess}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\newcommand{\fillinmath}[1]{\mathchoice{\underline{\displaystyle     \phantom{\ \,#1\ \,}}}{\underline{\textstyle        \phantom{\ \,#1\ \,}}}{\underline{\scriptstyle      \phantom{\ \,#1\ \,}}}{\underline{\scriptscriptstyle\phantom{\ \,#1\ \,}}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" role="complementary" class="ptx-sidebar"><nav id="ptx-toc" tabindex="-1" aria-label="Contents" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter_integration.html" class="internal"><span class="codenumber">1</span> <span class="title">Integration</span></a></div>
+<ul id="ptx-toc-group-chapter_integration" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="chapter_integration-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_antider.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Antiderivatives and Indefinite Integration</span></a></div>
+<ul id="ptx-toc-group-sec_antider" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec_antider.html#sec_antider-35" class="internal"><span class="codenumber">1.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_def_int.html" class="internal"><span class="codenumber">1.2</span> <span class="title">The Definite Integral</span></a></div>
+<ul id="ptx-toc-group-sec_def_int" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec_def_int.html#sec_def_int-33" class="internal"><span class="codenumber">1.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_riemann.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Riemann Sums</span></a></div>
+<ul id="ptx-toc-group-sec_riemann" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_riemann.html#subsec-rectangle-approximation" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Approximating area with rectangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_riemann.html#fig_rie_notation" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Summation Notation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_riemann.html#sec_riemann-5" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Riemann Sums</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_riemann.html#sec_riemann-6" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Limits of Riemann Sums</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec_riemann.html#sec_riemann-7" class="internal"><span class="codenumber">1.3.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_FTC.html" class="internal"><span class="codenumber">1.4</span> <span class="title">The Fundamental Theorem of Calculus</span></a></div>
+<ul id="ptx-toc-group-sec_FTC" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_FTC.html#sec_FTC-3" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Fundamental Theorem of Calculus, Parts 1 and 2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_FTC.html#sec_FTC-4" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Understanding Motion with the Fundamental Theorem of Calculus</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_FTC.html#sec-FTC-chain" class="internal"><span class="codenumber">1.4.3</span> <span class="title">The Fundamental Theorem of Calculus and the Chain Rule</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_FTC.html#sec-FTC-ABC" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Area Between Curves</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_FTC.html#sec_FTC-7" class="internal"><span class="codenumber">1.4.5</span> <span class="title">The Mean Value Theorem and Average Value</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec_FTC.html#sec_FTC-8" class="internal"><span class="codenumber">1.4.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_numerical_integration.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Numerical Integration</span></a></div>
+<ul id="ptx-toc-group-sec_numerical_integration" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_numerical_integration.html#sec_numerical_integration-3" class="internal"><span class="codenumber">1.5.1</span> <span class="title">The Left and Right Hand Rule Methods</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_numerical_integration.html#sec_numerical_integration-4" class="internal"><span class="codenumber">1.5.2</span> <span class="title">The Trapezoidal Rule</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_numerical_integration.html#sec_numerical_integration-5" class="internal"><span class="codenumber">1.5.3</span> <span class="title">The Midpoint Rule</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_numerical_integration.html#sec_numerical_integration-6" class="internal"><span class="codenumber">1.5.4</span> <span class="title">Simpson’s Rule</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_numerical_integration.html#sec_numerical_integration-7" class="internal"><span class="codenumber">1.5.5</span> <span class="title">Summary and Error Analysis</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec_numerical_integration.html#sec_numerical_integration-8" class="internal"><span class="codenumber">1.5.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-conclusion"><div class="toc-title-box"><a href="chapter_integration-8.html" class="internal"><span class="title">Conclusion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter contains-active">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Back Matter</span></a></div>
+<ul class="structural toc-item-list contains-active" id="ptx-toc-group-backmatter">
+<li class="toc-item toc-solutions"><div class="toc-title-box"><a href="selected-answers.html" class="internal"><span class="codenumber">A.</span> <span class="title">Answers to Selected Exercises</span></a></div></li>
+<li class="toc-item toc-appendix contains-active">
+<div class="toc-title-box"><a href="appendix-reference.html" class="internal"><span class="codenumber">B.</span> <span class="title">Quick Reference</span></a></div>
+<ul class="structural toc-item-list contains-active" id="ptx-toc-group-appendix-reference">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="reference-derivatives.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Differentiation Formulas</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="reference-integration.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Integration Formulas</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="reference-trigonometry.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Trigonometry Reference</span></a></div>
+<ul id="ptx-toc-group-reference-trigonometry" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="reference-trigonometry.html#reference-trig-definitions" class="internal"><span class="codenumber">B.3.1</span> <span class="title">Definitions of the Trigonometric Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="reference-trigonometry.html#reference-trig-identities" class="internal"><span class="codenumber">B.3.2</span> <span class="title">Common Trigonometric Identities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="reference-area-volume.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Areas and Volumes</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="reference-algebra.html" class="internal"><span class="codenumber">B.5</span> <span class="title">Algebra</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="reference-formulas.html" class="internal"><span class="codenumber">B.6</span> <span class="title">Additional Formulas</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="reference-series-tests.html" class="internal"><span class="codenumber">B.7</span> <span class="title">Summary of Tests for Series</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="terminology-index.html" class="internal"><span class="title">Index</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="section" id="reference-algebra">
+<h1 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">B.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Algebra</span>
+</h1>
+<article class="assemblage assemblage-like" id="reference-algebra-factor-theorem"><h2 class="heading"><span class="title">Factors and Zeros of Polynomials.</span></h2>
+<div class="para" id="reference-algebra-factor-theorem-2">Let <span class="process-math">\(p(x) = a_n x^n + a_{n-1} x^{n-1} + \cdots + a_1 x + a_0\)</span> be a polynomial. If <span class="process-math">\(p(a)=0\text{,}\)</span> then <span class="process-math">\(a\)</span> is a <span class="process-math">\(zero\)</span> of the polynomial and a solution of the equation <span class="process-math">\(p(x)=0\text{.}\)</span> Furthermore, <span class="process-math">\((x-a)\)</span> is a <span class="process-math">\(factor\)</span> of the polynomial.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-algebra-factor-theorem-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Assemblage: Factors and Zeros of Polynomials"><a tabindex="-1" href="#reference-algebra-factor-theorem" title="Copy heading and permalink for Assemblage: Factors and Zeros of Polynomials" aria-label="Copy heading and permalink for Assemblage: Factors and Zeros of Polynomials">🔗</a></div>
+</article>
+<article class="assemblage assemblage-like" id="reference-algebra-fta"><h2 class="heading"><span class="title">Fundamental Theorem of Algebra.</span></h2>
+<div class="para" id="reference-algebra-fta-2">An <span class="process-math">\(n\)</span>th degree polynomial has <span class="process-math">\(n\)</span> (not necessarily distinct) zeros. Although all of these zeros may be imaginary, a real polynomial of odd degree must have at least one real zero.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-algebra-fta-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Assemblage: Fundamental Theorem of Algebra"><a tabindex="-1" href="#reference-algebra-fta" title="Copy heading and permalink for Assemblage: Fundamental Theorem of Algebra" aria-label="Copy heading and permalink for Assemblage: Fundamental Theorem of Algebra">🔗</a></div>
+</article>
+<article class="assemblage assemblage-like" id="reference-algebra-quadratic"><h2 class="heading"><span class="title">Quadratic Formula.</span></h2>
+<div class="para" id="reference-algebra-quadratic-2">If <span class="process-math">\(p(x) = ax^2 + bx + c\text{,}\)</span> and <span class="process-math">\(0 \le b^2 - 4ac\text{,}\)</span> then the real zeros of <span class="process-math">\(p\)</span> are <span class="process-math">\(x=(-b\pm \sqrt{b^2-4ac})/2a\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-algebra-quadratic-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Assemblage: Quadratic Formula"><a tabindex="-1" href="#reference-algebra-quadratic" title="Copy heading and permalink for Assemblage: Quadratic Formula" aria-label="Copy heading and permalink for Assemblage: Quadratic Formula">🔗</a></div>
+</article>
+<article class="assemblage assemblage-like" id="reference-algebra-factors"><h2 class="heading"><span class="title">Special Factors.</span></h2>
+<div class="para logical" id="reference-algebra-factors-2">
+<div class="displaymath process-math" id="reference-algebra-factors-2-1">
+\begin{align*}
+x^2 - a^2 \amp = (x-a)(x+a)\\
+x^3 - a^3 \amp= (x-a)(x^2+ax+a^2)\\
+x^3 + a^3 \amp= (x+a)(x^2-ax+a^2)\\
+x^4 - a^4 \amp= (x^2-a^2)(x^2+a^2)\\
+(x+y)^n \amp=x^n + nx^{n-1}y+\frac{n(n-1)}{2!}x^{n-2}y^2+\cdots +nxy^{n-1}+y^n\\
+(x-y)^n \amp=x^n - nx^{n-1}y+\frac{n(n-1)}{2!}x^{n-2}y^2-\cdots \pm nxy^{n-1}\mp y^n
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-algebra-factors-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Assemblage: Special Factors"><a tabindex="-1" href="#reference-algebra-factors" title="Copy heading and permalink for Assemblage: Special Factors" aria-label="Copy heading and permalink for Assemblage: Special Factors">🔗</a></div>
+</article>
+<article class="assemblage assemblage-like" id="reference-algebra-binomial"><h2 class="heading"><span class="title">Binomial Theorem.</span></h2>
+<div class="para logical" id="reference-algebra-binomial-2">
+<div class="displaymath process-math" id="reference-algebra-binomial-2-1">
+\begin{align*}
+(x+y)^2 \amp= x^2 + 2xy + y^2\\
+(x-y)^2 \amp= x^2 -2xy +y^2\\
+(x+y)^3 \amp= x^3 + 3x^2y + 3xy^2 + y^3\\
+(x-y)^3 \amp= x^3 -3x^2y + 3xy^2 -y^3\\
+(x+y)^4 \amp= x^4 + 4x^3y + 6x^2y^2 + 4xy^3 + y^4\\
+(x-y)^4 \amp= x^4 - 4x^3y + 6x^2y^2 - 4xy^3 + y^4
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-algebra-binomial-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Assemblage: Binomial Theorem"><a tabindex="-1" href="#reference-algebra-binomial" title="Copy heading and permalink for Assemblage: Binomial Theorem" aria-label="Copy heading and permalink for Assemblage: Binomial Theorem">🔗</a></div>
+</article>
+<article class="assemblage assemblage-like" id="reference-algebra-roots"><h2 class="heading"><span class="title">Rational Zero Theorem.</span></h2>
+<div class="para" id="reference-algebra-roots-2">If <span class="process-math">\(p(x) = a_n x^n + a_{n-1} x^{n-1} + \cdots + a_1 x + a_0\)</span> has integer coefficients, then every <span class="process-math">\(rational\)</span> <span class="process-math">\(zero\)</span> of <span class="process-math">\(p\)</span> is of the form <span class="process-math">\(x=r/s\text{,}\)</span> where <span class="process-math">\(r\)</span> is a factor of <span class="process-math">\(a_0\)</span> and <span class="process-math">\(s\)</span> is a factor of <span class="process-math">\(a_n\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-algebra-roots-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Assemblage: Rational Zero Theorem"><a tabindex="-1" href="#reference-algebra-roots" title="Copy heading and permalink for Assemblage: Rational Zero Theorem" aria-label="Copy heading and permalink for Assemblage: Rational Zero Theorem">🔗</a></div>
+</article>
+<article class="assemblage assemblage-like" id="reference-algebra-grouping"><h2 class="heading"><span class="title">Factoring by Grouping.</span></h2>
+<div class="para" id="reference-algebra-grouping-2">
+<span class="process-math">\(ac x^3 + adx^2 + bcx + bd = ax^2(cx+d)+b(cx+d)=(ax^2+b)(cx+d)\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-algebra-grouping-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Assemblage: Factoring by Grouping"><a tabindex="-1" href="#reference-algebra-grouping" title="Copy heading and permalink for Assemblage: Factoring by Grouping" aria-label="Copy heading and permalink for Assemblage: Factoring by Grouping">🔗</a></div>
+</article>
+<article class="assemblage assemblage-like" id="reference-algebra-arithmetic"><h2 class="heading"><span class="title">Arithmetic Operations.</span></h2>
+<div class="para logical" id="reference-algebra-arithmetic-2">
+<div class="displaymath process-math" id="reference-algebra-arithmetic-2-1">
+\begin{align*}
+ab+ac\amp=a(b+c) \amp  \frac{a}{b}+\frac{c}{d} \amp= \frac{ad+bc}{bd} \amp \frac{a+b}{c} \amp = \frac{a}{c} + \frac{b}{c}\\
+\frac{\left(\displaystyle\frac{a}{b}\right)}{\left(\displaystyle\frac{c}{d}\right)}\amp=\left(\frac{a}{b}\right)\left(\frac{d}{c}\right)=\frac{ad}{bc} \amp \frac{\left(\displaystyle\frac{a}{b}\right)}{c} \amp = \frac{a}{bc} \amp \frac{a}{\left(\displaystyle\frac{b}{c}\right)} \amp= \frac{ac}{b}\\
+a\left(\frac{b}{c}\right)\amp=  \frac{ab}{c}\amp \frac{a-b}{c-d}\amp=\frac{b-a}{d-c}\amp \frac{ab+ac}{a}\amp=b+c 
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-algebra-arithmetic-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Assemblage: Arithmetic Operations"><a tabindex="-1" href="#reference-algebra-arithmetic" title="Copy heading and permalink for Assemblage: Arithmetic Operations" aria-label="Copy heading and permalink for Assemblage: Arithmetic Operations">🔗</a></div>
+</article>
+<article class="assemblage assemblage-like" id="reference-algebra-exponents"><h2 class="heading"><span class="title">Exponents and Radicals.</span></h2>
+<div class="para logical" id="reference-algebra-exponents-2">
+<div class="displaymath process-math" id="reference-algebra-exponents-2-1">
+\begin{align*}
+a^0\amp =1, \, a \ne 0 \amp (ab)^x\amp=a^xb^x \amp a^xa^y \amp = a^{x+y} \amp \sqrt{a}\amp=a^{1/2}\\
+\frac{a^x}{a^y}\amp=a^{x-y} \amp \sqrt[n]{a}\amp =a^{1/n} \amp \left(\frac{a}{b}\right)^x\amp=\frac{a^x}{b^x} \amp \sqrt[n]{a^m}\amp=a^{m/n}\\
+a^{-x}\amp=\displaystyle\frac{1}{a^x} \amp \sqrt[n]{ab}\amp=\sqrt[n]{a}\sqrt[n]{b} \amp (a^x)^y\amp=a^{xy} \amp \sqrt[n]{\frac{a}{b}}\amp=\frac{\sqrt[n]{a}}{\sqrt[n]{b}}
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-algebra-exponents-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Assemblage: Exponents and Radicals"><a tabindex="-1" href="#reference-algebra-exponents" title="Copy heading and permalink for Assemblage: Exponents and Radicals" aria-label="Copy heading and permalink for Assemblage: Exponents and Radicals">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Section B.5: Algebra"><a tabindex="-1" href="#reference-algebra" title="Copy heading and permalink for Section B.5: Algebra" aria-label="Copy heading and permalink for Section B.5: Algebra">🔗</a></div>
+</section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="reference-area-volume.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="reference-formulas.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

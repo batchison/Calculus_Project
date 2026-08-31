@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-definite-integral-velocity-4" assembly-id="ex-definite-integral-velocity-4">
+  <static seed="45">
+    <introduction><p>An object is thrown straight up with a velocity, in ft/s, given by <m>v(t) = -32t+96\text{,}</m> where <m>t</m> is in seconds, from a height of <m>64</m> feet.</p>
+</introduction>
+    <task>
+      <statement><p>What is the object<rsq/>s initial velocity?</p>
+<p><fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>96\ {\textstyle\frac{\rm\mathstrut ft}{\rm\mathstrut s}}</m>
+        </p>
+      </answer>
+    </task>
+    <task>
+      <statement><p>When is the object<rsq/>s displacement 0?</p>
+<p><fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>6\ {\rm s}</m>
+        </p>
+      </answer>
+    </task>
+    <task>
+      <statement><p>How long does it take for the object to return to its initial height?</p>
+<p><fillin characters="20" name="AnSwEr0003"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>6\ {\rm s}</m>
+        </p>
+      </answer>
+    </task>
+    <task>
+      <statement><p>What is the maximum height the object reaches?</p>
+<p><fillin characters="20" name="AnSwEr0004"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>208\ {\rm ft}</m>
+        </p>
+      </answer>
+    </task>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_2_18.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.2.18)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "scaffold.pl",
+  "parserNumberWithUnits.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+COMMENT('This problem is scaffolded with multiple parts');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+$v0 = NumberWithUnits("96 ft/s");
+$d = NumberWithUnits("6 s");
+$h0_2 = NumberWithUnits("6 s");
+$hmax = NumberWithUnits("-16*3^2+96*3+64 ft");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+An object is thrown straight up with a velocity, in ft/s, given by [`v(t) = -32t+96\text{,}`] where [`t`] is in seconds, from a height of [`64`] feet.
+
+END_PGML
+
+############################################################
+# Scaffold
+############################################################
+Scaffold::Begin(numbered => 1,is_open => "correct_or_first_incorrect",can_open => always,);
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+What is the object's initial velocity?
+
+[_]{$v0}{20}
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+When is the object's displacement 0?
+
+[_]{$d}{20}
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+How long does it take for the object to return to its initial height?
+
+[_]{$h0_2}{20}
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+What is the maximum height the object reaches?
+
+[_]{$hmax}{20}
+
+END_PGML
+
+Section::End();
+
+Scaffold::End();
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

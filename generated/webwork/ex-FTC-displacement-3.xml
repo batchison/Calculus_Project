@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-FTC-displacement-3" assembly-id="ex-FTC-displacement-3">
+  <static seed="123">
+    <statement><p><m>v(t)={10\ {\textstyle\frac{\rm\mathstrut ft}{\rm\mathstrut s}}}</m> on <m>[0,6]</m></p>
+<p><fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>60\ {\rm ft}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_4_6_43.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.4.6.43)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserFormulaWithUnits.pl",
+  "contextForm.pl",
+  "contextFraction.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$low = 0;
+$high = random(2,9,1);
+$v0 = random(5,20,1);
+if($envir{problemSeed}==1){$high=3;$v0=10};
+Context("Fraction");
+Context()->variables->are(t=>'Real');
+$f = FormulaWithUnits("$v0 ft/s");
+$F = Formula("$v0 t");
+$D = FormulaWithUnits(Fraction($F->eval(t=>Real($high)) - $F->eval(t=>Real($low))), 'ft');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+A velocity function is given for an object moving along a straight line. Find the displacement of the object over the given time interval.
+
+[`v(t)=[$f]`] on [`[[$low],[$high]]`]
+
+[_]{$D}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

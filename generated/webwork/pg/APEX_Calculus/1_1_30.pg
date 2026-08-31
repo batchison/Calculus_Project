@@ -1,0 +1,70 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.1.30)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+$trig = list_random('-sin','-cos');
+$f0 = list_random(-9..-1,2..9);
+if($envir{problemSeed}==1){$trig='-cos';$f0=2;};
+$F = Formula("$trig(x)");
+$f = $F->D('x');
+$F0 = $F->eval(x=>0);
+$c = $f0 - $F0;
+$F = Formula($F + $c)->reduce;
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find the function determined by the given initial value problem.
+
+[`\fp(x) = [$f]`] and [`f(0)= [$f0]`]
+
+[_]{$F}{40}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

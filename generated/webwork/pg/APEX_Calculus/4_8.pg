@@ -1,0 +1,68 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(4.8)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserFormulaUpToConstant.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+($b,$c) = random_subset(2,2..9);
+if($envir{problemSeed}==1){$b=8;$c=5;};
+Context()->variables->add(t=>"Real");
+$f = Formula("$c $b^t")->reduce;
+Context()->flags->set(reduceConstantFunctions=>0);
+$F = FormulaUpToConstant("$c/ln($b) $b^t");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find the general antiderivative of the given function.
+
+[`g(t) = [$f]`]
+
+[_]{$F}{40}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

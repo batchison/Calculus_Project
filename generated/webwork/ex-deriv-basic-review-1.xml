@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-deriv-basic-review-1" assembly-id="ex-deriv-basic-review-1">
+  <static seed="19">
+    <statement><p>Given that <m>e^0=1\text{,}</m> approximate the value of <m>e^{0.1}</m> using the tangent line to <m>f(x) = e^x</m> at <m>x=0\text{.}</m></p>
+<p><fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>1.1</m>
+      </p>
+    </answer>
+    <solution><p>The tangent line to <m>f(x) = e^x</m> at <m>x=0</m> is <m>y=x+1\text{;}</m> thus <m>e^{0.1} \approx y(0.1) = 1.1\text{.}</m></p>
+</solution>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/2_5.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.5)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+$ans=1.1;
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Given that [`e^0=1\text{,}`] approximate the value of [`e^{0.1}`] using the tangent line to [`f(x) = e^x`] at [`x=0\text{.}`]
+
+[_]{$ans}{20}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+The tangent line to [`f(x) = e^x`] at [`x=0`] is [`y=x+1\text{;}`] thus [`e^{0.1} \approx y(0.1) = 1.1\text{.}`]
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

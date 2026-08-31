@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>APEX Trigonometry Reference</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: true,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+lang: "en-US",
+});
+</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta name="twitter:image" content="https://opentext.uleth.ca/apex-calculus/external/images/APEX.png">
+<meta property="og:image" content="https://opentext.uleth.ca/apex-calculus/external/images/APEX.png">
+<meta name="twitter:image:alt" content="Document Logo">
+<meta property="og:image:alt" content="Document Logo">
+<meta name="twitter:title" content="APEX Calculus">
+<meta property="og:title" content="APEX Calculus">
+<meta property="book:title" content="APEX Calculus">
+<meta name="twitter:description" content="A traditional calculus textbook with many exercises and few proofs, covering calculus from limits to vector calculus.">
+<meta property="og:description" content="A traditional calculus textbook with many exercises and few proofs, covering calculus from limits to vector calculus.">
+<meta name="twitter:card" content="summary_large_image">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.52"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.52"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.2.10';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.e3f9706509fcf6f7.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.c5ba0ffa5f963084.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.efe427683fc41f98.css">
+<script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="_static/pretext/js/dist/pretext-webwork.js"></script><script src="https://webwork-dev.uleth.ca/webwork2_files/node_modules/iframe-resizer/js/iframeResizer.min.js"></script><script src="https://cdn.geogebra.org/apps/deployggb.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="APEX" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead" role="banner"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href="http://www.apexcalculus.com"><img src="external/images/APEX.png" alt="Logo image"></a><div class="title-container">
+<div class="heading ptx-banner-heading"><a href="apex-calculus.html"><span class="title">APEX Calculus</span></a></div>
+<p class="byline">Gregory Hartman, Ph.D., Sean Fitzpatrick, Ph.D. (Editor), Alex Jordan, Ph.D. (Editor), Carly Vollet, M.S. (Editor)</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button id="ptx-toc-toggle" type="button" aria-controls="ptx-sidebar" class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="terminology-index.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="ptx-search-box">
+<div class="ptx-search-widget"><button id="ptx-search-button" type="button" class="ptx-search-button button" title="Search Book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<dialog id="ptx-search-dialog" class="ptx-dialog ptx-search-dialog"><div class="ptx-search-dialog-controls">
+<input aria-label="Search term" id="ptx-search-terms" class="ptx-search-terms" type="text" name="terms" placeholder="Search terms"><button aria-label="Close" id="ptx-search-close" class="ptx-search-close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div id="ptx-search-status" class="ptx-search-status" aria-live="polite" aria-atomic="true"></div>
+<h2 class="heading ptx-search-results-heading">Search Results: </h2>
+<div id="ptx-search-empty" class="ptx-search-empty"><span>No results.</span></div>
+<ol id="ptx-search-results" class="ptx-search-results"></ol></dialog>
+</div>
+<span class="nav-other-controls"><button type="button" id="ptx-calculator-toggle" class="ptx-calculator-toggle button" title="Calculator"><span class="icon material-symbols-outlined" aria-hidden="true">&#xea5f;</span><span class="name">Calculator</span></button><dialog id="ptx-calculator-container" class="ptx-dialog ptx-calculator-container" aria-label="Calculator"><div id="ptx-geogebra-calculator" class="ptx-geogebra-calculator"></div>
+<script id="ptx-geogebra-calculator-params">
+let ggbParams = {
+    "appName": "graphing"
+};
+</script></dialog><button id="ptx-read-aloud-button" class="ptx-read-aloud-button button" title="Read aloud" aria-expanded="false"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf1bc;</span><span class="name">Read aloud</span></button><div id="ptx-read-aloud-player" class="ptx-read-aloud-player" hidden="hidden" role="group" aria-label="Read aloud">
+<button id="ptx-read-aloud-prev" class="button" title="Previous sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe045;</span></button><button id="ptx-read-aloud-toggle" class="ptx-read-aloud-toggle button" title="Play"><span class="ptx-read-aloud-icon-play"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></span><span class="ptx-read-aloud-icon-pause"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe034;</span></span></button><button id="ptx-read-aloud-next" class="button" title="Next sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe044;</span></button><a id="ptx-read-aloud-continue" class="ptx-read-aloud-continue button" hidden="hidden">Continue<span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></a><button id="ptx-read-aloud-settings-button" class="ptx-read-aloud-settings-button button" title="Reading settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe429;</span></button>
+</div>
+<dialog class="ptx-dialog ptx-read-aloud-settings-popup" id="ptx-read-aloud-settings-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Read aloud settings</h2>
+<button class="ptx-read-aloud-settings-close-button button" id="ptx-read-aloud-settings-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label for="ptx-read-aloud-voice"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe91f;</span><span>Voice</span></label><select id="ptx-read-aloud-voice"></select><label class="ptx-readability-slider-label" for="ptx-read-aloud-rate"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe9e4;</span><span>Reading speed</span><output id="ptx-read-aloud-rate-value" for="ptx-read-aloud-rate">1×</output></label><input type="range" id="ptx-read-aloud-rate" min="0.5" max="2" step="0.1" value="1"><label for="ptx-read-aloud-asides"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d7;</span><span>Collapsed content</span></label><select id="ptx-read-aloud-asides"><option value="skip">Announce, do not read</option>
+<option value="read">Read automatically</option></select><label for="ptx-read-aloud-autoscroll"><input type="checkbox" id="ptx-read-aloud-autoscroll" checked><span>Follow along (auto-scroll)</span></label><label for="ptx-read-aloud-autocontinue"><input type="checkbox" id="ptx-read-aloud-autocontinue"><span>Continue to the next page automatically</span></label>
+</div></dialog><button id="ptx-readability-options-button" class="ptx-readability-options-button button" title="Readability settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf6f1;</span><span class="name">Readability settings</span></button><dialog class="ptx-dialog ptx-readability-options-popup" id="ptx-readability-options-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Readability settings</h2>
+<button class="ptx-readability-options-close-button button" id="ptx-readability-options-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-line-height"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe240;</span><span>Line height</span><output id="ptx-readability-line-height-value" for="ptx-readability-line-height">1.35</output></label><input type="range" id="ptx-readability-line-height" min="1.10" max="3" step="0.05" value="1.35">
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-font-size"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe245;</span><span>Content font size</span><output id="ptx-readability-font-size-value" for="ptx-readability-font-size">100%</output></label><input type="range" id="ptx-readability-font-size" min="0.8" max="1.5" step="0.05" value="1">
+</div>
+<fieldset class="ptx-readability-options-group ptx-readability-options-group-theme">
+<legend>Theme</legend>
+<label for="ptx-readability-theme-system"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-system" value="system"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe1ab;</span><span>System</span></label><label for="ptx-readability-theme-light"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-light" value="light"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe518;</span><span>Light</span></label><label for="ptx-readability-theme-dark"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-dark" value="dark"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span>Dark</span></label>
+</fieldset>
+<fieldset class="ptx-readability-options-group">
+<legend>Assistive technologies</legend>
+<label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
+</fieldset>
+<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="reference-integration.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="appendix-reference.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="reference-area-volume.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand\blank[2]{\,\colorbox{gray}{$\phantom{\rule{#1pt}{#2pt}}$}\,}
+\newcommand{\highlight}[1]{{\color{blue}{#1}}}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\fp}{f\hskip.75pt '}
+\newcommand{\fpp}{f\hskip.75pt ''}
+
+\newcommand{\lz}[2]{\frac{d#1}{d#2}}
+\newcommand{\lzn}[3]{\frac{d^{#1}#2}{d#3^{#1}}}
+\newcommand{\lzo}[1]{\frac{d}{d#1}}
+\newcommand{\lzoo}[2]{{\frac{d}{d#1}}{\left(#2\right)}}
+\newcommand{\lzon}[2]{\frac{d^{#1}}{d#2^{#1}}}
+\newcommand{\lzoa}[3]{\left.{\frac{d#1}{d#2}}\right|_{#3}}
+\newcommand{\plz}[2]{\frac{\partial#1}{\partial#2}}
+\newcommand{\plzoa}[3]{\left.{\frac{\partial#1}{\partial#2}}\right|_{#3}}
+
+\newcommand{\inflim}[1][n]{\lim\limits_{#1 \to \infty}}
+
+\newcommand{\primeskip}{\hskip.75pt }
+\newcommand{\infser}[1][1]{\sum_{n=#1}^\infty}
+\newcommand{\Fp}{F\hskip.75pt '}
+\newcommand{\Fpp}{F\hskip.75pt ''}
+\newcommand{\yp}{y\hskip.75pt '}
+\newcommand{\gp}{g\hskip.75pt '}
+\newcommand{\dx}{\Delta x}
+\newcommand{\dy}{\Delta y}
+\newcommand{\ddz}{\Delta z}
+\newcommand{\thet}{\theta}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\vnorm}[1]{\left\lVert\vec #1\right\rVert}
+\newcommand{\snorm}[1]{\left|\left|\,#1\,\right|\right|}
+\newcommand{\la}{\left\langle}
+\newcommand{\ra}{\right\rangle}
+\newcommand{\dotp}[2]{\vec #1 \cdot \vec #2}
+\newcommand{\proj}[2]{\text{proj}_{\,\vec #2}{\,\vec #1}}
+\newcommand{\crossp}[2]{\vec #1 \times \vec #2}
+\newcommand{\veci}{\vec i}
+\newcommand{\vecj}{\vec j}
+\newcommand{\veck}{\vec k}
+\newcommand{\vecu}{\vec u}
+\newcommand{\vecv}{\vec v}
+\newcommand{\vecw}{\vec w}
+\newcommand{\vecx}{\vec x}
+\newcommand{\vecy}{\vec y}
+\newcommand{\vrp}{\vec r\hskip0.75pt '}
+\newcommand{\vrpp}{\vec r\hskip0.75pt ''}
+\newcommand{\vsp}{\vec s\hskip0.75pt '}
+\newcommand{\vrt}{\vec r(t)}
+\newcommand{\vst}{\vec s(t)}
+\newcommand{\vvt}{\vec v(t)}
+\newcommand{\vat}{\vec a(t)}
+\newcommand{\px}{\partial x}
+\newcommand{\py}{\partial y}
+\newcommand{\pz}{\partial z}
+\newcommand{\pf}{\partial f}
+\newcommand{\unittangent}{\vec{{}T}}
+\newcommand{\unitnormal}{\vec{N}}
+\newcommand{\unittangentprime}{\vec{{}T}\hskip0.75pt '}
+\newcommand{\R}{mathbb{R}}
+\newcommand{\mathN}{\mathbb{N}}
+\newcommand{\surfaceS}{\mathcal{S}}
+\newcommand{\zerooverzero}{\displaystyle \raisebox{8pt}{\text{``\ }}\frac{0}{0}\raisebox{8pt}{\textit{ ''}}}
+\newcommand{\abs}[1]{\left\lvert #1\right\rvert}
+\newcommand{\sech}{\operatorname{sech}}
+\newcommand{\csch}{\operatorname{csch}}
+\newcommand{\curl}{\operatorname{curl}}
+\newcommand{\divv}{\operatorname{div}}
+\newcommand{\Hess}{\operatorname{Hess}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\newcommand{\fillinmath}[1]{\mathchoice{\underline{\displaystyle     \phantom{\ \,#1\ \,}}}{\underline{\textstyle        \phantom{\ \,#1\ \,}}}{\underline{\scriptstyle      \phantom{\ \,#1\ \,}}}{\underline{\scriptscriptstyle\phantom{\ \,#1\ \,}}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" role="complementary" class="ptx-sidebar"><nav id="ptx-toc" tabindex="-1" aria-label="Contents" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter_integration.html" class="internal"><span class="codenumber">1</span> <span class="title">Integration</span></a></div>
+<ul id="ptx-toc-group-chapter_integration" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="chapter_integration-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_antider.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Antiderivatives and Indefinite Integration</span></a></div>
+<ul id="ptx-toc-group-sec_antider" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec_antider.html#sec_antider-35" class="internal"><span class="codenumber">1.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_def_int.html" class="internal"><span class="codenumber">1.2</span> <span class="title">The Definite Integral</span></a></div>
+<ul id="ptx-toc-group-sec_def_int" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec_def_int.html#sec_def_int-33" class="internal"><span class="codenumber">1.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_riemann.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Riemann Sums</span></a></div>
+<ul id="ptx-toc-group-sec_riemann" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_riemann.html#subsec-rectangle-approximation" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Approximating area with rectangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_riemann.html#fig_rie_notation" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Summation Notation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_riemann.html#sec_riemann-5" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Riemann Sums</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_riemann.html#sec_riemann-6" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Limits of Riemann Sums</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec_riemann.html#sec_riemann-7" class="internal"><span class="codenumber">1.3.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_FTC.html" class="internal"><span class="codenumber">1.4</span> <span class="title">The Fundamental Theorem of Calculus</span></a></div>
+<ul id="ptx-toc-group-sec_FTC" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_FTC.html#sec_FTC-3" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Fundamental Theorem of Calculus, Parts 1 and 2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_FTC.html#sec_FTC-4" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Understanding Motion with the Fundamental Theorem of Calculus</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_FTC.html#sec-FTC-chain" class="internal"><span class="codenumber">1.4.3</span> <span class="title">The Fundamental Theorem of Calculus and the Chain Rule</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_FTC.html#sec-FTC-ABC" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Area Between Curves</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_FTC.html#sec_FTC-7" class="internal"><span class="codenumber">1.4.5</span> <span class="title">The Mean Value Theorem and Average Value</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec_FTC.html#sec_FTC-8" class="internal"><span class="codenumber">1.4.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_numerical_integration.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Numerical Integration</span></a></div>
+<ul id="ptx-toc-group-sec_numerical_integration" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_numerical_integration.html#sec_numerical_integration-3" class="internal"><span class="codenumber">1.5.1</span> <span class="title">The Left and Right Hand Rule Methods</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_numerical_integration.html#sec_numerical_integration-4" class="internal"><span class="codenumber">1.5.2</span> <span class="title">The Trapezoidal Rule</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_numerical_integration.html#sec_numerical_integration-5" class="internal"><span class="codenumber">1.5.3</span> <span class="title">The Midpoint Rule</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_numerical_integration.html#sec_numerical_integration-6" class="internal"><span class="codenumber">1.5.4</span> <span class="title">Simpson’s Rule</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_numerical_integration.html#sec_numerical_integration-7" class="internal"><span class="codenumber">1.5.5</span> <span class="title">Summary and Error Analysis</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec_numerical_integration.html#sec_numerical_integration-8" class="internal"><span class="codenumber">1.5.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-conclusion"><div class="toc-title-box"><a href="chapter_integration-8.html" class="internal"><span class="title">Conclusion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter contains-active">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Back Matter</span></a></div>
+<ul class="structural toc-item-list contains-active" id="ptx-toc-group-backmatter">
+<li class="toc-item toc-solutions"><div class="toc-title-box"><a href="selected-answers.html" class="internal"><span class="codenumber">A.</span> <span class="title">Answers to Selected Exercises</span></a></div></li>
+<li class="toc-item toc-appendix contains-active">
+<div class="toc-title-box"><a href="appendix-reference.html" class="internal"><span class="codenumber">B.</span> <span class="title">Quick Reference</span></a></div>
+<ul class="structural toc-item-list contains-active" id="ptx-toc-group-appendix-reference">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="reference-derivatives.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Differentiation Formulas</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="reference-integration.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Integration Formulas</span></a></div></li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="reference-trigonometry.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Trigonometry Reference</span></a></div>
+<ul class="structural toc-item-list active" id="ptx-toc-group-reference-trigonometry">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="reference-trigonometry.html#reference-trig-definitions" class="internal"><span class="codenumber">B.3.1</span> <span class="title">Definitions of the Trigonometric Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="reference-trigonometry.html#reference-trig-identities" class="internal"><span class="codenumber">B.3.2</span> <span class="title">Common Trigonometric Identities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="reference-area-volume.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Areas and Volumes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="reference-algebra.html" class="internal"><span class="codenumber">B.5</span> <span class="title">Algebra</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="reference-formulas.html" class="internal"><span class="codenumber">B.6</span> <span class="title">Additional Formulas</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="reference-series-tests.html" class="internal"><span class="codenumber">B.7</span> <span class="title">Summary of Tests for Series</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="terminology-index.html" class="internal"><span class="title">Index</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="section" id="reference-trigonometry">
+<h1 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">B.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Trigonometry Reference</span>
+</h1>
+<section class="introduction" id="reference-trigonometry-2">
+<article class="assemblage assemblage-like" id="reference-trigonometry-2-1"><h2 class="heading"><span class="title">The Unit Circle.</span></h2>
+<div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;">
+<img src="generated/latex-image/img_unit_circ.svg" role="img" class="contained" alt="A detailed plot of the unit circle, showing angles in both degrees and radians, and the coordinates of the corresponding points on the circle."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="reference-trigonometry-2-1-2-description">
+<div class="para" id="reference-trigonometry-2-1-2-2-1">The unit circle <span class="process-math">\(x^2+y^2=1\)</span> is plotted, along with the <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> coordinate axes. There are sixteen marked points on the circle, showing various angles and the coordinates of the corresponding points on the circle. This can be used to evaluate the trigonometric functions at these “special” angles: for a point <span class="process-math">\((x,y)\)</span> on the circle corresponding to an angle <span class="process-math">\(\theta\text{,}\)</span> we have <span class="process-math">\(x=\cos(\theta)\)</span> and <span class="process-math">\(y=\sin(\theta)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para logical" id="reference-trigonometry-2-1-2-2-2">
+<div class="para">The values given in the diagram are as follows:</div>
+<ul class="disc" id="reference-trigonometry-2-1-2-2-2-1">
+<li id="reference-trigonometry-2-1-2-2-2-1-1">
+<div class="para" id="reference-trigonometry-2-1-2-2-2-1-1-1">
+<span class="process-math">\(0^\circ\text{,}\)</span> <span class="process-math">\(0\)</span> radians, point <span class="process-math">\((1,0)\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="reference-trigonometry-2-1-2-2-2-1-2">
+<div class="para" id="reference-trigonometry-2-1-2-2-2-1-2-1">
+<span class="process-math">\(30^\circ\text{,}\)</span> <span class="process-math">\(\pi/6\)</span> radians, point <span class="process-math">\(\left(\frac{\sqrt{3}}{2},\frac12\right)\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="reference-trigonometry-2-1-2-2-2-1-3">
+<div class="para" id="reference-trigonometry-2-1-2-2-2-1-3-1">
+<span class="process-math">\(45^\circ\text{,}\)</span> <span class="process-math">\(\pi/4\)</span> radians, point <span class="process-math">\(\left(\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right)\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="reference-trigonometry-2-1-2-2-2-1-4">
+<div class="para" id="reference-trigonometry-2-1-2-2-2-1-4-1">
+<span class="process-math">\(60^\circ\text{,}\)</span> <span class="process-math">\(\pi/3\)</span> radians, point <span class="process-math">\(\left(\frac12,\frac{\sqrt{3}}{2}\right)\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="reference-trigonometry-2-1-2-2-2-1-5">
+<div class="para" id="reference-trigonometry-2-1-2-2-2-1-5-1">
+<span class="process-math">\(90^\circ\text{,}\)</span> <span class="process-math">\(\pi/2\)</span> radians, point <span class="process-math">\((0,1)\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="reference-trigonometry-2-1-2-2-2-1-6">
+<div class="para" id="reference-trigonometry-2-1-2-2-2-1-6-1">
+<span class="process-math">\(120^\circ\text{,}\)</span> <span class="process-math">\(2\pi/3\)</span> radians, point <span class="process-math">\(\left(-\frac12,\frac{\sqrt{3}}{2}\right)\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-6" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="reference-trigonometry-2-1-2-2-2-1-7">
+<div class="para" id="reference-trigonometry-2-1-2-2-2-1-7-1">
+<span class="process-math">\(135^\circ\text{,}\)</span> <span class="process-math">\(3\pi/4\)</span>radians, point <span class="process-math">\(\left(-\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right)\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-7" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="reference-trigonometry-2-1-2-2-2-1-8">
+<div class="para" id="reference-trigonometry-2-1-2-2-2-1-8-1">
+<span class="process-math">\(150^\circ\text{,}\)</span> <span class="process-math">\(5\pi/6\)</span> radians, point <span class="process-math">\(\left(-\frac{\sqrt{3}}{2},\frac12\right)\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-8" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="reference-trigonometry-2-1-2-2-2-1-9">
+<div class="para" id="reference-trigonometry-2-1-2-2-2-1-9-1">
+<span class="process-math">\(180^\circ\text{,}\)</span> <span class="process-math">\(\pi\)</span> radians, point <span class="process-math">\((-1,0)\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-9" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="reference-trigonometry-2-1-2-2-2-1-10">
+<div class="para" id="reference-trigonometry-2-1-2-2-2-1-10-1">
+<span class="process-math">\(210^\circ\text{,}\)</span> <span class="process-math">\(7\pi/6\)</span> radians, point <span class="process-math">\(\left(-\frac{\sqrt{3}}{2},-\frac12\right)\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-10-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-10" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="reference-trigonometry-2-1-2-2-2-1-11">
+<div class="para" id="reference-trigonometry-2-1-2-2-2-1-11-1">
+<span class="process-math">\(225^\circ\text{,}\)</span> <span class="process-math">\(5\pi/4\)</span> radians, point <span class="process-math">\(\left(-\frac{\sqrt{2}}{2},-\frac{\sqrt{2}}{2}\right)\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-11-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-11" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="reference-trigonometry-2-1-2-2-2-1-12">
+<div class="para" id="reference-trigonometry-2-1-2-2-2-1-12-1">
+<span class="process-math">\(240^\circ\text{,}\)</span> <span class="process-math">\(4\pi/3\)</span> radians, point <span class="process-math">\(\left(-\frac12,-\frac{\sqrt{3}}{2}\right)\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-12-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-12" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="reference-trigonometry-2-1-2-2-2-1-13">
+<div class="para" id="reference-trigonometry-2-1-2-2-2-1-13-1">
+<span class="process-math">\(270^\circ\text{,}\)</span> <span class="process-math">\(3\pi/2\)</span>radians, point <span class="process-math">\((0,-1)\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-13-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-13" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="reference-trigonometry-2-1-2-2-2-1-14">
+<div class="para" id="reference-trigonometry-2-1-2-2-2-1-14-1">
+<span class="process-math">\(300^\circ\text{,}\)</span> <span class="process-math">\(5\pi/3\)</span> radians, point <span class="process-math">\(\left(\frac{\sqrt{3}}{2},-\frac12\right)\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-14-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-14" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="reference-trigonometry-2-1-2-2-2-1-15">
+<div class="para" id="reference-trigonometry-2-1-2-2-2-1-15-1">
+<span class="process-math">\(315^\circ\text{,}\)</span> <span class="process-math">\(7\pi/4\)</span> radians, point <span class="process-math">\(\left(\frac{\sqrt{2}}{2},-\frac{\sqrt{2}}{2}\right)\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-15-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-15" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="reference-trigonometry-2-1-2-2-2-1-16">
+<div class="para" id="reference-trigonometry-2-1-2-2-2-1-16-1">
+<span class="process-math">\(330^\circ\text{,}\)</span> <span class="process-math">\(11\pi/6\)</span> radians, point <span class="process-math">\(\left(\frac{\sqrt{3}}{2},-\frac12\right)\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-16-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2-1-16" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-trigonometry-2-1-2-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Assemblage: The Unit Circle"><a tabindex="-1" href="#reference-trigonometry-2-1" title="Copy heading and permalink for Assemblage: The Unit Circle" aria-label="Copy heading and permalink for Assemblage: The Unit Circle">🔗</a></div>
+</article></section>
+<section class="subsection" id="reference-trig-definitions">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">B.3.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Definitions of the Trigonometric Functions</span>
+</h2>
+<article class="assemblage assemblage-like" id="reference-trig-definitions-2"><h3 class="heading"><span class="title">Unit Circle Definition.</span></h3>
+<div class="sidebyside">
+<div class="sbsrow" style="margin-left:7.5%;margin-right:7.5%;grid-template-columns:47.0588235294118% 35.2941176470588%;column-gap:15%;">
+<div class="sbspanel sbspanel--top top" style=""><div class="image-box">
+<img src="generated/latex-image/img_unit_circ_def.svg" role="img" class="contained" alt="An illustration of the correspondence between an angle and a point on the unit circle."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="reference-trig-definitions-2-2-1-description">
+<div class="para" id="reference-trig-definitions-2-2-1-2-1">The unit circle is drawn over the <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> coordinate axes in the plane. No scale markings are given.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-trig-definitions-2-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="reference-trig-definitions-2-2-1-2-2">A point on the circle in the second quadrant is labeled with coordintes <span class="process-math">\((x,y)\text{.}\)</span> A line is drawn from the origin to this point. There is an arc from the positive <span class="process-math">\(x\)</span> axis to the line segment from the origin to the point; the arc is labeled with the angle <span class="process-math">\(\theta\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-trig-definitions-2-2-1-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="reference-trig-definitions-2-2-1-2-3">A dashed line is drawn vertically from the point <span class="process-math">\((x,y)\)</span> to the <span class="process-math">\(x\)</span> axis, and labeled with the coordinate <span class="process-math">\(y\text{.}\)</span> The portion of the <span class="process-math">\(x\)</span> axis between the origin and the point where the dashed line meets the axis is labeled <span class="process-math">\(x\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-trig-definitions-2-2-1-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div></details>
+</div></div>
+<div class="sbspanel fixed-width sbspanel--top top" style=""><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\sin(\theta) = y\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\cos(\theta) = x\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\ds\csc(\theta) = \frac1y\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\ds\sec(\theta) = \frac1x\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\ds\tan(\theta) = \frac yx\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\ds\cot(\theta) = \frac xy\)</span></td>
+</tr>
+</table></div>
+</div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Assemblage: Unit Circle Definition"><a tabindex="-1" href="#reference-trig-definitions-2" title="Copy heading and permalink for Assemblage: Unit Circle Definition" aria-label="Copy heading and permalink for Assemblage: Unit Circle Definition">🔗</a></div>
+</article>
+<article class="assemblage assemblage-like" id="reference-trig-definitions-3"><h3 class="heading"><span class="title">Right Triangle Definition.</span></h3>
+<div class="sidebyside">
+<div class="sbsrow" style="margin-left:10%;margin-right:10%;grid-template-columns:37.5% 37.5%;column-gap:20%;">
+<div class="sbspanel sbspanel--top top" style=""><div class="image-box">
+<img src="generated/latex-image/img_right_triangle_def.svg" role="img" class="contained" alt='A right angle triangle, with sides labeled "opposite", "adjacent", and "hypotenuse".'><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="reference-trig-definitions-3-2-1-description">
+<div class="para" id="reference-trig-definitions-3-2-1-2-1">A right angle triangle is drawn without reference to a coordinate system. The angle at the bottom-left vertex is labeled <span class="process-math">\(\theta\text{.}\)</span> The bottom of the triangle is labeled “Adjacent”. The right side of the triangle, which is vertical, is labeled “Opposite”. The diagonal from bottom-left to top-right is labeled “Hypotenuse”.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-trig-definitions-3-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div></details>
+</div></div>
+<div class="sbspanel fixed-width sbspanel--top top" style=""><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\ds\sin(\theta) = \frac{\text{O} }{\text{H} }\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\ds\csc(\theta) = \frac{\text{H} }{\text{O} }\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\ds\cos(\theta) = \frac{\text{A} }{\text{H} }\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\ds\sec(\theta) = \frac{\text{H} }{\text{A} }\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\ds\tan(\theta) = \frac{\text{O} }{\text{A} }\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\ds\cot(\theta) = \frac{\text{A} }{\text{O} }\)</span></td>
+</tr>
+</table></div>
+</div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Assemblage: Right Triangle Definition"><a tabindex="-1" href="#reference-trig-definitions-3" title="Copy heading and permalink for Assemblage: Right Triangle Definition" aria-label="Copy heading and permalink for Assemblage: Right Triangle Definition">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Subsection B.3.1: Definitions of the Trigonometric Functions"><a tabindex="-1" href="#reference-trig-definitions" title="Copy heading and permalink for Subsection B.3.1: Definitions of the Trigonometric Functions" aria-label="Copy heading and permalink for Subsection B.3.1: Definitions of the Trigonometric Functions">🔗</a></div>
+</section>
+<section class="subsection" id="reference-trig-identities">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">B.3.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Common Trigonometric Identities</span>
+</h2>
+<div class="sidebyside">
+<div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:50% 50%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style="">
+<figure class="list table-like" id="reference-trig-pythagorean"><div class="named-list-content">
+<ol class="decimal" id="reference-trig-pythagorean-2">
+<li id="reference-trig-pythagorean-2-1">
+<div class="para" id="p-derived-reference-trig-pythagorean-2-1"><span class="process-math">\(\displaystyle \sin^2(x)+\cos^2(x)= 1\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.1:1"><a tabindex="-1" href="#reference-trig-pythagorean-2-1" title="Copy heading and permalink for Item B.3.1:1" aria-label="Copy heading and permalink for Item B.3.1:1">🔗</a></div>
+</li>
+<li id="reference-trig-pythagorean-2-2">
+<div class="para" id="p-derived-reference-trig-pythagorean-2-2"><span class="process-math">\(\displaystyle \tan^2(x)+ 1 = \sec^2(x)\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.1:2"><a tabindex="-1" href="#reference-trig-pythagorean-2-2" title="Copy heading and permalink for Item B.3.1:2" aria-label="Copy heading and permalink for Item B.3.1:2">🔗</a></div>
+</li>
+<li id="reference-trig-pythagorean-2-3">
+<div class="para" id="p-derived-reference-trig-pythagorean-2-3"><span class="process-math">\(\displaystyle 1 + \cot^2(x)=\csc^2(x)\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.1:3"><a tabindex="-1" href="#reference-trig-pythagorean-2-3" title="Copy heading and permalink for Item B.3.1:3" aria-label="Copy heading and permalink for Item B.3.1:3">🔗</a></div>
+</li>
+</ol>
+</div>
+<figcaption><span class="type">List</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">B.3.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Pythagorean Identities<div class="autopermalink" aria-hidden="true" data-description="List B.3.1: Pythagorean Identities"><a tabindex="-1" href="#reference-trig-pythagorean" title="Copy heading and permalink for List B.3.1: Pythagorean Identities" aria-label="Copy heading and permalink for List B.3.1: Pythagorean Identities">🔗</a></div></figcaption>
+</figure>
+</div>
+<div class="sbspanel sbspanel--top top" style="">
+<figure class="list table-like" id="reference-trig-double-angle"><div class="named-list-content">
+<ol class="decimal" id="reference-trig-double-angle-2">
+<li id="reference-trig-double-angle-2-1">
+<div class="para" id="p-derived-reference-trig-double-angle-2-1"><span class="process-math">\(\displaystyle \sin(2x)  = 2\sin(x)\cos(x)\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.2:1"><a tabindex="-1" href="#reference-trig-double-angle-2-1" title="Copy heading and permalink for Item B.3.2:1" aria-label="Copy heading and permalink for Item B.3.2:1">🔗</a></div>
+</li>
+<li id="reference-trig-double-angle-2-2">
+<div class="para logical" id="reference-trig-double-angle-2-2-1">
+<div class="displaymath process-math" id="reference-trig-double-angle-2-2-1-1">
+\begin{align*}
+\cos(2x)  \amp = \cos^2(x) - \sin^2(x) \amp \amp \\
+\amp = 2\cos^2(x)-1 \amp \amp \\
+\amp = 1-2\sin^2(x) \amp \amp 
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#reference-trig-double-angle-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.2:2"><a tabindex="-1" href="#reference-trig-double-angle-2-2" title="Copy heading and permalink for Item B.3.2:2" aria-label="Copy heading and permalink for Item B.3.2:2">🔗</a></div>
+</li>
+<li id="reference-trig-double-angle-2-3">
+<div class="para" id="p-derived-reference-trig-double-angle-2-3"><span class="process-math">\(\displaystyle \tan(2x)  = \frac{2\tan(x)}{1-\tan^2(x)}\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.2:3"><a tabindex="-1" href="#reference-trig-double-angle-2-3" title="Copy heading and permalink for Item B.3.2:3" aria-label="Copy heading and permalink for Item B.3.2:3">🔗</a></div>
+</li>
+</ol>
+</div>
+<figcaption><span class="type">List</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">B.3.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Double Angle Formulas<div class="autopermalink" aria-hidden="true" data-description="List B.3.2: Double Angle Formulas"><a tabindex="-1" href="#reference-trig-double-angle" title="Copy heading and permalink for List B.3.2: Double Angle Formulas" aria-label="Copy heading and permalink for List B.3.2: Double Angle Formulas">🔗</a></div></figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="sidebyside">
+<div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:50% 50%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style="">
+<figure class="list table-like" id="reference-trig-cofunction"><div class="named-list-content">
+<ol class="decimal" id="reference-trig-cofunction-2">
+<li id="reference-trig-cofunction-2-1">
+<div class="para" id="p-derived-reference-trig-cofunction-2-1"><span class="process-math">\(\displaystyle \sin\left(\frac{\pi}{2}-x\right)  = \cos(x)\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.3:1"><a tabindex="-1" href="#reference-trig-cofunction-2-1" title="Copy heading and permalink for Item B.3.3:1" aria-label="Copy heading and permalink for Item B.3.3:1">🔗</a></div>
+</li>
+<li id="reference-trig-cofunction-2-2">
+<div class="para" id="p-derived-reference-trig-cofunction-2-2"><span class="process-math">\(\displaystyle \cos\left(\frac{\pi}{2}-x\right)  = \sin(x)\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.3:2"><a tabindex="-1" href="#reference-trig-cofunction-2-2" title="Copy heading and permalink for Item B.3.3:2" aria-label="Copy heading and permalink for Item B.3.3:2">🔗</a></div>
+</li>
+<li id="reference-trig-cofunction-2-3">
+<div class="para" id="p-derived-reference-trig-cofunction-2-3"><span class="process-math">\(\displaystyle \tan\left(\frac{\pi}{2}-x\right)  = \cot(x)\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.3:3"><a tabindex="-1" href="#reference-trig-cofunction-2-3" title="Copy heading and permalink for Item B.3.3:3" aria-label="Copy heading and permalink for Item B.3.3:3">🔗</a></div>
+</li>
+<li id="reference-trig-cofunction-2-4">
+<div class="para" id="p-derived-reference-trig-cofunction-2-4"><span class="process-math">\(\displaystyle \csc\left(\frac{\pi}{2}-x\right)  = \sec(x)\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.3:4"><a tabindex="-1" href="#reference-trig-cofunction-2-4" title="Copy heading and permalink for Item B.3.3:4" aria-label="Copy heading and permalink for Item B.3.3:4">🔗</a></div>
+</li>
+<li id="reference-trig-cofunction-2-5">
+<div class="para" id="p-derived-reference-trig-cofunction-2-5"><span class="process-math">\(\displaystyle \sec\left(\frac{\pi}{2}-x\right)  = \csc(x)\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.3:5"><a tabindex="-1" href="#reference-trig-cofunction-2-5" title="Copy heading and permalink for Item B.3.3:5" aria-label="Copy heading and permalink for Item B.3.3:5">🔗</a></div>
+</li>
+<li id="reference-trig-cofunction-2-6">
+<div class="para" id="p-derived-reference-trig-cofunction-2-6"><span class="process-math">\(\displaystyle \cot\left(\frac{\pi}{2}-x\right)  = \tan(x)\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.3:6"><a tabindex="-1" href="#reference-trig-cofunction-2-6" title="Copy heading and permalink for Item B.3.3:6" aria-label="Copy heading and permalink for Item B.3.3:6">🔗</a></div>
+</li>
+</ol>
+</div>
+<figcaption><span class="type">List</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">B.3.3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Cofunction Identities<div class="autopermalink" aria-hidden="true" data-description="List B.3.3: Cofunction Identities"><a tabindex="-1" href="#reference-trig-cofunction" title="Copy heading and permalink for List B.3.3: Cofunction Identities" aria-label="Copy heading and permalink for List B.3.3: Cofunction Identities">🔗</a></div></figcaption>
+</figure>
+</div>
+<div class="sbspanel sbspanel--top top" style="">
+<figure class="list table-like" id="reference-trig-even-odd"><div class="named-list-content">
+<ol class="decimal" id="reference-trig-even-odd-2">
+<li id="reference-trig-even-odd-2-1">
+<div class="para" id="p-derived-reference-trig-even-odd-2-1"><span class="process-math">\(\displaystyle \sin(-x)  = -\sin(x)\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.4:1"><a tabindex="-1" href="#reference-trig-even-odd-2-1" title="Copy heading and permalink for Item B.3.4:1" aria-label="Copy heading and permalink for Item B.3.4:1">🔗</a></div>
+</li>
+<li id="reference-trig-even-odd-2-2">
+<div class="para" id="p-derived-reference-trig-even-odd-2-2"><span class="process-math">\(\displaystyle \cos (-x)  = \cos(x)\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.4:2"><a tabindex="-1" href="#reference-trig-even-odd-2-2" title="Copy heading and permalink for Item B.3.4:2" aria-label="Copy heading and permalink for Item B.3.4:2">🔗</a></div>
+</li>
+<li id="reference-trig-even-odd-2-3">
+<div class="para" id="p-derived-reference-trig-even-odd-2-3"><span class="process-math">\(\displaystyle \tan (-x)  = -\tan(x)\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.4:3"><a tabindex="-1" href="#reference-trig-even-odd-2-3" title="Copy heading and permalink for Item B.3.4:3" aria-label="Copy heading and permalink for Item B.3.4:3">🔗</a></div>
+</li>
+<li id="reference-trig-even-odd-2-4">
+<div class="para" id="p-derived-reference-trig-even-odd-2-4"><span class="process-math">\(\displaystyle \csc(-x)  = -\csc(x)\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.4:4"><a tabindex="-1" href="#reference-trig-even-odd-2-4" title="Copy heading and permalink for Item B.3.4:4" aria-label="Copy heading and permalink for Item B.3.4:4">🔗</a></div>
+</li>
+<li id="reference-trig-even-odd-2-5">
+<div class="para" id="p-derived-reference-trig-even-odd-2-5"><span class="process-math">\(\displaystyle \sec (-x)  = \sec(x)\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.4:5"><a tabindex="-1" href="#reference-trig-even-odd-2-5" title="Copy heading and permalink for Item B.3.4:5" aria-label="Copy heading and permalink for Item B.3.4:5">🔗</a></div>
+</li>
+<li id="reference-trig-even-odd-2-6">
+<div class="para" id="p-derived-reference-trig-even-odd-2-6"><span class="process-math">\(\displaystyle \cot (-x)  = -\cot(x)\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.4:6"><a tabindex="-1" href="#reference-trig-even-odd-2-6" title="Copy heading and permalink for Item B.3.4:6" aria-label="Copy heading and permalink for Item B.3.4:6">🔗</a></div>
+</li>
+</ol>
+</div>
+<figcaption><span class="type">List</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">B.3.4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Even/Odd Identities<div class="autopermalink" aria-hidden="true" data-description="List B.3.4: Even/Odd Identities"><a tabindex="-1" href="#reference-trig-even-odd" title="Copy heading and permalink for List B.3.4: Even/Odd Identities" aria-label="Copy heading and permalink for List B.3.4: Even/Odd Identities">🔗</a></div></figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="sidebyside">
+<div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:50% 50%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style="">
+<figure class="list table-like" id="reference-trig-power-reduction"><div class="named-list-content">
+<ol class="decimal" id="reference-trig-power-reduction-2">
+<li id="reference-trig-power-reduction-2-1">
+<div class="para" id="p-derived-reference-trig-power-reduction-2-1"><span class="process-math">\(\displaystyle \sin^2(x)  = \frac{1-\cos(2x)}{2}\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.5:1"><a tabindex="-1" href="#reference-trig-power-reduction-2-1" title="Copy heading and permalink for Item B.3.5:1" aria-label="Copy heading and permalink for Item B.3.5:1">🔗</a></div>
+</li>
+<li id="reference-trig-power-reduction-2-2">
+<div class="para" id="p-derived-reference-trig-power-reduction-2-2"><span class="process-math">\(\displaystyle \cos^2(x)  = \frac{1+\cos(2x)}{2}\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.5:2"><a tabindex="-1" href="#reference-trig-power-reduction-2-2" title="Copy heading and permalink for Item B.3.5:2" aria-label="Copy heading and permalink for Item B.3.5:2">🔗</a></div>
+</li>
+<li id="reference-trig-power-reduction-2-3">
+<div class="para" id="p-derived-reference-trig-power-reduction-2-3"><span class="process-math">\(\displaystyle \tan^2(x)  = \frac{1-\cos(2x)}{1+\cos(2x)}\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.5:3"><a tabindex="-1" href="#reference-trig-power-reduction-2-3" title="Copy heading and permalink for Item B.3.5:3" aria-label="Copy heading and permalink for Item B.3.5:3">🔗</a></div>
+</li>
+</ol>
+</div>
+<figcaption><span class="type">List</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">B.3.5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Power-Reducing Formulas<div class="autopermalink" aria-hidden="true" data-description="List B.3.5: Power-Reducing Formulas"><a tabindex="-1" href="#reference-trig-power-reduction" title="Copy heading and permalink for List B.3.5: Power-Reducing Formulas" aria-label="Copy heading and permalink for List B.3.5: Power-Reducing Formulas">🔗</a></div></figcaption>
+</figure>
+</div>
+<div class="sbspanel sbspanel--top top" style="">
+<figure class="list table-like" id="reference-trig-sumtoproduct"><div class="named-list-content">
+<ol class="decimal" id="reference-trig-sumtoproduct-2">
+<li id="reference-trig-sumtoproduct-2-1">
+<div class="para" id="p-derived-reference-trig-sumtoproduct-2-1"><span class="process-math">\(\displaystyle \sin(x)+\sin(y)  = 2\sin\left(\frac{x+y}2\right)\cos\left(\frac{x-y}2\right)\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.6:1"><a tabindex="-1" href="#reference-trig-sumtoproduct-2-1" title="Copy heading and permalink for Item B.3.6:1" aria-label="Copy heading and permalink for Item B.3.6:1">🔗</a></div>
+</li>
+<li id="reference-trig-sumtoproduct-2-2">
+<div class="para" id="p-derived-reference-trig-sumtoproduct-2-2"><span class="process-math">\(\displaystyle \sin(x)-\sin(y)  = 2\sin\left(\frac{x-y}2\right)\cos\left(\frac{x+y}2\right)\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.6:2"><a tabindex="-1" href="#reference-trig-sumtoproduct-2-2" title="Copy heading and permalink for Item B.3.6:2" aria-label="Copy heading and permalink for Item B.3.6:2">🔗</a></div>
+</li>
+<li id="reference-trig-sumtoproduct-2-3">
+<div class="para" id="p-derived-reference-trig-sumtoproduct-2-3"><span class="process-math">\(\displaystyle \cos(x)+\cos(y)  = 2\cos\left(\frac{x+y}2\right)\cos\left(\frac{x-y}2\right)\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.6:3"><a tabindex="-1" href="#reference-trig-sumtoproduct-2-3" title="Copy heading and permalink for Item B.3.6:3" aria-label="Copy heading and permalink for Item B.3.6:3">🔗</a></div>
+</li>
+<li id="reference-trig-sumtoproduct-2-4">
+<div class="para" id="p-derived-reference-trig-sumtoproduct-2-4"><span class="process-math">\(\displaystyle \cos(x)-\cos(y)  = -2\sin\left(\frac{x+y}2\right)\sin\left(\frac{x-y}2\right)\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.6:4"><a tabindex="-1" href="#reference-trig-sumtoproduct-2-4" title="Copy heading and permalink for Item B.3.6:4" aria-label="Copy heading and permalink for Item B.3.6:4">🔗</a></div>
+</li>
+</ol>
+</div>
+<figcaption><span class="type">List</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">B.3.6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Sum to Product Formulas<div class="autopermalink" aria-hidden="true" data-description="List B.3.6: Sum to Product Formulas"><a tabindex="-1" href="#reference-trig-sumtoproduct" title="Copy heading and permalink for List B.3.6: Sum to Product Formulas" aria-label="Copy heading and permalink for List B.3.6: Sum to Product Formulas">🔗</a></div></figcaption>
+</figure>
+</div>
+</div>
+</div>
+<figure class="list table-like" id="reference-trig-producttosum"><figcaption><span class="type">List</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">B.3.7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Product to Sum Formulas<div class="autopermalink" aria-hidden="true" data-description="List B.3.7: Product to Sum Formulas"><a tabindex="-1" href="#reference-trig-producttosum" title="Copy heading and permalink for List B.3.7: Product to Sum Formulas" aria-label="Copy heading and permalink for List B.3.7: Product to Sum Formulas">🔗</a></div></figcaption><div class="named-list-content">
+<ol class="decimal" id="reference-trig-producttosum-2">
+<li id="reference-trig-producttosum-2-1">
+<div class="para" id="p-derived-reference-trig-producttosum-2-1"><span class="process-math">\(\displaystyle \sin(x)\sin(y)  = \frac12 \big(\cos(x-y) - \cos (x+y)\big)\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.7:1"><a tabindex="-1" href="#reference-trig-producttosum-2-1" title="Copy heading and permalink for Item B.3.7:1" aria-label="Copy heading and permalink for Item B.3.7:1">🔗</a></div>
+</li>
+<li id="reference-trig-producttosum-2-2">
+<div class="para" id="p-derived-reference-trig-producttosum-2-2"><span class="process-math">\(\displaystyle \cos(x)\cos(y)  = \frac12\big(\cos (x-y) +\cos (x+y)\big)\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.7:2"><a tabindex="-1" href="#reference-trig-producttosum-2-2" title="Copy heading and permalink for Item B.3.7:2" aria-label="Copy heading and permalink for Item B.3.7:2">🔗</a></div>
+</li>
+<li id="reference-trig-producttosum-2-3">
+<div class="para" id="p-derived-reference-trig-producttosum-2-3"><span class="process-math">\(\displaystyle \sin(x)\cos(y)  = \frac12 \big(\sin(x+y) + \sin (x-y)\big)\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.7:3"><a tabindex="-1" href="#reference-trig-producttosum-2-3" title="Copy heading and permalink for Item B.3.7:3" aria-label="Copy heading and permalink for Item B.3.7:3">🔗</a></div>
+</li>
+</ol>
+</div>
+</figure>
+<figure class="list table-like" id="reference-trig-sum-difference"><figcaption><span class="type">List</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">B.3.8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Angle Sum/Difference Formulas<div class="autopermalink" aria-hidden="true" data-description="List B.3.8: Angle Sum/Difference Formulas"><a tabindex="-1" href="#reference-trig-sum-difference" title="Copy heading and permalink for List B.3.8: Angle Sum/Difference Formulas" aria-label="Copy heading and permalink for List B.3.8: Angle Sum/Difference Formulas">🔗</a></div></figcaption><div class="named-list-content">
+<ol class="decimal" id="reference-trig-sum-difference-2">
+<li id="reference-trig-sum-difference-2-1">
+<div class="para" id="p-derived-reference-trig-sum-difference-2-1"><span class="process-math">\(\displaystyle \sin (x\pm y)  = \sin(x)\cos(y) \pm \cos(x)\sin(y)\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.8:1"><a tabindex="-1" href="#reference-trig-sum-difference-2-1" title="Copy heading and permalink for Item B.3.8:1" aria-label="Copy heading and permalink for Item B.3.8:1">🔗</a></div>
+</li>
+<li id="reference-trig-sum-difference-2-2">
+<div class="para" id="p-derived-reference-trig-sum-difference-2-2"><span class="process-math">\(\displaystyle \cos (x\pm y)  = \cos(x)\cos(y) \mp \sin(x)\sin(y)\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.8:2"><a tabindex="-1" href="#reference-trig-sum-difference-2-2" title="Copy heading and permalink for Item B.3.8:2" aria-label="Copy heading and permalink for Item B.3.8:2">🔗</a></div>
+</li>
+<li id="reference-trig-sum-difference-2-3">
+<div class="para" id="p-derived-reference-trig-sum-difference-2-3"><span class="process-math">\(\displaystyle \tan (x\pm y)  = \frac{\tan(x)\pm \tan(y)}{1\mp \tan(x)\tan(y)}\)</span></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item B.3.8:3"><a tabindex="-1" href="#reference-trig-sum-difference-2-3" title="Copy heading and permalink for Item B.3.8:3" aria-label="Copy heading and permalink for Item B.3.8:3">🔗</a></div>
+</li>
+</ol>
+</div>
+</figure><div class="autopermalink" aria-hidden="true" data-description="Subsection B.3.2: Common Trigonometric Identities"><a tabindex="-1" href="#reference-trig-identities" title="Copy heading and permalink for Subsection B.3.2: Common Trigonometric Identities" aria-label="Copy heading and permalink for Subsection B.3.2: Common Trigonometric Identities">🔗</a></div>
+</section><div class="autopermalink" aria-hidden="true" data-description="Section B.3: Trigonometry Reference"><a tabindex="-1" href="#reference-trigonometry" title="Copy heading and permalink for Section B.3: Trigonometry Reference" aria-label="Copy heading and permalink for Section B.3: Trigonometry Reference">🔗</a></div>
+</section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="reference-integration.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="reference-area-volume.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

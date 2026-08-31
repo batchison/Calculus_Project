@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-antiderivatives-evaluate-7" assembly-id="ex-antiderivatives-evaluate-7">
+  <static seed="8">
+    <statement><p><m>\int {\frac{9}{t^{4}}}\, dt</m></p>
+<p><fillin characters="40" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>C-\frac{3}{t^{3}}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_1_15.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.1.15)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserFormulaUpToConstant.pl",
+  "contextForm.pl",
+  "contextFraction.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+($a,$n) = random_subset(2,2..9);
+if($envir{problemSeed}==1){$a=3;$n=2};
+Context("Fraction");
+Context()->variables->are(t=>"Real");
+$f = Formula("$a/(t^$n)")->reduce;
+($num,$den) = Fraction($a,$n-1)->value;
+$F = FormulaUpToConstant("-$num/($den t^($n-1))")->reduce;
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate the indefinite integral. Don't forget your constant of integration!
+
+[`\int [$f]\, dt`]
+
+[_]{$F}{40}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

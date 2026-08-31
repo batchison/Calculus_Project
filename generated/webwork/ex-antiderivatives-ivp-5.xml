@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-antiderivatives-ivp-5" assembly-id="ex-antiderivatives-ivp-5">
+  <static seed="25">
+    <statement><p><m>\fp(x) = {8^{x}}</m> and <m>f(2) = 4</m></p>
+<p><fillin characters="40" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{8^{x}}{\ln\mathopen{}\left(8\right)}-\frac{64}{\ln\mathopen{}\left(8\right)}+4</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_1_34.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.1.34)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$b = random(2,9,1);
+$f0 = random(1,9,1);
+if($envir{problemSeed}==1){$b=7;$f0=1;};
+$f = Formula("$b^x");
+Context()->flags->set(reduceConstantFunctions=>0);
+$F = Formula("$b^x/ln($b) - $b^2/ln($b) + $f0");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find the function determined by the given initial value problem.
+
+[`\fp(x) = [$f]`] and [`f(2) = [$f0]`]
+
+[_]{$F}{40}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

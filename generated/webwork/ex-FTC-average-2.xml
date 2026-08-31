@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-FTC-average-2" assembly-id="ex-FTC-average-2">
+  <static seed="116">
+    <statement><p><m>y={\cos\mathopen{}\left(x\right)}</m> on <m>[{\frac{\pi }{2}},{\pi }]</m></p>
+<p><fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{\frac{-1}{\pi -\frac{\pi }{2}}\cdot 3.14159}{\pi }</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_4_6_36.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.4.6.36)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+$trig = list_random('sin','cos');
+$lh = list_random(['0','pi/2'],['0','pi'],['pi/2','pi']);
+if($envir{problemSeed}==1){$trig='sin';$lh=['0','pi'];};
+$low = Formula($lh->[0]);
+$high = Formula($lh->[1]);
+$D = $high - $low;
+$f = Formula("$trig(x)");
+$F = -$f->D('x')->reduce;
+$A = ($F->eval(x=>Real("$high")) - $F->eval(x=>Real("$low")))/$D;
+$num = Real($A*pi);
+$A = Formula("$num/pi");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find the average value of the function on the given interval.
+
+[`y=[$f]`] on [`[[$low],[$high]]`]
+
+[_]{$A}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

@@ -1,0 +1,65 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.1.8)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserFunction.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+parserFunction("F" => "exp(x)*sin(x)/sqrt(abs(x))");
+parserFunction("G" => "ln(abs(x))*cos(x)*sqrt(abs(x))");
+$answer = Formula('F(x)+G(x)');
+$evaluator = $answer->cmp(upToConstant=>1);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+If [`F(x)`] is an antiderivative of [`f(x)\text{,}`] and [`G(x)`] is an antiderivative of [`g(x)\text{,}`] give an antiderivative of [`f(x)+g(x)\text{.}`]
+
+[_]{$evaluator}{20}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

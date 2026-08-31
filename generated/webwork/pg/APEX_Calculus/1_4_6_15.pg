@@ -1,0 +1,68 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.4.6.15)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "contextFraction.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+($low,$high) = num_sort(random_subset(2,0,1,4,9,16,25));
+if($envir{problemSeed}==1){$low=0;$high=4;};
+Context()->variables->are(t=>'Real');
+$f = Formula("sqrt(t)")->reduce;
+Context("Fraction");
+$r = Fraction(2/3 * ($high**(3/2) - $low**(3/2)));
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate the definite integral.
+
+[`\ds\int_{[$low]}^{[$high]} [$f]\, dt`]
+
+[_]{$r}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

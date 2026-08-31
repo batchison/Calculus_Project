@@ -1,0 +1,71 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.1.36)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "contextFraction.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+($fpp,$fp0,$f0) = random_subset(3,-10..-2,2..10);
+if($envir{problemSeed}==1){$fpp=7;$fp0=-1;$f0=10;};
+Context("Fraction");
+$a = Fraction($fpp,6);
+$a2 = Fraction($fpp,2);
+$a3 = Fraction($fpp,3);
+$b = Fraction($fp0 - $a2);
+$c = Fraction($f0 + $a3 - $fp0);
+$F = Formula("$a x^3 + $b x + $c");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find the function determined by the given initial value problem.
+
+[`\fpp(x)=[$fpp]x`] and [`\fp(1)=[$fp0]\text{,}`] [`f(1)=[$f0]`]
+
+[_]{$F}{40}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

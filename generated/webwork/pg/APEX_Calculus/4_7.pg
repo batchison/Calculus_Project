@@ -1,0 +1,74 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(4.7)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserFormulaUpToConstant.pl",
+  "contextForm.pl",
+  "contextFraction.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+($a,$b,$c) = random_subset(3,-9..-1,1..9);
+($m,$n,$p) = num_sort(random_subset(3,0..5));
+if($envir{problemSeed}==1){$a=4;$b=-5;$c=8;$m=5;$n=3;$p=0;};
+Context()->variables->add(t=>"Real");
+$f = Formula("$a t^$m + $b t^$n + $c t^$p")->reduce;
+Context("Fraction");
+Context()->variables->add(t=>"Real");
+$A = Fraction($a,$m+1);
+$B = Fraction($b,$n+1);
+$C = Fraction($c,$p+1);
+$F = FormulaUpToConstant("$A t^($m+1) + $B t^($n+1) + $C t^($p+1)")->reduce;
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find the general antiderivative of the given function.
+
+[`g(t) = [$f]`]
+
+[_]{$F}{40}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

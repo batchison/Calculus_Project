@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-FTC-velocity-4" assembly-id="ex-FTC-velocity-4">
+  <static seed="130">
+    <statement><p><m>a(t)={\sin\mathopen{}\left(t\right)\ {\textstyle\frac{\rm\mathstrut ft}{\rm\mathstrut s^{2}}}}</m> on <m>\left[{\pi },{\frac{3\pi }{2}}\right]</m></p>
+<p><fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-1\ {\textstyle\frac{\rm\mathstrut ft}{\rm\mathstrut s}}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_4_6_50.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.4.6.50)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserFormulaWithUnits.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$trig = list_random('sin','cos');
+$lh = list_random(['0','pi/2'],['0','pi'],['0','3*pi/2'],['pi/2','pi'],['pi/2','3*pi/2'],['pi','3*pi/2']);
+if($envir{problemSeed}==1){$trig='cos';$lh=['0','pi/2'];};
+$low = Formula($lh->[0]);
+$high = Formula($lh->[1]);
+Context()->variables->are(t=>'Real');
+$f = FormulaWithUnits("$trig(t) ft/s^2");
+$F = Formula("-$trig(t)")->D('t')->reduce;
+$D = FormulaWithUnits($F->eval(t=>Real("$high")) - $F->eval(t=>Real("$low")), 'ft/s');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+An acceleration function of an object moving along a straight line is given. Find the change of the object's velocity over the given time interval.
+
+[`a(t)=[$f]`] on [`\left[[$low],[$high]\right]`]
+
+[_]{$D}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

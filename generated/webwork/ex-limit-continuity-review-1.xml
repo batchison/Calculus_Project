@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-limit-continuity-review-1" assembly-id="ex-limit-continuity-review-1">
+  <static seed="6">
+    <introduction><p>Evaluate the given limits of the piecewise defined function.</p>
+<p><m>f(x) ={\begin{cases}\displaystyle{x^{2}-5}\amp \text{if}\ x \lt  6\cr
+\displaystyle{6x}\amp \text{if}\ x \ge 6\end{cases}}</m></p>
+</introduction>
+    <task>
+      <statement><p><m>\lim\limits_{x\to 6^-} f(x)</m></p>
+<p><fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>31</m>
+        </p>
+      </answer>
+    </task>
+    <task>
+      <statement><p><m>\lim\limits_{x\to 6^+} f(x)</m></p>
+<p><fillin characters="10" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>36</m>
+        </p>
+      </answer>
+    </task>
+    <task>
+      <statement><p><m>\lim\limits_{x\to 6} f(x)</m></p>
+<p><fillin characters="10" name="AnSwEr0003"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{DNE}</m>
+        </p>
+      </answer>
+    </task>
+    <task>
+      <statement><p><m>f(6)</m></p>
+<p><fillin characters="10" name="AnSwEr0004"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>36</m>
+        </p>
+      </answer>
+    </task>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_6.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.6)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "scaffold.pl",
+  "PCCmacros.pl",
+  "contextForm.pl",
+  "contextPiecewiseFunction.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+COMMENT('This problem is scaffolded with multiple parts');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$a=random(-2,10,1);
+$b=non_zero_random(-5,5,1);
+if($envir{problemSeed}==1){$a=5;$b=-5;};
+@f=(Formula("x^2+$b")->reduce,Formula("$a x")->reduce);
+Context("PiecewiseFunction");
+$g=PiecewiseFunction("x < $a" => "$f[0]", "x >= $a" => "$f[1]");
+@L=($f[0]->eval(x=>$a),$f[1]->eval(x=>$a));
+$L[2]=($L[0]==$L[1])?$L[0]:Compute("DNE");
+$L[3]=$g->eval(x=>$a);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate the given limits of the piecewise defined function.
+
+[`f(x) =[$g]`]
+
+[@KeyboardInstructions('If you need to enter [`\infty\text{,}`] you may type [|infinity|]*, or just [|INF|]*. If the limit does not exist, you may type [|does not exist|]*, or just [|DNE|]*.')@]**
+
+END_PGML
+
+############################################################
+# Scaffold
+############################################################
+Scaffold::Begin(numbered => 1,is_open => "correct_or_first_incorrect",can_open => always,);
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`\lim\limits_{x\to [$a]^-} f(x)`]
+
+[_]{$L[0]}{10}
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`\lim\limits_{x\to [$a]^+} f(x)`]
+
+[_]{$L[1]}{10}
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`\lim\limits_{x\to [$a]} f(x)`]
+
+[_]{$L[2]}{10}
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`f([$a])`]
+
+[_]{$L[3]}{10}
+
+END_PGML
+
+Section::End();
+
+Scaffold::End();
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

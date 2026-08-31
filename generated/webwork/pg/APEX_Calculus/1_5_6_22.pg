@@ -1,0 +1,108 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.5.6.22)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "scaffold.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+COMMENT('This problem is scaffolded with multiple parts');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+$a = 1;
+$b = 4;
+$err = 0.0001;
+$Mt = 0.75;
+$Ms = 105/16;
+$nt = sqrt(($b-$a)**3*$Mt/(12*$err));
+$nt = int($nt + 0.99999);
+$ns = (($b-$a)**5*$Ms/(180*$err))**(1./4);
+$ns = int($ns + .99999);
+if ($ns%2==1) {     
+  $ns++;
+}
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find [`n`] such that the error in approximating the given definite integral is less than [`0.0001`] when using the Trapezoidal Rule and Simpson's Rule.
+
+For the integral [`\int_{1}^{4} \frac{1}{\sqrt x} \, dx\text{:}`]
+
+END_PGML
+
+############################################################
+# Scaffold
+############################################################
+Scaffold::Begin(numbered => 1,is_open => "correct_or_first_incorrect",can_open => always,);
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+Using the trapezoid rule.
+
+[_]{$nt}{20}  
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+Using Simpson's rule.
+
+[_]{$ns}{20} 
+
+END_PGML
+
+Section::End();
+
+Scaffold::End();
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

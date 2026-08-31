@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-FTC-part1-6" assembly-id="ex-FTC-part1-6">
+  <static seed="136">
+    <statement><p><m>F(x) = \ds\int_{{\sqrt{x}}}^{{\ln\mathopen{}\left(x\right)}} ({\sqrt{t^{4}-8t^{2}}})\, dt</m></p>
+<p><fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{1}{x}\sqrt{\ln^{4}\mathopen{}\left(x\right)-8\ln^{2}\mathopen{}\left(x\right)}-\frac{1}{2\sqrt{x}}\sqrt{\left(\sqrt{x}\right)^{4}-8\mathopen{}\left(\sqrt{x}\right)^{2}}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_4_6_60.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.4.6.60)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$b = non_zero_random(-9,9,1);
+($low,$high) = random_subset(2,'e^','ln','sin','cos','sqrt');
+Context()->variables->add(t=>'Real');
+$low = Formula("$low(x)");
+$high = Formula("$high(x)");
+$f = Formula("sqrt(t^4+$b t^2)")->reduce;
+$D = $high->D('x') * $f->substitute(t=>$high) - $low->D('x') * $f->substitute(t=>$low);
+$D = $D->reduce;
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find [`F'(x)\text{.}`]
+
+[`F(x) = \ds\int_{[$low]}^{[$high]} ([$f])\, dt`]
+
+[_]{$D}{30}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

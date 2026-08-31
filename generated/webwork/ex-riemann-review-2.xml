@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-riemann-review-2" assembly-id="ex-riemann-review-2">
+  <static seed="6">
+    <statement><p><m>f(x) = {\frac{7}{x}}</m></p>
+<p><fillin characters="40" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>7\ln\mathopen{}\left(\left|x\right|\right)+C</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="APEX_Calculus_Chapter_Review_Exercises/1_6.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.6)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserFormulaUpToConstant.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+$c = random(2,9,1);
+if($envir{problemSeed}==1){$c=7;};
+$f = Formula("$c/x");
+$F = FormulaUpToConstant("$c*ln(abs(x))");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find the general antiderivative of the given function.
+
+[`f(x) = [$f]`]
+
+[_]{$F}{40}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

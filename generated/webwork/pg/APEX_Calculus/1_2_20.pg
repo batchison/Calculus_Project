@@ -1,0 +1,65 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.2.20)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+The values of several definite integrals are given as follows:
+
+[```\int_0^2f(x)\,dx = 5 \quad \int_0^3f(x)\,dx = 7 \quad \int_0^2g(x)\,dx = -3 \quad \int_2^3g(x)\,dx = 5```]
+
+Use these values and properties of definite integrals to evaluate the indicated definite integral.
+
+[`\int_0^3 \big(f(x)-g(x)\big) \, dx`]
+
+[_]{'5'}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

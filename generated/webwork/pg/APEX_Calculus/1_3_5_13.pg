@@ -1,0 +1,105 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.3.5.13)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PCCmacros.pl",
+  "parserMultiAnswer.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$lb = 1;
+$ub = random(4,6,1);
+$m = random(2,9,1);
+if($envir{problemSeed}==1){$ub=5;$m=3;};
+Context()->variables->are(i=>'Real');
+$f = Formula("$m i")->reduce;
+@i = ($lb..$ub);
+@fi = map{$f->eval(i=>$_)}(@i);
+$string = join('+',@fi);
+Context()->flags->set(reduceConstants=>0);
+$terms = Formula("$string");
+$multians = MultiAnswer($lb, $ub, $f)->with(
+  singleResult => 1,
+  checker => sub {
+      my ( $correct, $student, $self ) = @_;
+      my ( $stulb, $stuub, $stuf ) = @{$student};
+      my ( $corlb, $corub, $corf ) = @{$correct};
+      if ($stuub - $stulb != $corub - $corlb) {Value::Error("Your sum does not have the correct number of terms");};
+      @stui = ($stulb..$stuub);
+      @stufi = map{$stuf->eval(i=>$_)}(@stui);
+      @cori = ($corlb..$corub);
+      @corfi = map{$corf->eval(i=>$_)}(@cori);
+      $score = 1;
+      for $j (0..$#corfi) {
+        if ($stufi[$j] != $corfi[$j]) {
+          $score = 0;
+          last;
+        }
+      }
+      return $score;
+    }
+);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Write the sum in summation notation.
+
+[`[$terms]`]
+
+[@KeyboardInstructions('If the sum were in sigma notation, [`\sum\limits_{i=\text{start}}^{\text{end}}(\text{summand expression})\text{,}`] enter the start value here.')@]**
+
+[_]{$multians}{20}
+
+[@KeyboardInstructions('If the sum were in sigma notation, [`\sum\limits_{i=\text{start}}^{\text{end}}(\text{summand expression})\text{,}`] enter the end value here.')@]**
+
+[_]{$multians}{20}
+
+[@KeyboardInstructions('If the sum were in sigma notation, [`\sum\limits_{i=\text{start}}^{\text{end}}(\text{summand expression})\text{,}`] enter the summand expression here.')@]**
+
+[_]{$multians}{20}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

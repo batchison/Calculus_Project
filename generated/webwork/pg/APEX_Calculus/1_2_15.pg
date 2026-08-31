@@ -1,0 +1,134 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.2.15)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGlateximage.pl",
+  "scaffold.pl",
+  "parserNumberWithUnits.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+COMMENT('This problem is scaffolded with multiple parts');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+$mv = NumberWithUnits("2 ft/s");
+$md = NumberWithUnits("2 ft");
+$td = NumberWithUnits("1.5 ft");
+
+$image_1 = createLaTeXImage();
+$image_1->addToPreamble(latexImagePreamble());
+$image_1->BEGIN_LATEX_IMAGE
+\begin{tikzpicture}
+  \begin{axis}[
+      xtick={1,2,3},
+      ymin=-1.1,
+      ymax=3,
+      xmin=-.2,
+      xmax=3.1,
+      xlabel={\(t\) (s)},
+      ylabel={\(v\) (ft/s)}
+    ]
+    \addplot+ [domain=0:3] {-x+2};
+  \end{axis}
+\end{tikzpicture}
+
+END_LATEX_IMAGE
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+A graph is given of the velocity function of an object moving in a straight line. Answer the questions based on the graph.
+
+>> [@image(insertGraph($image_1), width=>600, alt=>qq"Graph of function for this exercise. It is a straight line with a negative slope.")@]*  <<
+
+END_PGML
+
+############################################################
+# Scaffold
+############################################################
+Scaffold::Begin(numbered => 1,is_open => "correct_or_first_incorrect",can_open => always,);
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+What is the object's maximum velocity?
+
+[_]{$mv}{20}
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+What is the object's maximum displacement?
+
+[_]{$md}{20}
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+What is the object's total displacement on [`[0,3]\text{?}`]
+
+[_]{$td}{20}
+
+END_PGML
+
+Section::End();
+
+Scaffold::End();
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

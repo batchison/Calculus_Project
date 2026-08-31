@@ -1,0 +1,76 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PCCmacros.pl",
+  "contextForm.pl",
+  "contextFraction.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+($b,$c) = random_subset(2,[-9..-1,1..9]);
+($l,$h) = random_subset(2,1..4);
+if($envir{problemSeed}==1){$b=-3;$c=9;$l=3;$h=4};
+$low = int(-$b/2) - $l;
+$high = int(-$b/2) + $h;
+$f = Formula("x^2+$b x+$c")->reduce;
+Context("Fraction");
+$max = Fraction(max($f->eval(x=>$low),$f->eval(x=>$high),$f->eval(x=>-$b/2)));
+$min = Fraction(min($f->eval(x=>$low),$f->eval(x=>$high),$f->eval(x=>-$b/2)));
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find the extreme values of [`f(x) = [$f]`] on [`[[$low],[$high]]\text{.}`]
+
+[@KeyboardInstructions(q"Enter the maximimum value here, or enter [|NONE|]* if there isn't one.")@]**
+
+[_]{$max}{10}
+
+[@KeyboardInstructions(q"Enter the minimimum value here, or enter [|NONE|]* if there isn't one.")@]**
+
+[_]{$min}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-deriv-chain-review-2" assembly-id="ex-deriv-chain-review-2">
+  <static seed="21">
+    <introduction><p>Find the derivatives of the following functions.</p>
+</introduction>
+    <task>
+      <statement><p><m>f(x) = {3x^{4}e^{x}\csc\mathopen{}\left(x\right)}</m></p>
+<p><fillin characters="40" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\left(12x^{3}e^{x}+3x^{4}e^{x}\ln\mathopen{}\left(e\right)\right)\csc\mathopen{}\left(x\right)-3x^{4}e^{x}\csc\mathopen{}\left(x\right)\cot\mathopen{}\left(x\right)</m>
+        </p>
+      </answer>
+    </task>
+    <task>
+      <statement><p><m>g(x) = {3^{x}\cdot 4^{x}\cdot 7^{x}}</m></p>
+<p><fillin characters="40" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\left(1.09861\cdot 3^{x}\cdot 4^{x}+3^{x}\cdot 1.38629\cdot 4^{x}\right)\cdot 7^{x}+3^{x}\cdot 4^{x}\cdot 1.94591\cdot 7^{x}</m>
+        </p>
+      </answer>
+    </task>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/2_12.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.12)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "scaffold.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+COMMENT('This problem is scaffolded with multiple parts');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+Context()->flags->set(reduceConstants=>0);
+$a=random(1,9,1);
+$n=random(1,4,1);
+$trig=list_random('sin','cos','sec','csc','tan','cot');
+($b,$c,$d)=num_sort(random_subset(3,2..9));
+if($envir{problemSeed}==1){$a=2;$n=1;$trig='cot';$b=2;$c=3;$d=4;};
+$f = Formula("$a x^$n e^x $trig(x)")->reduce;
+$g = Formula("$b^x $c^x $d^x");
+Context()->flags->set(reduceConstantFunctions=>0);
+$fp=$f->D('x');
+$gp=$g->D('x');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find the derivatives of the following functions.
+
+END_PGML
+
+############################################################
+# Scaffold
+############################################################
+Scaffold::Begin(numbered => 1,is_open => "correct_or_first_incorrect",can_open => always,);
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`f(x) = [$f]`]
+
+[_]{$fp}{40}
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`g(x) = [$g]`]
+
+[_]{$gp}{40}
+
+END_PGML
+
+Section::End();
+
+Scaffold::End();
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

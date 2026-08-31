@@ -1,0 +1,134 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.10)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "scaffold.pl",
+  "PCCmacros.pl",
+  "contextFraction.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+COMMENT('This problem is scaffolded with multiple parts');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$a=random(-9,9,1);
+do{@L=(non_zero_random(-9,9,1),non_zero_random(-3,3,1));}until($L[0]!=$L[1]);
+if($envir{problemSeed}==1){$a=2;@L=(3,-1)};
+$L[2]=$L[0]+$L[1];
+$L[3]=$L[0]*$L[1];
+Context("Fraction");
+$L[4]=Fraction($L[0]/$L[1]);
+$L[5]=Fraction(($L[0])**($L[1]));
+Context()->strings->add('does not exist'=>{alias=>'DNE'});
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Let [`\lim\limits_{x\to[$a]} f(x) = [$L[0]]`] and [`\lim\limits_{x\to[$a]} g(x) = [$L[1]]\text{.}`] Evaluate the following limits.
+
+[@KeyboardInstructions('If you need to enter [`\infty\text{,}`] you may type [|infinity|]*, or just [|INF|]*. If the limit does not exist, you may type [|does not exist|]*, or just [|DNE|]*.')@]**
+
+END_PGML
+
+############################################################
+# Scaffold
+############################################################
+Scaffold::Begin(numbered => 1,is_open => "correct_or_first_incorrect",can_open => always,);
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`\lim\limits_{x\to[$a]}(f+g)(x)`]
+
+[_]{$L[2]}{5}
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`\lim\limits_{x\to[$a]}(fg)(x)`]
+
+[_]{$L[3]}{5}
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`\lim\limits_{x\to[$a]}(f/g)(x)`]
+
+[_]{$L[4]}{5}
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`\lim\limits_{x\to[$a]}f(x)^{g(x)}`]
+
+[_]{$L[5]}{5}
+
+END_PGML
+
+Section::End();
+
+Scaffold::End();
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

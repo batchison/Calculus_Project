@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-limit-onesided-review-3" assembly-id="ex-limit-onesided-review-3">
+  <static seed="4">
+    <statement><p><m>\lim\limits_{x\to -4.4}{\frac{x^{2}-2.8x-31.68}{x^{2}+0.2x-18.48}}</m></p>
+<p><fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>1.34884</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_4.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.4)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PCCmacros.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+Context()->strings->add('does not exist'=>{alias=>'DNE'});
+($a,$b,$c)=map{$_*random(-1,1,2)/10}random_subset(3,1..99);
+if($envir{problemSeed}==1){$a=0.4;$b=4;$c=0;};
+$f=Formula("x^2-($a+$b)x+$a*$b")->reduce;
+$g=Formula("x^2-($a+$c)x+$a*$c")->reduce;
+$r=$f/$g;
+$L=Real(($a-$b)/($a-$c));
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Approximate the limit numerically.
+
+[`\lim\limits_{x\to [$a]}[$r]`]
+
+[@KeyboardInstructions('If you need to enter [`\infty\text{,}`] you may type [|infinity|]*, or just [|INF|]*. If the limit does not exist, you may type [|does not exist|]*, or just [|DNE|]*.')@]**
+
+[_]{$L}{20}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

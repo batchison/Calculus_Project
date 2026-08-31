@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<section class="paragraphs"><h2 class="heading"><span class="title">Initial Value Problems.</span></h2>
+<div class="para">In <code class="code-inline tex2jax_ignore">[cross-reference to target(s) "sec_basic_diff_rules" missing or not unique]</code> we saw that the derivative of a position function gave a velocity function, and the derivative of a velocity function describes acceleration.  We can now go “the other way:” the antiderivative of an acceleration function gives a velocity function, etc.. While there is just one derivative of a given function, there are infinitely many antiderivatives. Therefore we cannot ask “What is <em class="emphasis">the</em> velocity of an object whose acceleration is <span class="quantity">-32 <sup>ft</sup>⁄<sub>s<sup>2</sup></sub></span>?”, since there is more than one answer.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec_antider-34-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">We can find <em class="emphasis">the</em> answer if we provide more information with the question, as done in the following example. Often the additional information comes in the form of an <em class="emphasis">initial value</em>, a value of the function that one knows beforehand.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec_antider-34-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Solving initial value problems.</span>
+</h3>
+<div class="para">The acceleration due to gravity of a falling object is <span class="quantity">-32 <sup>ft</sup>⁄<sub>s<sup>2</sup></sub></span>. At time <span class="process-math">\(t=3\text{,}\)</span> a falling object had a velocity of <span class="quantity">-10 <sup>ft</sup>⁄<sub>s</sub></span>. Find the equation of the object’s velocity.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_anti4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical">
+<div class="para">We want to know a velocity function, <span class="process-math">\(v(t)\text{.}\)</span> We know two things:</div>
+<ul class="disc" id="ex_anti4-3-1-2">
+<li>
+<div class="para">The acceleration, i.e., <span class="process-math">\(v'(t)= -32\text{,}\)</span> and<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_anti4-3-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ex_anti4-3-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li>
+<div class="para">the velocity at a specific time, i.e., <span class="process-math">\(v(3) = -10\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_anti4-3-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ex_anti4-3-1-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_anti4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical">
+<div class="para">Using the first piece of information, we know that <span class="process-math">\(v(t)\)</span> is an antiderivative of <span class="process-math">\(v'(t)=-32\text{.}\)</span> So we begin by finding the indefinite integral of <span class="process-math">\(-32\text{:}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int (-32)\,dt = -32t+C=v(t)\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_anti4-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical">
+<div class="para">Now we use the fact that <span class="process-math">\(v(3)=-10\)</span> to find <span class="process-math">\(C\text{:}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{align*}
+v(t) \amp = -32t+C\\
+v(3) \amp = -10\\
+-32(3)+C \amp = -10\\
+C \amp = 86
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_anti4-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">Thus <span class="process-math">\(v(t)= -32t+86\text{.}\)</span> We can use this equation to understand the motion of the object: when <span class="process-math">\(t=0\text{,}\)</span> the object had a velocity of <span class="process-math">\(v(0) = 86\)</span><span class="quantity"><sup>ft</sup>⁄<sub>s</sub></span>. Since the velocity is positive, the object was moving upward.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_anti4-3-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical">
+<div class="para">When did the object begin moving down? Immediately after <span class="process-math">\(v(t) = 0\text{:}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+-32t+86 = 0  \implies  t = \frac{43}{16}  \approx 2.69\text{s}\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_anti4-3-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">Recognize that we are able to determine quite a bit about the path of the object knowing just its acceleration and its velocity at a single point in time.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_anti4-3-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 1.1.7.1"><a tabindex="-1" href="#ex_anti4-3" title="Copy heading and permalink for Solution 1.1.7.1" aria-label="Copy heading and permalink for Solution 1.1.7.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 1.1.7: Solving initial value problems"><a tabindex="-1" href="#ex_anti4" title="Copy heading and permalink for Example 1.1.7: Solving initial value problems" aria-label="Copy heading and permalink for Example 1.1.7: Solving initial value problems">🔗</a></div>
+</article>
+<article class="example example-like"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.8</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Solving initial value problems.</span>
+</h3>
+<div class="para">Find <span class="process-math">\(f(t)\text{,}\)</span> given that <span class="process-math">\(\fpp(t) = \cos(t)\text{,}\)</span> <span class="process-math">\(\fp(0) = 3\)</span> and <span class="process-math">\(f(0) = 5\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_anti5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical">
+<div class="para">We start by finding <span class="process-math">\(\fp(t)\text{,}\)</span> which is an antiderivative of <span class="process-math">\(\fpp(t)\text{:}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{align*}
+\int \fpp(t)\,dt \amp = \int \cos(t) \,dt\\
+\amp = \sin(t) + C\\
+\amp = \fp(t)\text{.}
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_anti5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical">
+<div class="para">So <span class="process-math">\(\fp(t) = \sin(t) +C\)</span> for the correct value of <span class="process-math">\(C\text{.}\)</span> We are given that <span class="process-math">\(\fp(0) = 3\text{,}\)</span> so:</div>
+<div class="displaymath process-math">
+\begin{align*}
+\sin(0) +C \amp = 3\\
+C \amp = 3\text{.}
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_anti5-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical">
+<div class="para">Using the initial value, we have found <span class="process-math">\(\fp(t) = \sin(t) + 3\text{.}\)</span> We now find <span class="process-math">\(f(t)\)</span> by integrating again. We will use a different integration constant since we have already defined <span class="process-math">\(C\)</span> to equal <span class="process-math">\(3\)</span> above.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f(t)=\int \fp(t) \,dt = \int (\sin(t) +3)\,dt = -\cos(t) + 3t + D\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_anti5-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical">
+<div class="para">We are given that <span class="process-math">\(f(0) = 5\text{,}\)</span> so</div>
+<div class="displaymath process-math">
+\begin{align*}
+-\cos(0) + 3(0) + D \amp = 5\\
+-1 + C \amp = 5\\
+C \amp = 6
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_anti5-3-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">Thus <span class="process-math">\(f(t) = -\cos(t) + 3t + 6\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_anti5-3-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 1.1.8.1"><a tabindex="-1" href="#ex_anti5-3" title="Copy heading and permalink for Solution 1.1.8.1" aria-label="Copy heading and permalink for Solution 1.1.8.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 1.1.8: Solving initial value problems"><a tabindex="-1" href="#ex_anti5" title="Copy heading and permalink for Example 1.1.8: Solving initial value problems" aria-label="Copy heading and permalink for Example 1.1.8: Solving initial value problems">🔗</a></div>
+</article>
+<div class="para">This section introduced antiderivatives and the indefinite integral. We found they are needed when finding a function given information about its derivative(s). For instance, we found a velocity function given an acceleration function.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec_antider-34-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">In the next section, we will see how position and velocity are unexpectedly related by the areas of certain regions on a graph of the velocity function. Then, in <a href="sec_FTC.html" class="internal" title="Section 1.4: The Fundamental Theorem of Calculus">Section 1.4</a>, we will see how areas and antiderivatives are closely tied together. This connection is incredibly important, as indicated by the name of the theorem that describes it: The Fundamental Theorem of Calculus.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec_antider-34-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Initial Value Problems"><a tabindex="-1" href="#sec_antider-34" title="Copy heading and permalink for Paragraphs: Initial Value Problems" aria-label="Copy heading and permalink for Paragraphs: Initial Value Problems">🔗</a></div>
+</section><span class="incontext"><a class="internal" href="sec_antider.html#sec_antider-34">In Context</a></span>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-numerical-integration-bound-error-3" assembly-id="ex-numerical-integration-bound-error-3">
+  <static seed="155">
+    <introduction><p>For the integral <m>\int_{0}^{\pi} \cos\big(x^2\big) \, dx\text{:}</m></p>
+</introduction>
+    <task>
+      <statement><p>Using the trapezoid rule.</p>
+<p><fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>994</m>
+        </p>
+      </answer>
+    </task>
+    <task>
+      <statement><p>Using Simpson<rsq/>s rule.</p>
+<p><fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>62</m>
+        </p>
+      </answer>
+    </task>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_5_6_23.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.5.6.23)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "scaffold.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+COMMENT('This problem is scaffolded with multiple parts');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+$a = 0;
+$b = pi;
+$err = 0.0001;
+$Mt = 38.1865;
+$Ms = 804.2;
+$nt = sqrt(($b-$a)**3*$Mt/(12*$err));
+$nt = int($nt + 0.99999);
+$ns = (($b-$a)**5*$Ms/(180*$err))**(1./4);
+$ns = int($ns + .99999);
+if ($ns%2==1) {     
+  $ns++;
+}
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find [`n`] such that the error in approximating the given definite integral is less than [`0.0001`] when using the Trapezoidal Rule and Simpson's Rule.
+
+For the integral [`\int_{0}^{\pi} \cos\big(x^2\big) \, dx\text{:}`]
+
+END_PGML
+
+############################################################
+# Scaffold
+############################################################
+Scaffold::Begin(numbered => 1,is_open => "correct_or_first_incorrect",can_open => always,);
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+Using the trapezoid rule.
+
+[_]{$nt}{20}  
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+Using Simpson's rule.
+
+[_]{$ns}{20} 
+
+END_PGML
+
+Section::End();
+
+Scaffold::End();
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

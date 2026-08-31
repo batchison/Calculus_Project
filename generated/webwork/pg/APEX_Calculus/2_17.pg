@@ -1,0 +1,75 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.17)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserAssignment.pl",
+  "contextForm.pl",
+  "contextFraction.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Fraction");
+Context()->variables->add(y=>'Real');
+parser::Assignment->Allow;
+do {
+  $n = random(2,4,1);
+  ($x0,$y0) = random_subset(2,[-3,-2,-1,1,2,3]);
+  $pm=list_random('+','-');
+} until ($x0 != $n*$y0**($n-1) and $x0 != -$n*$y0**($n-1));
+if($envir{problemSeed}==1){$n=2;$x0=1;$y0=2;$pm='+'};
+$left = Formula("x^$n+y^$n $pm xy");
+$c = $left->eval(x=>$x0,y=>$y0);
+if ($pm eq '+') {$m = Fraction(-$n*$x0**($n-1)-$y0,$n*$y0**($n-1)+$x0)}
+else {$m = Fraction(-$n*$x0**($n-1)+$y0,$n*$y0**($n-1)-$x0)};
+$t=Formula("y=$m(x-$x0)+$y0")->reduce;
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find the equation of the line tangent to the graph of [`[$left]=[$c]`] at the point [`([$x0],[$y0])\text{.}`]
+
+[_]{$t}{80}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

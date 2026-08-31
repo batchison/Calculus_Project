@@ -1,0 +1,69 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.4.6.60)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$b = non_zero_random(-9,9,1);
+($low,$high) = random_subset(2,'e^','ln','sin','cos','sqrt');
+Context()->variables->add(t=>'Real');
+$low = Formula("$low(x)");
+$high = Formula("$high(x)");
+$f = Formula("sqrt(t^4+$b t^2)")->reduce;
+$D = $high->D('x') * $f->substitute(t=>$high) - $low->D('x') * $f->substitute(t=>$low);
+$D = $D->reduce;
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find [`F'(x)\text{.}`]
+
+[`F(x) = \ds\int_{[$low]}^{[$high]} ([$f])\, dt`]
+
+[_]{$D}{30}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

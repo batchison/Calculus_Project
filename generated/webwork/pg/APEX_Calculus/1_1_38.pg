@@ -1,0 +1,74 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.1.38)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PCCmacros.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$trig = list_random('sin','cos');
+$x0 = list_random(0,'pi/2','pi');
+($fp0,$f0) = random_subset(2,2..9);
+if($envir{problemSeed}==1){$trig='sin';$x0='pi';$fp0=2;$f0=4;};
+Context()->variables->are(theta=>['Real',TeX=>'\theta']);
+$x0 = Formula("$x0");
+$f = Formula("$trig(theta)");
+$F = Formula("-$trig(theta)");
+$m = $fp0 - $F->D('theta')->eval(theta=>Real("$x0"));
+$F = Formula("-$trig(theta) + $m theta + ($f0 + $trig($x0) - $m $x0 ) ")->reduce;
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find the function determined by the given initial value problem.
+
+[`\fpp(\theta)=[$f]`] and [`\fp\left([$x0]\right)=[$fp0]\text{,}`] [`f\left([$x0]\right)=[$f0]`]
+
+[@KeyboardInstructions('To enter [`\theta\text{,}`] type [|theta|]*.')@]**
+
+[_]{$F}{40}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

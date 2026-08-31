@@ -1,0 +1,69 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.4.6.55)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$m = random(3,5,1);
+$b = non_zero_random(-9,9,1);
+$low = random(1,9,1);
+if($envir{problemSeed}==1){$m=3;$b=1;$low=2;};
+Context()->variables->add(t=>'Real');
+$high = Formula("x^$m + $b x")->reduce;
+$f = Formula("1/t");
+$D = $high->D('x')->reduce / $high;
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find [`F'(x)\text{.}`]
+
+[`F(x) = \ds\int_{[$low]}^{[$high]} [$f]\, dt`]
+
+[_]{$D}{30}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

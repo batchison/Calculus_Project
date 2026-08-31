@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-limit-continuity-review-2" assembly-id="ex-limit-continuity-review-2">
+  <static seed="7">
+    <introduction><p>Numerically approximate the following limits.</p>
+</introduction>
+    <task>
+      <statement><p><m>\lim\limits_{x\to 1.8^{+}}\left({\frac{x^{2}-7.8x+10.8}{x^{2}-3.8x+3.6}}\right)</m></p>
+<p><fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>21</m>
+        </p>
+      </answer>
+    </task>
+    <task>
+      <statement><p><m>\lim\limits_{x\to 1.8^{-}}\left({\frac{x^{2}-7.8x+10.8}{x^{2}-3.8x+3.6}}\right)</m></p>
+<p><fillin characters="10" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>21</m>
+        </p>
+      </answer>
+    </task>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_7.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.7)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "niceTables.pl",
+  "scaffold.pl",
+  "PCCmacros.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+COMMENT('This problem is scaffolded with multiple parts');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+$b=list_random(-9..6,6..9);
+$c=non_zero_random(-5,5,1);
+do{$a=non_zero_random(-5,5,0.1);}until($a!=$c);
+if ($envir{problemSeed}==1){$a=-0.8;$b=9;$c=-5};
+$f=Formula("(x^2-($a+$b)x+$a*$b)/(x^2-($a+$c)x+$a*$c)")->reduce;
+$l=Real(($a-$b)/($a-$c));
+@tabin=($a-0.1,$a-0.01,$a-0.001,$a+0.001,$a+0.01,$a+0.1);
+@tabout=map{$f->eval(x=>$_)} @tabin;
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Numerically approximate the following limits.
+
+[@KeyboardInstructions('If you need to enter [`\infty\text{,}`] you may type [|infinity|]*, or just [|INF|]*. If the limit does not exist, you may type [|does not exist|]*, or just [|DNE|]*.')@]**
+
+END_PGML
+
+############################################################
+# Scaffold
+############################################################
+Scaffold::Begin(numbered => 1,is_open => "correct_or_first_incorrect",can_open => always,);
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`\lim\limits_{x\to [$a]^{+}}\left([$f]\right)`]
+
+[_]{$l}{10}
+
+END_PGML
+
+Section::End();
+
+############################################################
+# Section
+############################################################
+Section::Begin("");
+
+BEGIN_PGML
+[`\lim\limits_{x\to [$a]^{-}}\left([$f]\right)`]
+
+[_]{$l}{10}
+
+END_PGML
+
+Section::End();
+
+Scaffold::End();
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

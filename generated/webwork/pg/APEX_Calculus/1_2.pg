@@ -1,0 +1,73 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.2)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PCCmacros.pl",
+  "contextForm.pl",
+  "contextFraction.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+($a,$b,$c)=random_subset(3,-9..-1,1..9);
+if($envir{problemSeed}==1){$a=-4;$b=4;$c=8;};
+$f=Formula("x^2-($a+$b)x+$a*$b")->reduce;
+$g=Formula("x^2-($a+$c)x+$a*$c")->reduce;
+$r=$f/$g;
+Context("Fraction");
+Context()->strings->add('does not exist'=>{alias=>'DNE'});
+$L=Fraction($a-$b,$a-$c);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate the limit.
+
+[`\lim\limits_{x\to [$a]}[$r]`]
+
+[@KeyboardInstructions('If you need to enter [`\infty\text{,}`] you may type [|infinity|]*, or just [|INF|]*. If the limit does not exist, you may type [|does not exist|]*, or just [|DNE|]*.')@]**
+
+[_]{$L}{20}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

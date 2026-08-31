@@ -1,0 +1,72 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.1.33)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$trig = list_random(['tan','pi/4'],['sec','pi/3'],['cot','pi/4'],['csc','pi/6']);
+$f0 = non_zero_random(-9,9,1);
+if($envir{problemSeed}==1){$trig=['tan','pi/4'];$f0=5;};
+$trf = $trig->[0];
+$x0 = $trig->[1];
+Context()->flags->set(reduceConstants=>0);
+$x0 = Formula("$x0");
+$F = Formula("$trf(x)");
+$f = $F->D('x');
+$c = $f0 - $F->eval(x=>Real("$x0"));
+$F = Formula("$F + $c");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find the function determined by the given initial value problem.
+
+[`\fp(x) = [$f]`] and [`f\mathopen{}\left([$x0]\right)\mathclose{}= [$f0]`]
+
+[_]{$F}{40}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

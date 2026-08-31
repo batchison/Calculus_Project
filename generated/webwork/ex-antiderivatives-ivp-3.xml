@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-antiderivatives-ivp-3" assembly-id="ex-antiderivatives-ivp-3">
+  <static seed="23">
+    <statement><p><m>\fp(x) = {6x^{3}-7x}</m> and <m>f(2)= 2</m></p>
+<p><fillin characters="40" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>3\frac{x^{4}}{2}-7\frac{x^{2}}{2}-8</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_1_32.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.1.32)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "contextFraction.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$a = random(2,9,1);
+$b = non_zero_random(-9,9,1);
+$m = random(1,2,1);
+$x0 = non_zero_random(-2,2,1);
+$f0 = non_zero_random(-9,9,1);
+if($envir{problemSeed}==1){$a=4;$b=-3;$m=2;$x0=-1;$f0=9};
+$f = Formula("$a x^3 + $b x^$m")->reduce;
+Context("Fraction");
+($num1,$den1) = Fraction($a,4)->value;
+($num2,$den2) = Fraction($b,$m+1)->value;
+$F = Formula("$num1 x^4/$den1 + $num2 x^($m+1)/$den2");
+$c = Fraction($f0 - $F->eval(x=>$x0));
+$F = Formula("$num1 x^4/$den1 + $num2 x^($m+1)/$den2 + $c")->reduce;
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find the function determined by the given initial value problem.
+
+[`\fp(x) = [$f]`] and [`f([$x0])= [$f0]`]
+
+[_]{$F}{40}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

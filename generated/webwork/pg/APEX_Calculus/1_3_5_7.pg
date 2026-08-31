@@ -1,0 +1,85 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.3.5.7)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PCCmacros.pl",
+  "bizarroArithmetic.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$lb = random(-3,-1,1);
+$ub = random(1,3,1);
+$trig = list_random('sin','cos');
+if($envir{problemSeed}==1){$lb=-2;$ub=2;$trig='sin';};
+Context()->variables->are(i=>'Real');
+$f = Formula("sin(pi i /2)")->reduce;
+@i = ($lb..$ub);
+@fi = map{$f->eval(i=>$_)}(@i);
+$string = join('+',@fi);
+$sum = Real($string);
+Context("Form");
+Context()->operators->set(
+  '+' => {class => 'bizarro::BOP::add', isCommand => 1},
+  '-' => {class => 'bizarro::BOP::subtract', isCommand => 1},
+);
+$terms = Formula("$string");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Write out each term of the summation and compute the sum.
+
+[`\sum\limits_{i=[$lb]}^{[$ub]} [$f]`]
+
+[@KeyboardInstructions('Enter the sum of terms here. For example, [|1+2+3|]*.')@]**
+
+[_]{$terms}{20}
+
+[@KeyboardInstructions('Enter the actual sum here.')@]**
+
+[_]{$sum}{20}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

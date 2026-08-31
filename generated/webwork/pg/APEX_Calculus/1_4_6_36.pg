@@ -1,0 +1,73 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.4.6.36)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+$trig = list_random('sin','cos');
+$lh = list_random(['0','pi/2'],['0','pi'],['pi/2','pi']);
+if($envir{problemSeed}==1){$trig='sin';$lh=['0','pi'];};
+$low = Formula($lh->[0]);
+$high = Formula($lh->[1]);
+$D = $high - $low;
+$f = Formula("$trig(x)");
+$F = -$f->D('x')->reduce;
+$A = ($F->eval(x=>Real("$high")) - $F->eval(x=>Real("$low")))/$D;
+$num = Real($A*pi);
+$A = Formula("$num/pi");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find the average value of the function on the given interval.
+
+[`y=[$f]`] on [`[[$low],[$high]]`]
+
+[_]{$A}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

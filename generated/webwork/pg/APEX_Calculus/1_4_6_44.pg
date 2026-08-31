@@ -1,0 +1,70 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.4.6.44)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserFormulaWithUnits.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$low = random(-3,-1,1);
+$high = random(1,3,1);
+$b = random(2,9,1);
+if($envir{problemSeed}==1){$low=-1;$high=1;$b=2;};
+Context()->variables->are(t=>'Real');
+$f = FormulaWithUnits("$b^t mph");
+$F = Formula("$b^t/ln($b)");
+$D = FormulaWithUnits($F->eval(t=>Real($high)) - $F->eval(t=>Real($low)), 'mi');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+A velocity function is given for an object moving along a straight line. Find the displacement of the object over the given time interval.
+
+[`v(t)=[$f]`] on [`[[$low],[$high]]`]
+
+[_]{$D}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

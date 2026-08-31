@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-review-antiderivatives-2" assembly-id="review-antiderivatives-2">
+  <static seed="31">
+    <statement><p>Given <m>y={x^{3}e^{x}\sin\mathopen{}\left(x\right)}\text{,}</m> find <m>dy\text{.}</m></p>
+<p><fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\left(\left(3x^{2}e^{x}+x^{3}e^{x}\right)\sin\mathopen{}\left(x\right)+x^{3}e^{x}\cos\mathopen{}\left(x\right)\right)dx</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/4_1.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(4.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$m = random(2,5,1);
+$trig = list_random('sin','cos');
+if($envir{problemSeed}==1){$m=2;$trig='sin';};
+Context()->variables->add(dx=>"Real");
+$f = Compute("x^$m e^x $trig(x)")->reduce;
+$df = $f->D('x')->reduce;
+$A = Formula("$df dx");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Given [`y=[$f]\text{,}`] find [`dy\text{.}`]
+
+[_]{$A}{20}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

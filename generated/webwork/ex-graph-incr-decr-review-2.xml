@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-graph-incr-decr-review-2" assembly-id="ex-graph-incr-decr-review-2">
+  <static seed="30">
+    <statement><p>Consider <m>f(x) = \sin(x)</m> on <m>[-\pi/2,\pi/2]\text{;}</m> find <m>c</m> guaranteed by the Mean Value Theorem.</p>
+<p><fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\cos^{-1}\mathopen{}\left(\frac{2}{\pi }\right), -\cos^{-1}\mathopen{}\left(\frac{2}{\pi }\right)</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/3_5.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.5)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+Context()->flags->set(reduceConstants=>0,reduceConstantFunctions=>0);
+$c=Formula("acos(2/pi),-acos(2/pi)");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Consider [`f(x) = \sin(x)`] on [`[-\pi/2,\pi/2]\text{;}`] find [`c`] guaranteed by the Mean Value Theorem.
+
+[_]{$c}{30}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

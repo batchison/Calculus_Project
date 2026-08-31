@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-antiderivatives-ivp-7" assembly-id="ex-antiderivatives-ivp-7">
+  <static seed="27">
+    <statement><p><m>\fpp(x)=10x</m> and <m>\fp(1)=5\text{,}</m> <m>f(1)=-10</m></p>
+<p><fillin characters="40" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\left({\frac{5}{3}}\right)x^{3}+0x+\left(-{\frac{35}{3}}\right)</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_1_36.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.1.36)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "contextFraction.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+($fpp,$fp0,$f0) = random_subset(3,-10..-2,2..10);
+if($envir{problemSeed}==1){$fpp=7;$fp0=-1;$f0=10;};
+Context("Fraction");
+$a = Fraction($fpp,6);
+$a2 = Fraction($fpp,2);
+$a3 = Fraction($fpp,3);
+$b = Fraction($fp0 - $a2);
+$c = Fraction($f0 + $a3 - $fp0);
+$F = Formula("$a x^3 + $b x + $c");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find the function determined by the given initial value problem.
+
+[`\fpp(x)=[$fpp]x`] and [`\fp(1)=[$fp0]\text{,}`] [`f(1)=[$f0]`]
+
+[_]{$F}{40}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

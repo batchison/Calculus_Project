@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-FTC-part1-4" assembly-id="ex-FTC-part1-4">
+  <static seed="134">
+    <statement><p><m>F(x) = \ds\int_{{\sqrt{x}}}^{{\sin\mathopen{}\left(x\right)}} {\ln\mathopen{}\left(t\right)}\, dt</m></p>
+<p><fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\cos\mathopen{}\left(x\right)\ln\mathopen{}\left(\sin\mathopen{}\left(x\right)\right)-\frac{1}{2\sqrt{x}}\ln\mathopen{}\left(\sqrt{x}\right)</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_4_6_58.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.4.6.58)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+($low,$high,$f) = random_subset(3,'e^','ln','sin','cos','sqrt');
+if($envir{problemSeed}==1){$low='ln';$high='e^';$f='sin';};
+Context()->variables->add(t=>'Real');
+# interval where all these functions have positive output
+Context()->variables->set(x=>{limits=>[1,pi/2]});
+$low = Formula("$low(x)");
+$high = Formula("$high(x)");
+$f = Formula("$f(t)");
+$D = $high->D('x') * $f->substitute(t=>$high) - $low->D('x') * $f->substitute(t=>$low);
+$D = $D->reduce;
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find [`F'(x)\text{.}`]
+
+[`F(x) = \ds\int_{[$low]}^{[$high]} [$f]\, dt`]
+
+[_]{$D}{30}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

@@ -1,0 +1,74 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.1.23)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserFormulaUpToConstant.pl",
+  "contextForm.pl",
+  "contextFraction.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$a = random(2,9,1);
+$b = non_zero_random(-9,9,1);
+if($envir{problemSeed}==1){$a=2;$b=3};
+Context("Fraction");
+Context()->variables->are(t=>'Real');
+$f = Formula("($a t + $b)^2")->reduce;
+$A = Fraction($a**3,3*$a);
+$B = Fraction(3*$a**2*$b,3*$a);
+$C = Fraction(3*$a*$b**2,3*$a);
+$D = Fraction($b**3,3*$a);
+$F = FormulaUpToConstant("$A t^3 + $B t^2 + $C t + $D")->reduce;
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate the indefinite integral. Don't forget your constant of integration!
+
+[`\int [$f]\, dt`]
+
+[_]{$F}{40}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

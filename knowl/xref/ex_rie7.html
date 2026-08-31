@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<article class="example example-like"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.10</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Approximating definite integrals using sums.</span>
+</h2>
+<div class="para">Approximate <span class="process-math">\(\int_0^4(4x-x^2)\, dx\)</span> using the Right Hand Rule and summation formulas with 16 and 1000 equally spaced intervals.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_rie7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical">
+<div class="para">Using the formula derived before, using 16 equally spaced intervals and the Right Hand Rule, we can approximate the definite integral as</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\sum_{i=1}^{16}f(x_{i})\Delta x\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_rie7-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical">
+<div class="para">We have <span class="process-math">\(\Delta x = 4/16 = 0.25\text{.}\)</span> Since <span class="process-math">\(x_i = 0+i\Delta x\text{,}\)</span> we have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x_{i} = 0 + i\Delta x = i\Delta x\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_rie7-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical">
+<div class="para">Using the summation formulas, consider:</div>
+<div class="displaymath process-math">
+\begin{align}
+\int_0^4 (4x-x^2)\, dx \amp \approx \sum_{i=1}^{16} f(x_{i})\Delta x\notag\\
+\amp = \sum_{i=1}^{16} f(i\Delta x) \Delta x\notag\\
+\amp = \sum_{i=1}^{16} \big(4i\Delta x - (i\Delta x)^2\big)\Delta x\notag\\
+\amp = \sum_{i=1}^{16} (4i\Delta x^2 - i^2\Delta x^3)\notag\\
+\amp = (4\Delta x^2)\sum_{i=1}^{16} i - \Delta x^3 \sum_{i=1}^{16} i^2\tag{1.3.2}\\
+\amp = (4\Delta x^2)\frac{16\cdot 17}{2} - \Delta x^3 \frac{16(17)(33)}6\notag\\
+\amp =	4\cdot 0.25^2\cdot 136-0.25^3\cdot 1496\notag\\
+\amp =10.625\notag
+\end{align}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_rie7-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">We were able to sum up the areas of 16 rectangles with very little computation. In <a href="sec_riemann.html#fig_rie7" class="xref" data-knowl="./knowl/xref/fig_rie7.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.3.11">Figure 1.3.11</a> the function and the 16 rectangles are graphed. While some rectangles over-approximate the area, other under-approximate the area (by about the same amount). Thus our approximate area of 10.625 is likely a fairly good approximation.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_rie7-3-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">Notice <a href="sec_riemann.html#ex_rie7-3-3-1" class="xref" data-knowl="./knowl/xref/eq_rie7.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.3.2">Equation (1.3.2)</a>; by replacing 16 by 1,000 (and appropriately changing the value of <span class="process-math">\(\Delta x\)</span>), we can use that equation to sum up 1000 rectangles!<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_rie7-3-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like"><div class="image-box" style="width: 47%; margin-left: 26.5%; margin-right: 26.5%;">
+<img src="generated/latex-image/img_rie7.svg" role="img" class="contained" alt="A parabola approximated using 16 equal subintervals."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="fig_rie7-2-description">
+<div class="para" id="fig_rie7-2-2-1">The parabola in <a href="sec_riemann.html#fig_rie1a" class="xref" data-knowl="./knowl/xref/fig_rie1a.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.3.1">Figure 1.3.1</a> approximated using 16 strips of equal width. The height of each strips are given by the Right Hand Rule. On the left side the area of the rectangles is slightly greater than the area of the parabola. On the right side the area of the rectangles is slightly less than the area of the parabola.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#fig_rie7-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Approximating <span class="process-math">\(\int_0^4(4x-x^2)\, dx\)</span> with the Right Hand Rule and 16 evenly spaced subintervals<div class="autopermalink" aria-hidden="true" data-description="Figure 1.3.11"><a tabindex="-1" href="#fig_rie7" title="Copy heading and permalink for Figure 1.3.11" aria-label="Copy heading and permalink for Figure 1.3.11">🔗</a></div></figcaption>
+</figure>
+<div class="para logical">
+<div class="para">We do so here, skipping from the original summand to the equivalent of <a href="sec_riemann.html#ex_rie7-3-3-1" class="xref" data-knowl="./knowl/xref/eq_rie7.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.3.2">Equation (1.3.2)</a> to save space. Note that <span class="process-math">\(\Delta x = 4/1000 = 0.004\text{.}\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eq_rie7.html">
+\begin{align*}
+\int_0^4 (4x-x^2)\, dx \amp \approx \sum_{i=1}^{1000} f(x_{i})\Delta x\\
+\amp = (4\Delta x^2)\sum_{i=1}^{1000} i - \Delta x^3 \sum_{i=1}^{1000} i^2\\
+\amp = (4\Delta x^2)\frac{1000\cdot 1001}{2} - \Delta x^3 \frac{1000(1001)(2001)}6\\
+\amp =10.666656
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_rie7-3-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical">
+<div class="para">Using many, many rectangles, we have a likely good approximation of <span class="process-math">\(\int_0^4 (4x-x^2)\dx\text{.}\)</span> That is,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int_0^4(4x-x^2)\, dx \approx 10.666656\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_rie7-3-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 1.3.10.1"><a tabindex="-1" href="#ex_rie7-3" title="Copy heading and permalink for Solution 1.3.10.1" aria-label="Copy heading and permalink for Solution 1.3.10.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 1.3.10: Approximating definite integrals using sums"><a tabindex="-1" href="#ex_rie7" title="Copy heading and permalink for Example 1.3.10: Approximating definite integrals using sums" aria-label="Copy heading and permalink for Example 1.3.10: Approximating definite integrals using sums">🔗</a></div>
+</article><span class="incontext"><a class="internal" href="sec_riemann.html#ex_rie7">In Context</a></span>
+</body>
+</html>

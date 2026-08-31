@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-deriv-intro-review-1" assembly-id="ex-deriv-intro-review-1">
+  <static seed="11">
+    <statement><p>Approximate <m>\displaystyle\lim_{x\to -2.4}{\frac{x^{2}+8.4x+14.4}{x^{2}+6.4x+9.6}}\text{.}</m></p>
+<p><fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>{\frac{9}{4}}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="APEX_Calculus/1_13.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.13)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PCCmacros.pl",
+  "contextForm.pl",
+  "contextFraction.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+($r,$s,$t) = random_subset(3,-9..-1,1..9);
+$t += non_zero_random(-0.5,0.5,0.1);
+if($envir{problemSeed}==1){$r=-7;$s=5;$t=5.5;};
+$b=-($r+$t);
+$c=$r*$t;
+$B=-($s+$t);
+$C=$s*$t;
+$f=Formula("(x^2+$b x+$c)/(x^2+$B x+$C)");
+Context("Fraction");
+$L=Fraction(($t-$r)/($t-$s));
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Approximate [`\displaystyle\lim_{x\to [$t]}[$f]\text{.}`]
+
+[@KeyboardInstructions('If you need to enter [`\infty\text{,}`] you may type [|infinity|]*, or just [|INF|]*. If the limit does not exist, you may type [|does not exist|]*, or just [|DNE|]*.')@]**
+
+[_]{$L}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

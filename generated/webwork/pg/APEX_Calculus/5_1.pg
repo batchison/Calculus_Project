@@ -1,0 +1,72 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(5.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserFormulaUpToConstant.pl",
+  "contextForm.pl",
+  "contextFraction.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+($b,$c,$d) = random_subset(3,-9..-1,1..9);
+if($envir{problemSeed}==1){$b=-2;$c=7;$d=-9;};
+Context("Fraction");
+Context()->noreduce('(-x)+y');
+Context()->noreduce('(-x)-y');
+$f = Formula("x^3 + $b x^2 + $c x + $d")->reduce;
+$B = Fraction($b,3);
+$C = Fraction($c,2);
+$F = FormulaUpToConstant("1/4 x^4 + $B x^3 + $C x^2 + $d x");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate the given indefinite integral.
+
+[`\int \left([$f]\right)\, dx`]
+
+[_]{$F}{40}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

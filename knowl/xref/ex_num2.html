@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<article class="example example-like"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.5.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Approximating definite integrals with rectangles.</span>
+</h2>
+<div class="para">Approximate <span class="process-math">\(\ds\int_{-\frac{\pi}4}^{\frac{\pi}2} \sin(x^3)\, dx\)</span> using the Left and Right Hand Rules with 10 equally spaced subintervals.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_num2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical">
+<div class="para">We begin by finding <span class="process-math">\(\dx\text{:}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{b-a}{n} = \frac{\pi/2 - (-\pi/4)}{10} = \frac{3\pi}{40}\approx 0.2356\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_num2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">It is useful to write out the endpoints of the subintervals in a table; in <a href="sec_numerical_integration.html#fig_num2a" class="xref" data-knowl="./knowl/xref/fig_num2a.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.5.5">Figure 1.5.5</a>, we give the exact values of the endpoints, their decimal approximations, and decimal approximations of <span class="process-math">\(\sin(x^3)\)</span> evaluated at these points.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_num2-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like"><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b0 r0 l0 t0 lines"><span class="process-math">\(x_i\)</span></th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Exact</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Approx.</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\sin(x_i^3)\)</span></th>
+</tr>
+<tr>
+<td class="l m b1 r0 l0 t0 lines"></td>
+<td class="l m b1 r0 l0 t0 lines"></td>
+<td class="l m b1 r0 l0 t0 lines"></td>
+<td class="l m b1 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(x_0\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(-\pi/4\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(-0.7854\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(-0.4657\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(x_1\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(-7 \pi/40\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(-0.5498\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(-0.1654\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(x_2\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(-{\pi }/{10}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(-0.3142\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(-0.0310\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(x_3\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(-{\pi }/{40}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(-0.0785\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(-0.0005\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(x_4\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\({\pi }/{20}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.1571\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.0039\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(x_5\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\({\pi }/{8}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.3927\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.0605\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(x_6\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\({\pi }/{5}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.6283\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.2455\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(x_7\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\({11 \pi }/{40}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.8639\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.6011\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(x_8\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\({7 \pi }/{20}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(1.0996\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.9710\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(x_{9}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\({17 \pi }/{40}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(1.3352\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.6899\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(x_{10}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\({\pi }/{2}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(1.5708\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(-0.6700\)</span></td>
+</tr>
+</table></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.5.5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Values used to approximate <span class="process-math">\(\int_{-\frac{\pi}4}^{\frac{\pi}2}\sin(x^3)\, dx\)</span> in <a href="sec_numerical_integration.html#ex_num2" class="xref" data-knowl="./knowl/xref/ex_num2.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 1.5.4: Approximating definite integrals with rectangles">Example 1.5.4</a><div class="autopermalink" aria-hidden="true" data-description="Figure 1.5.5"><a tabindex="-1" href="#fig_num2a" title="Copy heading and permalink for Figure 1.5.5" aria-label="Copy heading and permalink for Figure 1.5.5">🔗</a></div></figcaption>
+</figure>
+<div class="para">Once this table is created, it is straightforward to approximate the definite integral using the Left and Right Hand Rules. (Note: the table itself is easy to create, especially with a standard spreadsheet program on a computer. The last two columns are all that are needed.) The Left Hand Rule sums the first 10 values of <span class="process-math">\(\sin(x_i^3)\)</span> and multiplies the sum by <span class="process-math">\(\dx\text{;}\)</span> the Right Hand Rule sums the last 10 values of <span class="process-math">\(\sin(x_i^3)\)</span> and multiplies by <span class="process-math">\(\dx\text{.}\)</span> Therefore we have:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_num2-3-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">Left Hand Rule: <span class="process-math">\(\ds \int_{-\frac{\pi}4}^{\frac{\pi}2}\sin(x^3)\, dx \approx (1.9093)(0.2356) \approx 0.4498\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_num2-3-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">Right Hand Rule: <span class="process-math">\(\ds \int_{-\frac{\pi}4}^{\frac{\pi}2}\sin(x^3)\, dx \approx (1.705)(0.2356) \approx 0.4017\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_num2-3-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">Average of the Left and Right Hand Rules: 0.4258.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_num2-3-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like">
+<div class="sidebyside">
+<div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:47% 47%;column-gap:6%;">
+<div class="sbspanel sbspanel--top top" style="">
+<figure class="figure figure-like"><div class="image-box">
+<img src="generated/latex-image/img_num2b.svg" role="img" class="contained" alt="Using the Left Hand rule"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="fig_num2b-2-description">
+<div class="para" id="fig_num2b-2-2-1">We calculate <span class="process-math">\(\int_{-\frac{\pi}4}^{\frac{\pi}/2}\sin(x^3)\, dx\)</span> using the left hand rule. The graph of <span class="process-math">\(\sin(x^3)\)</span> starts at <span class="process-math">\((-0.75, -0.5)\)</span> in the fourth quadrant and curves upwards to the right. It merges with the negative <span class="process-math">\(x\)</span> axis close to <span class="process-math">\((-0.25, 0)\)</span> and continues along the <span class="process-math">\(x\)</span> axis until <span class="process-math">\((0.25, 0)\)</span> and then slopes upwards to the right. The graph continues upwards until <span class="process-math">\((1.25, 1)\)</span> in the first quadrant and then descends sharply. It crosses the positive <span class="process-math">\(x\)</span> axis close to <span class="process-math">\((1.5, 0)\)</span> and continues downwards. We divide the areas under the curve into boxes of equal width but varying height. The far left side of the graph is divided into three boxes of decreasing length that are below the negative <span class="process-math">\(x\)</span> axis. THe rectangle farthest to the left is the tallest and the other two get get shorter as the graph moves upwards towards the negative <span class="process-math">\(x\)</span> axis. The region roughly from <span class="process-math">\((-0.25, 0)\)</span> to <span class="process-math">\((0.25, 0)\)</span> where the curve moves along the <span class="process-math">\(x\)</span> axis there are no boxes since the are of that part is zero. Then the part of the graph in the first quadrant is divided into five rectangles. As the graph rises up, the heights of the rectangles increase. The first one being the shortest and the fourth one being the tallest. The fifth rectangle is shorter than the fourth one but taller than the first three. We add up the areas of the rectangles to approximate the integral.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#fig_num2b-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div></details>
+</div>
+<figcaption><span class="codenumber">(a)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 1.5.6(a)"><a tabindex="-1" href="#fig_num2b" title="Copy heading and permalink for Figure 1.5.6(a)" aria-label="Copy heading and permalink for Figure 1.5.6(a)">🔗</a></div></figcaption>
+</figure>
+</div>
+<div class="sbspanel sbspanel--top top" style="">
+<figure class="figure figure-like"><div class="image-box">
+<img src="generated/latex-image/img_num2c.svg" role="img" class="contained" alt="Using the Right Hand rule"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="fig_num2c-2-description">
+<div class="para" id="fig_num2c-2-2-1">We calculate <span class="process-math">\(\int_{-\frac{\pi}4}^{\frac{\pi}/2}\sin(x^3)\, dx\)</span> using the Right hand rule. The far left part of the graph is divided into two rectangles of decreasing height. The region from <span class="process-math">\((-0.25, 0)\)</span> to <span class="process-math">\((0.25, 0)\)</span> on the <span class="process-math">\(x\)</span> axis does not contribute to the area since the curve here continues along the axis and therefore the area is zero. The part in the first quadrant is divided into five adjacent rectangles of increasing height. The upper left side of the first four rectangles contain some area outside of the curve on the left. As the graph moves up, the heights of the rectangles increase, the fourth one being the tallest. The fifth rectangle is below the graph with its upper right corner touching the inside of the graph. The sixth and the last rectangle is below the positive <span class="process-math">\(x\)</span> axis. It captures the area adjacent to the part of the graph that is below the positive <span class="process-math">\(x\)</span> axis.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#fig_num2c-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div></details>
+</div>
+<figcaption><span class="codenumber">(b)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 1.5.6(b)"><a tabindex="-1" href="#fig_num2c" title="Copy heading and permalink for Figure 1.5.6(b)" aria-label="Copy heading and permalink for Figure 1.5.6(b)">🔗</a></div></figcaption>
+</figure>
+</div>
+</div>
+</div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.5.6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Approximating <span class="process-math">\(\int_{-\frac{\pi}4}^{\frac{\pi}2}\sin(x^3)\, dx\)</span> in <a href="sec_numerical_integration.html#ex_num2" class="xref" data-knowl="./knowl/xref/ex_num2.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 1.5.4: Approximating definite integrals with rectangles">Example 1.5.4</a><div class="autopermalink" aria-hidden="true" data-description="Figure 1.5.6"><a tabindex="-1" href="#fig_num2" title="Copy heading and permalink for Figure 1.5.6" aria-label="Copy heading and permalink for Figure 1.5.6">🔗</a></div></figcaption>
+</figure>
+<div class="para">The actual answer, accurate to 4 places after the decimal, is 0.4609. Our approximations were once again fairly good. The rectangles used in each approximation are shown in <a href="sec_numerical_integration.html#fig_num2b" class="xref" data-knowl="./knowl/xref/fig_num2b.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.5.6(a)">Figure 1.5.6(a)</a>. It is clear from the graphs that using more rectangles (and hence, narrower rectangles) should result in a more accurate approximation.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_num2-3-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 1.5.4.1"><a tabindex="-1" href="#ex_num2-3" title="Copy heading and permalink for Solution 1.5.4.1" aria-label="Copy heading and permalink for Solution 1.5.4.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 1.5.4: Approximating definite integrals with rectangles"><a tabindex="-1" href="#ex_num2" title="Copy heading and permalink for Example 1.5.4: Approximating definite integrals with rectangles" aria-label="Copy heading and permalink for Example 1.5.4: Approximating definite integrals with rectangles">🔗</a></div>
+</article><span class="incontext"><a class="internal" href="sec_numerical_integration.html#ex_num2">In Context</a></span>
+</body>
+</html>

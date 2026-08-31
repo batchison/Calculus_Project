@@ -1,0 +1,86 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.3.5.9)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PCCmacros.pl",
+  "bizarroArithmetic.pl",
+  "contextForm.pl",
+  "contextFraction.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$lb = 1;
+$ub = random(4,6,1);
+if($envir{problemSeed}==1){$ub=5;};
+Context("Fraction");
+Context()->variables->are(i=>'Real');
+$f = Formula("1/i")->reduce;
+@i = ($lb..$ub);
+@fi = map{Fraction($f->eval(i=>$_))}(@i);
+$string = join('+',@fi);
+$sum = Fraction($string);
+Context("Form");
+Context()->operators->set(
+  '+' => {class => 'bizarro::BOP::add', isCommand => 1},
+  '-' => {class => 'bizarro::BOP::subtract', isCommand => 1},
+);
+$terms = Formula("$string");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Write out each term of the summation and compute the sum.
+
+[`\sum\limits_{i=[$lb]}^{[$ub]} [$f]`]
+
+[@KeyboardInstructions('Enter the sum of terms here. For example, [|1+2+3|]*.')@]**
+
+[_]{$terms}{20}
+
+[@KeyboardInstructions('Enter the actual sum here.')@]**
+
+[_]{$sum}{20}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

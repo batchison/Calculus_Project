@@ -1,0 +1,66 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(4.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$m = random(2,5,1);
+$trig = list_random('sin','cos');
+if($envir{problemSeed}==1){$m=2;$trig='sin';};
+Context()->variables->add(dx=>"Real");
+$f = Compute("x^$m e^x $trig(x)")->reduce;
+$df = $f->D('x')->reduce;
+$A = Formula("$df dx");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Given [`y=[$f]\text{,}`] find [`dy\text{.}`]
+
+[_]{$A}{20}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

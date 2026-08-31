@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<article class="example example-like"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.5.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Approximating definite integrals using trapezoids.</span>
+</h2>
+<div class="para">Use 5 trapezoids of equal width to approximate <span class="process-math">\(\ds \int_0^1e^{-x^2}\, dx\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_num3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para">To compute the areas of the 5 trapezoids in <a href="sec_numerical_integration.html#fig_num3a" class="xref" data-knowl="./knowl/xref/fig_num3a.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.5.7">Figure 1.5.7</a>, it will again be useful to create a table of values as shown in <a href="sec_numerical_integration.html#fig_num3b" class="xref" data-knowl="./knowl/xref/fig_num3b.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.5.10">Figure 1.5.10</a>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_num3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like"><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b0 r0 l0 t0 lines"><span class="process-math">\(x_i\)</span></th>
+<th scope="col" class="l m b0 r0 l0 t0 lines"><span class="process-math">\(e^{-x_i^2}\)</span></th>
+</tr>
+<tr>
+<td class="l m b1 r0 l0 t0 lines"></td>
+<td class="l m b1 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.2\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.9608\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.4\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.8521\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.6\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.6977\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.8\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.5273\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.3679\)</span></td>
+</tr>
+</table></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.5.10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A table of values of <span class="process-math">\(e^{-x^2}\)</span><div class="autopermalink" aria-hidden="true" data-description="Figure 1.5.10"><a tabindex="-1" href="#fig_num3b" title="Copy heading and permalink for Figure 1.5.10" aria-label="Copy heading and permalink for Figure 1.5.10">🔗</a></div></figcaption>
+</figure>
+<div class="para logical">
+<div class="para">The leftmost trapezoid has legs of length <span class="process-math">\(1\)</span> and <span class="process-math">\(0.9607\)</span> and a height of 0.2. Thus, by our formula, the area of the leftmost trapezoid is:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{1+0.9608}{2}(0.2) = 0.1961\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_num3-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical">
+<div class="para">Moving right, the next trapezoid has legs of length <span class="process-math">\(0.9607\)</span> and <span class="process-math">\(0.8521\)</span> and a height of 0.2. Thus its area is:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{0.9608+0.8521}2(0.2) = 0.1813\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_num3-3-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical">
+<div class="para">The sum of the areas of all 5 trapezoids is:</div>
+<div class="displaymath process-math">
+\begin{align*}
+\frac{1+0.9608}{2}(0.2) + \frac{0.9608+0.8521}2(0.2)+\frac{0.8521+0.6977}2(0.2)\amp +\\
+\frac{0.6977+0.5273}2(0.2)+\frac{0.5273+0.3679}2(0.2)\amp = 0.7444\text{.}
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_num3-3-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">We approximate <span class="process-math">\(\int_0^1 e^{-x^2}\, dx \approx 0.7444\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_num3-3-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 1.5.9.1"><a tabindex="-1" href="#ex_num3-3" title="Copy heading and permalink for Solution 1.5.9.1" aria-label="Copy heading and permalink for Solution 1.5.9.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 1.5.9: Approximating definite integrals using trapezoids"><a tabindex="-1" href="#ex_num3" title="Copy heading and permalink for Example 1.5.9: Approximating definite integrals using trapezoids" aria-label="Copy heading and permalink for Example 1.5.9: Approximating definite integrals using trapezoids">🔗</a></div>
+</article><span class="incontext"><a class="internal" href="sec_numerical_integration.html#ex_num3">In Context</a></span>
+</body>
+</html>

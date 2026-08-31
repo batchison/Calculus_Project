@@ -1,0 +1,78 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.6)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+($n,$x0) = random_subset(2,[3,4,5]);
+$dx = 0.1;
+$x = $x0 + $dx;
+$f = Formula("x^$n");
+$df = $f->D('x');
+$dfx0 = $df->eval(x=>$x0);
+$fx0 = $f->eval(x=>$x0);
+$answer = $fx0 + $dx*$dfx0;
+$l = Formula("$dfx0(x-$x0)+$fx0");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Approximate the value of [`([$x])^{[$n]}`] using the tangent line to [`f(x) = [$f]`] at [`x=[$x0]\text{.}`]
+
+[_]{$answer}{20}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+The tangent line to [`f(x) = [$f]`] at [`x=[$x0]`] is [`y=[l]\text{;}`] thus [`([$x])^[$n] \approx y([$x]) = [$dfx0]([$dx])+[$fx0] = [$answer]\text{.}`]
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

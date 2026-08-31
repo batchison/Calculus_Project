@@ -1,0 +1,72 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.4.6.32)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+$low = random(-9,-1,1);
+if($envir{problemSeed}==1){$low=-2;};
+$high = -$low;
+$f = Formula("x^2");
+$D = $high - $low;
+$F = Formula("x^3/3");
+$f_inv = Formula("sqrt(x)");
+$f_c = ($F->eval(x=>$high) - $F->eval(x=>$low))/$D;
+$c = $f_inv->eval(x=>$f_c);
+$c = List(-$c,$c);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find all values [`c`] such that [`\int_a^b f(x)\, dx = f(c)(b-a)\text{,}`] as guaranteed by the Theorem[$NBSP]*1.4.22.
+
+[`\int_{[$a]}^{[$b]}[$f] \, dx`]
+
+[_]{$c}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

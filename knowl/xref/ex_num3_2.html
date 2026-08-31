@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<article class="example example-like"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.5.12</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Using the Midpoint Rule.</span>
+</h2>
+<div class="para">Use the Midpoint Rule with <span class="process-math">\(n=5\)</span> to approximate <span class="process-math">\(\ds \int_0^1e^{-x^2}\, dx\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_num3_2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para">We cannot use the table in <a href="sec_numerical_integration.html#fig_num3b" class="xref" data-knowl="./knowl/xref/fig_num3b.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.5.10">Figure 1.5.10</a> that we used for the Trapezoidal, Right and Left Hand Rules when using the Midpoint Rule. The Trapezoidal rule averages the <em class="emphasis">outputs</em> of the function to obtain a more accurate estimate of the definite integral. The Midpoint Rule averages the <em class="emphasis">inputs</em> of each subinterval to create a rectangle with height <span class="process-math">\(f\left(\frac{x_{i-1}+x_{i}}{2}\right)\text{.}\)</span> Generally <span class="process-math">\(f\left(\frac{x_{i-1}+x_{i}}{2}\right)\neq \frac{f(x_{i-1})+f(x_{i})}{2}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_num3_2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">So we will create a new table of values as shown in <a href="sec_numerical_integration.html#fig_num3_2b" class="xref" data-knowl="./knowl/xref/fig_num3_2b.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.5.13">Figure 1.5.13</a>. We have <span class="process-math">\(\dx=(1-0)/5=0.2\text{.}\)</span> The midpoint of the first subinteval is at <span class="process-math">\(0+0.2(1/2)=0.1\)</span> and each successive midpoint is <span class="process-math">\(0.2\)</span> from the last.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_num3_2-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like"><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b0 r0 l0 t0 lines"><span class="process-math">\(x_i\)</span></th>
+<th scope="col" class="l m b0 r0 l0 t0 lines"><span class="process-math">\(e^{-x_i^2}\)</span></th>
+</tr>
+<tr>
+<td class="l m b1 r0 l0 t0 lines"></td>
+<td class="l m b1 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.1\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.9900\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.3\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.9139\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.5\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.7788\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.7\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.6126\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.9\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.4449\)</span></td>
+</tr>
+</table></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.5.13<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A table of values of <span class="process-math">\(e^{-x^2}\)</span><div class="autopermalink" aria-hidden="true" data-description="Figure 1.5.13"><a tabindex="-1" href="#fig_num3_2b" title="Copy heading and permalink for Figure 1.5.13" aria-label="Copy heading and permalink for Figure 1.5.13">🔗</a></div></figcaption>
+</figure>
+<div class="para logical">
+<div class="para">So we have</div>
+<div class="displaymath process-math">
+\begin{align*}
+\int_0^1 e^{-x^2}\, dx \amp \approx 0.2(0.99+0.9139+0.7788+0.6126+0.4449)\\
+\amp \approx 0.7480
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_num3_2-3-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">We approximate <span class="process-math">\(\ds \int_0^1 e^{-x^2}\, dx \approx 0.7480\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ex_num3_2-3-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 1.5.12.1"><a tabindex="-1" href="#ex_num3_2-3" title="Copy heading and permalink for Solution 1.5.12.1" aria-label="Copy heading and permalink for Solution 1.5.12.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 1.5.12: Using the Midpoint Rule"><a tabindex="-1" href="#ex_num3_2" title="Copy heading and permalink for Example 1.5.12: Using the Midpoint Rule" aria-label="Copy heading and permalink for Example 1.5.12: Using the Midpoint Rule">🔗</a></div>
+</article><span class="incontext"><a class="internal" href="sec_numerical_integration.html#ex_num3_2">In Context</a></span>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-definite-integral-review-3" assembly-id="ex-definite-integral-review-3">
+  <static seed="3">
+    <statement><p><m>\int \left({\sqrt[4]{t}+\frac{1}{t^{2}}+2^{t}}\right)\, dt</m></p>
+<p><fillin characters="40" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\left({\frac{4}{5}}\right)t^{\left({\frac{5}{4}}\right)}-\frac{1}{t}+\frac{2^{t}}{0.693147}+C</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="APEX_Calculus_Chapter_Review_Exercises/1_3.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.3)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserFormulaUpToConstant.pl",
+  "parserRoot.pl",
+  "contextForm.pl",
+  "contextFraction.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$m = random(3,6,1);
+$n = random(2,8,1);
+$b = random(2,8,1);
+if($envir{problemSeed}==1){$m=3;$n=2;$b=2;};
+Context("Fraction");
+Context()->variables->add(t=>"Real");
+parser::Root->Enable;
+$f = Formula("root($m,t) + 1/t^$n + $b^t");
+$A = Fraction(1/(1/$m + 1));
+$M = Fraction(1/$m + 1);
+Context()->flags->set(reduceConstantFunctions=>0);
+$F = FormulaUpToConstant("$A*t^($M) - 1/(($n-1) t^($n-1)) + $b^t/ln($b)")->reduce;
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate the given indefinite integral.
+
+[`\int \left([$f]\right)\, dt`]
+
+[_]{$F}{40}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

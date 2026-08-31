@@ -1,0 +1,81 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.4.6.28)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "APEX.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+
+############################################################
+# PG Setup Code
+############################################################
+$trig = list_random('-cot','-csc');
+$lh = list_random(['pi/6','pi/4'],['pi/6','pi/3'],['pi/6','pi/2'],['pi/4','pi/3'],['pi/4','pi/2'],['pi/3','pi/2']);
+if($envir{problemSeed}==1){$trig='-csc';$lh=['pi/6','pi/3'];};
+$low = Formula($lh->[0]);
+$high = Formula($lh->[1]);
+$F = Formula("$trig(x)");
+$f = $F->D('x')->reduce;
+$r = $F->eval(x=>Real("$high")) - $F->eval(x=>Real("$low"));
+Context()->flags->set(reduceConstantFunctions=>0);
+if ($r == 1) {$r = 1;}
+elsif ($r == sqrt(3) - 1) {$r = Formula("sqrt(3) - 1");}
+elsif ($r == sqrt(3) - 1/sqrt(3)) {$r = Formula("sqrt(3) - 1/sqrt(3)");}
+elsif ($r == sqrt(3)) {$r = Formula("sqrt(3)");}
+elsif ($r == 1 - 1/sqrt(3)) {$r = Formula("1 - 1/sqrt(3)");}
+elsif ($r == 1/sqrt(3)) {$r = Formula("1/sqrt(3)");}
+elsif ($r == 2 - sqrt(2)) {$r = Formula("2 - sqrt(2)");}
+elsif ($r == 2 - 2/sqrt(3)) {$r = Formula("2 - 2/sqrt(3)");}
+elsif ($r == sqrt(2) - 2/sqrt(3)) {$r = Formula("sqrt(2) - 2/sqrt(3)");}
+elsif ($r == sqrt(2) - 1) {$r = Formula("sqrt(2) - 1");}
+elsif ($r == 2/sqrt(3) - 1) {$r = Formula("2/sqrt(3) - 1");}
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate the definite integral.
+
+[`\ds\int_{[$low]}^{[$high]} [$f]\, dx`]
+
+[_]{$r}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
