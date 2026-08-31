@@ -9,10 +9,10 @@
     </p>
   </introduction>
 
-  <xi:include href="sec_newton.ptx"/>
+<!--  <xi:include href="sec_newton.ptx"/>
   <xi:include href="sec_related_rates.ptx"/>
   <xi:include href="sec_optimization.ptx"/>
-  <xi:include href="sec_differentials.ptx"/>
+  <xi:include href="sec_differentials.ptx"/>-->
 
   <conclusion>
     <p>
@@ -68,7 +68,7 @@
       Being able to do so opens up an incredible world of mathematics and applications.
     </p>
   </conclusion>
-<!-- 
+ 
   <exercises xml:id="exercises-derivapps-review">
     <title>Review Exercises</title>
     
@@ -93,5 +93,5 @@
         </statement>
       </webwork>
     </exercise>
-  </exercises> -->
+  </exercises>
 </chapter>

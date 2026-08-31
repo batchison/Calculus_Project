@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="chapter_integration" label="chapter_integration">
   <title>Integration</title>
-  <introduction>
+<!-- <introduction>
     <p>
       We have spent considerable time considering the derivatives of a function and their applications.
       In the following chapters,
@@ -13,15 +13,15 @@
       these functions will help us compute area,
       volume, mass, force, pressure, work, and much more.
     </p>
-  </introduction>
+  </introduction>-->
 
-  <xi:include href="sec_antider.ptx"/>
+<!--  <xi:include href="sec_antider.ptx"/>
   <xi:include href="sec_def_int.ptx"/>
   <xi:include href="sec_riemann.ptx"/>
   <xi:include href="sec_FTC.ptx"/>
-  <xi:include href="sec_numerical_integration.ptx"/>
+  <xi:include href="sec_numerical_integration.ptx"/>-->
 
-  <conclusion>
+<!--  <conclusion>
     <p>
       We started this chapter learning about antiderivatives and indefinite integrals.
       We then seemed to change focus by looking at areas between the graph of a function and the <m>x</m>-axis.
@@ -48,7 +48,7 @@
       we'll learn advanced techniques of integration,
       analogous to learning rules like the Product, Quotient and Chain Rules of differentiation.
     </p>
-  </conclusion>
+  </conclusion>-->
+  <xi:include href="review-exercises-integration.ptx" />   
 
-  <!-- <xi:include href="review-exercises-integration.ptx" />   -->
 </chapter>

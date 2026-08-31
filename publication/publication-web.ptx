@@ -19,7 +19,7 @@
     <!-- HTML-Specific Options -->
     <html>
         <calculator model="geogebra-graphing"/>
-        <brandlogo url="http://www.apexcalculus.com" source="images/APEX.png"/>
+        <brandlogo url="http://www.apexcalculus.com" source="images/FSU_Shield_Full_Color.png"/>
         <index-page ref="apex-calculus"/>
         <video privacy="yes"/>
         <!-- baseurl should not have a trailing slash -->

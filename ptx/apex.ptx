@@ -4,17 +4,22 @@
   <xi:include href="./docinfo.ptx"/>
 
   <book xml:id="apex-calculus">
-    <title>APEX Calculus</title>
-    <subtitle component="proteus-id">PROTEUS version</subtitle>
-    <subtitle component="playground-id">PROTEUS Playground</subtitle>
+    <title>Calculus II Review Exercises</title>
+<!--    <subtitle component="proteus-id">PROTEUS version</subtitle>
+    <subtitle component="playground-id">PROTEUS Playground</subtitle>-->
     <frontmatter label="frontmatter">
       <bibinfo>
-        <author>
+<!--        <author>
           <personname>Gregory Hartman, Ph.D.</personname>
           <department>Department of Applied Mathematics</department>
           <institution>Virginia Military Institute</institution>
+        </author>-->
+        <author>
+          <personname>Ben Atchison</personname>
+          <department>Mathematics Department</department>
+          <institution>Framingham State University</institution>
         </author>
-
+<!--
         <editor>
           <personname>Sean Fitzpatrick, Ph.D.</personname>
           <department>Department of Mathematics and Computer Science</department>
@@ -31,25 +36,25 @@
           <personname>Carly Vollet, M.S.</personname>
           <department>Department of Mathematics</department>
           <institution>Portland Community College</institution>
-        </editor>
+        </editor>-->
 
         <date><today /></date>
 
-        <credit>
-          <role>Contributors to the <m>4</m>th Edition</role>
-          <entity>Jennifer Bowen, Troy Siemers, Brian Heinold, Dimplekumar Chalishajar</entity>
-        </credit>
+<!--        <credit>
+          <role>Technical Editor</role>
+          <entity>Marc Chan</entity>
+        </credit>-->
 
-        <edition>5</edition>
+<!--        <edition>5</edition>
 
         <website>
           <url href="https://www.apexcalculus.com/" visual="www.apexcalculus.com">apexcalculus.com</url>
-        </website>
+        </website>-->
 
         <copyright>
-          <year>2021</year>
-          <holder>Gregory Hartman</holder>
-          <minilicense>Creative Commons BY NC</minilicense>
+          <year>2026</year>
+<!--          <holder>Gregory Hartman</holder>
+          <minilicense>Creative Commons BY NC</minilicense>-->
           <shortlicense>
             Licensed to the public under Creative Commons Attribution-Noncommercial 4.0 International Public License
           </shortlicense>
@@ -63,22 +68,22 @@
         <colophon-items/>
       </colophon>
 
-      <xi:include href="./acknowledgement.ptx"/>
+<!--      <xi:include href="./acknowledgement.ptx"/>
       <xi:include href="./preface.ptx"/>
-      <xi:include href="./preface-history.ptx"/>
+      <xi:include href="./preface-history.ptx"/>-->
     </frontmatter>
 
-    <xi:include href="./chapter_limits.ptx"/>
+<!--    <xi:include href="./chapter_limits.ptx"/>
 
     <xi:include href="./chapter_derivatives.ptx"/>
 
     <xi:include href="./chapter_graphbehavior.ptx"/>
 
-    <xi:include href="./chapter_deriv_apps.ptx"/>
+    <xi:include href="./chapter_deriv_apps.ptx"/>-->
 
     <xi:include href="./chapter_integration.ptx"/>
 
-    <xi:include href="./chapter_anti_tech.ptx"/>
+<!--    <xi:include href="./chapter_anti_tech.ptx"/>
 
     <xi:include href="./chapter_app_of_int.ptx"/>
 
@@ -96,22 +101,22 @@
 
     <xi:include href="./chapter_mult_int.ptx"/>
 
-    <xi:include href="./chapter_vector_calc.ptx"/>
+    <xi:include href="./chapter_vector_calc.ptx"/>-->
 
     <backmatter label="backmatter">
-      <appendix xml:id="appendix-proteus-exercises" component="proteus">
+<!--      <appendix xml:id="appendix-proteus-exercises" component="proteus">
         <title>List of PROTEUS exercises</title>
         
         <list-of elements="inlineexercise" divisions="section"/>
-      </appendix>
+      </appendix>-->
       <solutions divisional="answer" admit="odd" label="selected-answers">
         <title>Answers to Selected Exercises</title>
       </solutions>
-      <xi:include href="./appendix_back_reference.ptx"/>
+<!--      <xi:include href="./appendix_back_reference.ptx"/>
       <index label="terminology-index">
         <title>Index</title>
         <index-list/>
-      </index>
+      </index>-->
     </backmatter>
   </book>
 </pretext>
