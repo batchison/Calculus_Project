@@ -109,7 +109,7 @@
         
         <list-of elements="inlineexercise" divisions="section"/>
       </appendix>-->
-      <solutions divisional="answer" admit="odd" label="selected-answers">
+      <solutions divisional="answer" admit="all" label="selected-answers">
         <title>Answers to Selected Exercises</title>
       </solutions>
 <!--      <xi:include href="./appendix_back_reference.ptx"/>
