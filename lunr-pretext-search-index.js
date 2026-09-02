@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "1",
   "title": "Integration",
-  "body": " Integration      Review Exercises    Evaluate the given indefinite integral.                                                                  Use one or more familiar properties from algebra or precalculus to rewrite and evaluate the given indefinite integral.                                                                                                                                                                              Find the general antiderivative of the given function.                                                                                               "
+  "body": " Integration      Review Exercises    Evaluate the given indefinite integral.                                                                  Use one or more familiar properties from algebra or precalculus to rewrite and evaluate the given indefinite integral.                                                                                                                                                                                                          Find the general antiderivative of the given function.                                                                                               "
 },
 {
   "id": "ex-definite-integral-review-1",
@@ -163,11 +163,29 @@ var ptx_lunr_docs = [
   "body": "             "
 },
 {
+  "id": "ex-definite-integral-review-17",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-review-17",
+  "type": "Exercise",
+  "number": "1.17",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-definite-integral-review-18",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-review-18",
+  "type": "Exercise",
+  "number": "1.18",
+  "title": "",
+  "body": "             "
+},
+{
   "id": "ex-riemann-review-1",
   "level": "2",
   "url": "exercises-integration-review.html#ex-riemann-review-1",
   "type": "Exercise",
-  "number": "1.17",
+  "number": "1.19",
   "title": "",
   "body": "              "
 },
@@ -176,7 +194,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-riemann-review-2",
   "type": "Exercise",
-  "number": "1.18",
+  "number": "1.20",
   "title": "",
   "body": "              "
 },
@@ -185,7 +203,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-riemann-review-3",
   "type": "Exercise",
-  "number": "1.19",
+  "number": "1.21",
   "title": "",
   "body": "              "
 },
@@ -194,7 +212,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-riemann-review-4",
   "type": "Exercise",
-  "number": "1.20",
+  "number": "1.22",
   "title": "",
   "body": "              "
 },
@@ -203,7 +221,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-riemann-review-5",
   "type": "Exercise",
-  "number": "1.21",
+  "number": "1.23",
   "title": "",
   "body": "              "
 },
@@ -212,7 +230,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-riemann-review-6",
   "type": "Exercise",
-  "number": "1.22",
+  "number": "1.24",
   "title": "",
   "body": "              "
 },
