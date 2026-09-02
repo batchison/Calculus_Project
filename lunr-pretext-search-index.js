@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "1",
   "title": "Integration",
-  "body": " Integration      Review Exercises    Evaluate the given indefinite integral.                                                                  Use one or more familiar properties from algebra or precalculus to rewrite and evaluate the given indefinite integral.                                                                                                                                                                                                          Find the general antiderivative of the given function.                                                                                               "
+  "body": " Integration      Review Exercises    Evaluate the given indefinite integral.                                                                  Find the general antiderivative of the given function.                                                                                                Use one or more familiar properties from algebra or precalculus to rewrite and evaluate the given indefinite integral.                                                                                                                                                                                                         "
 },
 {
   "id": "ex-definite-integral-review-1",
@@ -55,137 +55,11 @@ var ptx_lunr_docs = [
   "body": "              "
 },
 {
-  "id": "ex-definite-integral-review-5",
-  "level": "2",
-  "url": "exercises-integration-review.html#ex-definite-integral-review-5",
-  "type": "Exercise",
-  "number": "1.5",
-  "title": "",
-  "body": "             "
-},
-{
-  "id": "ex-definite-integral-review-6",
-  "level": "2",
-  "url": "exercises-integration-review.html#ex-definite-integral-review-6",
-  "type": "Exercise",
-  "number": "1.6",
-  "title": "",
-  "body": "             "
-},
-{
-  "id": "ex-definite-integral-review-7",
-  "level": "2",
-  "url": "exercises-integration-review.html#ex-definite-integral-review-7",
-  "type": "Exercise",
-  "number": "1.7",
-  "title": "",
-  "body": "             "
-},
-{
-  "id": "ex-definite-integral-review-8",
-  "level": "2",
-  "url": "exercises-integration-review.html#ex-definite-integral-review-8",
-  "type": "Exercise",
-  "number": "1.8",
-  "title": "",
-  "body": "             "
-},
-{
-  "id": "ex-definite-integral-review-9",
-  "level": "2",
-  "url": "exercises-integration-review.html#ex-definite-integral-review-9",
-  "type": "Exercise",
-  "number": "1.9",
-  "title": "",
-  "body": "             "
-},
-{
-  "id": "ex-definite-integral-review-10",
-  "level": "2",
-  "url": "exercises-integration-review.html#ex-definite-integral-review-10",
-  "type": "Exercise",
-  "number": "1.10",
-  "title": "",
-  "body": "             "
-},
-{
-  "id": "ex-definite-integral-review-11",
-  "level": "2",
-  "url": "exercises-integration-review.html#ex-definite-integral-review-11",
-  "type": "Exercise",
-  "number": "1.11",
-  "title": "",
-  "body": "             "
-},
-{
-  "id": "ex-definite-integral-review-12",
-  "level": "2",
-  "url": "exercises-integration-review.html#ex-definite-integral-review-12",
-  "type": "Exercise",
-  "number": "1.12",
-  "title": "",
-  "body": "             "
-},
-{
-  "id": "ex-definite-integral-review-13",
-  "level": "2",
-  "url": "exercises-integration-review.html#ex-definite-integral-review-13",
-  "type": "Exercise",
-  "number": "1.13",
-  "title": "",
-  "body": "             "
-},
-{
-  "id": "ex-definite-integral-review-14",
-  "level": "2",
-  "url": "exercises-integration-review.html#ex-definite-integral-review-14",
-  "type": "Exercise",
-  "number": "1.14",
-  "title": "",
-  "body": "             "
-},
-{
-  "id": "ex-definite-integral-review-15",
-  "level": "2",
-  "url": "exercises-integration-review.html#ex-definite-integral-review-15",
-  "type": "Exercise",
-  "number": "1.15",
-  "title": "",
-  "body": "             "
-},
-{
-  "id": "ex-definite-integral-review-16",
-  "level": "2",
-  "url": "exercises-integration-review.html#ex-definite-integral-review-16",
-  "type": "Exercise",
-  "number": "1.16",
-  "title": "",
-  "body": "             "
-},
-{
-  "id": "ex-definite-integral-review-17",
-  "level": "2",
-  "url": "exercises-integration-review.html#ex-definite-integral-review-17",
-  "type": "Exercise",
-  "number": "1.17",
-  "title": "",
-  "body": "             "
-},
-{
-  "id": "ex-definite-integral-review-18",
-  "level": "2",
-  "url": "exercises-integration-review.html#ex-definite-integral-review-18",
-  "type": "Exercise",
-  "number": "1.18",
-  "title": "",
-  "body": "             "
-},
-{
   "id": "ex-riemann-review-1",
   "level": "2",
   "url": "exercises-integration-review.html#ex-riemann-review-1",
   "type": "Exercise",
-  "number": "1.19",
+  "number": "1.5",
   "title": "",
   "body": "              "
 },
@@ -194,7 +68,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-riemann-review-2",
   "type": "Exercise",
-  "number": "1.20",
+  "number": "1.6",
   "title": "",
   "body": "              "
 },
@@ -203,7 +77,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-riemann-review-3",
   "type": "Exercise",
-  "number": "1.21",
+  "number": "1.7",
   "title": "",
   "body": "              "
 },
@@ -212,7 +86,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-riemann-review-4",
   "type": "Exercise",
-  "number": "1.22",
+  "number": "1.8",
   "title": "",
   "body": "              "
 },
@@ -221,7 +95,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-riemann-review-5",
   "type": "Exercise",
-  "number": "1.23",
+  "number": "1.9",
   "title": "",
   "body": "              "
 },
@@ -230,9 +104,135 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-riemann-review-6",
   "type": "Exercise",
-  "number": "1.24",
+  "number": "1.10",
   "title": "",
   "body": "              "
+},
+{
+  "id": "ex-definite-integral-review-5",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-review-5",
+  "type": "Exercise",
+  "number": "1.11",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-definite-integral-review-6",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-review-6",
+  "type": "Exercise",
+  "number": "1.12",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-definite-integral-review-7",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-review-7",
+  "type": "Exercise",
+  "number": "1.13",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-definite-integral-review-8",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-review-8",
+  "type": "Exercise",
+  "number": "1.14",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-definite-integral-review-9",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-review-9",
+  "type": "Exercise",
+  "number": "1.15",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-definite-integral-review-10",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-review-10",
+  "type": "Exercise",
+  "number": "1.16",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-definite-integral-review-11",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-review-11",
+  "type": "Exercise",
+  "number": "1.17",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-definite-integral-review-12",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-review-12",
+  "type": "Exercise",
+  "number": "1.18",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-definite-integral-review-13",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-review-13",
+  "type": "Exercise",
+  "number": "1.19",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-definite-integral-review-14",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-review-14",
+  "type": "Exercise",
+  "number": "1.20",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-definite-integral-review-15",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-review-15",
+  "type": "Exercise",
+  "number": "1.21",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-definite-integral-review-16",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-review-16",
+  "type": "Exercise",
+  "number": "1.22",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-definite-integral-review-17",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-review-17",
+  "type": "Exercise",
+  "number": "1.23",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-definite-integral-review-18",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-review-18",
+  "type": "Exercise",
+  "number": "1.24",
+  "title": "",
+  "body": "             "
 },
 {
   "id": "selected-answers",
