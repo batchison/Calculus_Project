@@ -114,19 +114,18 @@
           Use one or more familiar properties from algebra or precalculus to rewrite and evaluate the given indefinite integral.
         </p>
       </introduction>
-
       <exercise label="ex-definite-integral-review-5">
 <!--        <webwork xml:id="webwork-ex-definite-integral-review-5">
           <pg-code>
           </pg-code>-->
           <statement>
             <p>
-              <m>\int \sqrt[3]{8x}\, dx</m>
+              <m>\int \left(2-x(x-6)\right)\, dx</m>
             </p>
           </statement>
           <answer>
             <p>
-            <m>\frac{3}{2}x^{\frac{4}{3}}+C
+            <m>-\frac{x^3}{3}+3x^2+2x+C
             </m>
             </p>
           </answer>
@@ -134,23 +133,6 @@
       </exercise>
       <exercise label="ex-definite-integral-review-6">
 <!--        <webwork xml:id="webwork-ex-definite-integral-review-6">
-          <pg-code>
-          </pg-code>-->
-          <statement>
-            <p>
-              <m>\int \frac{10}{\sqrt{5x}}\, dx</m>
-            </p>
-          </statement>
-          <answer>
-            <p>
-            <m>4\sqrt{5x}+C
-            </m>
-            </p>
-          </answer>
-<!--        </webwork>-->
-      </exercise>
-      <exercise label="ex-definite-integral-review-7">
-<!--        <webwork xml:id="webwork-ex-definite-integral-review-7">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -166,9 +148,42 @@
           </answer>
 <!--        </webwork>-->
       </exercise>
-
+      <exercise label="ex-definite-integral-review-7">
+<!--        <webwork xml:id="webwork-ex-definite-integral-review-7">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\int \sqrt[3]{8x}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\frac{3}{2}x^{\frac{4}{3}}+C
+            </m>
+            </p>
+          </answer>
+<!--        </webwork>-->
+      </exercise>
       <exercise label="ex-definite-integral-review-8">
 <!--        <webwork xml:id="webwork-ex-definite-integral-review-8">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\int \frac{10}{\sqrt{5x}}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>4\sqrt{5x}+C
+            </m>
+            </p>
+          </answer>
+<!--        </webwork>-->
+      </exercise>
+      <exercise label="ex-definite-integral-review-9">
+<!--        <webwork xml:id="webwork-ex-definite-integral-review-9">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -184,8 +199,25 @@
           </answer>
 <!--        </webwork>-->
       </exercise>
-      <exercise label="ex-definite-integral-review-9">
-<!--        <webwork xml:id="webwork-ex-definite-integral-review-9">
+      <exercise label="ex-definite-integral-review-10">
+<!--        <webwork xml:id="webwork-ex-definite-integral-review-10">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\int (2x+1)^3\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>2x^4+4x^3+3x^2+x+C
+            </m>
+            </p>
+          </answer>
+<!--        </webwork>-->
+      </exercise>
+      <exercise label="ex-definite-integral-review-11">
+<!--        <webwork xml:id="webwork-ex-definite-integral-review-11">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -201,8 +233,8 @@
           </answer>
 <!--        </webwork>-->
       </exercise>
-      <exercise label="ex-definite-integral-review-10">
-<!--        <webwork xml:id="webwork-ex-definite-integral-review-10">
+      <exercise label="ex-definite-integral-review-12">
+<!--        <webwork xml:id="webwork-ex-definite-integral-review-12">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -218,8 +250,8 @@
           </answer>
 <!--        </webwork>-->
       </exercise>
-      <exercise label="ex-definite-integral-review-11">
-<!--        <webwork xml:id="webwork-ex-definite-integral-review-11">
+      <exercise label="ex-definite-integral-review-13">
+<!--        <webwork xml:id="webwork-ex-definite-integral-review-13">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -236,8 +268,8 @@
 <!--        </webwork>-->
       </exercise>
 
-      <exercise label="ex-definite-integral-review-12">
-<!--        <webwork xml:id="webwork-ex-definite-integral-review-12">
+      <exercise label="ex-definite-integral-review-14">
+<!--        <webwork xml:id="webwork-ex-definite-integral-review-14">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -253,8 +285,8 @@
           </answer>
 <!--        </webwork>-->
       </exercise>
-      <exercise label="ex-definite-integral-review-13">
-<!--        <webwork xml:id="webwork-ex-definite-integral-review-13">
+      <exercise label="ex-definite-integral-review-15">
+<!--        <webwork xml:id="webwork-ex-definite-integral-review-15">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -270,8 +302,8 @@
           </answer>
 <!--        </webwork>-->
       </exercise>
-      <exercise label="ex-definite-integral-review-14">
-<!--        <webwork xml:id="webwork-ex-definite-integral-review-14">
+      <exercise label="ex-definite-integral-review-16">
+<!--        <webwork xml:id="webwork-ex-definite-integral-review-16">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -287,8 +319,8 @@
           </answer>
 <!--        </webwork>-->
       </exercise>
-      <exercise label="ex-definite-integral-review-15">
-<!--        <webwork xml:id="webwork-ex-definite-integral-review-15">
+      <exercise label="ex-definite-integral-review-17">
+<!--        <webwork xml:id="webwork-ex-definite-integral-review-17">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -304,8 +336,8 @@
           </answer>
 <!--        </webwork>-->
       </exercise>
-      <exercise label="ex-definite-integral-review-16">
-<!--        <webwork xml:id="webwork-ex-definite-integral-review-16">
+      <exercise label="ex-definite-integral-review-18">
+<!--        <webwork xml:id="webwork-ex-definite-integral-review-18">
           <pg-code>
           </pg-code>-->
           <statement>
