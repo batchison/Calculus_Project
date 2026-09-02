@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "1",
   "title": "Integration",
-  "body": " Integration      Review Exercises    Evaluate the given indefinite integral.                     "
+  "body": " Integration      Review Exercises    Evaluate the given indefinite integral.                                                                  Find the general antiderivative of the given function.                                                                                               "
 },
 {
   "id": "ex-definite-integral-review-1",
@@ -25,7 +25,88 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1",
   "title": "",
-  "body": "             "
+  "body": "              "
+},
+{
+  "id": "ex-definite-integral-review-2",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-review-2",
+  "type": "Exercise",
+  "number": "1.2",
+  "title": "",
+  "body": "              "
+},
+{
+  "id": "ex-definite-integral-review-3",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-review-3",
+  "type": "Exercise",
+  "number": "1.3",
+  "title": "",
+  "body": "              "
+},
+{
+  "id": "ex-definite-integral-review-4",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-review-4",
+  "type": "Exercise",
+  "number": "1.4",
+  "title": "",
+  "body": "              "
+},
+{
+  "id": "ex-riemann-review-1",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-riemann-review-1",
+  "type": "Exercise",
+  "number": "1.5",
+  "title": "",
+  "body": "              "
+},
+{
+  "id": "ex-riemann-review-2",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-riemann-review-2",
+  "type": "Exercise",
+  "number": "1.6",
+  "title": "",
+  "body": "              "
+},
+{
+  "id": "ex-riemann-review-3",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-riemann-review-3",
+  "type": "Exercise",
+  "number": "1.7",
+  "title": "",
+  "body": "              "
+},
+{
+  "id": "ex-riemann-review-4",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-riemann-review-4",
+  "type": "Exercise",
+  "number": "1.8",
+  "title": "",
+  "body": "              "
+},
+{
+  "id": "ex-riemann-review-5",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-riemann-review-5",
+  "type": "Exercise",
+  "number": "1.9",
+  "title": "",
+  "body": "              "
+},
+{
+  "id": "ex-riemann-review-6",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-riemann-review-6",
+  "type": "Exercise",
+  "number": "1.10",
+  "title": "",
+  "body": "              "
 },
 {
   "id": "selected-answers",

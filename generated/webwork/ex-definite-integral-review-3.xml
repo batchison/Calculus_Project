@@ -10,7 +10,7 @@
       </p>
     </answer>
   </static>
-  <rendering-data problemSource="APEX_Calculus_Chapter_Review_Exercises/1_3.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <rendering-data problemSource="Calculus_II_Review_Exercises/1_3.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
   <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      

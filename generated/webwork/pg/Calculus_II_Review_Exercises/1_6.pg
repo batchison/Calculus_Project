@@ -1,17 +1,3 @@
-<?xml version='1.0' encoding='utf-8'?>
-<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-riemann-review-3" assembly-id="ex-riemann-review-3">
-  <static seed="7">
-    <statement><p><m>g(t) = {5t+3t^{2}+2t^{5}}</m></p>
-<p><fillin characters="40" name="AnSwEr0001"/></p>
-</statement>
-    <answer>
-      <p>
-        <m>\left({\frac{5}{2}}\right)t^{2}+t^{3}+\left({\frac{1}{3}}\right)t^{6}+C</m>
-      </p>
-    </answer>
-  </static>
-  <rendering-data problemSource="Calculus_II_Review_Exercises/1_7.pg" origin="generated" domain="https://webwork-dev.uleth.ca" course-id="apex-main" user-id="anonymous" passwd="anonymous" language="en-US"/>
-  <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
 ###                                          
@@ -27,7 +13,7 @@
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(1.7)
+## Problem1(1.6)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -43,7 +29,6 @@ loadMacros(
   "AnswerFormatHelp.pl",
   "parserFormulaUpToConstant.pl",
   "contextForm.pl",
-  "contextFraction.pl",
   "APEX.pl",
   "PGcourse.pl",
 );
@@ -56,17 +41,11 @@ COMMENT('Authored in PreTeXt');
 ############################################################
 # PG Setup Code
 ############################################################
-($a,$b,$c) = random_subset(3,-9..-1,1..9);
-($m,$n,$p) = num_sort(random_subset(3,0..5));
-if($envir{problemSeed}==1){$a=4;$b=-5;$c=8;$m=5;$n=3;$p=0;};
-Context()->variables->add(t=>"Real");
-$f = Formula("$a t^$m + $b t^$n + $c t^$p")->reduce;
-Context("Fraction");
-Context()->variables->add(t=>"Real");
-$A = Fraction($a,$m+1);
-$B = Fraction($b,$n+1);
-$C = Fraction($c,$p+1);
-$F = FormulaUpToConstant("$A t^($m+1) + $B t^($n+1) + $C t^($p+1)")->reduce;
+Context('Numeric');
+$c = random(2,9,1);
+if($envir{problemSeed}==1){$c=7;};
+$f = Formula("$c/x");
+$F = FormulaUpToConstant("$c*ln(abs(x))");
 
 ############################################################
 # Body
@@ -75,7 +54,7 @@ $F = FormulaUpToConstant("$A t^($m+1) + $B t^($n+1) + $C t^($p+1)")->reduce;
 BEGIN_PGML
 Find the general antiderivative of the given function.
 
-[`g(t) = [$f]`]
+[`f(x) = [$f]`]
 
 [_]{$F}{40}
 
@@ -86,5 +65,3 @@ END_PGML
 ############################################################
 
 ENDDOCUMENT();
-]]></pg>
-</webwork-reps>
