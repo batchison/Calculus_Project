@@ -11,7 +11,7 @@
       </introduction>
 
       <exercise label="ex-definite-integral-review-1">
-<!--        <webwork xml:id="webwork-ex-definite-integral-review-1">
+        <webwork xml:id="webwork-ex-definite-integral-review-1">
           <pg-code>
             ($b,$c,$d) = random_subset(3,-9..-1,1..9);
             if($envir{problemSeed}==1){$b=-2;$c=7;$d=-9;};
@@ -22,21 +22,19 @@
             $B = Fraction($b,3);
             $C = Fraction($c,2);
             $F = FormulaUpToConstant("1/4 x^4 + $B x^3 + $C x^2 + $d x");
-          </pg-code>-->
+          </pg-code>
           <statement>
             <p>
-              <m>\int \left(x^3 - 2 x^2 + 7 x - 9\right)\, dx</m>
+              <m>\int \left(<var name="$f"/>\right)\, dx</m>
+            </p>
+            <p>
+              <var name="$F" width="40"/>
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>1/4 x^4 -2/3 x^3 + 7/2 x^2 - 9 x + C</m>
-            </p>
-          </answer>
-<!--        </webwork>-->
+        </webwork>
       </exercise>
 
-<!--      <exercise label="ex-definite-integral-review-2">
+      <exercise label="ex-definite-integral-review-2">
         <webwork xml:id="webwork-ex-definite-integral-review-2">
           <pg-code>
             ($s,$t,$u) = random_subset(3,'sin','cos','tan','sec','cot','csc');
@@ -107,10 +105,10 @@
             </p>
           </statement>
         </webwork>
-      </exercise>-->
+      </exercise>
     </exercisegroup>
 
-<!--    <exercisegroup cols="2">
+    <exercisegroup cols="2">
       <introduction>
         <p>
           Find the general antiderivative of the given function.
@@ -236,5 +234,5 @@
           </statement>
         </webwork>
       </exercise>
-    </exercisegroup>-->
+    </exercisegroup>
   </exercises>
