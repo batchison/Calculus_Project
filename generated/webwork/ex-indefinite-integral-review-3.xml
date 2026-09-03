@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-definite-integral-review-3" assembly-id="ex-definite-integral-review-3">
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-indefinite-integral-review-3" assembly-id="ex-indefinite-integral-review-3">
   <static seed="3">
     <statement><p><m>\int \left({\sqrt[4]{t}+\frac{1}{t^{2}}+2^{t}}\right)\, dt</m></p>
 <p><fillin characters="40" name="AnSwEr0001"/></p>

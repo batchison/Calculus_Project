@@ -29,7 +29,7 @@ loadMacros(
   "AnswerFormatHelp.pl",
   "parserFormulaUpToConstant.pl",
   "contextForm.pl",
-  "APEX.pl",
+  "Calculus.pl",
   "PGcourse.pl",
 );
 COMMENT('Authored in PreTeXt');

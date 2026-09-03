@@ -45,3 +45,7 @@ problem_start
 source_file = Calculus_II_Review_Exercises/1_10.pg
 problem_id = 10
 problem_end
+problem_start
+source_file = Calculus_II_Review_Exercises/1_11.pg
+problem_id = 11
+problem_end

@@ -44,7 +44,7 @@ loadMacros(
   "parserFormulaUpToConstant.pl",
   "contextForm.pl",
   "contextFraction.pl",
-  "APEX.pl",
+  "Calculus.pl",
   "PGcourse.pl",
 );
 COMMENT('Authored in PreTeXt');
