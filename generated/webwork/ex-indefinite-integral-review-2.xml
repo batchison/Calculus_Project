@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-indefinite-integral-review-2" assembly-id="ex-indefinite-integral-review-2">
   <static seed="2">
-    <statement><p><m>\int \left({-\sin\mathopen{}\left(x\right)+\sec\mathopen{}\left(x\right)\tan\mathopen{}\left(x\right)-\csc^{2}\mathopen{}\left(x\right)}\right)\, dx</m></p>
+    <statement><p><m>\ds \int \left({-\sin\mathopen{}\left(x\right)+\sec\mathopen{}\left(x\right)\tan\mathopen{}\left(x\right)-\csc^{2}\mathopen{}\left(x\right)}\right)\, dx</m></p>
 <p><fillin characters="40" name="AnSwEr0001"/></p>
 </statement>
     <answer>
@@ -73,7 +73,7 @@ $F = FormulaUpToConstant("$F");
 BEGIN_PGML
 Evaluate the given indefinite integral.
 
-[`\int \left([$f]\right)\, dx`]
+[`\ds \int \left([$f]\right)\, dx`]
 
 [_]{$F}{40}
 

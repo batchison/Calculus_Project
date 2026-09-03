@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "1",
   "title": "Integration",
-  "body": " Integration      Review Exercises    Evaluate the given indefinite integral.                                                                  Find the general antiderivative of the given function.                                                                                                               Use one or more familiar properties from algebra or precalculus to rewrite and evaluate the given indefinite integral.                                                                                                                                                                                                          Sketch the graph of the given function over the specified interval, . Then, using the geometry of the graph, evaluate the definite integral .       over               over               over               over               over               over               over               over               over               over               over               over             "
+  "body": " Integration      Review Exercises    Evaluate the given indefinite integral.                                                                  Find the general antiderivative of the given function.                                                                                                               Use one or more familiar properties from algebra or precalculus to rewrite and evaluate the given indefinite integral.                                                                                                                                                                                                          Sketch the graph of the given function over the specified interval, . Then, using the geometry of the graph, evaluate the definite integral .       over               over               over               over               over               over               over               over               over               over               over               over              Use your knowledge of the graphs of the cosine and sine functions to determine whether each of the following definite integrals is positive, negative, or zero.       .    0         .    0         .    positive         .    0         .    positive         .    0         .    0         .    positive        Use your knowledge of the graphs of the given functions to determine whether each of the following definite integrals is positive, negative, or zero.       .    positive         .    0         .    positive         .    negative         .    positive         .    positive         .    0         .    negative         .    positive         .    negative         .    positive         .    negative        Find the specified value.      Consider the function below.   Find such that .             Sketch a graph of the function . Use your graph to find such that .            "
 },
 {
   "id": "ex-indefinite-integral-review-1",
@@ -350,6 +350,204 @@ var ptx_lunr_docs = [
   "number": "1.37",
   "title": "",
   "body": "    over          "
+},
+{
+  "id": "ex-definite-integral-cosine-1",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-cosine-1",
+  "type": "Exercise",
+  "number": "1.38",
+  "title": "",
+  "body": "    .    0    "
+},
+{
+  "id": "ex-definite-integral-cosine-2",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-cosine-2",
+  "type": "Exercise",
+  "number": "1.39",
+  "title": "",
+  "body": "    .    0    "
+},
+{
+  "id": "ex-definite-integral-cosine-3",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-cosine-3",
+  "type": "Exercise",
+  "number": "1.40",
+  "title": "",
+  "body": "    .    positive    "
+},
+{
+  "id": "ex-definite-integral-cosine-4",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-cosine-4",
+  "type": "Exercise",
+  "number": "1.41",
+  "title": "",
+  "body": "    .    0    "
+},
+{
+  "id": "ex-definite-integral-sine-1",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-sine-1",
+  "type": "Exercise",
+  "number": "1.42",
+  "title": "",
+  "body": "    .    positive    "
+},
+{
+  "id": "ex-definite-integral-sine-2",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-sine-2",
+  "type": "Exercise",
+  "number": "1.43",
+  "title": "",
+  "body": "    .    0    "
+},
+{
+  "id": "ex-definite-integral-sine-3",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-sine-3",
+  "type": "Exercise",
+  "number": "1.44",
+  "title": "",
+  "body": "    .    0    "
+},
+{
+  "id": "ex-definite-integral-sine-4",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-sine-4",
+  "type": "Exercise",
+  "number": "1.45",
+  "title": "",
+  "body": "    .    positive    "
+},
+{
+  "id": "ex-definite-integral-pos-neg-zero-1",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-pos-neg-zero-1",
+  "type": "Exercise",
+  "number": "1.46",
+  "title": "",
+  "body": "    .    positive    "
+},
+{
+  "id": "ex-definite-integral-pos-neg-zero-2",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-pos-neg-zero-2",
+  "type": "Exercise",
+  "number": "1.47",
+  "title": "",
+  "body": "    .    0    "
+},
+{
+  "id": "ex-definite-integral-pos-neg-zero-3",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-pos-neg-zero-3",
+  "type": "Exercise",
+  "number": "1.48",
+  "title": "",
+  "body": "    .    positive    "
+},
+{
+  "id": "ex-definite-integral-pos-neg-zero-4",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-pos-neg-zero-4",
+  "type": "Exercise",
+  "number": "1.49",
+  "title": "",
+  "body": "    .    negative    "
+},
+{
+  "id": "ex-definite-integral-pos-neg-zero-5",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-pos-neg-zero-5",
+  "type": "Exercise",
+  "number": "1.50",
+  "title": "",
+  "body": "    .    positive    "
+},
+{
+  "id": "ex-definite-integral-pos-neg-zero-6",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-pos-neg-zero-6",
+  "type": "Exercise",
+  "number": "1.51",
+  "title": "",
+  "body": "    .    positive    "
+},
+{
+  "id": "ex-definite-integral-pos-neg-zero-7",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-pos-neg-zero-7",
+  "type": "Exercise",
+  "number": "1.52",
+  "title": "",
+  "body": "    .    0    "
+},
+{
+  "id": "ex-definite-integral-pos-neg-zero-8",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-pos-neg-zero-8",
+  "type": "Exercise",
+  "number": "1.53",
+  "title": "",
+  "body": "    .    negative    "
+},
+{
+  "id": "ex-definite-integral-pos-neg-zero-9",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-pos-neg-zero-9",
+  "type": "Exercise",
+  "number": "1.54",
+  "title": "",
+  "body": "    .    positive    "
+},
+{
+  "id": "ex-definite-integral-pos-neg-zero-10",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-pos-neg-zero-10",
+  "type": "Exercise",
+  "number": "1.55",
+  "title": "",
+  "body": "    .    negative    "
+},
+{
+  "id": "ex-definite-integral-pos-neg-zero-11",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-pos-neg-zero-11",
+  "type": "Exercise",
+  "number": "1.56",
+  "title": "",
+  "body": "    .    positive    "
+},
+{
+  "id": "ex-definite-integral-pos-neg-zero-12",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-pos-neg-zero-12",
+  "type": "Exercise",
+  "number": "1.57",
+  "title": "",
+  "body": "    .    negative    "
+},
+{
+  "id": "ex-definite-integral-find-value-1",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-find-value-1",
+  "type": "Exercise",
+  "number": "1.58",
+  "title": "",
+  "body": "   Consider the function below.   Find such that .         "
+},
+{
+  "id": "ex-definite-integral-find-value-2",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-find-value-2",
+  "type": "Exercise",
+  "number": "1.59",
+  "title": "",
+  "body": "   Sketch a graph of the function . Use your graph to find such that .         "
 },
 {
   "id": "selected-answers",

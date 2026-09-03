@@ -63,7 +63,7 @@ $F = FormulaUpToConstant("$A*t^($M) - 1/(($n-1) t^($n-1)) + $b^t/ln($b)")->reduc
 BEGIN_PGML
 Evaluate the given indefinite integral.
 
-[`\int \left([$f]\right)\, dt`]
+[`\ds \int \left([$f]\right)\, dt`]
 
 [_]{$F}{40}
 

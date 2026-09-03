@@ -56,7 +56,7 @@ $F = FormulaUpToConstant("ln(abs(x)) + $t(x)");
 BEGIN_PGML
 Evaluate the given indefinite integral.
 
-[`\int \left([$f]\right)\, dx`]
+[`\ds \int \left([$f]\right)\, dx`]
 
 [_]{$F}{40}
 

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-indefinite-integral-review-4" assembly-id="ex-indefinite-integral-review-4">
   <static seed="4">
-    <statement><p><m>\int \left({\frac{1}{x}-\csc\mathopen{}\left(x\right)\cot\mathopen{}\left(x\right)}\right)\, dx</m></p>
+    <statement><p><m>\ds \int \left({\frac{1}{x}-\csc\mathopen{}\left(x\right)\cot\mathopen{}\left(x\right)}\right)\, dx</m></p>
 <p><fillin characters="40" name="AnSwEr0001"/></p>
 </statement>
     <answer>
@@ -70,7 +70,7 @@ $F = FormulaUpToConstant("ln(abs(x)) + $t(x)");
 BEGIN_PGML
 Evaluate the given indefinite integral.
 
-[`\int \left([$f]\right)\, dx`]
+[`\ds \int \left([$f]\right)\, dx`]
 
 [_]{$F}{40}
 

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-indefinite-integral-review-1" assembly-id="ex-indefinite-integral-review-1">
   <static seed="1">
-    <statement><p><m>\int \left({x^{3}-2x^{2}+7x-9}\right)\, dx</m></p>
+    <statement><p><m>\ds \int \left({x^{3}-2x^{2}+7x-9}\right)\, dx</m></p>
 <p><fillin characters="40" name="AnSwEr0001"/></p>
 </statement>
     <answer>
@@ -73,7 +73,7 @@ $F = FormulaUpToConstant("1/4 x^4 + $B x^3 + $C x^2 + $d x");
 BEGIN_PGML
 Evaluate the given indefinite integral.
 
-[`\int \left([$f]\right)\, dx`]
+[`\ds \int \left([$f]\right)\, dx`]
 
 [_]{$F}{40}
 

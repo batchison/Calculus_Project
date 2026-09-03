@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-indefinite-integral-review-3" assembly-id="ex-indefinite-integral-review-3">
   <static seed="3">
-    <statement><p><m>\int \left({\sqrt[4]{t}+\frac{1}{t^{2}}+2^{t}}\right)\, dt</m></p>
+    <statement><p><m>\ds \int \left({\sqrt[4]{t}+\frac{1}{t^{2}}+2^{t}}\right)\, dt</m></p>
 <p><fillin characters="40" name="AnSwEr0001"/></p>
 </statement>
     <answer>
@@ -77,7 +77,7 @@ $F = FormulaUpToConstant("$A*t^($M) - 1/(($n-1) t^($n-1)) + $b^t/ln($b)")->reduc
 BEGIN_PGML
 Evaluate the given indefinite integral.
 
-[`\int \left([$f]\right)\, dt`]
+[`\ds \int \left([$f]\right)\, dt`]
 
 [_]{$F}{40}
 
