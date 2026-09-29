@@ -715,7 +715,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \int_{0}^{\pi} \cos(x)\, dx</m>.
+            <m>\ds \int_{0}^{\pi} \cos(x)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -731,7 +731,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \int_{0}^{2\pi} \cos(x)\, dx</m>.
+            <m>\ds \int_{0}^{2\pi} \cos(x)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -747,7 +747,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}} \cos(x)\, dx</m>.
+            <m>\ds \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}} \cos(x)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -763,7 +763,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \int_{\frac{\pi}{4}}^{\frac{3\pi}{4}} \cos(x)\, dx</m>.
+            <m>\ds \int_{\frac{\pi}{4}}^{\frac{3\pi}{4}} \cos(x)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -779,7 +779,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \int_{0}^{\pi} \sin(x)\, dx</m>.
+            <m>\ds \int_{0}^{\pi} \sin(x)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -795,7 +795,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \int_{0}^{2\pi} \sin(x)\, dx</m>.
+            <m>\ds \int_{0}^{2\pi} \sin(x)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -811,7 +811,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}} \sin(x)\, dx</m>.
+            <m>\ds \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}} \sin(x)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -827,7 +827,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \int_{\frac{\pi}{4}}^{\frac{3\pi}{4}} \sin(x)\, dx</m>.
+            <m>\ds \int_{\frac{\pi}{4}}^{\frac{3\pi}{4}} \sin(x)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -851,7 +851,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \int_{0}^{4}\sqrt{x}\, dx</m>.
+            <m>\ds \int_{0}^{4}\sqrt{x}\, dx</m>
             </p>
           </statement>
           <answer>
@@ -867,7 +867,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \int_{-2}^{2}\sqrt[3]{x}\, dx</m>.
+            <m>\ds \int_{-2}^{2}\sqrt[3]{x}\, dx</m>
             </p>
           </statement>
           <answer>
@@ -883,7 +883,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \int_{0}^{6}\left(x^2-5x+6\right)\, dx</m>.
+            <m>\ds \int_{0}^{6}\left(x^2-5x+6\right)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -899,7 +899,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \int_{-2}^{2}\left(1-x^6\right)\, dx</m>.
+            <m>\ds \int_{-2}^{2}\left(1-x^6\right)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -915,7 +915,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \int_{-1}^{1}\frac{1}{1+x^2}\, dx</m>.
+            <m>\ds \int_{-1}^{1}\frac{1}{1+x^2}\, dx</m>
             </p>
           </statement>
           <answer>
@@ -931,7 +931,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \int_{0}^{\frac{\pi}{4}}\sec(x)\, dx</m>.
+            <m>\ds \int_{0}^{\frac{\pi}{4}}\sec(x)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -947,7 +947,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \int_{-1}^{1}\tan^{-1}(x)\, dx</m>.
+            <m>\ds \int_{-1}^{1}\tan^{-1}(x)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -963,7 +963,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \int_{-1}^{1}\frac{1}{x^2-4}\, dx</m>.
+            <m>\ds \int_{-1}^{1}\frac{1}{x^2-4}\, dx</m>
             </p>
           </statement>
           <answer>
@@ -979,7 +979,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \int_{0}^{1}e^x\, dx</m>.
+            <m>\ds \int_{0}^{1}e^x\, dx</m>
             </p>
           </statement>
           <answer>
@@ -995,7 +995,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \int_{0}^{-1}e^{-x}\, dx</m>.
+            <m>\ds \int_{0}^{-1}e^{-x}\, dx</m>
             </p>
           </statement>
           <answer>
@@ -1011,7 +1011,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \int_{e}^{\pi}\ln(x)\, dx</m>.
+            <m>\ds \int_{e}^{\pi}\ln(x)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -1027,7 +1027,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \int_{1}^{e}\ln\left(\frac{1}{x}\right)\, dx</m>.
+            <m>\ds \int_{1}^{e}\ln\left(\frac{1}{x}\right)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -1093,7 +1093,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{-3}^{3}3\, dx</m>.
+            <m>\ds \int_{-3}^{3}3\, dx</m>
             </p>
           </statement>
           <answer>
@@ -1109,7 +1109,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{0}^{10}(2x+5)\, dx</m>.
+            <m>\ds \int_{0}^{10}(2x+5)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -1125,7 +1125,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{-10}^{10}(2x-5)\, dx</m>.
+            <m>\ds \int_{-10}^{10}(2x-5)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -1141,7 +1141,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{0}^{6}(x^2+3)\, dx</m>.
+            <m>\ds \int_{0}^{6}(x^2+3)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -1157,7 +1157,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \int_{-2}^{2}(3-x^2)\, dx</m>.
+            <m>\ds \int_{-2}^{2}(3-x^2)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -1173,7 +1173,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{-1}^{4}(2x^3-3)\, dx</m>.
+            <m>\ds \int_{-1}^{4}(2x^3-3)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -1195,7 +1195,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{-1}^{3}(3x-1)\, dx</m>.
+            <m>\ds \int_{-1}^{3}(3x-1)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -1211,7 +1211,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{0}^{4}(x^2-4x+3)\, dx</m>.
+            <m>\ds \int_{0}^{4}(x^2-4x+3)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -1227,7 +1227,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{0}^{6}2(x-1)(x-5)\, dx</m>.
+            <m>\ds \int_{0}^{6}2(x-1)(x-5)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -1243,7 +1243,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{1}^{10}\left(\frac{4-x}{3}\right)\, dx</m>.
+            <m>\ds \int_{1}^{10}\left(\frac{4-x}{3}\right)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -1259,7 +1259,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{0}^{1}2^x\, dx</m>.
+            <m>\ds \int_{0}^{1}2^x\, dx</m>
             </p>
           </statement>
           <answer>
@@ -1275,7 +1275,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{1}^{e}\frac{dx}{x}</m>.
+            <m>\ds \int_{1}^{e}\frac{dx}{x}</m>
             </p>
           </statement>
           <answer>
@@ -1291,7 +1291,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{-8}^{1}5\sqrt[3]{x^2}\, dx</m>.
+            <m>\ds \int_{-8}^{1}5\sqrt[3]{x^2}\, dx</m>
             </p>
           </statement>
           <answer>
@@ -1307,7 +1307,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}}\sin(x)\, dx</m>.
+            <m>\ds \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}}\sin(x)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -1323,7 +1323,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}}\cos(x)\, dx</m>.
+            <m>\ds \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}}\cos(x)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -1339,7 +1339,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{\frac{4\pi}{3}}^{\frac{5\pi}{4}}\sec^2(x)\, dx</m>.
+            <m>\ds \int_{\frac{4\pi}{3}}^{\frac{5\pi}{4}}\sec^2(x)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -1355,7 +1355,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{\frac{7\pi}{4}}^{2\pi}\sec(x)\tan(x)\, dx</m>.
+            <m>\ds \int_{\frac{7\pi}{4}}^{2\pi}\sec(x)\tan(x)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -1371,7 +1371,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{1}^{9}\left(\sqrt{x}-\frac{3}{x^2}\right)\, dx</m>.
+            <m>\ds \int_{1}^{9}\left(\sqrt{x}-\frac{3}{x^2}\right)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -1387,7 +1387,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{1}^{2}\left(3x-\frac{1}{x}\right)^2\, dx</m>.
+            <m>\ds \int_{1}^{2}\left(3x-\frac{1}{x}\right)^2\, dx</m>
             </p>
           </statement>
           <answer>
@@ -1403,7 +1403,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{1}^{2}\frac{(x-1)^2}{x}\, dx</m>.
+            <m>\ds \int_{1}^{2}\frac{(x-1)^2}{x}\, dx</m>
             </p>
           </statement>
           <answer>
@@ -1419,7 +1419,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{1}^{4}\frac{x^2+\sqrt{x}}{x}\, dx</m>.
+            <m>\ds \int_{1}^{4}\frac{x^2+\sqrt{x}}{x}\, dx</m>
             </p>
           </statement>
           <answer>
@@ -1435,7 +1435,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{0}^{1}\frac{x^2}{x^2+1}\, dx</m>.
+            <m>\ds \int_{0}^{1}\frac{x^2}{x^2+1}\, dx</m>
             </p>
           </statement>
           <answer>
@@ -1446,4 +1446,191 @@
 <!--    </webwork>-->
       </exercise>
     </exercisegroup>
-</exercises>
+<exercisegroup xml:id="exset-area-between-curves">
+      <introduction>
+        <p>Sketch the given relations and find the area of the enclosed region(s).
+        </p>
+      </introduction>
+      <exercise label="ex-area-between-curves-1">
+<!--    <webwork xml:id="webwork-ex-area-between-curves-1">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            <m>y=-x^2+x+6</m> and <m>y=x^2-x+2</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>9</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-area-between-curves-2">
+<!--    <webwork xml:id="webwork-ex-area-between-curves-2">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            <m>y=-x^3+12x</m> and <m>y=3x</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\frac{81}{2}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-area-between-curves-3">
+<!--    <webwork xml:id="webwork-ex-area-between-curves-3">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            <m>x=y^2-6y+10</m> and <m>x=6-y</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\frac{9}{2}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-area-between-curves-4">
+<!--    <webwork xml:id="webwork-ex-area-between-curves-4">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            <m>y=2\sqrt{x}</m>, <m>y=-x+3</m>, and <m>y=0</m> 
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\frac{10}{3}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-area-between-curves-5">
+<!--    <webwork xml:id="webwork-ex-area-between-curves-5">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            <m>y=\sqrt{4-x}</m>, <m>y=x-2</m>, and <m>y=0</m> 
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\frac{7}{6}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+  </exercisegroup>
+<exercisegroup xml:id="exset-definite-integrals-abs-value">
+      <introduction>
+        <p>For each item, identify a function <m>f(x)</m> and an interval <m>[a,b]</m> that satisfy the given statement.
+        </p>
+      </introduction>
+      <exercise label="ex-definite-integrals-abs-value-1">
+<!--    <webwork xml:id="webwork-ex-definite-integrals-abs-value-1">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            <m>\ds \left|\int_a^b f(x)\,dx\right|=\int_a^b |f(x)|\,dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            Any function <m>f</m> such that <m>f\geq 0</m> over <m>[a,b]</m> will work.
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-definite-integrals-abs-value-2">
+<!--    <webwork xml:id="webwork-ex-definite-integrals-abs-value-2">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            <m>\ds \left|\int_a^b f(x)\,dx\right| &lt; \int_a^b |f(x)|\,dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            Any function <m>f</m> such that <m>f &lt; 0</m> over some subinterval of <m>[a,b]</m> will work.  For example, <m>f(x)=x^2-1</m> over <m>[0,2]</m>.
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+    </exercisegroup>
+
+<exercisegroup cols="2" xml:id="exset-definite-integrals-graph">
+      <introduction>
+        <p>Use the graph pictured below to determine the area of the specified region.
+        </p>
+      <image width="60%">
+                  <shortdescription>
+                    Graph of sine and cosine curves over the interval from zero to one half pi.
+                    </shortdescription>
+                    <description>
+                    <p>
+                    The <m>y</m> axis is drawn from <m>0</m> to <m>1.5</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>2</m>.
+                    The graphs of two curves are drawn in the first quadrant.  One curve is the function <m>y=\cos(x)</m>, from <m>x=0</m> to <m>x=\frac{\pi}{2}</m>.  The second curve is the function <m>y=\sin(x)</m>, from <m>x=0</m> to <m>x=\frac{\pi}{2}</m>.
+                    </p>
+                    </description>
+
+    <latex-image label="img_05_rev_image_01">
+    \begin{tikzpicture}<!--[xscale=1.5, yscale=2.25]-->
+		\draw [->](0,0) -- coordinate (x axis mid) (2,0) node[below right] {\tiny $x$};
+		\draw [->](0,0) -- coordinate (y axis mid) (0,1.5) node[above right] {\tiny $y$};
+		\node at (0.35,0.65) {\tiny A};
+		\node at (0.75,0.25) {\tiny B};
+		\node at (1.7076,0.65) {\tiny $y=\cos (x)$};
+		\node at (1.7076,1.25) {\tiny $y=\sin (x)$};
+		\draw (1.57076,-0.05) -- (1.57076,0.05);
+		\node at (1.57076,-0.25) {\tiny $\frac{\pi}{2}$};
+    \draw[-, domain=0:1.57076]   plot (\x,{cos(\x r)});
+    \draw[-, domain=0:1.57076]   plot (\x,{sin(\x r)});
+    \end{tikzpicture}
+    </latex-image>
+    </image>
+      </introduction>
+      <exercise label="ex-definite-integrals-graph-1">
+<!--    <webwork xml:id="webwork-ex-definite-integrals-graph-1">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            Region A
+            </p>
+          </statement>
+          <answer>
+            <p>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+     <exercise label="ex-definite-integrals-graph-2">
+<!--    <webwork xml:id="webwork-ex-definite-integrals-graph-2">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            Region B
+            </p>
+          </statement>
+          <answer>
+            <p>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+    </exercisegroup>
+  </exercises>
