@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "1",
   "title": "Integration",
-  "body": " Integration      Review Exercises    Evaluate the given indefinite integral.                                                                  Find the general antiderivative of the given function.                                                                                                               Use one or more familiar properties from algebra or precalculus to rewrite and evaluate the given indefinite integral.                                                                                                                                                                                                          Sketch the graph of the given function over the specified interval, . Then, using the geometry of the graph, evaluate the definite integral .       over               over               over               over               over               over               over               over               over               over               over               over              Use your knowledge of the graphs of the cosine and sine functions to determine whether each of the following definite integrals is positive, negative, or zero.       .    0         .    0         .    positive         .    0         .    positive         .    0         .    0         .    positive        Use your knowledge of the graphs of the given functions to determine whether each of the following definite integrals is positive, negative, or zero.       .    positive         .    0         .    positive         .    negative         .    positive         .    positive         .    0         .    negative         .    positive         .    negative         .    positive         .    negative        Find the specified value.      Consider the function below.   Find such that .             Sketch a graph of the function . Use your graph to find such that .             Using either the Left or Right Hand Rule, find a formula to approximate each definite integral using subintervals. Find the limit of the formula as , to find the exact value of the definite integral.       .              .    RHR:          .    LHR:          .    LHR:          .    RHR:          .    RHR:         Evaluate the definite integral.       .              .              .              .              .              .              .              .              .              .              .              .              .              .              .              .            "
+  "body": " Integration      Review Exercises    Evaluate the given indefinite integral.                                                                  Find the general antiderivative of the given function.                                                                                                               Use one or more familiar properties from algebra or precalculus to rewrite and evaluate the given indefinite integral.                                                                                                                                                                                                          Sketch the graph of the given function over the specified interval, . Then, using the geometry of the graph, evaluate the definite integral .       over               over               over               over               over               over               over               over               over               over               over               over              Use your knowledge of the graphs of the cosine and sine functions to determine whether each of the following definite integrals is positive, negative, or zero.           0             0             positive             0             positive             0             0             positive        Use your knowledge of the graphs of the given functions to determine whether each of the following definite integrals is positive, negative, or zero.           positive             0             positive             negative             positive             positive             0             negative             positive             negative             positive             negative        Find the specified value.      Consider the function below.   Find such that .             Sketch a graph of the function . Use your graph to find such that .             Using either the Left or Right Hand Rule, find a formula to approximate each definite integral using subintervals. Find the limit of the formula as , to find the exact value of the definite integral.                         RHR:              LHR:              LHR:              RHR:              RHR:         Evaluate the definite integral.                                                                                                                                                                                                                                      Sketch the given relations and find the area of the enclosed region(s).       and               and               and               , , and               , , and              For each item, identify a function and an interval that satisfy the given statement.           Any function such that over will work.             Any function such that over some subinterval of will work. For example, over .        Use the graph pictured below to determine the area of the specified region.   Graph of sine and cosine curves over the interval from zero to one half pi.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is the function , from to . The second curve is the function , from to .         Region A            Region B           "
 },
 {
   "id": "ex-indefinite-integral-review-1",
@@ -358,7 +358,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.38",
   "title": "",
-  "body": "    .    0    "
+  "body": "        0    "
 },
 {
   "id": "ex-definite-integral-cosine-2",
@@ -367,7 +367,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.39",
   "title": "",
-  "body": "    .    0    "
+  "body": "        0    "
 },
 {
   "id": "ex-definite-integral-cosine-3",
@@ -376,7 +376,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.40",
   "title": "",
-  "body": "    .    positive    "
+  "body": "        positive    "
 },
 {
   "id": "ex-definite-integral-cosine-4",
@@ -385,7 +385,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.41",
   "title": "",
-  "body": "    .    0    "
+  "body": "        0    "
 },
 {
   "id": "ex-definite-integral-sine-1",
@@ -394,7 +394,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.42",
   "title": "",
-  "body": "    .    positive    "
+  "body": "        positive    "
 },
 {
   "id": "ex-definite-integral-sine-2",
@@ -403,7 +403,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.43",
   "title": "",
-  "body": "    .    0    "
+  "body": "        0    "
 },
 {
   "id": "ex-definite-integral-sine-3",
@@ -412,7 +412,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.44",
   "title": "",
-  "body": "    .    0    "
+  "body": "        0    "
 },
 {
   "id": "ex-definite-integral-sine-4",
@@ -421,7 +421,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.45",
   "title": "",
-  "body": "    .    positive    "
+  "body": "        positive    "
 },
 {
   "id": "ex-definite-integral-pos-neg-zero-1",
@@ -430,7 +430,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.46",
   "title": "",
-  "body": "    .    positive    "
+  "body": "        positive    "
 },
 {
   "id": "ex-definite-integral-pos-neg-zero-2",
@@ -439,7 +439,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.47",
   "title": "",
-  "body": "    .    0    "
+  "body": "        0    "
 },
 {
   "id": "ex-definite-integral-pos-neg-zero-3",
@@ -448,7 +448,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.48",
   "title": "",
-  "body": "    .    positive    "
+  "body": "        positive    "
 },
 {
   "id": "ex-definite-integral-pos-neg-zero-4",
@@ -457,7 +457,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.49",
   "title": "",
-  "body": "    .    negative    "
+  "body": "        negative    "
 },
 {
   "id": "ex-definite-integral-pos-neg-zero-5",
@@ -466,7 +466,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.50",
   "title": "",
-  "body": "    .    positive    "
+  "body": "        positive    "
 },
 {
   "id": "ex-definite-integral-pos-neg-zero-6",
@@ -475,7 +475,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.51",
   "title": "",
-  "body": "    .    positive    "
+  "body": "        positive    "
 },
 {
   "id": "ex-definite-integral-pos-neg-zero-7",
@@ -484,7 +484,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.52",
   "title": "",
-  "body": "    .    0    "
+  "body": "        0    "
 },
 {
   "id": "ex-definite-integral-pos-neg-zero-8",
@@ -493,7 +493,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.53",
   "title": "",
-  "body": "    .    negative    "
+  "body": "        negative    "
 },
 {
   "id": "ex-definite-integral-pos-neg-zero-9",
@@ -502,7 +502,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.54",
   "title": "",
-  "body": "    .    positive    "
+  "body": "        positive    "
 },
 {
   "id": "ex-definite-integral-pos-neg-zero-10",
@@ -511,7 +511,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.55",
   "title": "",
-  "body": "    .    negative    "
+  "body": "        negative    "
 },
 {
   "id": "ex-definite-integral-pos-neg-zero-11",
@@ -520,7 +520,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.56",
   "title": "",
-  "body": "    .    positive    "
+  "body": "        positive    "
 },
 {
   "id": "ex-definite-integral-pos-neg-zero-12",
@@ -529,7 +529,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.57",
   "title": "",
-  "body": "    .    negative    "
+  "body": "        negative    "
 },
 {
   "id": "ex-definite-integral-find-value-1",
@@ -556,7 +556,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.60",
   "title": "",
-  "body": "    .         "
+  "body": "             "
 },
 {
   "id": "ex-definite-integral-riemann-sums-2",
@@ -565,7 +565,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.61",
   "title": "",
-  "body": "    .    RHR:     "
+  "body": "        RHR:     "
 },
 {
   "id": "ex-definite-integral-riemann-sums-3",
@@ -574,7 +574,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.62",
   "title": "",
-  "body": "    .    LHR:     "
+  "body": "        LHR:     "
 },
 {
   "id": "ex-definite-integral-riemann-sums-4",
@@ -583,7 +583,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.63",
   "title": "",
-  "body": "    .    LHR:     "
+  "body": "        LHR:     "
 },
 {
   "id": "ex-definite-integral-riemann-sums-5",
@@ -592,7 +592,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.64",
   "title": "",
-  "body": "    .    RHR:     "
+  "body": "        RHR:     "
 },
 {
   "id": "ex-definite-integral-riemann-sums-6",
@@ -601,7 +601,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.65",
   "title": "",
-  "body": "    .    RHR:     "
+  "body": "        RHR:     "
 },
 {
   "id": "ex-FTC-II-1",
@@ -610,7 +610,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.66",
   "title": "",
-  "body": "    .         "
+  "body": "             "
 },
 {
   "id": "ex-FTC-II-2",
@@ -619,7 +619,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.67",
   "title": "",
-  "body": "    .         "
+  "body": "             "
 },
 {
   "id": "ex-FTC-II-3",
@@ -628,7 +628,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.68",
   "title": "",
-  "body": "    .         "
+  "body": "             "
 },
 {
   "id": "ex-FTC-II-4",
@@ -637,7 +637,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.69",
   "title": "",
-  "body": "    .         "
+  "body": "             "
 },
 {
   "id": "ex-FTC-II-5",
@@ -646,7 +646,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.70",
   "title": "",
-  "body": "    .         "
+  "body": "             "
 },
 {
   "id": "ex-FTC-II-6",
@@ -655,7 +655,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.71",
   "title": "",
-  "body": "    .         "
+  "body": "             "
 },
 {
   "id": "ex-FTC-II-7",
@@ -664,7 +664,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.72",
   "title": "",
-  "body": "    .         "
+  "body": "             "
 },
 {
   "id": "ex-FTC-II-8",
@@ -673,7 +673,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.73",
   "title": "",
-  "body": "    .         "
+  "body": "             "
 },
 {
   "id": "ex-FTC-II-9",
@@ -682,7 +682,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.74",
   "title": "",
-  "body": "    .         "
+  "body": "             "
 },
 {
   "id": "ex-FTC-II-10",
@@ -691,7 +691,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.75",
   "title": "",
-  "body": "    .         "
+  "body": "             "
 },
 {
   "id": "ex-FTC-II-11",
@@ -700,7 +700,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.76",
   "title": "",
-  "body": "    .         "
+  "body": "             "
 },
 {
   "id": "ex-FTC-II-12",
@@ -709,7 +709,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.77",
   "title": "",
-  "body": "    .         "
+  "body": "             "
 },
 {
   "id": "ex-FTC-II-13",
@@ -718,7 +718,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.78",
   "title": "",
-  "body": "    .         "
+  "body": "             "
 },
 {
   "id": "ex-FTC-II-14",
@@ -727,7 +727,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.79",
   "title": "",
-  "body": "    .         "
+  "body": "             "
 },
 {
   "id": "ex-FTC-II-15",
@@ -736,7 +736,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.80",
   "title": "",
-  "body": "    .         "
+  "body": "             "
 },
 {
   "id": "ex-FTC-II-16",
@@ -745,7 +745,88 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.81",
   "title": "",
-  "body": "    .         "
+  "body": "             "
+},
+{
+  "id": "ex-area-between-curves-1",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-area-between-curves-1",
+  "type": "Exercise",
+  "number": "1.82",
+  "title": "",
+  "body": "    and          "
+},
+{
+  "id": "ex-area-between-curves-2",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-area-between-curves-2",
+  "type": "Exercise",
+  "number": "1.83",
+  "title": "",
+  "body": "    and          "
+},
+{
+  "id": "ex-area-between-curves-3",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-area-between-curves-3",
+  "type": "Exercise",
+  "number": "1.84",
+  "title": "",
+  "body": "    and          "
+},
+{
+  "id": "ex-area-between-curves-4",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-area-between-curves-4",
+  "type": "Exercise",
+  "number": "1.85",
+  "title": "",
+  "body": "    , , and          "
+},
+{
+  "id": "ex-area-between-curves-5",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-area-between-curves-5",
+  "type": "Exercise",
+  "number": "1.86",
+  "title": "",
+  "body": "    , , and          "
+},
+{
+  "id": "ex-definite-integrals-abs-value-1",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integrals-abs-value-1",
+  "type": "Exercise",
+  "number": "1.87",
+  "title": "",
+  "body": "        Any function such that over will work.    "
+},
+{
+  "id": "ex-definite-integrals-abs-value-2",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integrals-abs-value-2",
+  "type": "Exercise",
+  "number": "1.88",
+  "title": "",
+  "body": "        Any function such that over some subinterval of will work. For example, over .    "
+},
+{
+  "id": "ex-definite-integrals-graph-1",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integrals-graph-1",
+  "type": "Exercise",
+  "number": "1.89",
+  "title": "",
+  "body": "   Region A        "
+},
+{
+  "id": "ex-definite-integrals-graph-2",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integrals-graph-2",
+  "type": "Exercise",
+  "number": "1.90",
+  "title": "",
+  "body": "   Region B        "
 },
 {
   "id": "selected-answers",
