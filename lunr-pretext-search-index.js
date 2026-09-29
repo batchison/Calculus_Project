@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "1",
   "title": "Integration",
-  "body": " Integration      Review Exercises    Evaluate the given indefinite integral.                                                                  Find the general antiderivative of the given function.                                                                                                               Use one or more familiar properties from algebra or precalculus to rewrite and evaluate the given indefinite integral.                                                                                                                                                                                                          Sketch the graph of the given function over the specified interval, . Then, using the geometry of the graph, evaluate the definite integral .       over               over               over               over               over               over               over               over               over               over               over               over              Use your knowledge of the graphs of the cosine and sine functions to determine whether each of the following definite integrals is positive, negative, or zero.       .    0         .    0         .    positive         .    0         .    positive         .    0         .    0         .    positive        Use your knowledge of the graphs of the given functions to determine whether each of the following definite integrals is positive, negative, or zero.       .    positive         .    0         .    positive         .    negative         .    positive         .    positive         .    0         .    negative         .    positive         .    negative         .    positive         .    negative        Find the specified value.      Consider the function below.   Find such that .             Sketch a graph of the function . Use your graph to find such that .             Using either the Left or Right Hand Rule, find a formula to approximate each definite integral using subintervals. Find the limit of the formula as , to find the exact value of the definite integral.       .              .    RHR:          .    LHR:          .    LHR:          .    RHR:          .    RHR:        "
+  "body": " Integration      Review Exercises    Evaluate the given indefinite integral.                                                                  Find the general antiderivative of the given function.                                                                                                               Use one or more familiar properties from algebra or precalculus to rewrite and evaluate the given indefinite integral.                                                                                                                                                                                                          Sketch the graph of the given function over the specified interval, . Then, using the geometry of the graph, evaluate the definite integral .       over               over               over               over               over               over               over               over               over               over               over               over              Use your knowledge of the graphs of the cosine and sine functions to determine whether each of the following definite integrals is positive, negative, or zero.       .    0         .    0         .    positive         .    0         .    positive         .    0         .    0         .    positive        Use your knowledge of the graphs of the given functions to determine whether each of the following definite integrals is positive, negative, or zero.       .    positive         .    0         .    positive         .    negative         .    positive         .    positive         .    0         .    negative         .    positive         .    negative         .    positive         .    negative        Find the specified value.      Consider the function below.   Find such that .             Sketch a graph of the function . Use your graph to find such that .             Using either the Left or Right Hand Rule, find a formula to approximate each definite integral using subintervals. Find the limit of the formula as , to find the exact value of the definite integral.       .              .    RHR:          .    LHR:          .    LHR:          .    RHR:          .    RHR:         Evaluate the definite integral.       .              .              .              .              .              .              .              .              .              .              .              .              .              .              .              .            "
 },
 {
   "id": "ex-indefinite-integral-review-1",
@@ -602,6 +602,150 @@ var ptx_lunr_docs = [
   "number": "1.65",
   "title": "",
   "body": "    .    RHR:     "
+},
+{
+  "id": "ex-FTC-II-1",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-FTC-II-1",
+  "type": "Exercise",
+  "number": "1.66",
+  "title": "",
+  "body": "    .         "
+},
+{
+  "id": "ex-FTC-II-2",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-FTC-II-2",
+  "type": "Exercise",
+  "number": "1.67",
+  "title": "",
+  "body": "    .         "
+},
+{
+  "id": "ex-FTC-II-3",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-FTC-II-3",
+  "type": "Exercise",
+  "number": "1.68",
+  "title": "",
+  "body": "    .         "
+},
+{
+  "id": "ex-FTC-II-4",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-FTC-II-4",
+  "type": "Exercise",
+  "number": "1.69",
+  "title": "",
+  "body": "    .         "
+},
+{
+  "id": "ex-FTC-II-5",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-FTC-II-5",
+  "type": "Exercise",
+  "number": "1.70",
+  "title": "",
+  "body": "    .         "
+},
+{
+  "id": "ex-FTC-II-6",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-FTC-II-6",
+  "type": "Exercise",
+  "number": "1.71",
+  "title": "",
+  "body": "    .         "
+},
+{
+  "id": "ex-FTC-II-7",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-FTC-II-7",
+  "type": "Exercise",
+  "number": "1.72",
+  "title": "",
+  "body": "    .         "
+},
+{
+  "id": "ex-FTC-II-8",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-FTC-II-8",
+  "type": "Exercise",
+  "number": "1.73",
+  "title": "",
+  "body": "    .         "
+},
+{
+  "id": "ex-FTC-II-9",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-FTC-II-9",
+  "type": "Exercise",
+  "number": "1.74",
+  "title": "",
+  "body": "    .         "
+},
+{
+  "id": "ex-FTC-II-10",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-FTC-II-10",
+  "type": "Exercise",
+  "number": "1.75",
+  "title": "",
+  "body": "    .         "
+},
+{
+  "id": "ex-FTC-II-11",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-FTC-II-11",
+  "type": "Exercise",
+  "number": "1.76",
+  "title": "",
+  "body": "    .         "
+},
+{
+  "id": "ex-FTC-II-12",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-FTC-II-12",
+  "type": "Exercise",
+  "number": "1.77",
+  "title": "",
+  "body": "    .         "
+},
+{
+  "id": "ex-FTC-II-13",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-FTC-II-13",
+  "type": "Exercise",
+  "number": "1.78",
+  "title": "",
+  "body": "    .         "
+},
+{
+  "id": "ex-FTC-II-14",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-FTC-II-14",
+  "type": "Exercise",
+  "number": "1.79",
+  "title": "",
+  "body": "    .         "
+},
+{
+  "id": "ex-FTC-II-15",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-FTC-II-15",
+  "type": "Exercise",
+  "number": "1.80",
+  "title": "",
+  "body": "    .         "
+},
+{
+  "id": "ex-FTC-II-16",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-FTC-II-16",
+  "type": "Exercise",
+  "number": "1.81",
+  "title": "",
+  "body": "    .         "
 },
 {
   "id": "selected-answers",
