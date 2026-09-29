@@ -1575,7 +1575,7 @@
       <introduction>
         <p>Use the graph pictured below to determine the area of the specified region.
         </p>
-      <image width="60%">
+      <image width="75%">
                   <shortdescription>
                     Graph of sine and cosine curves over the interval from zero to one half pi.
                     </shortdescription>
@@ -1586,33 +1586,43 @@
                     </p>
                     </description>
 
-    <latex-image label="img_05_rev_image_01">
-    \begin{tikzpicture}<!--[xscale=1.5, yscale=2.25]-->
-		\draw [->](0,0) -- coordinate (x axis mid) (2,0) node[below right] {\tiny $x$};
-		\draw [->](0,0) -- coordinate (y axis mid) (0,1.5) node[above right] {\tiny $y$};
-		\node at (0.35,0.65) {\tiny A};
-		\node at (0.75,0.25) {\tiny B};
-		\node at (1.7076,0.65) {\tiny $y=\cos (x)$};
-		\node at (1.7076,1.25) {\tiny $y=\sin (x)$};
-		\draw (1.57076,-0.05) -- (1.57076,0.05);
-		\node at (1.57076,-0.25) {\tiny $\frac{\pi}{2}$};
-    \draw[-, domain=0:1.57076]   plot (\x,{cos(\x r)});
-    \draw[-, domain=0:1.57076]   plot (\x,{sin(\x r)});
-    \end{tikzpicture}
-    </latex-image>
-    </image>
-      </introduction>
+                <latex-image label="img_05_rev_image_01">
+                    \begin{tikzpicture}
+                      \begin{axis}[
+                          axis on top,
+                          xtick={1},
+                          ytick={1},
+                          ymin=0,
+                          ymax=2,
+                          xmin=0,
+                          xmax=2
+                        ]
+                        \addplot [secondcurvestyle,areastyle,domain=0:1.57076] {cos(deg(x))} \closedcycle;
+                        \addplot [firstcurvestyle,areastyle,domain=0:0.785398] {sin(deg(x))} \closedcycle;
+                        \addplot [firstcurvestyle,areastyle,domain=0.785398:1.57076] {cos(deg(x))} \closedcycle;
+                        \addplot [secondcurvestyle,areastyle,domain=0:1.57076] {cos(deg(x))} \closedcycle;
+                        \addplot [firstcolor,domain=0:1.57076,samples=50] {sin(deg(x))};
+                        \addplot [secondcolor,domain=0:1.57076,samples=50] {cos(deg(x))};
+                        \draw (axis cs:1.7,1.15) node { \(y=\sin(x)\)};
+                        \draw (axis cs:1.7,0.25) node { \(y=\cos(x)\)};
+                        \draw (axis cs:.3,.65) node { \(A\)};
+                        \draw (axis cs:.785,.35) node { \(B\)};
+                      \end{axis}
+                    \end{tikzpicture}
+                </latex-image>
+                </image>
+                </introduction>
       <exercise label="ex-definite-integrals-graph-1">
 <!--    <webwork xml:id="webwork-ex-definite-integrals-graph-1">
           <pg-code>
           </pg-code>-->
           <statement>
             <p>  
-            Region A
+            Region <m>A</m>
             </p>
           </statement>
           <answer>
-            <p>
+            <p><m>\sqrt{2}-1</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -1623,11 +1633,11 @@
           </pg-code>-->
           <statement>
             <p>  
-            Region B
+            Region <m>B</m>
             </p>
           </statement>
           <answer>
-            <p>
+            <p><m>2-\sqrt{2}</m>
             </p>
           </answer>
 <!--    </webwork>-->
