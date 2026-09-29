@@ -1051,10 +1051,10 @@
           <statement>
             <p>
             Consider the function below.
-            <me>f(x) = \begin{cases} 
+            <md>f(x) = \begin{cases} 
 			x-5 \amp 0\leq x &lt; 5\\
 			k \amp 5\leq x 
-			\end{cases}</me>
+			\end{cases}</md>
             </p>
             <p>Find <m>k</m> such that <m>\ds \int_{0}^{10}f(x)\, dx=25</m>.
             </p>
@@ -1078,6 +1078,108 @@
           <answer>
             <p>
             <m>14+2\sqrt{7}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+    </exercisegroup>
+<exercisegroup cols="2" xml:id="exset-definite-integral-riemann-sums">
+      <introduction>
+        <p>Using either the Left or Right Hand Rule, find a formula to approximate each definite integral using <m>n</m> subintervals.  Find the limit of the formula as <m>n\rightarrow\infty</m>, to find the exact value of the definite integral.
+        </p>
+      </introduction>
+      <exercise label="ex-definite-integral-riemann-sums-1">
+<!--    <webwork xml:id="webwork-ex-definite-integral-riemann-sums-1">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            <m>\ds \int_{-3}^{3}3\, dx</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \lim_{n\rightarrow\infty}\sum_{i=1}^{n}3\left(\frac{6}{n}\right)=18</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-definite-integral-riemann-sums-2">
+<!--    <webwork xml:id="webwork-ex-definite-integral-riemann-sums-2">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            <m>\ds \int_{0}^{10}(2x+5)\, dx</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+            RHR: <m>\ds \lim_{n\rightarrow\infty}\sum_{i=1}^{n}\left(2\left(\frac{10}{n}i\right)+5\right)\left(\frac{10}{n}\right)=150</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-definite-integral-riemann-sums-3">
+<!--    <webwork xml:id="webwork-ex-definite-integral-riemann-sums-3">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            <m>\ds \int_{-10}^{10}(2x-5)\, dx</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+            LHR: <m>\ds \lim_{n\rightarrow\infty}\sum_{i=1}^{n}\left(2\left(-10+\frac{20}{n}(i-1))\right)-5\right)\left(\frac{20}{n}\right)=-100</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-definite-integral-riemann-sums-4">
+<!--    <webwork xml:id="webwork-ex-definite-integral-riemann-sums-4">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            <m>\ds \int_{0}^{6}(x^2+3)\, dx</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+            LHR: <m>\ds \lim_{n\rightarrow\infty}\sum_{i=1}^{n}\left(\left(\frac{6}{n}(i-1))\right)^2+3\right)\left(\frac{6}{n}\right)=90</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-definite-integral-riemann-sums-5">
+<!--    <webwork xml:id="webwork-ex-definite-integral-riemann-sums-5">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \int_{-2}^{2}(3-x^2)\, dx</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+            RHR: <m>\ds \lim_{n\rightarrow\infty}\sum_{i=1}^{n}\left(3-\left(-2+\frac{4}{n}i\right)^2\right)\left(\frac{4}{n}\right)=\frac{20}{3}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-definite-integral-riemann-sums-6">
+<!--    <webwork xml:id="webwork-ex-definite-integral-riemann-sums-6">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            <m>\ds \int_{-1}^{4}(2x^3-3)\, dx</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+            RHR: <m>\ds \lim_{n\rightarrow\infty}\sum_{i=1}^{n}\left(2\left(-1+\frac{5}{n}i\right)^3-3\right)\left(\frac{5}{n}\right)=\frac{225}{2}</m>
             </p>
           </answer>
 <!--    </webwork>-->
