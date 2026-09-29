@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "1",
   "title": "Integration",
-  "body": " Integration      Review Exercises    Evaluate the given indefinite integral.                                                                  Find the general antiderivative of the given function.                                                                                                               Use one or more familiar properties from algebra or precalculus to rewrite and evaluate the given indefinite integral.                                                                                                                                                                                                          Sketch the graph of the given function over the specified interval, . Then, using the geometry of the graph, evaluate the definite integral .       over               over               over               over               over               over               over               over               over               over               over               over              Use your knowledge of the graphs of the cosine and sine functions to determine whether each of the following definite integrals is positive, negative, or zero.       .    0         .    0         .    positive         .    0         .    positive         .    0         .    0         .    positive        Use your knowledge of the graphs of the given functions to determine whether each of the following definite integrals is positive, negative, or zero.       .    positive         .    0         .    positive         .    negative         .    positive         .    positive         .    0         .    negative         .    positive         .    negative         .    positive         .    negative        Find the specified value.      Consider the function below.   Find such that .             Sketch a graph of the function . Use your graph to find such that .            "
+  "body": " Integration      Review Exercises    Evaluate the given indefinite integral.                                                                  Find the general antiderivative of the given function.                                                                                                               Use one or more familiar properties from algebra or precalculus to rewrite and evaluate the given indefinite integral.                                                                                                                                                                                                          Sketch the graph of the given function over the specified interval, . Then, using the geometry of the graph, evaluate the definite integral .       over               over               over               over               over               over               over               over               over               over               over               over              Use your knowledge of the graphs of the cosine and sine functions to determine whether each of the following definite integrals is positive, negative, or zero.       .    0         .    0         .    positive         .    0         .    positive         .    0         .    0         .    positive        Use your knowledge of the graphs of the given functions to determine whether each of the following definite integrals is positive, negative, or zero.       .    positive         .    0         .    positive         .    negative         .    positive         .    positive         .    0         .    negative         .    positive         .    negative         .    positive         .    negative        Find the specified value.      Consider the function below.   Find such that .             Sketch a graph of the function . Use your graph to find such that .             Using either the Left or Right Hand Rule, find a formula to approximate each definite integral using subintervals. Find the limit of the formula as , to find the exact value of the definite integral.       .              .    RHR:          .    LHR:          .    LHR:          .    RHR:          .    RHR:        "
 },
 {
   "id": "ex-indefinite-integral-review-1",
@@ -548,6 +548,60 @@ var ptx_lunr_docs = [
   "number": "1.59",
   "title": "",
   "body": "   Sketch a graph of the function . Use your graph to find such that .         "
+},
+{
+  "id": "ex-definite-integral-riemann-sums-1",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-riemann-sums-1",
+  "type": "Exercise",
+  "number": "1.60",
+  "title": "",
+  "body": "    .         "
+},
+{
+  "id": "ex-definite-integral-riemann-sums-2",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-riemann-sums-2",
+  "type": "Exercise",
+  "number": "1.61",
+  "title": "",
+  "body": "    .    RHR:     "
+},
+{
+  "id": "ex-definite-integral-riemann-sums-3",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-riemann-sums-3",
+  "type": "Exercise",
+  "number": "1.62",
+  "title": "",
+  "body": "    .    LHR:     "
+},
+{
+  "id": "ex-definite-integral-riemann-sums-4",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-riemann-sums-4",
+  "type": "Exercise",
+  "number": "1.63",
+  "title": "",
+  "body": "    .    LHR:     "
+},
+{
+  "id": "ex-definite-integral-riemann-sums-5",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-riemann-sums-5",
+  "type": "Exercise",
+  "number": "1.64",
+  "title": "",
+  "body": "    .    RHR:     "
+},
+{
+  "id": "ex-definite-integral-riemann-sums-6",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-definite-integral-riemann-sums-6",
+  "type": "Exercise",
+  "number": "1.65",
+  "title": "",
+  "body": "    .    RHR:     "
 },
 {
   "id": "selected-answers",
