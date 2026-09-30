@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "1",
   "title": "Integration",
-  "body": " Integration      Review Exercises    Evaluate the given indefinite integral.                                                                  Find the general antiderivative of the given function.                                                                                                               Use one or more familiar properties from algebra or precalculus to rewrite and evaluate the given indefinite integral.                                                                                                                                                                                                          Find the function described by the given initial value problem.       and               and               and ,               and ,              Sketch the graph of the given function over the specified interval, . Then, using the geometry of the graph, evaluate the definite integral .       over               over               over               over               over               over               over               over               over               over               over               over              Use your knowledge of the graphs of the cosine and sine functions to determine whether each of the following definite integrals is positive, negative, or zero.           0             0             positive             0             positive             0             0             positive        Use your knowledge of the graphs of the given functions to determine whether each of the following definite integrals is positive, negative, or zero.           positive             0             positive             negative             positive             positive             0             negative             positive             negative             positive             negative        Find the specified value.      Consider the function below.   Find such that .             Sketch a graph of the function . Use your graph to find such that .             Evaluate the summation.                                                Using either the Left or Right Hand Rule, find a formula to approximate each definite integral using subintervals. Find the limit of the formula as , to find the exact value of the definite integral.                         RHR:              LHR:              LHR:              RHR:              RHR:         Evaluate the definite integral.                                                                                                                                                                                                                                                    Sketch the given relations and find the area of the enclosed region(s).       and               and               and               and               , , and               , , and              Find a value guaranteed by the Mean Value Theorem.                                                              For each item, identify a function and an interval that satisfy the given statement.           Any function such that over will work.             Any function such that over some subinterval of will work. For example, over .        Use the graph pictured below to determine the area of the specified region.   Graph of sine and cosine curves over the interval from zero to one half pi.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is the function , from to . The second curve is the function , from to .         Region             Region            "
+  "body": " Integration      Review Exercises    Evaluate the given indefinite integral.                                                                  Find the general antiderivative of the given function.                                                                                                               Use one or more familiar properties from algebra or precalculus to rewrite and evaluate the given indefinite integral.                                                                                                                                                                                                          Find the function described by the given initial value problem.       and               and               and ,               and ,              Sketch the graph of the given function over the specified interval, . Then, using the geometry of the graph, evaluate the definite integral .       over               over               over               over               over               over               over               over               over               over               over               over              Use your knowledge of the graphs of the cosine and sine functions to determine whether each of the following definite integrals is positive, negative, or zero.           0             0             positive             0             positive             0             0             positive        Use your knowledge of the graphs of the given functions to determine whether each of the following definite integrals is positive, negative, or zero.           positive             0             positive             negative             positive             positive             0             negative             positive             negative             positive             negative        Find the specified value.      Consider the function below.   Find such that .             Sketch a graph of the function . Use your graph to find such that .             Evaluate the summation.                                                Using either the Left or Right Hand Rule, find a formula to approximate each definite integral using subintervals. Find the limit of the formula as , to find the exact value of the definite integral.                         RHR:              LHR:              LHR:              RHR:              RHR:         Find the average value of the function on the given interval.       on               on               on               on              Find .                                                              Evaluate the definite integral.                                                                                                                                                                                                                                                    Sketch the given relations and find the area of the enclosed region(s).       and               and               and               and               , , and               , , and              Find a value guaranteed by the Mean Value Theorem.                                                              For each item, identify a function and an interval that satisfy the given statement.           Any function such that over will work.             Any function such that over some subinterval of will work. For example, over .        Use the graph pictured below to determine the area of the specified region.   Graph of sine and cosine curves over the interval from zero to one half pi.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is the function , from to . The second curve is the function , from to .         Region             Region            "
 },
 {
   "id": "ex-indefinite-integral-review-1",
@@ -667,11 +667,83 @@ var ptx_lunr_docs = [
   "body": "        RHR:     "
 },
 {
+  "id": "ex-average-value-review-1",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-average-value-review-1",
+  "type": "Exercise",
+  "number": "1.73",
+  "title": "",
+  "body": "    on          "
+},
+{
+  "id": "ex-average-value-review-2",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-average-value-review-2",
+  "type": "Exercise",
+  "number": "1.74",
+  "title": "",
+  "body": "    on          "
+},
+{
+  "id": "ex-average-value-review-3",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-average-value-review-3",
+  "type": "Exercise",
+  "number": "1.75",
+  "title": "",
+  "body": "    on          "
+},
+{
+  "id": "ex-average-value-review-4",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-average-value-review-4",
+  "type": "Exercise",
+  "number": "1.76",
+  "title": "",
+  "body": "    on          "
+},
+{
+  "id": "ex-FTC-I-1",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-FTC-I-1",
+  "type": "Exercise",
+  "number": "1.77",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-FTC-I-2",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-FTC-I-2",
+  "type": "Exercise",
+  "number": "1.78",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-FTC-I-3",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-FTC-I-3",
+  "type": "Exercise",
+  "number": "1.79",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-FTC-I-4",
+  "level": "2",
+  "url": "exercises-integration-review.html#ex-FTC-I-4",
+  "type": "Exercise",
+  "number": "1.80",
+  "title": "",
+  "body": "             "
+},
+{
   "id": "ex-FTC-II-1",
   "level": "2",
   "url": "exercises-integration-review.html#ex-FTC-II-1",
   "type": "Exercise",
-  "number": "1.73",
+  "number": "1.81",
   "title": "",
   "body": "             "
 },
@@ -680,7 +752,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-FTC-II-2",
   "type": "Exercise",
-  "number": "1.74",
+  "number": "1.82",
   "title": "",
   "body": "             "
 },
@@ -689,7 +761,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-FTC-II-3",
   "type": "Exercise",
-  "number": "1.75",
+  "number": "1.83",
   "title": "",
   "body": "             "
 },
@@ -698,7 +770,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-FTC-II-4",
   "type": "Exercise",
-  "number": "1.76",
+  "number": "1.84",
   "title": "",
   "body": "             "
 },
@@ -707,7 +779,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-FTC-II-5",
   "type": "Exercise",
-  "number": "1.77",
+  "number": "1.85",
   "title": "",
   "body": "             "
 },
@@ -716,7 +788,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-FTC-II-6",
   "type": "Exercise",
-  "number": "1.78",
+  "number": "1.86",
   "title": "",
   "body": "             "
 },
@@ -725,7 +797,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-FTC-II-7",
   "type": "Exercise",
-  "number": "1.79",
+  "number": "1.87",
   "title": "",
   "body": "             "
 },
@@ -734,7 +806,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-FTC-II-8",
   "type": "Exercise",
-  "number": "1.80",
+  "number": "1.88",
   "title": "",
   "body": "             "
 },
@@ -743,7 +815,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-FTC-II-9",
   "type": "Exercise",
-  "number": "1.81",
+  "number": "1.89",
   "title": "",
   "body": "             "
 },
@@ -752,7 +824,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-FTC-II-10",
   "type": "Exercise",
-  "number": "1.82",
+  "number": "1.90",
   "title": "",
   "body": "             "
 },
@@ -761,7 +833,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-FTC-II-11",
   "type": "Exercise",
-  "number": "1.83",
+  "number": "1.91",
   "title": "",
   "body": "             "
 },
@@ -770,7 +842,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-FTC-II-12",
   "type": "Exercise",
-  "number": "1.84",
+  "number": "1.92",
   "title": "",
   "body": "             "
 },
@@ -779,7 +851,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-FTC-II-13",
   "type": "Exercise",
-  "number": "1.85",
+  "number": "1.93",
   "title": "",
   "body": "             "
 },
@@ -788,7 +860,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-FTC-II-14",
   "type": "Exercise",
-  "number": "1.86",
+  "number": "1.94",
   "title": "",
   "body": "             "
 },
@@ -797,7 +869,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-FTC-II-15",
   "type": "Exercise",
-  "number": "1.87",
+  "number": "1.95",
   "title": "",
   "body": "             "
 },
@@ -806,7 +878,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-FTC-II-16",
   "type": "Exercise",
-  "number": "1.88",
+  "number": "1.96",
   "title": "",
   "body": "             "
 },
@@ -815,7 +887,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-FTC-II-17",
   "type": "Exercise",
-  "number": "1.89",
+  "number": "1.97",
   "title": "",
   "body": "             "
 },
@@ -824,7 +896,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-area-between-curves-1",
   "type": "Exercise",
-  "number": "1.90",
+  "number": "1.98",
   "title": "",
   "body": "    and          "
 },
@@ -833,7 +905,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-area-between-curves-2",
   "type": "Exercise",
-  "number": "1.91",
+  "number": "1.99",
   "title": "",
   "body": "    and          "
 },
@@ -842,7 +914,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-area-between-curves-3",
   "type": "Exercise",
-  "number": "1.92",
+  "number": "1.100",
   "title": "",
   "body": "    and          "
 },
@@ -851,7 +923,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-area-between-curves-4",
   "type": "Exercise",
-  "number": "1.93",
+  "number": "1.101",
   "title": "",
   "body": "    and          "
 },
@@ -860,7 +932,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-area-between-curves-5",
   "type": "Exercise",
-  "number": "1.94",
+  "number": "1.102",
   "title": "",
   "body": "    , , and          "
 },
@@ -869,7 +941,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-area-between-curves-6",
   "type": "Exercise",
-  "number": "1.95",
+  "number": "1.103",
   "title": "",
   "body": "    , , and          "
 },
@@ -878,7 +950,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-mvt-review-1",
   "type": "Exercise",
-  "number": "1.96",
+  "number": "1.104",
   "title": "",
   "body": "             "
 },
@@ -887,7 +959,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-mvt-review-2",
   "type": "Exercise",
-  "number": "1.97",
+  "number": "1.105",
   "title": "",
   "body": "             "
 },
@@ -896,7 +968,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-mvt-review-3",
   "type": "Exercise",
-  "number": "1.98",
+  "number": "1.106",
   "title": "",
   "body": "             "
 },
@@ -905,7 +977,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-mvt-review-4",
   "type": "Exercise",
-  "number": "1.99",
+  "number": "1.107",
   "title": "",
   "body": "             "
 },
@@ -914,7 +986,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-definite-integrals-abs-value-1",
   "type": "Exercise",
-  "number": "1.100",
+  "number": "1.108",
   "title": "",
   "body": "        Any function such that over will work.    "
 },
@@ -923,7 +995,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-definite-integrals-abs-value-2",
   "type": "Exercise",
-  "number": "1.101",
+  "number": "1.109",
   "title": "",
   "body": "        Any function such that over some subinterval of will work. For example, over .    "
 },
@@ -932,7 +1004,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-definite-integrals-graph-1",
   "type": "Exercise",
-  "number": "1.102",
+  "number": "1.110",
   "title": "",
   "body": "   Region         "
 },
@@ -941,7 +1013,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-integration-review.html#ex-definite-integrals-graph-2",
   "type": "Exercise",
-  "number": "1.103",
+  "number": "1.111",
   "title": "",
   "body": "   Region         "
 },
