@@ -1310,7 +1310,147 @@
 <!--    </webwork>-->
       </exercise>
     </exercisegroup>
-<exercisegroup cols="2" xml:id="exset-FTC-II">
+<exercisegroup cols="2" xml:id="exset-average-value-review">
+      <introduction>
+        <p>Find the average value of the function on the given interval.
+        </p>
+      </introduction>
+      <exercise label="ex-average-value-review-1">
+<!--    <webwork xml:id="webwork-ex-average-value-review-1">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            <m>\ds f(x)=\sqrt[3]{x}</m> on <m>[-8,1]</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>-\frac{5}{4}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-average-value-review-2">
+<!--    <webwork xml:id="webwork-ex-average-value-review-2">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            <m>\ds f(x)=x^2-6x+8</m> on <m>[0,7]</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\frac{10}{3}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-average-value-review-3">
+<!--    <webwork xml:id="webwork-ex-average-value-review-3">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            <m>\ds f(\theta)=\cos(\theta)</m> on <m>[0,\frac{\pi}{2}]</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\frac{2}{\pi}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-average-value-review-4">
+<!--    <webwork xml:id="webwork-ex-average-value-review-4">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            <m>\ds f(x)=|2x-1|</m> on <m>[0,1]</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\frac{1}{2}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      </exercisegroup>
+      <exercisegroup cols="2" xml:id="exset-FTC-I">
+      <introduction>
+        <p>Find <m>F'(x)</m>.
+        </p>
+      </introduction>
+      <exercise label="ex-FTC-I-1">
+<!--    <webwork xml:id="webwork-ex-FTC-I-1">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            <m>\ds F(x)=\int_{2}^{x}\left(e^t+\frac{1}{t}\right)\, dt</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>F'(x)=e^x+\frac{1}{x}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-FTC-I-2">
+<!--    <webwork xml:id="webwork-ex-FTC-I-2">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            <m>\ds F(x)=\int_{0}^{\sqrt{x}}\sin(t)\, dt</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>F'(x)=\frac{\sin(\sqrt{x})}{2\sqrt{x}}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-FTC-I-3">
+<!--    <webwork xml:id="webwork-ex-FTC-I-3">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            <m>\ds F(x)=\int_{e^x}^{0}t^2\, dt</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>F'(x)=-e^{3x}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-FTC-I-4">
+<!--    <webwork xml:id="webwork-ex-FTC-I-4">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            <m>\ds F(x)=\int_{2x}^{x^2}\frac{dt}{t}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>F'(x)=\frac{1}{x}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      </exercisegroup>      
+      <exercisegroup cols="2" xml:id="exset-FTC-II">
       <introduction>
         <p>Evaluate the definite integral.
         </p>
