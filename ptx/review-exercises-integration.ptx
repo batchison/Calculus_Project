@@ -502,7 +502,77 @@
 <!--        </webwork>-->
       </exercise>
     </exercisegroup>
-
+<exercisegroup xml:id="exset-initial-value-review">
+      <introduction>
+        <p>
+        Find <m>f(x)</m> described by the given initial value problem.
+        </p>
+      </introduction>
+      <exercise label="ex-initial-value-review-1">
+<!--    <webwork xml:id="webwork-ex-initial-value-review-1">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>f'(x)=\frac{1}{2\sqrt{x}}</m> and <m>f(1)=0</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>f(x)=\sqrt{x}-1</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-initial-value-review-2">
+<!--    <webwork xml:id="webwork-ex-initial-value-review-2">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>f'(x)=</m> and <m>f()=</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m></m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-initial-value-review-3">
+<!--    <webwork xml:id="webwork-ex-initial-value-review-3">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>f'(x)=</m> and <m>f()=</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m></m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-initial-value-review-4">
+<!--    <webwork xml:id="webwork-ex-initial-value-review-4">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>f'(x)=</m> and <m>f()=</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m></m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+    </exercisegroup>
 <exercisegroup cols="2" xml:id="exset-definite-integral-review">
       <introduction>
         <p>
@@ -1082,6 +1152,62 @@
 <!--    </webwork>-->
       </exercise>
 </exercisegroup>
+<exercisegroup cols="2" xml:id="exset-summation-review">
+      <introduction>
+        <p>
+        Evaluate the summation.
+        </p>
+      </introduction>
+      <exercise label="ex-summation-review-1">
+<!--    <webwork xml:id="webwork-ex-summation-review-1">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \sum_{i=1}^{12}(2i^2-20)</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>1060</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-summation-review-2">
+<!--    <webwork xml:id="webwork-ex-summation-review-2">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \sum_{i=0}^{15}\cos\left(\dfrac{i\pi}{4}\right)</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>0</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-summation-review-3">
+<!--    <webwork xml:id="webwork-ex-summation-review-3">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \sum_{i=-10}^{10}(-1)^ii</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>0</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+    </exercisegroup>
+
 <exercisegroup cols="2" xml:id="exset-definite-integral-riemann-sums">
       <introduction>
         <p>Using either the Left or Right Hand Rule, find a formula to approximate each definite integral using <m>n</m> subintervals.  Find the limit of the formula as <m>n\rightarrow\infty</m>, to find the exact value of the definite integral.
@@ -1307,7 +1433,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}}\sin(x)\, dx</m>
+            <m>\ds \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}}\sin(\theta)\, d\theta</m>
             </p>
           </statement>
           <answer>
@@ -1323,7 +1449,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}}\cos(x)\, dx</m>
+            <m>\ds \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}}\cos(\theta)\, d\theta</m>
             </p>
           </statement>
           <answer>
@@ -1339,7 +1465,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{\frac{4\pi}{3}}^{\frac{5\pi}{4}}\sec^2(x)\, dx</m>
+            <m>\ds \int_{\frac{4\pi}{3}}^{\frac{5\pi}{4}}\sec^2(\theta)\, d\theta</m>
             </p>
           </statement>
           <answer>
@@ -1355,7 +1481,23 @@
           </pg-code>-->
           <statement>
             <p>  
-            <m>\ds \int_{\frac{7\pi}{4}}^{2\pi}\sec(x)\tan(x)\, dx</m>
+            <m>\ds \int_{\frac{\pi}{6}}^{\frac{\pi}{3}}\csc(\theta)\cot(\theta)\, d\theta</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\frac{6-2\sqrt{3}}{3}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-FTC-II-12">
+<!--    <webwork xml:id="webwork-ex-FTC-II-12">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            <m>\ds \int_{\frac{7\pi}{4}}^{2\pi}\sec(\theta)\tan(\theta)\, d\theta</m>
             </p>
           </statement>
           <answer>
@@ -1365,8 +1507,8 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
-            <exercise label="ex-FTC-II-12">
-<!--    <webwork xml:id="webwork-ex-FTC-II-12">
+            <exercise label="ex-FTC-II-13">
+<!--    <webwork xml:id="webwork-ex-FTC-II-13">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -1381,8 +1523,8 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
-            <exercise label="ex-FTC-II-13">
-<!--    <webwork xml:id="webwork-ex-FTC-II-13">
+            <exercise label="ex-FTC-II-14">
+<!--    <webwork xml:id="webwork-ex-FTC-II-14">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -1397,8 +1539,8 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
-            <exercise label="ex-FTC-II-14">
-<!--    <webwork xml:id="webwork-ex-FTC-II-14">
+            <exercise label="ex-FTC-II-15">
+<!--    <webwork xml:id="webwork-ex-FTC-II-15">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -1413,8 +1555,8 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
-            <exercise label="ex-FTC-II-15">
-<!--    <webwork xml:id="webwork-ex-FTC-II-15">
+            <exercise label="ex-FTC-II-16">
+<!--    <webwork xml:id="webwork-ex-FTC-II-16">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -1429,8 +1571,8 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
-            <exercise label="ex-FTC-II-16">
-<!--    <webwork xml:id="webwork-ex-FTC-II-16">
+            <exercise label="ex-FTC-II-17">
+<!--    <webwork xml:id="webwork-ex-FTC-II-17">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -1489,6 +1631,22 @@
           </pg-code>-->
           <statement>
             <p>  
+            <m>y=x^2+5x+6</m> and <m>y=-x^2-4x+2</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\frac{7}{24}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-area-between-curves-4">
+<!--    <webwork xml:id="webwork-ex-area-between-curves-4">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
             <m>x=y^2-6y+10</m> and <m>x=6-y</m>
             </p>
           </statement>
@@ -1499,8 +1657,8 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
-      <exercise label="ex-area-between-curves-4">
-<!--    <webwork xml:id="webwork-ex-area-between-curves-4">
+      <exercise label="ex-area-between-curves-5">
+<!--    <webwork xml:id="webwork-ex-area-between-curves-5">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -1515,8 +1673,8 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
-      <exercise label="ex-area-between-curves-5">
-<!--    <webwork xml:id="webwork-ex-area-between-curves-5">
+      <exercise label="ex-area-between-curves-6">
+<!--    <webwork xml:id="webwork-ex-area-between-curves-6">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -1532,7 +1690,77 @@
 <!--    </webwork>-->
       </exercise>
   </exercisegroup>
-<exercisegroup xml:id="exset-definite-integrals-abs-value">
+<exercisegroup cols="2" xml:id="exset-mvt-review">
+      <introduction>
+        <p>Find a value <m>c</m> guaranteed by the Mean Value Theorem.
+        </p>
+      </introduction>
+      <exercise label="ex-mvt-review-1">
+<!--    <webwork xml:id="webwork-ex-mvt-review-1">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            <m>\ds \int_{1}^{10}\left(\frac{4-x}{3}\right)\,dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>c=\frac{11}{2}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-mvt-review-2">
+<!--    <webwork xml:id="webwork-ex-mvt-review-2">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            <m>\ds \int_{1}^{3} \frac{5}{x}\,dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>c=\frac{2}{\ln 3}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-mvt-review-3">
+<!--    <webwork xml:id="webwork-ex-mvt-review-3">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \int_{-8}^{0} \sqrt[3]{x}\,dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>c=-\frac{27}{8}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-mvt-review-4">
+<!--    <webwork xml:id="webwork-ex-mvt-review-4">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>  
+            <m>\ds \int_{0}^{1} \frac{dx}{1+x^2}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>c=\sqrt{\frac{4-\pi}{\pi}}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+    </exercisegroup>
+      <exercisegroup xml:id="exset-definite-integrals-abs-value">
       <introduction>
         <p>For each item, identify a function <m>f(x)</m> and an interval <m>[a,b]</m> that satisfy the given statement.
         </p>
