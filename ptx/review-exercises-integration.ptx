@@ -145,7 +145,7 @@
           </pg-code>
           <statement>
             <p>
-              <m>f(x) = <var name="$f"/></m>
+              <m>f(x) = \ds <var name="$f"/></m>
             </p>
             <p>
               <var name="$F" width="40"/>
@@ -225,7 +225,7 @@
           </pg-code>
           <statement>
             <p>
-              <m>f(x) = \frac{1}{\sqrt{x}}</m>
+              <m>f(x) = \ds \frac{1}{\sqrt{x}}</m>
             </p>
             <p>
               <var name="$F" width="40"/>
@@ -240,7 +240,7 @@
           </pg-code>
           <statement>
             <p>
-              <m>f(x) = \frac{1}{1+x^2}</m>
+              <m>f(x) = \ds \frac{1}{1+x^2}</m>
             </p>
             <p>
               <var name="$F" width="40"/>
@@ -505,7 +505,7 @@
 <exercisegroup xml:id="exset-initial-value-review">
       <introduction>
         <p>
-        Find <m>f(x)</m> described by the given initial value problem.
+        Find the function <m>f</m> described by the given initial value problem.
         </p>
       </introduction>
       <exercise label="ex-initial-value-review-1">
@@ -514,7 +514,7 @@
           </pg-code>-->
           <statement>
             <p>
-              <m>f'(x)=\frac{1}{2\sqrt{x}}</m> and <m>f(1)=0</m>
+              <m>f'(x)=\ds \frac{1}{2\sqrt{x}}</m> and <m>f(1)=0</m>
             </p>
           </statement>
           <answer>
@@ -530,12 +530,12 @@
           </pg-code>-->
           <statement>
             <p>
-              <m>f'(x)=</m> and <m>f()=</m>
+              <m>f'(\theta)=\sec(\theta)\tan(\theta)</m> and <m>f(\frac{\pi}{3})=-2</m>
             </p>
           </statement>
           <answer>
             <p>
-            <m></m>
+            <m>f(\theta)=\sec(\theta)-4</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -546,12 +546,12 @@
           </pg-code>-->
           <statement>
             <p>
-              <m>f'(x)=</m> and <m>f()=</m>
+              <m>f''(\theta)=\ds </m> and <m>f'()=</m>, <m>f()=</m>
             </p>
           </statement>
           <answer>
             <p>
-            <m></m>
+            <m>f(\theta)=</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -562,12 +562,12 @@
           </pg-code>-->
           <statement>
             <p>
-              <m>f'(x)=</m> and <m>f()=</m>
+              <m>f''(x)=\ds \frac{x^3}{3}-\frac{x}{2}</m> and <m>f'(-1)=\frac{1}{3}</m>, <m>f(-1)=\frac{2}{5}</m>
             </p>
           </statement>
           <answer>
             <p>
-            <m></m>
+            <m>f(x)=\ds \frac{x^5}{60}-\frac{x^3}{12}+\frac{x}{2}+\frac{5}{6}</m>
             </p>
           </answer>
 <!--    </webwork>-->
