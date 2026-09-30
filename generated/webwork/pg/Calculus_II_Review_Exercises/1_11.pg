@@ -51,7 +51,7 @@ $F = FormulaUpToConstant("tan^{-1}(x)");
 BEGIN_PGML
 Find the general antiderivative of the given function.
 
-[`f(x) = \frac{1}{1+x^2}`]
+[`f(x) = \ds \frac{1}{1+x^2}`]
 
 [_]{$F}{40}
 

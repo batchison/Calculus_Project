@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-antiderivative-review-7" assembly-id="ex-antiderivative-review-7">
   <static seed="11">
-    <statement><p><m>f(x) = \frac{1}{1+x^2}</m></p>
+    <statement><p><m>f(x) = \ds \frac{1}{1+x^2}</m></p>
 <p><fillin characters="40" name="AnSwEr0001"/></p>
 </statement>
     <answer>
@@ -65,7 +65,7 @@ $F = FormulaUpToConstant("tan^{-1}(x)");
 BEGIN_PGML
 Find the general antiderivative of the given function.
 
-[`f(x) = \frac{1}{1+x^2}`]
+[`f(x) = \ds \frac{1}{1+x^2}`]
 
 [_]{$F}{40}
 

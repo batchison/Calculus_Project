@@ -51,7 +51,7 @@ $F = FormulaUpToConstant("2*sqrt(x)");
 BEGIN_PGML
 Find the general antiderivative of the given function.
 
-[`f(x) = \frac{1}{\sqrt{x}}`]
+[`f(x) = \ds \frac{1}{\sqrt{x}}`]
 
 [_]{$F}{40}
 

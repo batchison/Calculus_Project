@@ -54,7 +54,7 @@ $F = FormulaUpToConstant("$c*ln(abs(x))");
 BEGIN_PGML
 Find the general antiderivative of the given function.
 
-[`f(x) = [$f]`]
+[`f(x) = \ds [$f]`]
 
 [_]{$F}{40}
 

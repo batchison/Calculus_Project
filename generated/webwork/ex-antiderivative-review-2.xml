@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-antiderivative-review-2" assembly-id="ex-antiderivative-review-2">
   <static seed="6">
-    <statement><p><m>f(x) = {\frac{7}{x}}</m></p>
+    <statement><p><m>f(x) = \ds {\frac{7}{x}}</m></p>
 <p><fillin characters="40" name="AnSwEr0001"/></p>
 </statement>
     <answer>
@@ -68,7 +68,7 @@ $F = FormulaUpToConstant("$c*ln(abs(x))");
 BEGIN_PGML
 Find the general antiderivative of the given function.
 
-[`f(x) = [$f]`]
+[`f(x) = \ds [$f]`]
 
 [_]{$F}{40}
 
