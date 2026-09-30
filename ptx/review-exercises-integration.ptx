@@ -546,12 +546,12 @@
           </pg-code>-->
           <statement>
             <p>
-              <m>f''(\theta)=\ds </m> and <m>f'()=</m>, <m>f()=</m>
+              <m>f''(\theta)=-\cos(\theta)\ds </m> and <m>f'(\pi)=\frac{1}{2}</m>, <m>f(\pi)=\pi-1</m>
             </p>
           </statement>
           <answer>
             <p>
-            <m>f(\theta)=</m>
+            <m>f(\theta)=\cos(\theta)+\frac{1}{2}\theta+\frac{\pi}{2}</m>
             </p>
           </answer>
 <!--    </webwork>-->
