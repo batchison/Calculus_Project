@@ -681,7 +681,7 @@
           </pg-code>-->
           <statement>
             <p>
-              <m>f(x)=\frac{4-x}{3}</m> over <m>[1,10]</m>
+              <m>f(x)=\ds \frac{4-x}{3}</m> over <m>[1,10]</m>
             </p>
           </statement>
           <answer>
