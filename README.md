@@ -1,6 +1,8 @@
 # APEX Calculus, PreTeXt edition
 
-This repository contains the source code for the APEX Calculus textbook.
+This repository was originally cloned from the APEXCalculusPTX repository, available here: https://github.com/APEXCalculus/APEXCalculusPTX.git.  The purpose of this repository is for the creation of chapter review sections for use with the APEX Calculus textbook.
+
+For more information, please see the README file from the original repository (also included in this file below).
 
 APEX Calculus was originally [written in LaTeX](https://github.com/APEXCalculus/APEXCalculusV4); this version of the book uses [https://pretextbook.org](PreTeXt).
 
