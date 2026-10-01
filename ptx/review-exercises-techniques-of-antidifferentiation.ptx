@@ -15,12 +15,12 @@
           </pg-code>-->
           <statement>
             <p>
-              <m>f'(x)=\ds \frac{1}{2\sqrt{x}}</m> and <m>f(1)=0</m>
+              <m>\ds \int_{}^{}\, dx</m>
             </p>
           </statement>
           <answer>
             <p>
-            <m>f(x)=\sqrt{x}-1</m>
+            <m></m>
             </p>
           </answer>
 <!--    </webwork>-->
