@@ -3,8 +3,8 @@
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
   <xi:include href="./docinfo.ptx"/>
 
-  <book xml:id="calculus-ii-review">
-    <title>Calculus II Review Exercises</title>
+  <book xml:id="calculus-review">
+    <title>Calculus Review Exercises</title>
 <!--    <subtitle component="proteus-id">PROTEUS version</subtitle>
     <subtitle component="playground-id">PROTEUS Playground</subtitle>-->
     <frontmatter label="frontmatter">
@@ -83,9 +83,9 @@
 
     <xi:include href="./chapter_integration.ptx"/>
 
-<!--    <xi:include href="./chapter_anti_tech.ptx"/>
+    <xi:include href="./chapter_anti_tech.ptx"/>
 
-    <xi:include href="./chapter_app_of_int.ptx"/>
+<!--    <xi:include href="./chapter_app_of_int.ptx"/>
 
     <xi:include href="./chapter_differential_equations.ptx"/>
   
