@@ -1018,6 +1018,24 @@ var ptx_lunr_docs = [
   "body": "   Region         "
 },
 {
+  "id": "chapter_anti_tech",
+  "level": "1",
+  "url": "chapter_anti_tech.html",
+  "type": "Chapter",
+  "number": "2",
+  "title": "Techniques of Antidifferentiation",
+  "body": " Techniques of Antidifferentiation    Review Exercises    Evaluate the indefinite integral.                   "
+},
+{
+  "id": "ex-integration-review-1",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-integration-review-1",
+  "type": "Exercise",
+  "number": "2.1",
+  "title": "",
+  "body": "             "
+},
+{
   "id": "selected-answers",
   "level": "1",
   "url": "selected-answers.html",
