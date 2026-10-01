@@ -1024,14 +1024,203 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "2",
   "title": "Techniques of Antidifferentiation",
-  "body": " Techniques of Antidifferentiation    Review Exercises    Evaluate the indefinite integral.                   "
+  "body": " Techniques of Antidifferentiation    Review Exercises    Evaluate the indefinite integral.                                                                                                                                                                                                                                                                                                            Evaluate the definite integral.                   "
 },
 {
-  "id": "ex-integration-review-1",
+  "id": "ex-indefinite-int-review-1",
   "level": "2",
-  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-integration-review-1",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-1",
   "type": "Exercise",
   "number": "2.1",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-2",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-2",
+  "type": "Exercise",
+  "number": "2.2",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-3",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-3",
+  "type": "Exercise",
+  "number": "2.3",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-4",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-4",
+  "type": "Exercise",
+  "number": "2.4",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-5",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-5",
+  "type": "Exercise",
+  "number": "2.5",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-6",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-6",
+  "type": "Exercise",
+  "number": "2.6",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-7",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-7",
+  "type": "Exercise",
+  "number": "2.7",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-8",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-8",
+  "type": "Exercise",
+  "number": "2.8",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-9",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-9",
+  "type": "Exercise",
+  "number": "2.9",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-10",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-10",
+  "type": "Exercise",
+  "number": "2.10",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-11",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-11",
+  "type": "Exercise",
+  "number": "2.11",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-12",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-12",
+  "type": "Exercise",
+  "number": "2.12",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-13",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-13",
+  "type": "Exercise",
+  "number": "2.13",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-14",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-14",
+  "type": "Exercise",
+  "number": "2.14",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-15",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-15",
+  "type": "Exercise",
+  "number": "2.15",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-16",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-16",
+  "type": "Exercise",
+  "number": "2.16",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-17",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-17",
+  "type": "Exercise",
+  "number": "2.17",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-18",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-18",
+  "type": "Exercise",
+  "number": "2.18",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-19",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-19",
+  "type": "Exercise",
+  "number": "2.19",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-20",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-20",
+  "type": "Exercise",
+  "number": "2.20",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-21",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-21",
+  "type": "Exercise",
+  "number": "2.21",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-definite-int-review-1",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-definite-int-review-1",
+  "type": "Exercise",
+  "number": "2.22",
   "title": "",
   "body": "             "
 },
