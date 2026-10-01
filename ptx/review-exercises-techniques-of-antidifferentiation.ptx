@@ -63,12 +63,12 @@
           </pg-code>-->
           <statement>
             <p>
-              <m>\ds \int_{}^{}\frac{e^{\sqrt{x}}}{\sqrt{x}}\, dx+C</m>
+              <m>\ds \int_{}^{}\frac{e^{\sqrt{x}}}{\sqrt{x}}\, dx</m>
             </p>
           </statement>
           <answer>
             <p>
-            <m>\ds 2e^{\sqrt{x}}</m>
+            <m>\ds 2e^{\sqrt{x}}+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
