@@ -15,12 +15,12 @@
           </pg-code>-->
           <statement>
             <p>
-              <m>\ds \int_{}^{}(2-t)^3\, dt</m>
+              <m>\ds \int_{}^{}(2-x)^3\, dx</m>
             </p>
           </statement>
           <answer>
             <p>
-            <m>\ds -\frac{(2-t)^4}{4}+C</m>
+            <m>\ds -\frac{(2-x)^4}{4}+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -358,12 +358,268 @@
           </pg-code>-->
           <statement>
             <p>
-              <m>\ds \int_{}^{}\, dx</m>
+              <m>\ds \int_{2}^{e+1}\frac{1}{1-x}\, dx</m>
             </p>
           </statement>
           <answer>
             <p>
-            <m>\ds </m>
+            <m>\ds -1</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-definite-int-review-2">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-2">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{\frac{\pi}{6}}^{\frac{\pi}{3}}\sin\left(2x\right)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{1}{2}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-definite-int-review-3">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-3">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{\pi}^{3\pi}\cos\left(\frac{x}{6}\right)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds 3</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-definite-int-review-4">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-4">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{0}^{1}\left(e^{3x}-2x^2\right)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{1}{3}e^3-1</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-definite-int-review-5">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-5">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{-1}^{1}\, \frac{2}{2-x}dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \ln9</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-definite-int-review-6">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-6">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{2}^{4}(3-x)^4\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{2}{5}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-definite-int-review-7">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-7">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{\frac{\pi}{4}}^{\frac{\pi}{3}}\tan(\theta)\, d\theta</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{1}{2}\ln2</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-definite-int-review-8">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-8">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{\frac{2}{3}}^{1}e^{2-3x}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{1}{3}\left(1-\frac{1}{e}\right)</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-definite-int-review-9">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-9">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{0}^{\ln9}\sqrt{e^x}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds 4</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-definite-int-review-10">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-10">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{0}^{\frac{\pi}{2}}\frac{\sin(\theta)}{1+\cos(\theta)}\, d\theta</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \ln2</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-definite-int-review-11">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-11">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{1}^{3}\frac{2}{(1-2x)^2}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{4}{5}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-definite-int-review-12">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-12">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{e}^{e^2}\frac{dx}{x\lnx}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \ln2</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-definite-int-review-13">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-13">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{6}^{12}\frac{x}{x-3}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds 3(2+ln3)</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-definite-int-review-14">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-14">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{0}^{4}\frac{2x}{4+x^2}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \ln5</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-definite-int-review-15">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-15">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{0}^{3}\frac{x}{\sqrt{x+1}}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{8}{3}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-definite-int-review-16">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-16">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{0}^{1}\frac{1}{4x^2+4x+1}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{1}{3}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-definite-int-review-17">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-17">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{0}^{\ln2}\frac{e^x}{e^x+4}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \ln\frac{6}{5}</m>
             </p>
           </answer>
 <!--    </webwork>-->
