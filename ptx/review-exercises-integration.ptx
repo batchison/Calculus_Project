@@ -1965,12 +1965,12 @@
                           xmin=0,
                           xmax=2
                         ]
-                        \addplot [secondcurvestyle,areastyle,domain=0:1.57076] {cos(deg(x))} \closedcycle;
-                        \addplot [firstcurvestyle,areastyle,domain=0:0.785398] {sin(deg(x))} \closedcycle;
-                        \addplot [firstcurvestyle,areastyle,domain=0.785398:1.57076] {cos(deg(x))} \closedcycle;
-                        \addplot [secondcurvestyle,areastyle,domain=0:1.57076] {cos(deg(x))} \closedcycle;
-                        \addplot [firstcolor,domain=0:1.57076,samples=50] {sin(deg(x))};
-                        \addplot [secondcolor,domain=0:1.57076,samples=50] {cos(deg(x))};
+
+                        \addplot [name path=A,firstcurvestyle,domain=0:1.57076,samples=50] {cos(deg(x))};
+                        \addplot [name path=B,firstcurvestyle,domain=0:1.57076,samples=50] {sin(deg(x))};
+                        \addplot [firstcurvestyle,areastyle] fill between [of=A and B,soft clip={domain=0:0.785398}];
+                        \addplot [secondcurvestyle,areastyle,domain=0:0.785398] {sin(deg(x))} \closedcycle;
+                        \addplot [secondcurvestyle,areastyle,domain=0.785398:1.57076] {cos(deg(x))} \closedcycle;
                         \draw (axis cs:1.7,1.15) node { \(y=\sin(x)\)};
                         \draw (axis cs:1.7,0.25) node { \(y=\cos(x)\)};
                         \draw (axis cs:.3,.65) node { \(A\)};
