@@ -628,7 +628,7 @@
 <exercisegroup xml:id="exset-substitution-area-review">
       <introduction>
         <p>
-        Sketch the given relations and find the area of the enclosed region(s).
+        Sketch the given relations and find the area of the enclosed region.
         </p>
       </introduction>
       <exercise label="ex-substitution-area-review-1">
@@ -679,11 +679,15 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
+  </exercisegroup>
       <exercise label="ex-substitution-area-review-4">
 <!--    <webwork xml:id="webwork-ex-substitution-area-review-4">
           <pg-code>
           </pg-code>-->
           <statement>
+        <p>
+        Find the area of the enclosed region.
+        </p>
                   <image width="67%">
                   <shortdescription>
                     Graph of two intersecting curves over the interval from one to two.
@@ -715,9 +719,9 @@
                     \end{tikzpicture}
                 </latex-image>
                 </image>
-            <p>
+<!--            <p>
               <m>\ds y=\frac{3x}{2+x^2}</m> and <m>y=2x^2-6x+5</m>
-            </p>
+            </p>-->
           </statement>
           <answer>
             <p>
@@ -726,5 +730,41 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
-  </exercisegroup>
-  </exercises>
+      <exercise label="ex-initial-value-subs-1">
+<!--    <webwork xml:id="webwork-ex-initial-value-subs-1">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+        <p>
+        Find the function <m>f</m> described by the given initial value problem.
+        </p>
+            <p>
+              <m>f'(x)=\ds x\sqrt{x-3}</m> and <m>f(4)=4</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds f(x)=\frac{2}{5}(x-3)^{\frac{5}{2}}+2(x-3)^{\frac{3}{2}}+\frac{8}{5}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-substitution-find-k">
+<!--    <webwork xml:id="webwork-ex-substitution-find-k">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+        <p> Prove the following identity, where <m>m,b,</m> and <m>k</m> are constants with <m>m\neq 0</m> and <m>k&gt; 0</m>.</p>
+            <p>
+              <m>\ds \int(mx+b)^k\, dx=\frac{(mx+b)^{k+1}}{mk+m}+C</m>
+            </p>
+        <p>Use the given identity to evaluate the following integral.</p>
+        <p><m>\ds \int\left(\frac{3-x}{2}\right)^3\, dx</m></p>
+          </statement>
+          <answer>
+            <p><m>\ds -\frac{(x-3)^4}{32}+C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+    </exercises>
