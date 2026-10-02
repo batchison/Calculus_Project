@@ -374,7 +374,7 @@
           </pg-code>-->
           <statement>
             <p>
-              <m>\ds \int_{\frac{\pi}{6}}^{\frac{\pi}{3}}\sin\left(2x\right)\, dx</m>
+              <m>\ds \int_{\frac{\pi}{6}}^{\frac{\pi}{3}}\sin\left(2\theta\right)\, d\theta</m>
             </p>
           </statement>
           <answer>
@@ -390,7 +390,7 @@
           </pg-code>-->
           <statement>
             <p>
-              <m>\ds \int_{\pi}^{3\pi}\cos\left(\frac{x}{6}\right)\, dx</m>
+              <m>\ds \int_{\pi}^{3\pi}\cos\left(\frac{\theta}{6}\right)\, d\theta</m>
             </p>
           </statement>
           <answer>
@@ -534,7 +534,7 @@
           </pg-code>-->
           <statement>
             <p>
-              <m>\ds \int_{e}^{e^2}\frac{dx}{x\lnx}</m>
+              <m>\ds \int_{e}^{e^2}\frac{dx}{x\ln(x)}</m>
             </p>
           </statement>
           <answer>
@@ -555,7 +555,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds 3(2+ln3)</m>
+            <m>\ds 3(2+\ln3)</m>
             </p>
           </answer>
 <!--    </webwork>-->
