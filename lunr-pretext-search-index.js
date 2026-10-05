@@ -1024,7 +1024,7 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "2",
   "title": "Techniques of Antidifferentiation",
-  "body": " Techniques of Antidifferentiation    Review Exercises    Evaluate the indefinite integral.                                                                                                                                                                                                                                                                                                                                                                                                              Evaluate the definite integral.                                                                                                                                                                                                                                                                                                            Sketch the given relations and find the area of the enclosed region.       and               and               and               Find the area of the enclosed region.   Graph of two intersecting curves over the interval from one to two.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is the function , from to . The second curve is the function , from to .                 Find the function described by the given initial value problem.   and              Prove the following identity, where and are constants with and .     Use the given identity to evaluate the following integral.           "
+  "body": " Techniques of Antidifferentiation    Review Exercises    Evaluate the indefinite integral.                                                                                                                                                                                                                                                                                                                                                                                                              Evaluate the definite integral.                                                                                                                                                                                                                                                                                                            Sketch the given relations and find the area of the enclosed region.       and               and               and               Find the area of the enclosed region.   Graph of two intersecting curves over the interval from one to two.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is the function , from to . The second curve is the function , from to .                 Find the function described by the given initial value problem.   and              Prove the following identity, where and are constants with and .     Use the given identity to evaluate the following integral.            Evaluate the indefinite integral for .                                               "
 },
 {
   "id": "ex-indefinite-int-review-1",
@@ -1520,6 +1520,33 @@ var ptx_lunr_docs = [
   "number": "2.55",
   "title": "",
   "body": "   Prove the following identity, where and are constants with and .     Use the given identity to evaluate the following integral.         "
+},
+{
+  "id": "ex-int-by-parts-formulas-1",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-int-by-parts-formulas-1",
+  "type": "Exercise",
+  "number": "2.56",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-int-by-parts-formulas-2",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-int-by-parts-formulas-2",
+  "type": "Exercise",
+  "number": "2.57",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-int-by-parts-formulas-3",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-int-by-parts-formulas-3",
+  "type": "Exercise",
+  "number": "2.58",
+  "title": "",
+  "body": "             "
 },
 {
   "id": "selected-answers",
