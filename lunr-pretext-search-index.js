@@ -1024,7 +1024,7 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "2",
   "title": "Techniques of Antidifferentiation",
-  "body": " Techniques of Antidifferentiation    Review Exercises    Evaluate the indefinite integral.                                                                                                                                                                                                                                                                                                                          Evaluate the definite integral.                                                                                                                                                                                                                                      Sketch the given relations and find the area of the enclosed region.       and               and               and               Find the area of the enclosed region.   Graph of two intersecting curves over the interval from one to two.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is the function , from to . The second curve is the function , from to .                 Find the function described by the given initial value problem.   and              Prove the following identity, where and are constants with and .     Use the given identity to evaluate the following integral.           "
+  "body": " Techniques of Antidifferentiation    Review Exercises    Evaluate the indefinite integral.                                                                                                                                                                                                                                                                                                                                                                                                              Evaluate the definite integral.                                                                                                                                                                                                                                                                                                            Sketch the given relations and find the area of the enclosed region.       and               and               and               Find the area of the enclosed region.   Graph of two intersecting curves over the interval from one to two.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is the function , from to . The second curve is the function , from to .                 Find the function described by the given initial value problem.   and              Prove the following identity, where and are constants with and .     Use the given identity to evaluate the following integral.           "
 },
 {
   "id": "ex-indefinite-int-review-1",
@@ -1225,11 +1225,65 @@ var ptx_lunr_docs = [
   "body": "             "
 },
 {
+  "id": "ex-indefinite-int-review-23",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-23",
+  "type": "Exercise",
+  "number": "2.23",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-24",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-24",
+  "type": "Exercise",
+  "number": "2.24",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-25",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-25",
+  "type": "Exercise",
+  "number": "2.25",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-26",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-26",
+  "type": "Exercise",
+  "number": "2.26",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-27",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-27",
+  "type": "Exercise",
+  "number": "2.27",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-indefinite-int-review-28",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-indefinite-int-review-28",
+  "type": "Exercise",
+  "number": "2.28",
+  "title": "",
+  "body": "             "
+},
+{
   "id": "ex-definite-int-review-1",
   "level": "2",
   "url": "exercises-techniques-of-antidifferentiation-review.html#ex-definite-int-review-1",
   "type": "Exercise",
-  "number": "2.23",
+  "number": "2.29",
   "title": "",
   "body": "             "
 },
@@ -1238,7 +1292,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-techniques-of-antidifferentiation-review.html#ex-definite-int-review-2",
   "type": "Exercise",
-  "number": "2.24",
+  "number": "2.30",
   "title": "",
   "body": "             "
 },
@@ -1247,7 +1301,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-techniques-of-antidifferentiation-review.html#ex-definite-int-review-3",
   "type": "Exercise",
-  "number": "2.25",
+  "number": "2.31",
   "title": "",
   "body": "             "
 },
@@ -1256,7 +1310,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-techniques-of-antidifferentiation-review.html#ex-definite-int-review-4",
   "type": "Exercise",
-  "number": "2.26",
+  "number": "2.32",
   "title": "",
   "body": "             "
 },
@@ -1265,7 +1319,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-techniques-of-antidifferentiation-review.html#ex-definite-int-review-5",
   "type": "Exercise",
-  "number": "2.27",
+  "number": "2.33",
   "title": "",
   "body": "             "
 },
@@ -1274,7 +1328,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-techniques-of-antidifferentiation-review.html#ex-definite-int-review-6",
   "type": "Exercise",
-  "number": "2.28",
+  "number": "2.34",
   "title": "",
   "body": "             "
 },
@@ -1283,7 +1337,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-techniques-of-antidifferentiation-review.html#ex-definite-int-review-7",
   "type": "Exercise",
-  "number": "2.29",
+  "number": "2.35",
   "title": "",
   "body": "             "
 },
@@ -1292,7 +1346,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-techniques-of-antidifferentiation-review.html#ex-definite-int-review-8",
   "type": "Exercise",
-  "number": "2.30",
+  "number": "2.36",
   "title": "",
   "body": "             "
 },
@@ -1301,7 +1355,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-techniques-of-antidifferentiation-review.html#ex-definite-int-review-9",
   "type": "Exercise",
-  "number": "2.31",
+  "number": "2.37",
   "title": "",
   "body": "             "
 },
@@ -1310,7 +1364,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-techniques-of-antidifferentiation-review.html#ex-definite-int-review-10",
   "type": "Exercise",
-  "number": "2.32",
+  "number": "2.38",
   "title": "",
   "body": "             "
 },
@@ -1319,7 +1373,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-techniques-of-antidifferentiation-review.html#ex-definite-int-review-11",
   "type": "Exercise",
-  "number": "2.33",
+  "number": "2.39",
   "title": "",
   "body": "             "
 },
@@ -1328,7 +1382,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-techniques-of-antidifferentiation-review.html#ex-definite-int-review-12",
   "type": "Exercise",
-  "number": "2.34",
+  "number": "2.40",
   "title": "",
   "body": "             "
 },
@@ -1337,7 +1391,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-techniques-of-antidifferentiation-review.html#ex-definite-int-review-13",
   "type": "Exercise",
-  "number": "2.35",
+  "number": "2.41",
   "title": "",
   "body": "             "
 },
@@ -1346,7 +1400,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-techniques-of-antidifferentiation-review.html#ex-definite-int-review-14",
   "type": "Exercise",
-  "number": "2.36",
+  "number": "2.42",
   "title": "",
   "body": "             "
 },
@@ -1355,7 +1409,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-techniques-of-antidifferentiation-review.html#ex-definite-int-review-15",
   "type": "Exercise",
-  "number": "2.37",
+  "number": "2.43",
   "title": "",
   "body": "             "
 },
@@ -1364,7 +1418,52 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-techniques-of-antidifferentiation-review.html#ex-definite-int-review-16",
   "type": "Exercise",
-  "number": "2.38",
+  "number": "2.44",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-definite-int-review-17",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-definite-int-review-17",
+  "type": "Exercise",
+  "number": "2.45",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-definite-int-review-18",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-definite-int-review-18",
+  "type": "Exercise",
+  "number": "2.46",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-definite-int-review-19",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-definite-int-review-19",
+  "type": "Exercise",
+  "number": "2.47",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-definite-int-review-20",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-definite-int-review-20",
+  "type": "Exercise",
+  "number": "2.48",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-definite-int-review-21",
+  "level": "2",
+  "url": "exercises-techniques-of-antidifferentiation-review.html#ex-definite-int-review-21",
+  "type": "Exercise",
+  "number": "2.49",
   "title": "",
   "body": "             "
 },
@@ -1373,7 +1472,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-techniques-of-antidifferentiation-review.html#ex-substitution-area-review-1",
   "type": "Exercise",
-  "number": "2.39",
+  "number": "2.50",
   "title": "",
   "body": "    and          "
 },
@@ -1382,7 +1481,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-techniques-of-antidifferentiation-review.html#ex-substitution-area-review-2",
   "type": "Exercise",
-  "number": "2.40",
+  "number": "2.51",
   "title": "",
   "body": "    and          "
 },
@@ -1391,7 +1490,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-techniques-of-antidifferentiation-review.html#ex-substitution-area-review-3",
   "type": "Exercise",
-  "number": "2.41",
+  "number": "2.52",
   "title": "",
   "body": "    and          "
 },
@@ -1400,7 +1499,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-techniques-of-antidifferentiation-review.html#ex-substitution-area-review-4",
   "type": "Exercise",
-  "number": "2.42",
+  "number": "2.53",
   "title": "",
   "body": "   Find the area of the enclosed region.   Graph of two intersecting curves over the interval from one to two.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is the function , from to . The second curve is the function , from to .             "
 },
@@ -1409,7 +1508,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-techniques-of-antidifferentiation-review.html#ex-initial-value-subs-1",
   "type": "Exercise",
-  "number": "2.43",
+  "number": "2.54",
   "title": "",
   "body": "   Find the function described by the given initial value problem.   and          "
 },
@@ -1418,7 +1517,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-techniques-of-antidifferentiation-review.html#ex-substitution-find-k",
   "type": "Exercise",
-  "number": "2.44",
+  "number": "2.55",
   "title": "",
   "body": "   Prove the following identity, where and are constants with and .     Use the given identity to evaluate the following integral.         "
 },
