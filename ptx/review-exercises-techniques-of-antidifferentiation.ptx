@@ -457,6 +457,358 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
+      <exercise label="ex-indefinite-int-review-29">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-29">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\sin^3(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds +C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-indefinite-int-review-30">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-30">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\cos^3(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds +C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-indefinite-int-review-31">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-31">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\sin^2(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds +C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-indefinite-int-review-32">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-32">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\sin^2(x)\cos^3(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds +C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-indefinite-int-review-33">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-33">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\sin^3(x)\cos^4(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds +C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-indefinite-int-review-34">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-34">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\sin^4(x)\cos^3(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds +C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-indefinite-int-review-35">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-35">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\sin^4(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds +C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-indefinite-int-review-36">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-36">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\cos^4(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds +C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-indefinite-int-review-37">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-37">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\sin^4(x)\cos^2(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds +C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-indefinite-int-review-38">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-38">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\tan^3(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds +C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-indefinite-int-review-39">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-39">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\sec^4(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds +C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-indefinite-int-review-40">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-40">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\tan(x)\sec^3(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds +C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-indefinite-int-review-41">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-41">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\tan(x)\sec^4(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds +C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-indefinite-int-review-42">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-42">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\tan^3(x)\sec(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds +C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-indefinite-int-review-43">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-43">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\tan^4(x)\sec^4(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds +C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-indefinite-int-review-44">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-44">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\cot^2(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds +C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-indefinite-int-review-45">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-45">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\csc^4(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds +C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-indefinite-int-review-46">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-46">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\cot^3(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds +C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-indefinite-int-review-47">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-47">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\cot^4(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds +C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-indefinite-int-review-48">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-48">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\cot^2(x)\csc^2(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds +C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-indefinite-int-review-49">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-49">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\cot^3(x)\csc(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds +C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-indefinite-int-review-50">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-50">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\cot(x)\csc^4(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds +C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
       </exercisegroup>
 <exercisegroup cols="2" xml:id="exset-definite-int-review">
       <introduction>
@@ -854,7 +1206,7 @@
           </pg-code>-->
           <statement>
             <p>
-              <m>\ds \int_{\frac{\pi}{6}}^{\frac{\pi}{4}}8cos^2(2x)\, dx</m>
+              <m>\ds \int_{\frac{\pi}{6}}^{\frac{\pi}{4}}8\cos^2(2x)\, dx</m>
             </p>
           </statement>
           <answer>
@@ -886,7 +1238,7 @@
           </pg-code>-->
           <statement>
             <p>
-              <m>\ds \int_{0}^{\pi}\sin^3(x)cos^2(x)\, dx</m>
+              <m>\ds \int_{0}^{\pi}\sin^3(x)\cos^2(x)\, dx</m>
             </p>
           </statement>
           <answer>
