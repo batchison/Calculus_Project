@@ -676,7 +676,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds \frac{\sec(x)\tan(x)}{2}-\frac{1}{2}\ln|\sec(x)+\tan(x)|+C</m>
+            <m>\ds \frac{\sec^3(x)}{3}-\sec(x)+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -788,7 +788,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds -\frac{\csc(x)\cot^2(x)}{2}+\frac{1}{2}\ln|\csc(x)-\cot(x)|+C</m>
+            <m>\ds -\frac{\csc^3(x)}{3}+\csc(x)+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
