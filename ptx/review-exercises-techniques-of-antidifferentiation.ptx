@@ -809,6 +809,22 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
+            <exercise label="ex-indefinite-int-review-51">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-51">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\frac{\sec(x)}{\tan^2(x)}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds -\csc(x)+C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
       </exercisegroup>
 <exercisegroup cols="2" xml:id="exset-definite-int-review">
       <introduction>
@@ -1276,6 +1292,54 @@
           <answer>
             <p>
             <m>\ds \frac{3}{5}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+        <exercise label="ex-definite-int-review-30">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-30">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{\frac{\pi}{6}}^{\frac{\pi}{4}}\sin^2(3x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{1}{12}\left(\frac{\pi}{2}+1\right)</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+        <exercise label="ex-definite-int-review-31">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-31">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{\frac{\pi}{6}}^{\frac{\pi}{3}}\cot(x)\csc(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{6-2\sqrt{3}}{3}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+        <exercise label="ex-definite-int-review-32">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-32">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{0}^{\frac{\pi}{3}}\tan^3(x)\sec^3(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{58}{15}</m>
             </p>
           </answer>
 <!--    </webwork>-->
