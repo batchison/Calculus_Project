@@ -692,7 +692,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds \frac{\tan^7(x)}{7}+\frac{2\tan^5(x)}{5}+\frac{\tan^3(x)}{3}+C</m>
+            <m>\ds \frac{\tan^7(x)}{7}+\frac{\tan^5(x)}{5}+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
