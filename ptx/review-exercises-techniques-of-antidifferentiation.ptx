@@ -468,7 +468,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds +C</m>
+            <m>\ds \frac{\cos^3(x)}{3}-\cos(x)+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -484,7 +484,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds +C</m>
+            <m>\ds -\frac{\sin^3(x)}{3}+\sin(x)+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -500,7 +500,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds +C</m>
+            <m>\ds -\frac{\sin(2x)}{4}+\frac{x}{2}+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -516,7 +516,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds +C</m>
+            <m>\ds -\frac{\sin^5(x)}{5}+\frac{\sin^3(x)}{3}+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -532,7 +532,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds +C</m>
+            <m>\ds \frac{\cos^7(x)}{7}-\frac{\cos^5(x)}{5}+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -548,7 +548,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds +C</m>
+            <m>\ds -\frac{\sin^7(x)}{7}+\frac{\sin^5(x)}{5}+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -564,7 +564,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds +C</m>
+            <m>\ds \frac{\sin(4x)}{32}-\frac{\sin(2x)}{4}+\frac{3x}{8}+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -580,7 +580,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds +C</m>
+            <m>\ds \frac{\sin(4x)}{32}+\frac{\sin(2x)}{4}+\frac{3x}{8}+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -596,7 +596,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds +C</m>
+            <m>\ds \frac{\sin(6x)}{192}-\frac{\sin(4x)}{64}-\frac{\sin(2x)}{64}+\frac{x}{16}+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -612,7 +612,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds +C</m>
+            <m>\ds -\frac{\sec^2(x)}{2}-\ln|\cos(x)|+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -628,7 +628,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds +C</m>
+            <m>\ds \frac{\tan^3(x)}{3}+\tan(x)+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -644,7 +644,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds +C</m>
+            <m>\ds \frac{\sec^3(x)}{3}+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -660,7 +660,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds +C</m>
+            <m>\ds \frac{\sec^4(x)}{4}+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -676,7 +676,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds +C</m>
+            <m>\ds \frac{\sec(x)\tan(x)}{2}-\frac{1}{2}\ln|\sec(x)+\tan(x)|+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -692,7 +692,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds +C</m>
+            <m>\ds \frac{\tan^7(x)}{7}+\frac{2\tan^5(x)}{5}+\frac{\tan^3(x)}{3}+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -708,7 +708,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds +C</m>
+            <m>\ds -\cot(x)-x+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -724,7 +724,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds +C</m>
+            <m>\ds -\frac{\cot^3(x)}{3}-\cot(x)+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -740,7 +740,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds +C</m>
+            <m>\ds -\frac{\cot^2(x)}{2}-\ln|\sin(x)|+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -756,7 +756,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds +C</m>
+            <m>\ds -\frac{\cot^3(x)}{3} +\cot(x)+x+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -772,7 +772,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds +C</m>
+            <m>\ds -\frac{\cot^3(x)}{3}+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -788,7 +788,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds +C</m>
+            <m>\ds -\frac{\csc(x)\cot^2(x)}{2}+\frac{1}{2}\ln|\csc(x)-\cot(x)|+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -804,7 +804,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds +C</m>
+            <m>\ds -\frac{\csc^4(x)}{4}+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
