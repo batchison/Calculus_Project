@@ -800,6 +800,134 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
+            <exercise label="ex-definite-int-review-22">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-22">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{\frac{\pi}{4}}^{\frac{3\pi}{4}}\sin^2(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{1}{2}\left(\frac{\pi}{2}+1\right)</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-definite-int-review-23">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-23">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{\frac{4\pi}{3}}^{\frac{5\pi}{4}}\sec^2(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds 1-\sqrt{3}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+                  <exercise label="ex-definite-int-review-24">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-24">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{\frac{\pi}{4}}^{\frac{\pi}{2}}\cot(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{\ln(2)}{2}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+                  <exercise label="ex-definite-int-review-25">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-25">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{\frac{\pi}{6}}^{\frac{\pi}{4}}8cos^2(2x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{\pi}{3}-\frac{\sqrt{3}}{2}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+                  <exercise label="ex-definite-int-review-26">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-26">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{0}^{\frac{\pi}{3}}\sin^2\left(\frac{x}{4}\right)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{\pi-3}{6}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+                  <exercise label="ex-definite-int-review-27">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-27">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{0}^{\pi}\sin^3(x)cos^2(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{4}{15}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+                  <exercise label="ex-definite-int-review-28">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-28">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{0}^{\frac{\pi}{3}}\tan^3(x)\sec(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{4}{3}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+        <exercise label="ex-definite-int-review-29">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-29">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{0}^{\frac{\pi}{2}}\sin(6x)\cos(4x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{3}{5}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
     </exercisegroup>
 <exercisegroup xml:id="exset-substitution-area-review">
       <introduction>
