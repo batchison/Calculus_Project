@@ -2038,7 +2038,7 @@ For each item, identify the appropriate trigonometric substitution for an integr
 <!--    </webwork>-->
       </exercise>
 </exercisegroup>
-<exercisegroup cols="2" xml:id="exset-partial-fraction-review">
+<exercisegroup xml:id="exset-partial-fraction-review">
       <introduction>
         <p>
         Identify the appropriate partial fraction decomposition for each of the given rational expressions.  In each case, <m>p(x)</m> should be assumed to be an unknown polynomial of smaller degree than the denominator.
@@ -2103,7 +2103,7 @@ For each item, identify the appropriate trigonometric substitution for an integr
           </statement>
           <answer>
             <p>
-            <m>\ds \frac{A}{x+5}+\frac{B}{(x+5)^2)}+\frac{C}{x+\sqrt{5}}+\frac{D}{x-\sqrt{5}}</m>
+            <m>\ds \frac{A}{x+5}+\frac{B}{(x+5)^2}+\frac{C}{x+\sqrt{5}}+\frac{D}{x-\sqrt{5}}</m>
             </p>
           </answer>
 <!--    </webwork>-->
