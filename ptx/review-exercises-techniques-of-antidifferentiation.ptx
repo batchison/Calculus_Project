@@ -969,7 +969,135 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
-      </exercisegroup>
+      <exercise label="ex-indefinite-int-review-61">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-61">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\frac{5x-4}{x^3-4x^2+4x}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \ln|x-2|-\ln|x|-\frac{3}{x-2}+C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+<exercise label="ex-indefinite-int-review-62">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-62">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\frac{5x^2-2x+4}{2x^3-x^2+8x-4}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \ln(x^2+4)+\frac{1}{2}\ln\left|x-\frac{1}{2}\right|+C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-indefinite-int-review-63">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-63">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\frac{x+3}{(x^2+1)(1-x)}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \ln(x^2+1)-2\ln|x-1|+\tan^{-1}(x)+C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-indefinite-int-review-64">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-64">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\frac{x^3-4x^2+x+3}{x^2-3x}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{x^2}{2}-x+\ln|x|+\ln|x-3|+C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-indefinite-int-review-65">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-65">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\frac{-9x^2+2x-3}{3x^4+x^2}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{3}{x}+2\ln|x|-\ln(3x^2+1)+C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-indefinite-int-review-66">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-66">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\frac{x+7}{2+x-x^2}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds 2\ln|x+1|-3\ln|x-2|+C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-indefinite-int-review-67">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-67">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\frac{3x-2}{x^2-2x+10}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{3}{2}\ln((x-1)^2+9)+\frac{5}{3}\tan^{-1}\right(\frac{x}{3}\right)+C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-indefinite-int-review-68">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-68">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\frac{5x^2-6x+44}{x^3-4x^2+9x-36}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds 4\ln|x-4|+\frac{1}{2}\ln(x^2+9)-\frac{2}{3}\tan^{-1}\right(\frac{x}{3}\right)+C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+</exercisegroup>
 <exercisegroup cols="2" xml:id="exset-definite-int-review">
       <introduction>
         <p>
@@ -1584,7 +1712,7 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
-              <exercise label="ex-definite-int-review-39">
+      <exercise label="ex-definite-int-review-39">
 <!--    <webwork xml:id="webwork-ex-definite-int-review-39">
           <pg-code>
           </pg-code>-->
@@ -1596,6 +1724,22 @@
           <answer>
             <p>
             <m>\ds \frac{\pi}{8}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-definite-int-review-40">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-40">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{-4}^{-1}\frac{x^2+5x-5}{x^3+10x^2+25x}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{14}{5}\ln(2)+\frac{3}{4}</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -1739,6 +1883,23 @@
           </statement>
           <answer>
             <p><m>\ds -\frac{(x-3)^4}{32}+C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+<exercise label="ex-partial-fraction-decomposition">
+<!--    <webwork xml:id="webwork-ex-partial-fraction-decomposition">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            Perform the partial fraction decomposition of 
+            <m>\ds f(x)=\frac{3x^3}{x^3-1}</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds f(x)=3+\frac{1}{x-1}-\frac{x+2}{x^2+x+1}</m>
             </p>
           </answer>
 <!--    </webwork>-->
