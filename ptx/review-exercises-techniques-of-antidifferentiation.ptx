@@ -1286,12 +1286,12 @@
           </pg-code>-->
           <statement>
             <p>
-              <m>\ds \int_{0}^{\frac{\pi}{2}}\sin(6x)\cos(4x)\, dx</m>
+              <m>\ds \int_{0}^{\frac{\pi}{3}}\tan^3(x)\sec^3(x)\, dx</m>
             </p>
           </statement>
           <answer>
             <p>
-            <m>\ds \frac{3}{5}</m>
+            <m>\ds \frac{58}{15}</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -1334,12 +1334,12 @@
           </pg-code>-->
           <statement>
             <p>
-              <m>\ds \int_{0}^{\frac{\pi}{3}}\tan^3(x)\sec^3(x)\, dx</m>
+              <m>\ds \int_{0}^{\frac{\pi}{2}}\sin(6x)\cos(4x)\, dx</m>
             </p>
           </statement>
           <answer>
             <p>
-            <m>\ds \frac{58}{15}</m>
+            <m>\ds \frac{3}{5}</m>
             </p>
           </answer>
 <!--    </webwork>-->
