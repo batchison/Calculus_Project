@@ -1877,10 +1877,10 @@ For each item, identify the appropriate trigonometric substitution for an integr
 <!--    </webwork>-->
       </exercise>
 </exercisegroup>
-<exercisegroup xml:id="exset-general-integrations">
+<exercisegroup cols="2" xml:id="exset-general-integrations">
       <introduction>
         <p>
-        Evaluate the definite integral for <m>k\neq 0</m>.
+        Evaluate the integral for <m>k\neq 0</m>.
         </p>
       </introduction>
       <exercise label="ex-general-integrations-1">
@@ -1953,7 +1953,7 @@ For each item, identify the appropriate trigonometric substitution for an integr
           </pg-code>-->
           <statement>
             <p>
-              <m>\ds \int_{}^{}\frac{dx}{1+k^2x^2}</m>
+              <m>\ds \int_{}^{}\frac{dx}{1+(kx)^2}</m>
             </p>
           </statement>
           <answer>
