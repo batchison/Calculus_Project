@@ -825,6 +825,134 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
+      <exercise label="ex-indefinite-int-review-52">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-52">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\frac{dx}{x^2+100}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{1}{10}\tan^{-1}\left(\frac{x}{10}\right)+C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-indefinite-int-review-53">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-53">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\frac{dx}{9x^2+1}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{1}{3}\tan^{-1}(3x)+C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-indefinite-int-review-54">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-54">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\frac{\sqrt{9-x^2}}{x^2}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds -\frac{\sqrt{9-x^2}}{x}-sin^{-1}\left(\frac{x}{3}\right)+C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-indefinite-int-review-55">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-55">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\frac{\sqrt{x^2-16}}{x}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \sqrt{x^2-16}-4cos^{-1}\left(\frac{4}{x}\right)+C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-indefinite-int-review-56">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-56">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\frac{\sqrt{x^2+6}}{x}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{\sqrt{6}}{\sqrt{x^2+6}}+\ln|\frac{\sqrt{x^2+6}}{x}-\frac{\sqrt{6}}{x}|+C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-indefinite-int-review-57">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-57">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\frac{\sqrt{4x^2-1}}{x}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \sqrt{4x^2-1}-cos^{-1}\left(\frac{1}{2x}\right)+C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-indefinite-int-review-58">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-58">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\frac{dx}{4+9x^2}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{1}{6}tan^{-1}\left(\frac{3x}{2}\right)+C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-indefinite-int-review-59">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-59">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\frac{dx}{x\sqrt{x^2+4}}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds -\frac{1}{2}\ln|\frac{\sqrt{x^2+4}}{x}+\frac{2}{x}|+C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
       </exercisegroup>
 <exercisegroup cols="2" xml:id="exset-definite-int-review">
       <introduction>
