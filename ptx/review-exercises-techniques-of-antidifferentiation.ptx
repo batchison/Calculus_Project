@@ -2038,6 +2038,109 @@ For each item, identify the appropriate trigonometric substitution for an integr
 <!--    </webwork>-->
       </exercise>
 </exercisegroup>
+<exercisegroup cols="2" xml:id="exset-partial-fraction-review">
+      <introduction>
+        <p>
+        Identify the appropriate partial fraction decomposition for each of the given rational expressions.  In each case, <m>p(x)</m> should be assumed to be an unknown polynomial of smaller degree than the denominator.
+        </p>
+      </introduction>
+      <exercise label="ex-partial-fraction-review-1">
+<!--    <webwork xml:id="webwork-ex-partial-fraction-review-1">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \frac{p(x)}{x^4+3x^2}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{A}{x}+\frac{B}{x^2}+\frac{Cx+D}{x^2+3}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-partial-fraction-review-2">
+<!--    <webwork xml:id="webwork-ex-partial-fraction-review-2">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \frac{p(x)}{x^4-16}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{Ax+B}{x^2+4}+\frac{C}{x+2}+\frac{D}{x-2}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-partial-fraction-review-3">
+<!--    <webwork xml:id="webwork-ex-partial-fraction-review-3">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \frac{p(x)}{x^2-2x-1}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{A}{x-1-\sqrt{2}}+\frac{B}{x-1+\sqrt{2}}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-partial-fraction-review-4">
+<!--    <webwork xml:id="webwork-ex-partial-fraction-review-4">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \frac{p(x)}{(x+5)^2(x^2-5)}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{A}{x+5}+\frac{B}{(x+5)^2)}+\frac{C}{x+\sqrt{5}}+\frac{D}{x-\sqrt{5}}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+            <exercise label="ex-partial-fraction-review-5">
+<!--    <webwork xml:id="webwork-ex-partial-fraction-review-5">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \frac{p(x)}{x^4-x^3+12x^2}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{A}{x}+\frac{B}{x^2}+\frac{Cx+D}{x^2-x+12}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-partial-fraction-review-6">
+<!--    <webwork xml:id="webwork-ex-partial-fraction-review-6">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \frac{p(x)}{x^6-25x^2}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{A}{x}+\frac{B}{x^2}+\frac{Cx+D}{x^2+5}+\frac{E}{x+\sqrt{5}}+\frac{F}{x-\sqrt{5}}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+</exercisegroup>
 <exercisegroup cols="2" xml:id="exset-general-integrations">
       <introduction>
         <p>
