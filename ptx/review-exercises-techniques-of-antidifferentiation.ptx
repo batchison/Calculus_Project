@@ -1344,6 +1344,118 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
+        <exercise label="ex-definite-int-review-33">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-33">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{0}^{4}\sqrt{16-x^2}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds 4\pi</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+              <exercise label="ex-definite-int-review-34">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-34">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{-1}^{1}\frac{dx}{\sqrt{4-x^2}}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{\pi}{3}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+              <exercise label="ex-definite-int-review-35">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-35">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{0}^{\frac{1}{2}}\frac{dx}{\sqrt{1-4x^2}}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{\pi}{4}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+              <exercise label="ex-definite-int-review-36">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-36">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{-\frac{1}{2}}^{\frac{1}{2}}\sqrt{1-4x^2}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{\pi}{4}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+              <exercise label="ex-definite-int-review-37">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-37">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{\frac{1}{3}}^{\frac{\sqrt{3}}{3}}\frac{\sqrt{1-3x^2}}{x}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \ln(\sqrt{3}+\sqrt{2})-\frac{\sqrt{6}}{3}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+        <exercise label="ex-definite-int-review-38">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-38">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{3}^{6}\frac{\sqrt{x^2-9}}{x}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds 3\sqrt{3}-\pi</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+              <exercise label="ex-definite-int-review-39">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-39">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{0}^{1}\frac{x}{x^4+1}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{\pi}{8}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
     </exercisegroup>
 <exercisegroup xml:id="exset-substitution-area-review">
       <introduction>
