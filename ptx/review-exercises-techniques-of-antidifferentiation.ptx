@@ -900,7 +900,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds \frac{\sqrt{x^2+6}}{\sqrt{6}}+\ln\left|\frac{\sqrt{x^2+6}}{x}-\frac{\sqrt{6}}{x}\right|+C</m>
+            <m>\ds \sqrt{x^2+6}+\sqrt{6}\ln\left|\frac{\sqrt{x^2+6}}{x}-\frac{\sqrt{6}}{x}\right|+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -948,7 +948,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds -\frac{1}{2}\ln\left|\frac{\sqrt{x^2+4}}{x}+\frac{2}{x}\right|+C</m>
+            <m>\ds \frac{1}{2}\ln\left|\frac{\sqrt{x^2+4}-2}{x}\right|+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
