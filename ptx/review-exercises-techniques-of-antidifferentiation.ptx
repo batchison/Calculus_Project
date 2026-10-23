@@ -1076,7 +1076,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds \frac{3}{2}\ln((x-1)^2+9)+\frac{5}{3}\tan^{-1}\right(\frac{x}{3}\right)+C</m>
+            <m>\ds \frac{3}{2}\ln((x-1)^2+9)+\frac{5}{3}\tan^{-1}\left(\frac{x}{3}\right)+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -1092,7 +1092,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds 4\ln|x-4|+\frac{1}{2}\ln(x^2+9)-\frac{2}{3}\tan^{-1}\right(\frac{x}{3}\right)+C</m>
+            <m>\ds 4\ln|x-4|+\frac{1}{2}\ln(x^2+9)-\frac{2}{3}\tan^{-1}\left(\frac{x}{3}\right)+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
