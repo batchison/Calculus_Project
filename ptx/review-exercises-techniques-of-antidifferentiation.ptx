@@ -1963,8 +1963,8 @@ For each item, identify the appropriate trigonometric substitution for an integr
           </answer>
 <!--    </webwork>-->
       </exercise>
-      <exercise label="ex-general-integrations-5">
-<!--    <webwork xml:id="webwork-ex-general-integrations-5">
+      <exercise label="ex-general-integrations-6">
+<!--    <webwork xml:id="webwork-ex-general-integrations-6">
           <pg-code>
           </pg-code>-->
           <statement>
