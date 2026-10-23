@@ -340,7 +340,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds \frac{1}{2}(1+e^{2x})-\frac{1}{2}\ln(1+e^{2x})+C</m>
+            <m>\ds \frac{1}{2}e^{2x}-\frac{1}{2}\ln(1+e^{2x})+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -868,7 +868,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds -\frac{\sqrt{9-x^2}}{x}-sin^{-1}\left(\frac{x}{3}\right)+C</m>
+            <m>\ds -\frac{\sqrt{9-x^2}}{x}-\sin^{-1}\left(\frac{x}{3}\right)+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -884,7 +884,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds \sqrt{x^2-16}-4cos^{-1}\left(\frac{4}{x}\right)+C</m>
+            <m>\ds \sqrt{x^2-16}-4\cos^{-1}\left(\frac{4}{x}\right)+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -900,7 +900,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds \frac{\sqrt{6}}{\sqrt{x^2+6}}+\ln|\frac{\sqrt{x^2+6}}{x}-\frac{\sqrt{6}}{x}|+C</m>
+            <m>\ds \frac{\sqrt{x^2+6}}{\sqrt{6}}+\ln\left|\frac{\sqrt{x^2+6}}{x}-\frac{\sqrt{6}}{x}\right|+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -916,7 +916,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds \sqrt{4x^2-1}-cos^{-1}\left(\frac{1}{2x}\right)+C</m>
+            <m>\ds \sqrt{4x^2-1}-\cos^{-1}\left(\frac{1}{2x}\right)+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -932,7 +932,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds \frac{1}{6}tan^{-1}\left(\frac{3x}{2}\right)+C</m>
+            <m>\ds \frac{1}{6}\tan^{-1}\left(\frac{3x}{2}\right)+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -948,7 +948,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds -\frac{1}{2}\ln|\frac{\sqrt{x^2+4}}{x}+\frac{2}{x}|+C</m>
+            <m>\ds -\frac{1}{2}\ln\left|\frac{\sqrt{x^2+4}}{x}+\frac{2}{x}\right|+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -964,7 +964,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds \frac{1}{4}\tan^{-1}\left(\frac{e^2x}{2}\right)+C</m>
+            <m>\ds \frac{1}{4}\tan^{-1}\left(\frac{e^{2x}}{2}\right)+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
