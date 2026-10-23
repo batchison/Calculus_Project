@@ -303,12 +303,12 @@
           </pg-code>-->
           <statement>
             <p>
-              <m>\ds \int_{}^{}\frac{10}{4x^2+1}\, dx</m>
+              <m>\ds \int\frac{dx}{x^2+100}</m>
             </p>
           </statement>
           <answer>
             <p>
-            <m>\ds 5\tan^{-1}(2x)+C</m>
+            <m>\ds \frac{1}{10}\tan^{-1}\left(\frac{x}{10}\right)+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -319,12 +319,12 @@
           </pg-code>-->
           <statement>
             <p>
-              <m>\ds \int_{}^{}\frac{dx}{3+x^2}</m>
+              <m>\ds \int_{}^{}\frac{e^{2x}}{1+e^{2x}}\, dx</m>
             </p>
           </statement>
           <answer>
             <p>
-            <m>\ds \frac{\sqrt{3}}{3}\tan^{-1}\left(\frac{\sqrt{3}}{3}x\right)+C</m>
+            <m>\ds \frac{1}{2}\ln(1+e^{2x})+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -335,12 +335,12 @@
           </pg-code>-->
           <statement>
             <p>
-              <m>\ds \int_{}^{}\frac{dx}{4+9x^2}</m>
+              <m>\ds \int_{}^{}\frac{e^{4x}}{1+e^{2x}}\, dx</m>
             </p>
           </statement>
           <answer>
             <p>
-            <m>\ds \frac{1}{6}\tan^{-1}\left(\frac{3}{2}x\right)+C</m>
+            <m>\ds \frac{1}{2}(1+e^{2x})-\frac{1}{2}\ln(1+e^{2x})+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -831,12 +831,12 @@
           </pg-code>-->
           <statement>
             <p>
-              <m>\ds \int\frac{dx}{x^2+100}</m>
+              <m>\ds \int_{}^{}\frac{10}{4x^2+1}\, dx</m>
             </p>
           </statement>
           <answer>
             <p>
-            <m>\ds \frac{1}{10}\tan^{-1}\left(\frac{x}{10}\right)+C</m>
+            <m>\ds 5\tan^{-1}(2x)+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -949,6 +949,22 @@
           <answer>
             <p>
             <m>\ds -\frac{1}{2}\ln|\frac{\sqrt{x^2+4}}{x}+\frac{2}{x}|+C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-indefinite-int-review-60">
+<!--    <webwork xml:id="webwork-ex-indefinite-int-review-60">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int\frac{e^{2x}}{4+e^{4x}}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{1}{4}\tan^{-1}\left(\frac{e^2x}{2}\right)+C</m>
             </p>
           </answer>
 <!--    </webwork>-->
