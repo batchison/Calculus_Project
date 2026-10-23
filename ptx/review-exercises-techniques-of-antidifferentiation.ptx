@@ -1877,14 +1877,14 @@ For each item, identify the appropriate trigonometric substitution for an integr
 <!--    </webwork>-->
       </exercise>
 </exercisegroup>
-<exercisegroup xml:id="exset-int-by-parts-formulas">
+<exercisegroup xml:id="exset-general-integrations">
       <introduction>
         <p>
-        Evaluate the indefinite integral for <m>k\neq 0</m>.
+        Evaluate the definite integral for <m>k\neq 0</m>.
         </p>
       </introduction>
-      <exercise label="ex-int-by-parts-formulas-1">
-<!--    <webwork xml:id="webwork-ex-int-by-parts-formulas-1">
+      <exercise label="ex-general-integrations-1">
+<!--    <webwork xml:id="webwork-general-integrations-1">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -1899,8 +1899,8 @@ For each item, identify the appropriate trigonometric substitution for an integr
           </answer>
 <!--    </webwork>-->
       </exercise>
-      <exercise label="ex-int-by-parts-formulas-2">
-<!--    <webwork xml:id="webwork-ex-int-by-parts-formulas-2">
+      <exercise label="ex-general-integrations-2">
+<!--    <webwork xml:id="webwork-ex-general-integrations-2">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -1915,8 +1915,8 @@ For each item, identify the appropriate trigonometric substitution for an integr
           </answer>
 <!--    </webwork>-->
       </exercise>
-      <exercise label="ex-int-by-parts-formulas-3">
-<!--    <webwork xml:id="webwork-ex-int-by-parts-formulas-3">
+      <exercise label="ex-general-integrations-3">
+<!--    <webwork xml:id="webwork-ex-general-integrations-3">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -1927,6 +1927,54 @@ For each item, identify the appropriate trigonometric substitution for an integr
           <answer>
             <p>
             <m>\ds \frac{e^{kx}(k\cos(x)+\sin(x))}{1+k^2}+C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-general-integrations-4">
+<!--    <webwork xml:id="webwork-ex-general-integrations-4">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{}^{}\frac{dx}{k^2+x^2}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{1}{k}\tan^{-1}\left(\frac{x}{k}\right)+C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-general-integrations-5">
+<!--    <webwork xml:id="webwork-ex-general-integrations-5">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{}^{}\frac{dx}{1+k^2x^2}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{1}{k}\tan^{-1}(kx)+C</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-general-integrations-5">
+<!--    <webwork xml:id="webwork-ex-general-integrations-5">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{0}^{k}\frac{dx}{\sqrt{k^2-x^2}}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{\pi}{2}</m>
             </p>
           </answer>
 <!--    </webwork>-->
