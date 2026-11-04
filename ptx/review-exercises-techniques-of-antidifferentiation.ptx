@@ -2439,7 +2439,7 @@ For each item, identify the appropriate trigonometric substitution for an integr
 <exercisegroup cols="2" xml:id="exset-improper-ints">
       <introduction>
         <p>
-        Identify the real value <m>k</m> that satisfies the improper integral.
+        Identify the real value <m>k</m> that satisfies the equation.
         </p>
       </introduction>
       <exercise label="ex-improper-ints-1">
