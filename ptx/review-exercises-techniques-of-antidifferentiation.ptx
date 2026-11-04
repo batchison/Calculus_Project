@@ -2436,5 +2436,91 @@ For each item, identify the appropriate trigonometric substitution for an integr
 <!--    </webwork>-->
       </exercise>
       </exercisegroup>
-
+<exercisegroup xml:id="exset-improper-ints">
+      <introduction>
+        <p>
+        Identify the real value <m>k</m> that satisfies the improper integral.
+        </p>
+      </introduction>
+      <exercise label="ex-improper-ints-1">
+<!--    <webwork xml:id="webwork-improper-ints-1">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{1}^{\infty}\frac{k}{x^2}\, dx=1</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds 1</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-improper-ints-2">
+<!--    <webwork xml:id="webwork-improper-ints-2">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{0}^{1}\frac{k}{\sqrt{x}}\, dx=1</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{1}{2}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-improper-ints-3">
+<!--    <webwork xml:id="webwork-improper-ints-3">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{0}^{1}\frac{k}{x}\, dx=1</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            No such <m>k</m> exists.
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-improper-ints-4">
+<!--    <webwork xml:id="webwork-improper-ints-4">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{1}^{\infty}\frac{k}{1+x^2}\, dx=1</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{4}{\pi}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-improper-ints-5">
+<!--    <webwork xml:id="webwork-improper-ints-5">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{1}^{\infty}\frac{dx}{k+x^2}=1</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{\pi^2}{4}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+</exercisegroup>
     </exercises>
