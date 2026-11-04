@@ -1744,6 +1744,198 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
+      <exercise label="ex-definite-int-review-41">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-41">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{0}^{2}\frac{2x}{4-x^2}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            diverges
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-definite-int-review-42">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-42">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{2}^{5}\frac{dx}{\sqrt{x-2}}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds 2\sqrt{3}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-definite-int-review-43">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-43">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{0}^{1}\ln(x)\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds -1</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-definite-int-review-44">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-44">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{-1}^{1}\frac{dx}{x^2}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            diverges
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-definite-int-review-45">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-45">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{0}^{1}\frac{dx}{\sqrt{1-x}}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds 2</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-definite-int-review-46">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-46">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{2}^{10}\frac{dx}{\sqrt[3]{x-2}}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds 6</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-definite-int-review-47">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-47">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{0}^{\frac{1}{2}}\frac{dx}{\sqrt{1-4x^2}}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{\pi}{4}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-definite-int-review-48">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-48">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{1}^{e+1}\frac{dx}{(x-1)^2}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            diverges
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-definite-int-review-49">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-49">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{e}^{\infty}\frac{dx}{x\ln(x)}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            diverges
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+          <exercise label="ex-definite-int-review-50">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-50">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{-\infty}^{0}xe^x\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds -1</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+          <exercise label="ex-definite-int-review-51">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-51">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{0}^{\infty}\frac{x}{e^{2x}}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{1}{4}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-definite-int-review-52">
+<!--    <webwork xml:id="webwork-ex-definite-int-review-52">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds \int_{2}^{\infty}\frac{e^{\frac{1}{x}}}{x^3}\, dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds 1-\frac{\sqrt{e}}{2}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
     </exercisegroup>
 <exercisegroup xml:id="exset-substitution-area-review">
       <introduction>
