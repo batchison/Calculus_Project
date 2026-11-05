@@ -17,7 +17,7 @@
         <shortdescription> Graph of sine curve over the interval from zero to pi.
         </shortdescription>
         <description>
-        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>1.5</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>4</m>.The graphs is drawn in the first quadrant.  THe curve is the function <m>\ds y=\sin(x)</m>, from <m>x=0</m> to <m>\ds x=\pi</m>.
+        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>1.5</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>\frac{3\pi}{2}</m>.The graph is drawn in the first quadrant. The curve is the function <m>\ds y=\sin(x)</m>, from <m>x=0</m> to <m>\ds x=\pi</m>.
         </p>
         </description>
         <latex-image label="img_07_rev_image_01">
@@ -73,39 +73,63 @@
 <!--    <webwork xml:id="webwork-ex-volume-review-2">
           <pg-code>
           </pg-code>-->
-    <statement>
+      <introduction>
       <image width="100%">
-        <shortdescription> Graph of sine and cosine curves over the interval from zero to one half pi.
+        <shortdescription>Graph of intersecting parabolas over the interval from one to five.
         </shortdescription>
         <description>
-        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>1.5</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>2</m>.The graphs of two curves are drawn in the first quadrant.  One curve is the function <m>\ds y=\cos(x)</m>, from <m>x=0</m> to <m>\ds x=\frac{\pi}{2}</m>.  The second curve is the function <m>\ds y=\sin(x)</m>, from <m>x=0</m> to <m>\ds x=\frac{\pi}{2}</m>.
+        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>10</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>6</m>.The graphs of two curves are drawn in the first quadrant.  One curve is the function <m>\ds f(x)=-\frac{1}{2}(x-3)^2+7</m>, from <m>x=0</m> to <m>6</m>.  The second curve is the function <m>\ds g(x)=(x-3)^2+1</m>, from <m>x=0</m> to <m>6</m>.
         </p>
         </description>
         <latex-image label="img_07_rev_image_02">
           \begin{tikzpicture}
-          \begin{axis}[axis on top,xtick={1},ytick={1},ymin=0,ymax=2,xmin=0,xmax=2]
-            \addplot [name path=A,firstcurvestyle,domain=0:1.57076,samples=50] {cos(deg(x))};
-            \addplot [name path=B,firstcurvestyle,domain=0:1.57076,samples=50] {sin(deg(x))};
-            \addplot [firstcurvestyle,areastyle] fill between [of=A and B,soft clip={domain=0:0.785398}];
-            \addplot [secondcurvestyle,areastyle,domain=0:0.785398] {sin(deg(x))} \closedcycle;
-            \addplot [secondcurvestyle,areastyle,domain=0.785398:1.57076] {cos(deg(x))} \closedcycle;
-            \draw (axis cs:1.7,1.15) node { \(y=\sin(x)\)};
-            \draw (axis cs:1.7,0.25) node { \(y=\cos(x)\)};
-            \draw (axis cs:.3,.65) node { \(A\)};
-            \draw (axis cs:.785,.35) node { \(B\)};
+          \begin{axis}[axis on top,xtick={1},ytick={1},ymin=0,ymax=10,xmin=0,xmax=6]
+            \addplot [name path=A,firstcurvestyle,domain=0:6,samples=100] {-1/2*(x-3)^2+7};
+            \addplot [name path=B,firstcurvestyle,domain=0:6,samples=100] {(x-3)^2+1};
+            \addplot [firstcurvestyle,areastyle] fill between [of=A and B,soft clip={domain=1:5}];
+            \draw (axis cs:2,9) node { \(f(x)=-\frac{1}{2}(x-3)^2+7\)};
+            \draw (axis cs:2,1) node { \(g(x)=(x-3)^2+1\)};
           \end{axis}
           \end{tikzpicture}
         </latex-image>
       </image>
-      <p>
-      <m>y=0</m>
-      </p>
-    </statement>
-    <answer>
-      <p>
-      <m>\ds \pi</m>
-      </p>
-    </answer>
+      </introduction>
+    <task label="ex-volume-review-2a">
+        <statement>
+        <p>
+        Rotate about the <m>x</m> axis.
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds \frac{\pi^2}{2}</m>
+        </p>
+        </answer>
+      </task>
+      <task label="ex-volume-review-2b">
+        <statement>
+        <p>
+        Rotate about the <m>y</m> axis.
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds 2\pi^2</m>
+        </p>
+        </answer>
+      </task>
+      <task label="ex-volume-review-2c">
+        <statement>
+        <p>
+        Rotate about <m>y=1</m>.
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds \frac{\pi}{2}(8-\pi)</m>
+        </p>
+        </answer>
+      </task>
 <!--    </webwork>-->
   </exercise>
 </exercisegroup>
