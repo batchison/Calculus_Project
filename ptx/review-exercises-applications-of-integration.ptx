@@ -5,7 +5,7 @@
     
 <exercisegroup cols="2" xml:id="exset-volume-review">
   <introduction>
-    <p>Use either the Disk/Washer Method or the Shell Method to find the volume of the solid of revolution formed by revolving the shaded region about each of the given axes.
+    <p>Use either the Disk/Washer Method or the Shell Method to determine one or more integrals representing the volume of the solid of revolution formed by revolving the shaded region about each of the given axes.  Evaluate your answers.
     </p>
   </introduction>
   <exercise label="ex-volume-review-1">
@@ -78,17 +78,17 @@
         <shortdescription>Graph of intersecting parabolas over the interval from one to five.
         </shortdescription>
         <description>
-        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>10</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>6</m>.The graphs of two curves are drawn in the first quadrant.  One curve is the function <m>\ds f(x)=-\frac{1}{2}(x-3)^2+7</m>, from <m>x=0</m> to <m>6</m>.  The second curve is the function <m>\ds g(x)=(x-3)^2+1</m>, from <m>x=0</m> to <m>6</m>.
+        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>10</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>6</m>.The graphs of two curves are drawn in the first quadrant.  One curve is the function <m>\ds f(x)=-\frac{1}{2}(x-3)^2+7</m>, from <m>x=0.5</m> to <m>5.5</m>.  The second curve is the function <m>\ds g(x)=(x-3)^2+1</m>, from <m>x=0.5</m> to <m>5.5</m>.
         </p>
         </description>
         <latex-image label="img_07_rev_image_02">
           \begin{tikzpicture}
           \begin{axis}[axis on top,xtick={1},ytick={1},ymin=0,ymax=10,xmin=0,xmax=6]
-            \addplot [name path=A,firstcurvestyle,domain=0:6,samples=100] {-1/2*(x-3)^2+7};
-            \addplot [name path=B,firstcurvestyle,domain=0:6,samples=100] {(x-3)^2+1};
+            \addplot [name path=A,firstcurvestyle,domain=0.5:5.5,samples=100] {-1/2*(x-3)^2+7};
+            \addplot [name path=B,firstcurvestyle,domain=0.5:5.5,samples=100] {(x-3)^2+1};
             \addplot [firstcurvestyle,areastyle] fill between [of=A and B,soft clip={domain=1:5}];
-            \draw (axis cs:2,9) node { \(f(x)=-\frac{1}{2}(x-3)^2+7\)};
-            \draw (axis cs:2,1) node { \(g(x)=(x-3)^2+1\)};
+            \draw (axis cs:3,8) node { \(f(x)=-\frac{1}{2}(x-3)^2+7\)};
+            \draw (axis cs:4,1.5) node { \(g(x)=(x-3)^2+1\)};
           \end{axis}
           \end{tikzpicture}
         </latex-image>
