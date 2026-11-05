@@ -13,7 +13,7 @@
           <pg-code>
           </pg-code>-->
     <statement>
-      <image width="80%">
+      <image width="100%">
         <shortdescription> Graph of sine and cosine curves over the interval from zero to one half pi.
         </shortdescription>
         <description>
@@ -52,7 +52,7 @@
           <pg-code>
           </pg-code>-->
     <statement>
-      <image width="75%">
+      <image width="100%">
         <shortdescription> Graph of sine and cosine curves over the interval from zero to one half pi.
         </shortdescription>
         <description>
