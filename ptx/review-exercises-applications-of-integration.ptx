@@ -12,7 +12,7 @@
 <!--    <webwork xml:id="webwork-ex-volume-review-1">
           <pg-code>
           </pg-code>-->
-    <statement>
+      <introduction>
       <image width="100%">
         <shortdescription> Graph of sine curve over the interval from zero to pi.
         </shortdescription>
@@ -23,22 +23,38 @@
         <latex-image label="img_07_rev_image_01">
           \begin{tikzpicture}
           \begin{axis}[axis on top,xtick={(pi)/4,(pi)/2,(3*pi)/4,pi,(5*pi)/4},xticklabels={$\frac{\pi}{4}$,$\frac{\pi}{2}$,$\frac{3\pi}{4}$,$\pi$,$\frac{5\pi}{4}$},ytick={0.5,1},yticklabels={$\frac{1}{2}$,$1$},ymin=0,ymax=1.5,xmin=0,xmax=(3*pi)/2]
-            \addplot [name path=A,firstcurvestyle,domain=0:pi/2,samples=100] {sin(deg(x))};
+            \addplot [name path=A,firstcurvestyle,domain=0:pi,samples=100] {sin(deg(x))};
             \addplot [firstcurvestyle,areastyle,domain=0:pi] {sin(deg(x))} \closedcycle;
             \draw (axis cs:1.7,1.15) node {\(y=\sin(x)\)};
           \end{axis}
           \end{tikzpicture}
         </latex-image>
       </image>
-      <p>
-      <m>y=0</m>
-      </p>
-    </statement>
-    <answer>
-      <p>
-      <m>\ds \pi</m>
-      </p>
-    </answer>
+      </introduction>
+      <task label="ex-volume-review-1a">
+        <statement>
+        <p>
+        Rotate about the <m>x</m> axis.
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\pi^2/2</m>
+        </p>
+        </answer>
+      </task>
+      <task label="ex-volume-review-1b">
+        <statement>
+        <p>
+        Rotate about the <m>y</m> axis.
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\pi^2/2</m>
+        </p>
+        </answer>
+      </task>
 <!--    </webwork>-->
   </exercise>
   <exercise label="ex-volume-review-2">
