@@ -39,7 +39,7 @@
         </statement>
         <answer>
         <p>
-        <m>\pi^2/2</m>
+        <m>\ds \frac{\pi^2}{2}</m>
         </p>
         </answer>
       </task>
@@ -51,7 +51,19 @@
         </statement>
         <answer>
         <p>
-        <m>\pi^2/2</m>
+        <m>\ds 2\pi^2</m>
+        </p>
+        </answer>
+      </task>
+      <task label="ex-volume-review-1b">
+        <statement>
+        <p>
+        Rotate about the line <m>y=1</m>.
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds \frac{\pi}{2}(8-\pi)</m>
         </p>
         </answer>
       </task>
