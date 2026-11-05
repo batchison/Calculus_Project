@@ -83,12 +83,12 @@
         </description>
         <latex-image label="img_07_rev_image_02">
           \begin{tikzpicture}
-          \begin{axis}[axis on top,xtick={1,2,3,4,5,6},ytick={1,2,3,4,5,6},ymin=0,ymax=10,xmin=0,xmax=6]
+          \begin{axis}[axis on top,xtick={1,2,3,4,5},ytick={1,2,3,4,5,6,7,8,9},ymin=0,ymax=10,xmin=0,xmax=6]
             \addplot [name path=A,firstcurvestyle,domain=0.5:5.5,samples=100] {-1/2*(x-3)^2+7};
             \addplot [name path=B,firstcurvestyle,secondcolor,domain=0.5:5.5,samples=100] {(x-3)^2+1};
             \addplot [firstcurvestyle,areastyle] fill between [of=A and B,soft clip={domain=1:5}];
             \draw (axis cs:3,8) node { \(f(x)=-\frac{1}{2}(x-3)^2+7\)};
-            \draw (axis cs:6,1.5) node { \(g(x)=(x-3)^2+1\)};
+            \draw (axis ls:6,1) node { \(g(x)=(x-3)^2+1\)};
           \end{axis}
           \end{tikzpicture}
         </latex-image>
