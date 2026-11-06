@@ -167,30 +167,6 @@
         </p>
         </answer>
       </task>
-      <task label="ex-volume-review-3b">
-        <statement>
-        <p>
-        Rotate about the <m>y</m> axis.
-        </p>
-        </statement>
-        <answer>
-        <p>
-        <m>\ds 2\pi^2</m>
-        </p>
-        </answer>
-      </task>
-      <task label="ex-volume-review-3c">
-        <statement>
-        <p>
-        Rotate about <m>y=8</m>.
-        </p>
-        </statement>
-        <answer>
-        <p>
-        <m>\ds \frac{\pi}{2}(8-\pi)</m>
-        </p>
-        </answer>
-      </task>
 <!--    </webwork>-->
   </exercise>
  </exercisegroup>
