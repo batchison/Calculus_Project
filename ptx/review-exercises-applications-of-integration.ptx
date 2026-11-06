@@ -155,6 +155,43 @@
         </latex-image>
       </image>
       </introduction>
-    </exercise>
+    <task label="ex-volume-review-2a">
+        <statement>
+        <p>
+        Rotate about the <m>x</m> axis.
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds \frac{\pi^2}{2}</m>
+        </p>
+        </answer>
+      </task>
+      <task label="ex-volume-review-2b">
+        <statement>
+        <p>
+        Rotate about the <m>y</m> axis.
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds 2\pi^2</m>
+        </p>
+        </answer>
+      </task>
+      <task label="ex-volume-review-2c">
+        <statement>
+        <p>
+        Rotate about <m>y=8</m>.
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds \frac{\pi}{2}(8-\pi)</m>
+        </p>
+        </answer>
+      </task>
+<!--    </webwork>-->
+  </exercise>
  </exercisegroup>
 </exercises>
