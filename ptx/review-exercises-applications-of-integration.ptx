@@ -146,9 +146,9 @@
         </description>
         <latex-image label="img_07_rev_image_03">
           \begin{tikzpicture}
-          \begin{axis}[axis on top,xtick={1,2,\e,3},xticklabels={$1$,$2$,$e$,$3$},ytick={0.5,1},yticklabels={$\frac{1}{2}$,$1$},ymin=0,ymax=1.5,xmin=0,xmax=3.5]
+          \begin{axis}[axis on top,xtick={1,2,2.71828,3},xticklabels={$1$,$2$,$e$,$3$},ytick={0.5,1},yticklabels={$\frac{1}{2}$,$1$},ymin=0,ymax=1.5,xmin=0,xmax=3.5]
             \addplot [name path=A,firstcurvestyle,domain=0:3,samples=100] {ln(x)};
-            \addplot [firstcurvestyle,areastyle,domain=0:\e] {ln(x)} \closedcycle;
+            \addplot [firstcurvestyle,areastyle,domain=0:2.71828] {ln(x)} \closedcycle;
             \draw (axis cs:1,1.25) node {\(y=\ln(x)\)};
           \end{axis}
           \end{tikzpicture}
