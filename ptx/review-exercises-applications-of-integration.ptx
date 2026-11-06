@@ -132,10 +132,10 @@
       </task>
 <!--    </webwork>-->
   </exercise>
-  <exercise label="ex-volume-review-3">
-<!--    <webwork xml:id="webwork-ex-volume-review-3">
+<!--  <exercise label="ex-volume-review-3">
+    <webwork xml:id="webwork-ex-volume-review-3">
           <pg-code>
-          </pg-code>-->
+          </pg-code>
       <introduction>
       <image width="100%">
         <shortdescription> Graph of the natural logarithmic curve over the interval from one to e.
@@ -179,7 +179,7 @@
         </p>
         </answer>
       </task>
-<!--  </webwork>-->
-  </exercise>
+  </webwork>
+  </exercise>-->
  </exercisegroup>
 </exercises>
