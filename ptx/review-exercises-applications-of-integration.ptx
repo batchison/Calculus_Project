@@ -155,7 +155,7 @@
         </latex-image>
       </image>
       </introduction>
-    <task label="ex-volume-review-2a">
+    <task label="ex-volume-review-3a">
         <statement>
         <p>
         Rotate about the <m>x</m> axis.
@@ -167,7 +167,7 @@
         </p>
         </answer>
       </task>
-      <task label="ex-volume-review-2b">
+      <task label="ex-volume-review-3b">
         <statement>
         <p>
         Rotate about the <m>y</m> axis.
@@ -179,7 +179,7 @@
         </p>
         </answer>
       </task>
-      <task label="ex-volume-review-2c">
+      <task label="ex-volume-review-3c">
         <statement>
         <p>
         Rotate about <m>y=8</m>.
