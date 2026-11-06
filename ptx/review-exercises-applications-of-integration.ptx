@@ -167,7 +167,19 @@
         </p>
         </answer>
       </task>
-<!--    </webwork>-->
+    <task label="ex-volume-review-3b">
+        <statement>
+        <p>
+        Rotate about the <m>x</m> axis.
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds \frac{\pi^2}{2}</m>
+        </p>
+        </answer>
+      </task>
+<!--  </webwork>-->
   </exercise>
  </exercisegroup>
 </exercises>
