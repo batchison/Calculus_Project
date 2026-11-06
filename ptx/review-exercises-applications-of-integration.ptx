@@ -3,9 +3,9 @@
 <exercises xml:id="exercises-applications-of-integration-review">
     <title>Review Exercises</title>
     
-<exercisegroup cols="2" xml:id="exset-volume-review">
+<exercisegroup xml:id="exset-volume-review">
   <introduction>
-    <p>Use either the Disk/Washer Method or the Shell Method to determine one or more integrals representing the volume of the solid of revolution formed by revolving the shaded region about each of the given axes.  Evaluate your answers.
+    <p>Use either the Disk/Washer Method or the Shell Method to determine one or more integrals representing the volume of the solid of revolution formed by revolving the shaded region about each of the given axes.  Evaluate your answer only where instructed.
     </p>
   </introduction>
   <exercise label="ex-volume-review-1">
@@ -17,7 +17,7 @@
         <shortdescription> Graph of sine curve over the interval from zero to pi.
         </shortdescription>
         <description>
-        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>1.5</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>\frac{3\pi}{2}</m>.The graph is drawn in the first quadrant. The curve is the function <m>\ds y=\sin(x)</m>, from <m>x=0</m> to <m>\ds x=\pi</m>.
+        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>1.5</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>\frac{3\pi}{2}</m>.The graph is drawn in the first quadrant. The curve is the function <m>\ds y=\sin(x)</m>, from <m>x=0</m> to <m>\ds x=\pi</m>.  The shaded region is bounded by the curve and the <m>x</m> axis.
         </p>
         </description>
         <latex-image label="img_07_rev_image_01">
@@ -34,7 +34,7 @@
       <task label="ex-volume-review-1a">
         <statement>
         <p>
-        Rotate about the <m>x</m> axis.
+        Rotate about the <m>x</m> axis.  Evaluate.
         </p>
         </statement>
         <answer>
@@ -46,7 +46,7 @@
       <task label="ex-volume-review-1b">
         <statement>
         <p>
-        Rotate about the <m>y</m> axis.
+        Rotate about the <m>y</m> axis.  Evaluate.
         </p>
         </statement>
         <answer>
@@ -58,7 +58,7 @@
       <task label="ex-volume-review-1c">
         <statement>
         <p>
-        Rotate about <m>y=1</m>.
+        Rotate about <m>y=1</m>.  Evaluate.
         </p>
         </statement>
         <answer>
@@ -78,7 +78,7 @@
         <shortdescription>Graph of intersecting parabolas over the interval from one to five.
         </shortdescription>
         <description>
-        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>10</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>6</m>.The graphs of two curves are drawn in the first quadrant.  One curve is the function <m>\ds f(x)=-\frac{1}{2}(x-3)^2+7</m>, from <m>x=0.5</m> to <m>5.5</m>.  The second curve is the function <m>\ds g(x)=(x-3)^2+1</m>, from <m>x=0.5</m> to <m>5.5</m>.
+        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>10</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>6</m>.The graphs of two curves are drawn in the first quadrant.  One curve is the function <m>\ds f(x)=-\frac{1}{2}(x-3)^2+7</m>, from <m>x=0.5</m> to <m>5.5</m>.  The second curve is the function <m>\ds g(x)=(x-3)^2+1</m>, from <m>x=0.5</m> to <m>5.5</m>.  The shaded region is bounded by the two curves.
         </p>
         </description>
         <latex-image label="img_07_rev_image_02">
@@ -121,7 +121,7 @@
       <task label="ex-volume-review-2c">
         <statement>
         <p>
-        Rotate about <m>y=1</m>.
+        Rotate about <m>y=8</m>.
         </p>
         </statement>
         <answer>
@@ -132,5 +132,29 @@
       </task>
 <!--    </webwork>-->
   </exercise>
-</exercisegroup>
+  <exercise label="ex-volume-review-3">
+<!--    <webwork xml:id="webwork-ex-volume-review-3">
+          <pg-code>
+          </pg-code>-->
+      <introduction>
+      <image width="100%">
+        <shortdescription> Graph of the natural logarithmic curve over the interval from one to e.
+        </shortdescription>
+        <description>
+        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>1.5</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>3.5</m>.The graph is drawn in the first quadrant. The curve is the function <m>\ds y=\ln(x)</m>, from <m>x=1</m> to <m>\ds x=e</m>.  The shaded region is bounded by the curve and the <m>x</m> axis.
+        </p>
+        </description>
+        <latex-image label="img_07_rev_image_03">
+          \begin{tikzpicture}
+          \begin{axis}[axis on top,xtick={1,2,e,3},xticklabels={$1$,$2$,$e$,$3$},ytick={0.5,1},yticklabels={$\frac{1}{2}$,$1$},ymin=0,ymax=1.5,xmin=0,xmax=3.5]
+            \addplot [name path=A,firstcurvestyle,domain=0:3,samples=100] {ln(x)};
+            \addplot [firstcurvestyle,areastyle,domain=0:e] {ln(x)} \closedcycle;
+            \draw (axis cs:1,1.25) node {\(y=\ln(x)\)};
+          \end{axis}
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      </introduction>
+    </exercise>
+ </exercisegroup>
 </exercises>
