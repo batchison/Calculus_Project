@@ -13,7 +13,7 @@
           <pg-code>
           </pg-code>-->
       <introduction>
-      <image width="100%">
+      <image width="80%">
         <shortdescription> Graph of sine curve over the interval from zero to pi.
         </shortdescription>
         <description>
@@ -74,7 +74,7 @@
           <pg-code>
           </pg-code>-->
       <introduction>
-      <image width="100%">
+      <image width="80%">
         <shortdescription>Graph of intersecting parabolas over the interval from one to five.
         </shortdescription>
         <description>
@@ -132,12 +132,12 @@
       </task>
 <!--    </webwork>-->
   </exercise>
-<!--  <exercise label="ex-volume-review-3">
-    <webwork xml:id="webwork-ex-volume-review-3">
+  <exercise label="ex-volume-review-3">
+<!--    <webwork xml:id="webwork-ex-volume-review-3">
           <pg-code>
-          </pg-code>
+          </pg-code>-->
       <introduction>
-      <image width="100%">
+      <image width="80%">
         <shortdescription> Graph of the natural logarithmic curve over the interval from one to e.
         </shortdescription>
         <description>
@@ -179,7 +179,19 @@
         </p>
         </answer>
       </task>
-  </webwork>
-  </exercise>-->
+    <task label="ex-volume-review-3c">
+        <statement>
+        <p>
+        Rotate about the <m>x</m> axis.
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds \frac{\pi^2}{2}</m>
+        </p>
+        </answer>
+      </task>
+<!--  </webwork>-->
+  </exercise>
  </exercisegroup>
 </exercises>
