@@ -285,7 +285,7 @@
             \addplot [name path=B,firstcurvestyle,secondcolor,domain=0:10,samples=100] {-0.5*x+5};
             \addplot [firstcurvestyle,areastyle] fill between [of=A and B,soft clip={domain=0:2.5}];
             \addplot [firstcurvestyle,areastyle,domain=2.5:10] {-0.5*x+5} \closedcycle;
-            \draw (axis cs:5,1) node { \(y=-2x+5\)};
+            \draw (axis cs:4.5,0.5) node { \(y=-2x+5\)};
             \draw (axis cs:7,3) node { \(y=-\frac{x}{2}+5\)};
             \end{axis}
           \end{tikzpicture}
