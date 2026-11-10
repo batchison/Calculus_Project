@@ -17,7 +17,7 @@
         <shortdescription> Graph of sine curve over the interval from zero to pi.
         </shortdescription>
         <description>
-        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>1.5</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>\frac{3\pi}{2}</m>.The graph is drawn in the first quadrant. The curve is the function <m>\ds y=\sin(x)</m>, from <m>x=0</m> to <m>\ds x=\pi</m>.  The shaded region is bounded by the curve and the <m>x</m> axis.
+        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>1.5</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>\frac{3\pi}{2}</m>.  The graph is drawn in the first quadrant. The curve is the function <m>\ds y=\sin(x)</m>, from <m>x=0</m> to <m>\ds x=\pi</m>.  The shaded region is bounded by the curve and the <m>x</m> axis.
         </p>
         </description>
         <latex-image label="img_07_rev_image_01">
@@ -78,7 +78,7 @@
         <shortdescription>Graph of intersecting parabolas over the interval from one to five.
         </shortdescription>
         <description>
-        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>10</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>6</m>.The graphs of two curves are drawn in the first quadrant.  One curve is the function <m>\ds f(x)=-\frac{1}{2}(x-3)^2+7</m>, from <m>x=0.5</m> to <m>5.5</m>.  The second curve is the function <m>\ds g(x)=(x-3)^2+1</m>, from <m>x=0.5</m> to <m>5.5</m>.  The shaded region is bounded by the two curves.
+        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>10</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>6</m>.  The graphs of two curves are drawn in the first quadrant.  One curve is the function <m>\ds f(x)=-\frac{1}{2}(x-3)^2+7</m>, from <m>x=0.5</m> to <m>5.5</m>.  The second curve is the function <m>\ds g(x)=(x-3)^2+1</m>, from <m>x=0.5</m> to <m>5.5</m>.  The shaded region is bounded by the two curves.
         </p>
         </description>
         <latex-image label="img_07_rev_image_02">
@@ -141,7 +141,7 @@
         <shortdescription> Graph of the natural logarithmic curve over the interval from one to e.
         </shortdescription>
         <description>
-        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>1.5</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>3.5</m>.The graph is drawn in the first quadrant. The curve is the function <m>\ds y=\ln(x)</m>, from <m>x=1</m> to <m>\ds x=e</m>.  The shaded region is bounded by the curve and the <m>x</m> axis.
+        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>1.5</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>3.5</m>.  The graph is drawn in the first quadrant. The curve is the function <m>\ds y=\ln(x)</m>, from <m>x=1</m> to <m>\ds x=e</m>.  The shaded region is bounded by the curve and the <m>x</m> axis.
         </p>
         </description>
         <latex-image label="img_07_rev_image_03">
@@ -256,6 +256,70 @@
         <statement>
         <p>
         Rotate about <m>x=4</m>.  Evaluate.
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds \frac{\pi^2}{2}</m>
+        </p>
+        </answer>
+      </task>
+<!--  </webwork>-->
+  </exercise>
+  <exercise label="ex-volume-review-5">
+<!--    <webwork xml:id="webwork-ex-volume-review-5">
+          <pg-code>
+          </pg-code>-->
+      <introduction>
+      <image width="75%">
+        <shortdescription> Graph of a triangular region in first quadrant.
+        </shortdescription>
+        <description>
+        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>5.5</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>10.5</m>.  The graphs of two lines are drawn in the first quadrant.  One line is  <m>\ds y=-2x+5</m>, from <m>x=0</m> to <m>2.5</m>.  The second line is <m>\ds y=-\frac{x}{2}+5</m>, from <m>x=0</m> to <m>10</m>.  The shaded region is bounded by the two curves and the <m>x</m> axis.
+        </p>
+        </description>
+        <latex-image label="img_07_rev_image_05">
+          \begin{tikzpicture}
+          \begin{axis}[axis on top,xtick={2,4,6,8,10},xticklabels={$2$,$4$,$6$,$8$,$10$},ytick={1,2,3,4,5},yticklabels={$1$,$2$,$3$,$4$,$5$},ymin=0,ymax=5.5,xmin=0,xmax=10.5]
+            \addplot [name path=A,firstcurvestyle,domain=0:2.5,samples=100] {-2*x+5};
+            \addplot [name path=B,firstcurvestyle,secondcolor,domain=0:10,samples=100] {-0.5*x+5};
+            \addplot [firstcurvestyle,areastyle] fill between [of=A and B,soft clip={domain=0:2.5}];
+            \addplot [firstcurvestyle,areastyle,domain=2.5:10] {-0.5*x+5} \closedcycle;
+            \draw (axis cs:1,2) node { \(y=-2x+5\)};
+            \draw (axis cs:7,4) node { \(y=-\frac{x}{2}+5\)};
+            \end{axis}
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      </introduction>
+    <task label="ex-volume-review-5a">
+        <statement>
+        <p>
+        Rotate about the <m>y</m> axis.  Evaluate.
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds \frac{\pi^2}{2}</m>
+        </p>
+        </answer>
+      </task>
+    <task label="ex-volume-review-5b">
+        <statement>
+        <p>
+        Rotate about the <m>x</m> axis.  Evaluate.
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds \frac{\pi^2}{2}</m>
+        </p>
+        </answer>
+      </task>
+    <task label="ex-volume-review-5c">
+        <statement>
+        <p>
+        Rotate about <m>y=5</m>.  Evaluate.
         </p>
         </statement>
         <answer>
