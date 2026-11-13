@@ -592,7 +592,6 @@
             \draw (1,0) -- (1,1);
             \draw (axis cs:0.25,0.75) node {A};
             \draw (axis cs:0.75,0.25) node {B};
-            \node[rotate=45] at (0.5,0.5) {\(y=x\)};
             \addplot [firstcurvestyle,areastyle,secondcolor,domain=0:1] {x} \closedcycle;
             \addplot [firstcurvestyle,areastyle] fill between [of=A and B,soft clip={domain=0:1}];
           \end{axis}
