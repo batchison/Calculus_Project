@@ -460,7 +460,7 @@
         </p>
         </description>
         <latex-image label="img_07_rev_image_08">
-          \begin{tikzpicture}
+          \begin{tikzpicture}[yscale=0.5]
           \begin{axis}[axis on top,xtick={1,2,3,4},ytick={2,4,6,8},ymin=0,ymax=9,xmin=0,xmax=4.5]
             \addplot [name path=A,firstcurvestyle,domain=0:4,samples=100] {-2*x+8};
             \addplot [name path=B,firstcurvestyle,secondcolor,domain=0:2,samples=100] {(4-x^2)^0.5};
@@ -513,7 +513,7 @@
         </description>
         <latex-image label="img_07_rev_image_09">
           \begin{tikzpicture}[yscale=0.5]
-          \begin{axis}[xtick={-(3*pi)/4,-(pi)/2,-(pi)/4,(pi)/4,(pi)/2,(3*pi)/4,pi,(5*pi)/4},xticklabels={$-\frac{3\pi}{4}$,$-\frac{\pi}{2}$,$-\frac{\pi}{4}$,$\frac{\pi}{4}$,$\frac{\pi}{2}$,$\frac{3\pi}{4}$,$\pi$,$\frac{5\pi}{4}$},ytick={1},yticklabels={$1$},ymin=0,ymax=1.5,xmin=-pi,xmax=(3*pi)/2]
+          \begin{axis}[axis on top, xtick={-(3*pi)/4,-(pi)/2,-(pi)/4,(pi)/4,(pi)/2,(3*pi)/4,pi,(5*pi)/4},xticklabels={$-\frac{3\pi}{4}$,$-\frac{\pi}{2}$,$-\frac{\pi}{4}$,$\frac{\pi}{4}$,$\frac{\pi}{2}$,$\frac{3\pi}{4}$,$\pi$,$\frac{5\pi}{4}$},ytick={1},yticklabels={$1$},ymin=0,ymax=1.5,xmin=-pi,xmax=(3*pi)/2]
             \addplot [name path=A,firstcurvestyle,domain=0:pi,samples=100] {sin(deg(x))};
             \addplot [name path=B,firstcurvestyle,secondcolor,domain=-pi/2:pi/2,samples=100] {cos(deg(x))};
             \draw (axis cs:3.34,0.8) node {\(y=\sin(x)\)};
