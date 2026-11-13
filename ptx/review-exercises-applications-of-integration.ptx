@@ -591,7 +591,8 @@
             \addplot [name path=B,firstcurvestyle,secondcolor,domain=0:1,samples=10] {x};
             \draw (axis cs:0.26,0.74) node {A};
             \draw (axis cs:0.74,0.26) node {B};
-            \draw (1,0) -- (1,1);
+            \draw (axis cs:1,0) -- (axis cs:1,1);
+
           \end{axis}
           \end{tikzpicture}
         </latex-image>
