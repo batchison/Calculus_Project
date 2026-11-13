@@ -399,7 +399,7 @@
           </pg-code>-->
       <introduction>
       <image width="75%">
-        <shortdescription>Graph of intersecting sideways parabolas over the interval for <m>y</m> from two to six.
+        <shortdescription>Graph of intersecting sideways parabolas over the interval for y-coordinates from two to six.
         </shortdescription>
         <description>
         <p>The <m>y</m> axis is drawn from <m>0</m> to <m>7</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>11</m>.  The graphs of two curves are drawn in the first quadrant.  One curve is the function <m>\ds f(y)=\frac{1}{2}(y-2)^2+2</m>, from <m>y=1.5</m> to <m>6.5</m>.  The second curve is the function <m>\ds g(y)=(y-3)^2+1</m>, from <m>y=1.5</m> to <m>6.5</m>.  The shaded region is bounded by the two curves.
