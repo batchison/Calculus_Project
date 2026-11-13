@@ -281,8 +281,8 @@
         <latex-image label="img_07_rev_image_05">
           \begin{tikzpicture}
           \begin{axis}[axis on top,xtick={2,4,6,8,10},xticklabels={$2$,$4$,$6$,$8$,$10$},ytick={1,2,3,4,5},yticklabels={$1$,$2$,$3$,$4$,$5$},ymin=0,ymax=5.5,xmin=0,xmax=11.5]
-            \addplot [name path=A,firstcurvestyle,domain=0:2.5,samples=100] {-2*x+5};
-            \addplot [name path=B,firstcurvestyle,secondcolor,domain=0:10,samples=100] {-0.5*x+5};
+            \addplot [name path=A,firstcurvestyle,secondcolor,domain=0:2.5,samples=100] {-2*x+5};
+            \addplot [name path=B,firstcurvestyle,domain=0:10,samples=100] {-0.5*x+5};
             \addplot [firstcurvestyle,areastyle] fill between [of=A and B,soft clip={domain=0:2.5}];
             \addplot [firstcurvestyle,areastyle,domain=2.5:10] {-0.5*x+5} \closedcycle;
             \draw (axis cs:4.5,0.5) node { \(y=-2x+5\)};
@@ -437,6 +437,58 @@
         <statement>
         <p>
         Rotate about the <m>x</m> axis.
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds \frac{\pi^2}{2}</m>
+        </p>
+        </answer>
+      </task>
+<!--  </webwork>-->
+  </exercise>
+  <exercise label="ex-volume-review-8">
+<!--    <webwork xml:id="webwork-ex-volume-review-8">
+          <pg-code>
+          </pg-code>-->
+      <introduction>
+      <image width="75%">
+        <shortdescription>Graph of line and semicircle in first quadrant.
+        </shortdescription>
+        <description>
+        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>9</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>4.5</m>.  The graphs of two curves are drawn in the first quadrant.  One curve is <m>\ds y=-2x+8</m>, from <m>x=0</m> to <m>4</m>.  The second curve is <m>y=\sqrt{4-x^2}</m>, from <m>x=0</m> to <m>2</m>.  The shaded region is bounded by the two curves and both the <m>x</m> and <m>y</m> axes.
+        </p>
+        </description>
+        <latex-image label="img_07_rev_image_08">
+          \begin{tikzpicture}
+          \begin{axis}[axis on top,xtick={1,2,3,4},ytick={2,4,6,8},ymin=0,ymax=9,xmin=0,xmax=4.5]
+            \addplot [name path=A,firstcurvestyle,domain=0:4,samples=100] {-2*x+8};
+            \addplot [name path=B,firstcurvestyle,secondcolor,domain=0:2,samples=100] {(4-x^2)^0.5};
+            \addplot [firstcurvestyle,areastyle] fill between [of=A and B,soft clip={domain=0:2}];
+            \addplot [firstcurvestyle,areastyle,domain=2:4] {-2*x+8} \closedcycle;
+            \draw (axis cs:1,7) node { \(y=-2x+8\)};
+            \draw (axis cs:1,2.5) node { \(y=sqrt{4-x^2}\)};
+          \end{axis}
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      </introduction>
+    <task label="ex-volume-review-8a">
+        <statement>
+        <p>
+        Rotate about the <m>y</m> axis.  Evaluate.
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds \frac{\pi^2}{2}</m>
+        </p>
+        </answer>
+      </task>
+    <task label="ex-volume-review-8b">
+        <statement>
+        <p>
+        Rotate about the <m>x</m> axis.  Evaluate
         </p>
         </statement>
         <answer>
