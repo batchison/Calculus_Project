@@ -348,8 +348,8 @@
             \addplot [name path=A,firstcurvestyle,domain=0:1.25,samples=100] {1/(1+x^2)};
             \addplot [name path=B,firstcurvestyle,secondcolor,domain=0:1.25,samples=100] {0.5*(x^(0.5)))};
             \addplot [firstcurvestyle,areastyle] fill between [of=A and B,soft clip={domain=0:1}];
-            \draw (axis cs:0.5,1.5) node { \(y=\frac{1}{1+x^2}\)};
-            \draw (axis cs:1.25,0.25) node { \(y=\frac{\sqrt{x}}{2}\)};
+            \draw (axis cs:0.5,1.1) node { \(\ds y=\frac{1}{1+x^2}\)};
+            \draw (axis cs:0.5,0.25) node { \(y=\frac{\sqrt{x}}{2}\)};
             \end{axis}
           \end{tikzpicture}
         </latex-image>
