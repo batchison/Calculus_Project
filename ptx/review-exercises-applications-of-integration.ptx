@@ -587,13 +587,10 @@
         <latex-image label="img_07_rev_image_10">
           \begin{tikzpicture}
           \begin{axis}[axis on top, xtick={0.5,1},xticklabels={$\frac{1}{2}$,$1$},ytick={0.5,1},yticklabels={$\frac{1}{2}$,$1$},ymin=0,ymax=1.25,xmin=0,xmax=1.25]
-            \addplot [name path=A,firstcurvestyle,domain=0:1,samples=1] {1};
-            \addplot [name path=B,firstcurvestyle,secondcolor,domain=0:1,samples=1] {x};
-            \draw (1,0) -- (1,1);
+            \addplot [name path=A,firstcurvestyle,domain=0:1,samples=10] {1};
+            \addplot [name path=B,firstcurvestyle,secondcolor,domain=0:1,samples=10] {x};
             \draw (axis cs:0.25,0.75) node {A};
             \draw (axis cs:0.75,0.25) node {B};
-            \addplot [firstcurvestyle,areastyle,secondcolor,domain=0:1] {x} \closedcycle;
-            \addplot [firstcurvestyle,areastyle] fill between [of=A and B,soft clip={domain=0:1}];
           \end{axis}
           \end{tikzpicture}
         </latex-image>
