@@ -600,11 +600,11 @@
         </latex-image>
       </image>
   </introduction>
-  <exercise label="ex-volume-review-sine-and-cosine-1">
-<!--    <webwork xml:id="webwork-ex-volume-review-sine-and-cosine-1">
+  <exercise label="ex-volume-review-square-1">
+<!--    <webwork xml:id="webwork-ex-volume-review-square-1">
           <pg-code>
           </pg-code>-->
-      <task label="ex-volume-review-sine-and-cosine-1a">
+      <task label="ex-volume-review-square-1a">
         <statement>
         <p>
         </p>
@@ -615,7 +615,7 @@
         </p>
         </answer>
       </task>
-      <task label="ex-volume-review-sine-and-cosine-1b">
+      <task label="ex-volume-review-square-1b">
         <statement>
         <p>
         </p>
@@ -626,7 +626,7 @@
         </p>
         </answer>
       </task>
-      <task label="ex-volume-review-sine-and-cosine-1c">
+      <task label="ex-volume-review-square-1c">
         <statement>
         <p>
         </p>
