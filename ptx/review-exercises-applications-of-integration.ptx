@@ -402,19 +402,20 @@
         <shortdescription>Graph of intersecting sideways parabolas over the interval for y-coordinates from two to six.
         </shortdescription>
         <description>
-        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>7</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>11</m>.  The graphs of two curves are drawn in the first quadrant.  One curve is the function <m>\ds f(y)=\frac{1}{2}(y-2)^2+2</m>, from <m>y=1.5</m> to <m>6.5</m>.  The second curve is the function <m>\ds g(y)=(y-3)^2+1</m>, from <m>y=1.5</m> to <m>6.5</m>.  The shaded region is bounded by the two curves.
+        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>7</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>11</m>.  The graphs of two curves are drawn in the first quadrant.  One curve is the function <m>\ds f(y)=\frac{1}{2}(y-2)^2+2</m>, from <m>x=2</m> to <m>11</m>.  The second curve is the function <m>\ds g(y)=(y-3)^2+1</m>, from <m>x=1</m> to <m>11</m>.  The shaded region is bounded by the two curves.
         </p>
         </description>
         <latex-image label="img_07_rev_image_07">
           \begin{tikzpicture}
           \begin{axis}[axis on top,xtick={2,4,6,8,10},ytick={2,4,6},ymin=0,ymax=7,xmin=0,xmax=11]
-            \addplot [name path=AU,firstcurvestyle,domain=1:10.5,samples=100] {(2^0.5*(x-2)^0.5)+2};
-            \addplot [name path=AL,firstcurvestyle,domain=1:2.5,samples=100] {(-2^0.5*(x-2)^0.5)+2};
-            \addplot [name path=B,firstcurvestyle,secondcolor,domain=1.5:10.5,samples=100] {((x-1)^0.5)+3};
+            \addplot [name path=AU,firstcurvestyle,domain=1:11,samples=100] {((x-1)^0.5)+3};
+            \addplot [name path=AL,firstcurvestyle,domain=1:2.5,samples=100] {(-(x-1)^0.5)+3};
+            \addplot [name path=BU,firstcurvestyle,secondcolor,domain=2:11,samples=100] {(2^0.5*(x-2)^0.5)+2};
+            \addplot [name path=BL,firstcurvestyle,secondcolor,domain=2:2.5,samples=100] {(2^0.5*(x-2)^0.5)+2};
             \addplot [firstcurvestyle,areastyle] fill between [of=AU and AL,soft clip={domain=1:2}];
-            \addplot [firstcurvestyle,areastyle] fill between [of=AU and B,soft clip={domain=2:10}];
-            \draw (axis cs:4,3) node { \(f(y)=\frac{1}{2}(y-2)^2+1\)};
-            \draw (axis cs:2,6) node { \(g(y)=(y-3)^2+1\)};
+            \addplot [firstcurvestyle,areastyle] fill between [of=AU and BU,soft clip={domain=2:10}];
+            \draw (axis cs:6,3) node { \(f(y)=\frac{1}{2}(y-2)^2+1\)};
+            \draw (axis cs:4,6) node { \(g(y)=(y-3)^2+1\)};
           \end{axis}
           \end{tikzpicture}
         </latex-image>
