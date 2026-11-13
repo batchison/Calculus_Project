@@ -349,7 +349,7 @@
             \addplot [name path=B,firstcurvestyle,secondcolor,domain=0:1.25,samples=100] {0.5*(x^(0.5)))};
             \addplot [firstcurvestyle,areastyle] fill between [of=A and B,soft clip={domain=0:1}];
             \draw (axis cs:0.5,1.1) node { \(\ds y=\frac{1}{1+x^2}\)};
-            \draw (axis cs:0.5,0.25) node { \(y=\frac{\sqrt{x}}{2}\)};
+            \draw (axis cs:0.75,0.25) node { \(\ds y=\frac{\sqrt{x}}{2}\)};
             \end{axis}
           \end{tikzpicture}
         </latex-image>
@@ -383,6 +383,57 @@
         <statement>
         <p>
         Rotate about <m>x=-1</m>.  Evaluate.
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds \frac{\pi^2}{2}</m>
+        </p>
+        </answer>
+      </task>
+<!--  </webwork>-->
+  </exercise>
+  <exercise label="ex-volume-review-7">
+<!--    <webwork xml:id="webwork-ex-volume-review-7">
+          <pg-code>
+          </pg-code>-->
+      <introduction>
+      <image width="75%">
+        <shortdescription>Graph of intersecting sideways parabolas over the interval for <m>y</m> from two to six.
+        </shortdescription>
+        <description>
+        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>7</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>11</m>.  The graphs of two curves are drawn in the first quadrant.  One curve is the function <m>\ds f(y)=\frac{1}{2}(y-2)^2+2</m>, from <m>y=1.5</m> to <m>6.5</m>.  The second curve is the function <m>\ds g(y)=(y-3)^2+1</m>, from <m>y=1.5</m> to <m>6.5</m>.  The shaded region is bounded by the two curves.
+        </p>
+        </description>
+        <latex-image label="img_07_rev_image_07">
+          \begin{tikzpicture}
+          \begin{axis}[axis on top,xtick={2,4,6,8,10},ytick={2,4,6},ymin=0,ymax=7,xmin=0,xmax=11]
+            \addplot [name path=A,firstcurvestyle,domain=1.5:6.5,samples=100] {1/2*(y-2)^2+2};
+            \addplot [name path=B,firstcurvestyle,secondcolor,domain=1.5:6.5,samples=100] {(y-3)^2+1};
+            \addplot [firstcurvestyle,areastyle] fill between [of=A and B,soft clip={domain=2:6}];
+            \draw (axis cs:4,3) node { \(f(y)=\frac{1}{2}(y-2)^2+1\)};
+            \draw (axis cs:2,6) node { \(g(y)=(y-3)^2+1\)};
+          \end{axis}
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      </introduction>
+    <task label="ex-volume-review-7a">
+        <statement>
+        <p>
+        Rotate about the <m>y</m> axis.
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds \frac{\pi^2}{2}</m>
+        </p>
+        </answer>
+      </task>
+    <task label="ex-volume-review-7b">
+        <statement>
+        <p>
+        Rotate about the <m>x</m> axis.
         </p>
         </statement>
         <answer>
