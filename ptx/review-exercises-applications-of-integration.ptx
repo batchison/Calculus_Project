@@ -452,7 +452,7 @@
           <pg-code>
           </pg-code>-->
       <introduction>
-      <image width="75%">
+      <image>
         <shortdescription>Graph of line and semicircle in first quadrant.
         </shortdescription>
         <description>
@@ -466,8 +466,8 @@
             \addplot [name path=B,firstcurvestyle,secondcolor,domain=0:2,samples=100] {(4-x^2)^0.5};
             \addplot [firstcurvestyle,areastyle] fill between [of=A and B,soft clip={domain=0:2}];
             \addplot [firstcurvestyle,areastyle,domain=2:4] {-2*x+8} \closedcycle;
-            \draw (axis cs:1,7) node { \(y=-2x+8\)};
-            \draw (axis cs:1,2.5) node { \(y=sqrt{4-x^2}\)};
+            \draw (axis cs:2,7) node { \(y=-2x+8\)};
+            \draw (axis cs:1,2.5) node { \(y=\sqrt{4-x^2}\)};
           \end{axis}
           \end{tikzpicture}
         </latex-image>
