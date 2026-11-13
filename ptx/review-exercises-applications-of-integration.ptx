@@ -452,7 +452,7 @@
           <pg-code>
           </pg-code>-->
       <introduction>
-      <image>
+      <image width="75%">
         <shortdescription>Graph of line and semicircle in first quadrant.
         </shortdescription>
         <description>
@@ -460,7 +460,7 @@
         </p>
         </description>
         <latex-image label="img_07_rev_image_08">
-          \begin{tikzpicture}
+          \begin{tikzpicture}[xscale=0.5]
           \begin{axis}[axis on top,xtick={1,2,3,4},ytick={2,4,6,8},ymin=0,ymax=9,xmin=0,xmax=4.5]
             \addplot [name path=A,firstcurvestyle,domain=0:4,samples=100] {-2*x+8};
             \addplot [name path=B,firstcurvestyle,secondcolor,domain=0:2,samples=100] {(4-x^2)^0.5};
