@@ -408,9 +408,11 @@
         <latex-image label="img_07_rev_image_07">
           \begin{tikzpicture}
           \begin{axis}[axis on top,xtick={2,4,6,8,10},ytick={2,4,6},ymin=0,ymax=7,xmin=0,xmax=11]
-            \addplot [name path=A,firstcurvestyle,domain=1.5:6.5,samples=100] {1/2*(y-2)^2+2};
-            \addplot [name path=B,firstcurvestyle,secondcolor,domain=1.5:6.5,samples=100] {(y-3)^2+1};
-            \addplot [firstcurvestyle,areastyle] fill between [of=A and B,soft clip={domain=2:6}];
+            \addplot [name path=AU,firstcurvestyle,domain=1:10.5,samples=100] {(2^0.5*(x-2)^0.5)+2};
+            \addplot [name path=AL,firstcurvestyle,domain=1:2.5,samples=100] {(-2^0.5*(x-2)^0.5)+2};
+            \addplot [name path=B,firstcurvestyle,secondcolor,domain=1.5:10.5,samples=100] {((x-1)^0.5)+3};
+            \addplot [firstcurvestyle,areastyle] fill between [of=AU and AL,soft clip={domain=1:2}];
+            \addplot [firstcurvestyle,areastyle] fill between [of=AU and B,soft clip={domain=2:10}];
             \draw (axis cs:4,3) node { \(f(y)=\frac{1}{2}(y-2)^2+1\)};
             \draw (axis cs:2,6) node { \(g(y)=(y-3)^2+1\)};
           \end{axis}
