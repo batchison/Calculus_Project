@@ -504,7 +504,7 @@
   <introduction>
     <p>Use the graph provided to identify the labeled region(s) and axis of rotation whose corresponding volume equals the given integral(s).  
     </p>
-      <image width="100%">
+      <image width="75%">
         <shortdescription> Graph of sine curve over the interval from zero to pi and cosine curve over the interval from -pi/2 to pi/2.
         </shortdescription>
         <description>
@@ -528,6 +528,73 @@
             \addplot [firstcurvestyle,areastyle,secondcolor,domain=pi/4:pi/2] {cos(deg(x))} \closedcycle;
             \addplot [firstcurvestyle,areastyle] fill between [of=A and B,soft clip={domain=pi/4:pi/2}];
             \addplot [firstcurvestyle,areastyle,domain=pi/2:pi] {sin(deg(x))} \closedcycle;
+          \end{axis}
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+  </introduction>
+  <exercise label="ex-volume-review-sine-and-cosine-1">
+<!--    <webwork xml:id="webwork-ex-volume-review-sine-and-cosine-1">
+          <pg-code>
+          </pg-code>-->
+      <task label="ex-volume-review-sine-and-cosine-1a">
+        <statement>
+        <p>
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds \frac{\pi^2}{2}</m>
+        </p>
+        </answer>
+      </task>
+      <task label="ex-volume-review-sine-and-cosine-1b">
+        <statement>
+        <p>
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds 2\pi^2</m>
+        </p>
+        </answer>
+      </task>
+      <task label="ex-volume-review-sine-and-cosine-1c">
+        <statement>
+        <p>
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds \frac{\pi}{2}(8-\pi)</m>
+        </p>
+        </answer>
+      </task>
+<!--    </webwork>-->
+  </exercise>
+</exercisegroup>
+<exercisegroup xml:id="exset-volume-review-square">
+  <introduction>
+    <p>Use the graph provided to identify the labeled region(s) and axis of rotation whose corresponding volume equals the given integral(s).  
+    </p>
+      <image width="75%">
+        <shortdescription> Graph of various lines from zero to one.
+        </shortdescription>
+        <description>
+        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>1.25</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>1.25</m>.  The graph of three lines is drawn in the first quadrant. The first line is <m>\ds y=1</m> and the second line is <m>\ds y=x</m>, both drawn from <m>x=0</m> to <m>\ds x=1</m>.  The third line is <m>\ds x=1</m>, from <m>y=0</m> to <m>\ds y=1</m>.  Two triangular regions bounded by the lines and the <m>x</m> and <m>y</m> axes are labeled A and B from left to right.
+        </p>
+        </description>
+        <latex-image label="img_07_rev_image_10">
+          \begin{tikzpicture}
+          \begin{axis}[axis on top, xtick={0.5,1},xticklabels={$\frac{1}{2}$,$1$},ytick={0.5,1},yticklabels={$\frac{1}{2}$,$1$},ymin=0,ymax=1.25,xmin=0,xmax=1.25]
+            \addplot [name path=A,firstcurvestyle,domain=0:1,samples=1] {1};
+            \addplot [name path=B,firstcurvestyle,secondcolor,domain=0:1,samples=1] {x};
+            \draw (1,0) -- (1,1);
+            \draw (axis cs:0.25,0.75) node {A};
+            \draw (axis cs:0.75,0.25) node {B};
+            \node[rotate=45] at (0.5,0.5) {\(y=x\)};
+            \addplot [firstcurvestyle,areastyle,secondcolor,domain=0:1] {x} \closedcycle;
+            \addplot [firstcurvestyle,areastyle] fill between [of=A and B,soft clip={domain=0:1}];
           \end{axis}
           \end{tikzpicture}
         </latex-image>
