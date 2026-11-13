@@ -3,6 +3,145 @@
 <exercises xml:id="exercises-applications-of-integration-review">
     <title>Review Exercises</title>
     
+<exercisegroup xml:id="exset-volume-review-square">
+  <introduction>
+    <p>Use the graph provided to identify the labeled region(s) and axis of rotation whose corresponding volume equals the given integral(s).  
+    </p>
+      <image width="75%">
+        <shortdescription> Graph of various lines from zero to one.
+        </shortdescription>
+        <description>
+        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>1.25</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>1.25</m>.  The graph of three lines is drawn in the first quadrant. The first line is <m>\ds y=1</m> and the second line is <m>\ds y=x</m>, both drawn from <m>x=0</m> to <m>\ds x=1</m>.  The third line is <m>\ds x=1</m>, from <m>y=0</m> to <m>\ds y=1</m>.  Two triangular regions bounded by the lines and the <m>x</m> and <m>y</m> axes are labeled A and B from left to right.
+        </p>
+        </description>
+        <latex-image label="img_07_rev_image_10">
+          \begin{tikzpicture}
+          \begin{axis}[axis on top, xtick={0.5,1},xticklabels={$\frac{1}{2}$,$1$},ytick={0.5,1},yticklabels={$\frac{1}{2}$,$1$},ymin=0,ymax=1.25,xmin=0,xmax=1.25]
+            \addplot [name path=A,firstcurvestyle,domain=0:1,samples=10] {1};
+            \addplot [name path=B,firstcurvestyle,secondcolor,domain=0:1,samples=10] {x};
+            \draw (axis cs:0.26,0.74) node {A};
+            \draw (axis cs:0.74,0.26) node {B};
+            \draw (axis cs:1,0) -- (axis cs:1,1);
+            \addplot [firstcurvestyle,areastyle,secondcolor,domain=0:1] {x} \closedcycle;
+            \addplot [firstcurvestyle,areastyle] fill between [of=A and B,soft clip={domain=0:1}];
+          \end{axis}
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+  </introduction>
+  <exercise label="ex-volume-review-square-1">
+<!--    <webwork xml:id="webwork-ex-volume-review-square-1">
+          <pg-code>
+          </pg-code>-->
+      <task label="ex-volume-review-square-1a">
+        <statement>
+        <p>
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds \frac{\pi^2}{2}</m>
+        </p>
+        </answer>
+      </task>
+      <task label="ex-volume-review-square-1b">
+        <statement>
+        <p>
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds 2\pi^2</m>
+        </p>
+        </answer>
+      </task>
+      <task label="ex-volume-review-square-1c">
+        <statement>
+        <p>
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds \frac{\pi}{2}(8-\pi)</m>
+        </p>
+        </answer>
+      </task>
+<!--    </webwork>-->
+  </exercise>
+</exercisegroup>
+<exercisegroup xml:id="exset-volume-review-sine-and-cosine">
+  <introduction>
+    <p>Use the graph provided to identify the labeled region(s) and axis of rotation whose corresponding volume equals the given integral(s).  
+    </p>
+      <image width="75%">
+        <shortdescription> Graph of sine curve over the interval from zero to pi and cosine curve over the interval from -pi/2 to pi/2.
+        </shortdescription>
+        <description>
+        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>1.5</m> and the <m>x</m> axis is drawn from <m>-\pi</m> to <m>\frac{3\pi}{2}</m>.  The graph of two curves is drawn in the first and second quadrants. The first curve is <m>\ds y=\sin(x)</m>, from <m>x=0</m> to <m>\ds x=\pi</m>.  The second curve is <m>\ds y=\cos(x)</m>, from <m>x=-\frac{\pi}{2}</m> to <m>\ds x=\frac{\pi}{2}</m>.  Regions bounded by the curves and the <m>x</m> and <m>y</m> axes are labeled A through D from left to right.
+        </p>
+        </description>
+        <latex-image label="img_07_rev_image_09">
+          \begin{tikzpicture}
+          \begin{axis}[axis on top, xtick={-(3*pi)/4,-(pi)/2,-(pi)/4,(pi)/4,(pi)/2,(3*pi)/4,pi,(5*pi)/4},xticklabels={$-\frac{3\pi}{4}$,$-\frac{\pi}{2}$,$-\frac{\pi}{4}$,$\frac{\pi}{4}$,$\frac{\pi}{2}$,$\frac{3\pi}{4}$,$\pi$,$\frac{5\pi}{4}$},ytick={1},yticklabels={$1$},ymin=0,ymax=1.5,xmin=-pi,xmax=(3*pi)/2]
+            \addplot [name path=A,firstcurvestyle,domain=0:pi,samples=100] {sin(deg(x))};
+            \addplot [name path=B,firstcurvestyle,secondcolor,domain=-pi/2:pi/2,samples=100] {cos(deg(x))};
+            \draw (axis cs:3.34,0.8) node {\(y=\sin(x)\)};
+            \draw (axis cs:-1.77,0.8) node {\(y=\cos(x)\)};
+            \draw (axis cs:-0.6,0.5) node {A};
+            \draw (axis cs:0.3925,0.7) node {B};
+            \draw (axis cs:0.785,0.25) node {C};
+            \draw (axis cs:1.7,0.5) node {D};
+            \addplot [firstcurvestyle,areastyle,secondcolor,domain=-pi/2:0] {cos(deg(x))} \closedcycle;
+            \addplot [firstcurvestyle,areastyle] fill between [of=B and A,soft clip={domain=0:0.785}];
+            \addplot [firstcurvestyle,areastyle,secondcolor,domain=0:pi/4] {sin(deg(x))} \closedcycle;
+            \addplot [firstcurvestyle,areastyle,secondcolor,domain=pi/4:pi/2] {cos(deg(x))} \closedcycle;
+            \addplot [firstcurvestyle,areastyle] fill between [of=A and B,soft clip={domain=pi/4:pi/2}];
+            \addplot [firstcurvestyle,areastyle,domain=pi/2:pi] {sin(deg(x))} \closedcycle;
+          \end{axis}
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+  </introduction>
+  <exercise label="ex-volume-review-sine-and-cosine-1">
+<!--    <webwork xml:id="webwork-ex-volume-review-sine-and-cosine-1">
+          <pg-code>
+          </pg-code>-->
+      <task label="ex-volume-review-sine-and-cosine-1a">
+        <statement>
+        <p>
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds \frac{\pi^2}{2}</m>
+        </p>
+        </answer>
+      </task>
+      <task label="ex-volume-review-sine-and-cosine-1b">
+        <statement>
+        <p>
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds 2\pi^2</m>
+        </p>
+        </answer>
+      </task>
+      <task label="ex-volume-review-sine-and-cosine-1c">
+        <statement>
+        <p>
+        </p>
+        </statement>
+        <answer>
+        <p>
+        <m>\ds \frac{\pi}{2}(8-\pi)</m>
+        </p>
+        </answer>
+      </task>
+<!--    </webwork>-->
+  </exercise>
+</exercisegroup>
 <exercisegroup xml:id="exset-volume-review">
   <introduction>
     <p>Use either the Disk/Washer Method or the Shell Method to determine one or more integrals representing the volume of the solid of revolution formed by revolving the shaded region about each of the given axes.  Evaluate your answer only where instructed.
@@ -500,143 +639,4 @@
 <!--  </webwork>-->
   </exercise>
  </exercisegroup>
-<exercisegroup xml:id="exset-volume-review-sine-and-cosine">
-  <introduction>
-    <p>Use the graph provided to identify the labeled region(s) and axis of rotation whose corresponding volume equals the given integral(s).  
-    </p>
-      <image width="75%">
-        <shortdescription> Graph of sine curve over the interval from zero to pi and cosine curve over the interval from -pi/2 to pi/2.
-        </shortdescription>
-        <description>
-        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>1.5</m> and the <m>x</m> axis is drawn from <m>-\pi</m> to <m>\frac{3\pi}{2}</m>.  The graph of two curves is drawn in the first and second quadrants. The first curve is <m>\ds y=\sin(x)</m>, from <m>x=0</m> to <m>\ds x=\pi</m>.  The second curve is <m>\ds y=\cos(x)</m>, from <m>x=-\frac{\pi}{2}</m> to <m>\ds x=\frac{\pi}{2}</m>.  Regions bounded by the curves and the <m>x</m> and <m>y</m> axes are labeled A through D from left to right.
-        </p>
-        </description>
-        <latex-image label="img_07_rev_image_09">
-          \begin{tikzpicture}
-          \begin{axis}[axis on top, xtick={-(3*pi)/4,-(pi)/2,-(pi)/4,(pi)/4,(pi)/2,(3*pi)/4,pi,(5*pi)/4},xticklabels={$-\frac{3\pi}{4}$,$-\frac{\pi}{2}$,$-\frac{\pi}{4}$,$\frac{\pi}{4}$,$\frac{\pi}{2}$,$\frac{3\pi}{4}$,$\pi$,$\frac{5\pi}{4}$},ytick={1},yticklabels={$1$},ymin=0,ymax=1.5,xmin=-pi,xmax=(3*pi)/2]
-            \addplot [name path=A,firstcurvestyle,domain=0:pi,samples=100] {sin(deg(x))};
-            \addplot [name path=B,firstcurvestyle,secondcolor,domain=-pi/2:pi/2,samples=100] {cos(deg(x))};
-            \draw (axis cs:3.34,0.8) node {\(y=\sin(x)\)};
-            \draw (axis cs:-1.77,0.8) node {\(y=\cos(x)\)};
-            \draw (axis cs:-0.6,0.5) node {A};
-            \draw (axis cs:0.3925,0.7) node {B};
-            \draw (axis cs:0.785,0.25) node {C};
-            \draw (axis cs:1.7,0.5) node {D};
-            \addplot [firstcurvestyle,areastyle,secondcolor,domain=-pi/2:0] {cos(deg(x))} \closedcycle;
-            \addplot [firstcurvestyle,areastyle] fill between [of=B and A,soft clip={domain=0:0.785}];
-            \addplot [firstcurvestyle,areastyle,secondcolor,domain=0:pi/4] {sin(deg(x))} \closedcycle;
-            \addplot [firstcurvestyle,areastyle,secondcolor,domain=pi/4:pi/2] {cos(deg(x))} \closedcycle;
-            \addplot [firstcurvestyle,areastyle] fill between [of=A and B,soft clip={domain=pi/4:pi/2}];
-            \addplot [firstcurvestyle,areastyle,domain=pi/2:pi] {sin(deg(x))} \closedcycle;
-          \end{axis}
-          \end{tikzpicture}
-        </latex-image>
-      </image>
-  </introduction>
-  <exercise label="ex-volume-review-sine-and-cosine-1">
-<!--    <webwork xml:id="webwork-ex-volume-review-sine-and-cosine-1">
-          <pg-code>
-          </pg-code>-->
-      <task label="ex-volume-review-sine-and-cosine-1a">
-        <statement>
-        <p>
-        </p>
-        </statement>
-        <answer>
-        <p>
-        <m>\ds \frac{\pi^2}{2}</m>
-        </p>
-        </answer>
-      </task>
-      <task label="ex-volume-review-sine-and-cosine-1b">
-        <statement>
-        <p>
-        </p>
-        </statement>
-        <answer>
-        <p>
-        <m>\ds 2\pi^2</m>
-        </p>
-        </answer>
-      </task>
-      <task label="ex-volume-review-sine-and-cosine-1c">
-        <statement>
-        <p>
-        </p>
-        </statement>
-        <answer>
-        <p>
-        <m>\ds \frac{\pi}{2}(8-\pi)</m>
-        </p>
-        </answer>
-      </task>
-<!--    </webwork>-->
-  </exercise>
-</exercisegroup>
-<exercisegroup xml:id="exset-volume-review-square">
-  <introduction>
-    <p>Use the graph provided to identify the labeled region(s) and axis of rotation whose corresponding volume equals the given integral(s).  
-    </p>
-      <image width="75%">
-        <shortdescription> Graph of various lines from zero to one.
-        </shortdescription>
-        <description>
-        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>1.25</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>1.25</m>.  The graph of three lines is drawn in the first quadrant. The first line is <m>\ds y=1</m> and the second line is <m>\ds y=x</m>, both drawn from <m>x=0</m> to <m>\ds x=1</m>.  The third line is <m>\ds x=1</m>, from <m>y=0</m> to <m>\ds y=1</m>.  Two triangular regions bounded by the lines and the <m>x</m> and <m>y</m> axes are labeled A and B from left to right.
-        </p>
-        </description>
-        <latex-image label="img_07_rev_image_10">
-          \begin{tikzpicture}
-          \begin{axis}[axis on top, xtick={0.5,1},xticklabels={$\frac{1}{2}$,$1$},ytick={0.5,1},yticklabels={$\frac{1}{2}$,$1$},ymin=0,ymax=1.25,xmin=0,xmax=1.25]
-            \addplot [name path=A,firstcurvestyle,domain=0:1,samples=10] {1};
-            \addplot [name path=B,firstcurvestyle,secondcolor,domain=0:1,samples=10] {x};
-            \draw (axis cs:0.26,0.74) node {A};
-            \draw (axis cs:0.74,0.26) node {B};
-            \draw (axis cs:1,0) -- (axis cs:1,1);
-            \addplot [firstcurvestyle,areastyle,secondcolor,domain=0:1] {x} \closedcycle;
-            \addplot [firstcurvestyle,areastyle] fill between [of=A and B,soft clip={domain=0:1}];
-          \end{axis}
-          \end{tikzpicture}
-        </latex-image>
-      </image>
-  </introduction>
-  <exercise label="ex-volume-review-square-1">
-<!--    <webwork xml:id="webwork-ex-volume-review-square-1">
-          <pg-code>
-          </pg-code>-->
-      <task label="ex-volume-review-square-1a">
-        <statement>
-        <p>
-        </p>
-        </statement>
-        <answer>
-        <p>
-        <m>\ds \frac{\pi^2}{2}</m>
-        </p>
-        </answer>
-      </task>
-      <task label="ex-volume-review-square-1b">
-        <statement>
-        <p>
-        </p>
-        </statement>
-        <answer>
-        <p>
-        <m>\ds 2\pi^2</m>
-        </p>
-        </answer>
-      </task>
-      <task label="ex-volume-review-square-1c">
-        <statement>
-        <p>
-        </p>
-        </statement>
-        <answer>
-        <p>
-        <m>\ds \frac{\pi}{2}(8-\pi)</m>
-        </p>
-        </answer>
-      </task>
-<!--    </webwork>-->
-  </exercise>
-</exercisegroup>
 </exercises>
