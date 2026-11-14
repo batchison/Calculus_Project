@@ -2395,6 +2395,105 @@ var ptx_lunr_docs = [
   "body": "             "
 },
 {
+  "id": "chapter_app_of_int",
+  "level": "1",
+  "url": "chapter_app_of_int.html",
+  "type": "Chapter",
+  "number": "3",
+  "title": "Applications of Integration",
+  "body": " Applications of Integration    Review Exercises    Use the graph provided to identify the labeled region(s) and axis of rotation whose corresponding volume equals the given integral(s).   Graph of various lines from zero to one.   The axis is drawn from to and the axis is drawn from to . The graph of three lines is drawn in the first quadrant. The first line is and the second line is , both drawn from to . The third line is , from to . Two triangular regions bounded by the lines and the and axes are labeled A and B from left to right.                                              Use the graph provided to identify the labeled region(s) and axis of rotation whose corresponding volume equals the given integral(s).   Graph of sine curve over the interval from zero to pi and cosine curve over the interval from -pi\/2 to pi\/2.   The axis is drawn from to and the axis is drawn from to . The graph of two curves is drawn in the first and second quadrants. The first curve is , from to . The second curve is , from to . Regions bounded by the curves and the and axes are labeled A through D from left to right.                                              Use either the Disk\/Washer Method or the Shell Method to determine one or more integrals representing the volume of the solid of revolution formed by revolving the shaded region about each of the given axes. Evaluate your answer only where instructed.       Graph of sine curve over the interval from zero to pi.   The axis is drawn from to and the axis is drawn from to . The graph is drawn in the first quadrant. The curve is , from to . The shaded region is bounded by the curve and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate.           Rotate about . Evaluate.               Graph of intersecting parabolas over the interval from one to five.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is the function , from to . The second curve is the function , from to . The shaded region is bounded by the two curves.        Rotate about the axis.           Rotate about the axis.           Rotate about .               Graph of the natural logarithmic curve over the interval from one to e.   The axis is drawn from to and the axis is drawn from to . The graph is drawn in the first quadrant. The curve is the function , from to . The shaded region is bounded by the curve and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate.           Rotate about . Evaluate.               Graph of a parabola over the interval from zero to two, having y-intercept at four and x-intercept at two.   The axis is drawn from to and the axis is drawn from to .The graph is drawn in the first quadrant. The curve is the function , from to . The shaded region is bounded by the curve and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate.           Rotate about . Evaluate.           Rotate about . Evaluate.               Graph of a triangular region in first quadrant.   The axis is drawn from to and the axis is drawn from to . The graphs of two lines are drawn in the first quadrant. One line is , from to . The second line is , from to . The shaded region is bounded by the two curves and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate.           Rotate about . Evaluate.               Graph of intersecting curves in first quadrant.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is , from to . The second curve is , from to . The shaded region is bounded by the two curves and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate.           Rotate about . Evaluate.               Graph of intersecting sideways parabolas over the interval for y-coordinates from two to six.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is the function , from to . The second curve is the function , from to . The shaded region is bounded by the two curves.        Rotate about the axis.           Rotate about the axis.               Graph of line and semicircle in first quadrant.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is , from to . The second curve is , from to . The shaded region is bounded by the two curves and both the and axes.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate             "
+},
+{
+  "id": "ex-volume-review-square-1",
+  "level": "2",
+  "url": "exercises-applications-of-integration-review.html#ex-volume-review-square-1",
+  "type": "Exercise",
+  "number": "3.1",
+  "title": "",
+  "body": "                                    "
+},
+{
+  "id": "ex-volume-review-sine-and-cosine-1",
+  "level": "2",
+  "url": "exercises-applications-of-integration-review.html#ex-volume-review-sine-and-cosine-1",
+  "type": "Exercise",
+  "number": "3.2",
+  "title": "",
+  "body": "                                    "
+},
+{
+  "id": "ex-volume-review-1",
+  "level": "2",
+  "url": "exercises-applications-of-integration-review.html#ex-volume-review-1",
+  "type": "Exercise",
+  "number": "3.3",
+  "title": "",
+  "body": "    Graph of sine curve over the interval from zero to pi.   The axis is drawn from to and the axis is drawn from to . The graph is drawn in the first quadrant. The curve is , from to . The shaded region is bounded by the curve and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate.           Rotate about . Evaluate.          "
+},
+{
+  "id": "ex-volume-review-2",
+  "level": "2",
+  "url": "exercises-applications-of-integration-review.html#ex-volume-review-2",
+  "type": "Exercise",
+  "number": "3.4",
+  "title": "",
+  "body": "    Graph of intersecting parabolas over the interval from one to five.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is the function , from to . The second curve is the function , from to . The shaded region is bounded by the two curves.        Rotate about the axis.           Rotate about the axis.           Rotate about .          "
+},
+{
+  "id": "ex-volume-review-3",
+  "level": "2",
+  "url": "exercises-applications-of-integration-review.html#ex-volume-review-3",
+  "type": "Exercise",
+  "number": "3.5",
+  "title": "",
+  "body": "    Graph of the natural logarithmic curve over the interval from one to e.   The axis is drawn from to and the axis is drawn from to . The graph is drawn in the first quadrant. The curve is the function , from to . The shaded region is bounded by the curve and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate.           Rotate about . Evaluate.          "
+},
+{
+  "id": "ex-volume-review-4",
+  "level": "2",
+  "url": "exercises-applications-of-integration-review.html#ex-volume-review-4",
+  "type": "Exercise",
+  "number": "3.6",
+  "title": "",
+  "body": "    Graph of a parabola over the interval from zero to two, having y-intercept at four and x-intercept at two.   The axis is drawn from to and the axis is drawn from to .The graph is drawn in the first quadrant. The curve is the function , from to . The shaded region is bounded by the curve and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate.           Rotate about . Evaluate.           Rotate about . Evaluate.          "
+},
+{
+  "id": "ex-volume-review-5",
+  "level": "2",
+  "url": "exercises-applications-of-integration-review.html#ex-volume-review-5",
+  "type": "Exercise",
+  "number": "3.7",
+  "title": "",
+  "body": "    Graph of a triangular region in first quadrant.   The axis is drawn from to and the axis is drawn from to . The graphs of two lines are drawn in the first quadrant. One line is , from to . The second line is , from to . The shaded region is bounded by the two curves and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate.           Rotate about . Evaluate.          "
+},
+{
+  "id": "ex-volume-review-6",
+  "level": "2",
+  "url": "exercises-applications-of-integration-review.html#ex-volume-review-6",
+  "type": "Exercise",
+  "number": "3.8",
+  "title": "",
+  "body": "    Graph of intersecting curves in first quadrant.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is , from to . The second curve is , from to . The shaded region is bounded by the two curves and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate.           Rotate about . Evaluate.          "
+},
+{
+  "id": "ex-volume-review-7",
+  "level": "2",
+  "url": "exercises-applications-of-integration-review.html#ex-volume-review-7",
+  "type": "Exercise",
+  "number": "3.9",
+  "title": "",
+  "body": "    Graph of intersecting sideways parabolas over the interval for y-coordinates from two to six.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is the function , from to . The second curve is the function , from to . The shaded region is bounded by the two curves.        Rotate about the axis.           Rotate about the axis.          "
+},
+{
+  "id": "ex-volume-review-8",
+  "level": "2",
+  "url": "exercises-applications-of-integration-review.html#ex-volume-review-8",
+  "type": "Exercise",
+  "number": "3.10",
+  "title": "",
+  "body": "    Graph of line and semicircle in first quadrant.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is , from to . The second curve is , from to . The shaded region is bounded by the two curves and both the and axes.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate          "
+},
+{
   "id": "selected-answers",
   "level": "1",
   "url": "selected-answers.html",
