@@ -293,7 +293,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds \pi\int_{1}^{5}[(-\frac{1}{2}(x-3)^2+7)^2-((x-3)^2+1)^2]\, dx</m>
+        <m>\ds \pi\int_{1}^{5}\left[\left(-\frac{1}{2}\left(x-3\right)^2+7\right)^2-\left(\left(x-3\right)^2+1\right)^2\right]\, dx</m>
         </p>
         </answer>
       </task>
@@ -305,7 +305,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds 2\pi\int_{1}^{5}x[(-\frac{1}{2}(x-3)^2+7)-((x-3)^2+1)]\, dx</m>
+        <m>\ds 2\pi\int_{1}^{5}x\left[\left(-\frac{1}{2}\left(x-3\right)^2+7\right)-\left(\left(x-3\right)^2+1\right)\right]\, dx</m>
         </p>
         </answer>
       </task>
@@ -317,7 +317,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds \pi\int_{1}^{5}[(8-((x-3)^2+1))^2-(8-(-\frac{1}{2}(x-3)^2+7))^2]\, dx</m>
+        <m>\ds \pi\int_{1}^{5}\left[\left(8-\left(\left(x-3\right)^2+1\right)\right)^2-\left(8-\left(-\frac{1}{2}\left(x-3\right)^2+7\right)\right)^2\right]\, dx</m>
         </p>
         </answer>
       </task>
@@ -492,7 +492,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds \pi\int_{0}^{5}[(-2y+10)^2-(-\frac{1}{2}y+\frac{5}{2})^2]\, dx=</m>
+        <m>\ds \pi\int_{0}^{5}\left[\left(-2y+10\right)^2-\right(-\frac{1}{2}y+\frac{5}{2}\right)^2\right]\, dx=</m>
         </p>
         </answer>
       </task>
@@ -504,7 +504,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds 2\pi\int_{0}^{5}y[(-2y+10)-(-\frac{1}{2}y+\frac{5}{2})]\, dx=</m>
+        <m>\ds 2\pi\int_{0}^{5}y\left[\left(-2y+10\right)-\left(-\frac{1}{2}y+\frac{5}{2}\right)\right]\, dx=</m>
         </p>
         </answer>
       </task>
@@ -516,7 +516,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds 2\pi\int_{0}^{5}(5-y)[(-2y+10)-(-\frac{1}{2}y+\frac{5}{2})]\, dx=</m>
+        <m>\ds 2\pi\int_{0}^{5}(5-y)\left[\left(-2y+10\right)-\left(-\frac{1}{2}y+\frac{5}{2}\right)\right]\, dx=</m>
         </p>
         </answer>
       </task>
@@ -555,7 +555,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds 2\pi\int_{0}^{1}x\right[\frac{1}{1+x^2}-\frac{\sqrt{x}}{2}\left]\, dx=</m>
+        <m>\ds 2\pi\int_{0}^{1}x\left[\frac{1}{1+x^2}-\frac{\sqrt{x}}{2}\right]\, dx=</m>
         </p>
         </answer>
       </task>
@@ -579,7 +579,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds 2\pi\int_{0}^{1}(x+1)\right[\frac{1}{1+x^2}-\frac{\sqrt{x}}{2}\left]\, dx</m>
+        <m>\ds 2\pi\int_{0}^{1}(x+1)\left[\frac{1}{1+x^2}-\frac{\sqrt{x}}{2}\right]\, dx</m>
         </p>
         </answer>
       </task>
