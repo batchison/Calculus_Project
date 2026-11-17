@@ -191,6 +191,18 @@
        </p>
        </answer>
       </task>
+      <task label="ex-volume-review-sine-and-cosine-1f">
+       <statement>
+       <p>
+       <m>\ds 2\pi\int_{\frac{\pi}{4}}^{\pi}x\sin(x)\, dx - 2\pi\int_{\frac{\pi}{4}}^{\frac{\pi}{2}}x\cos(x)\, dx</m>
+       </p>
+       </statement>
+       <answer>
+       <p>
+       Region C rotated about the <m>\ds y</m> axis.
+       </p>
+       </answer>
+      </task>
 <!--    </webwork>-->
   </exercise>
 </exercisegroup>
@@ -492,7 +504,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds \pi\int_{0}^{5}\left[\left(-2y+10\right)^2-\right(-\frac{1}{2}y+\frac{5}{2}\right)^2\right]\, dx=</m>
+        <m>\ds \pi\int_{0}^{5}\left[\left(-2y+10\right)^2-\left(-\frac{1}{2}y+\frac{5}{2}\right)^2\right]\, dx=</m>
         </p>
         </answer>
       </task>
