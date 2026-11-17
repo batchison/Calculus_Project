@@ -633,7 +633,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds \pi\int_{2}^{6}\left(\left[\frac{1}{2}\left(y-2\right)^2+2\right]^2-\left[\left(y-3)^2+1\right]^2\right)\, dy</m>
+        <m>\ds \pi\int_{2}^{6}\left[\left(\frac{1}{2}\left(y-2\right)^2+2\right)^2-\left(\left(y-3\right)^2+1\right)^2\right]\, dy</m>
         </p>
         </answer>
       </task>
@@ -645,7 +645,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds 2\pi\int_{2}^{6}y\left(\left[\frac{1}{2}\left(y-2\right)^2+2\right]-\left[\left(y-3\right)^2+1\right]\right)\, dy</m>
+        <m>\ds 2\pi\int_{2}^{6}y\left[\left(\frac{1}{2}\left(y-2\right)^2+2\right)-\left(\left(y-3\right)^2+1\right)\right]\, dy</m>
         </p>
         </answer>
       </task>
@@ -685,7 +685,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds \int_{}^{}\, dx</m>
+        <m>\ds 2\pi\int_{0}^{4}x(-2x+8)\, dx - 2\pi\int_{0}^{2}x\sqrt{4-x^2}\, dx =</m>
         </p>
         </answer>
       </task>
@@ -697,7 +697,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds \int_{}^{}\, dx</m>
+        <m>\ds \pi\int_{0}^{4}(-2x+8)^2\, dx - \pi\int_{0}^{2}(\sqrt{4-x^2})^2\, dx=</m>
         </p>
         </answer>
       </task>
