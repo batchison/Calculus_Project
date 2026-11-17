@@ -3,7 +3,7 @@
 <exercises xml:id="exercises-applications-of-integration-review">
     <title>Review Exercises</title>
     
-<exercisegroup cols="2" xml:id="exset-volume-review-square">
+<exercisegroup xml:id="exset-volume-review-square">
   <introduction>
     <p>Use the graph provided to identify the labeled region(s) and axis of rotation whose corresponding volume equals the given integral(s).  
     </p>
@@ -96,7 +96,7 @@
 <!--    </webwork>-->
   </exercise>
 </exercisegroup>
-<exercisegroup cols="2" xml:id="exset-volume-review-sine-and-cosine">
+<exercisegroup xml:id="exset-volume-review-sine-and-cosine">
   <introduction>
     <p>Use the graph provided to identify the labeled region(s) and axis of rotation whose corresponding volume equals the given integral(s).  
     </p>
