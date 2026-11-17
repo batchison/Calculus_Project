@@ -36,33 +36,60 @@
       <task label="ex-volume-review-square-1a">
         <statement>
         <p>
+        <m>\ds \pi\int_{0}^{1}x^2\, dx</m>
         </p>
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        Region B rotated about the <m>\ds x</m> axis.
         </p>
         </answer>
       </task>
       <task label="ex-volume-review-square-1b">
         <statement>
         <p>
+        <m>\ds \pi\int_{0}^{1}(1-y^2)\, dy</m>
         </p>
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        Region B rotated about the <m>\ds y</m> axis.
         </p>
         </answer>
       </task>
       <task label="ex-volume-review-square-1c">
         <statement>
         <p>
+        <m>\ds \pi\int_{0}^{1}(1-x^2)\, dx</m>
         </p>
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        Region A rotated about the <m>\ds x</m> axis.
+        </p>
+        </answer>
+      </task>
+      <task label="ex-volume-review-square-1d">
+        <statement>
+        <p>
+        <m>\ds \pi\int_{0}^{1}(1-x)^2\, dx</m>
+        </p>
+        </statement>
+        <answer>
+        <p>
+        Region A rotated about the line <m>\ds y=1</m>.
+        </p>
+        </answer>
+      </task>
+      <task label="ex-volume-review-square-1e">
+        <statement>
+        <p>
+        <m>\ds \pi\int_{0}^{1}[4-(1+y)^2]\, dy</m>
+        </p>
+        </statement>
+        <answer>
+        <p>
+        Region B rotated about the line <m>\ds x=-1</m>.
         </p>
         </answer>
       </task>
@@ -74,24 +101,22 @@
     <p>Use the graph provided to identify the labeled region(s) and axis of rotation whose corresponding volume equals the given integral(s).  
     </p>
       <image width="75%">
-        <shortdescription> Graph of sine curve over the interval from zero to pi and cosine curve over the interval from -pi/2 to pi/2.
+        <shortdescription> Graph of sine curve over the interval from zero to pi and cosine curve over the interval from 0 to pi/2.
         </shortdescription>
         <description>
-        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>1.5</m> and the <m>x</m> axis is drawn from <m>-\pi</m> to <m>\frac{3\pi}{2}</m>.  The graph of two curves is drawn in the first and second quadrants. The first curve is <m>\ds y=\sin(x)</m>, from <m>x=0</m> to <m>\ds x=\pi</m>.  The second curve is <m>\ds y=\cos(x)</m>, from <m>x=-\frac{\pi}{2}</m> to <m>\ds x=\frac{\pi}{2}</m>.  Regions bounded by the curves and the <m>x</m> and <m>y</m> axes are labeled A through D from left to right.
+        <p>The <m>y</m> axis is drawn from <m>0</m> to <m>1.5</m> and the <m>x</m> axis is drawn from <m>0</m> to <m>\frac{3\pi}{2}</m>.  The graph of two curves is drawn in the first and second quadrants. The first curve is <m>\ds y=\sin(x)</m>, from <m>x=0</m> to <m>\ds x=\pi</m>.  The second curve is <m>\ds y=\cos(x)</m>, from <m>x=0</m> to <m>\ds x=\frac{\pi}{2}</m>.  Regions bounded by the curves and the <m>x</m> and <m>y</m> axes are labeled A through C from left to right.
         </p>
         </description>
         <latex-image label="img_07_rev_image_09">
           \begin{tikzpicture}
-          \begin{axis}[axis on top, xtick={-(3*pi)/4,-(pi)/2,-(pi)/4,(pi)/4,(pi)/2,(3*pi)/4,pi,(5*pi)/4},xticklabels={$-\frac{3\pi}{4}$,$-\frac{\pi}{2}$,$-\frac{\pi}{4}$,$\frac{\pi}{4}$,$\frac{\pi}{2}$,$\frac{3\pi}{4}$,$\pi$,$\frac{5\pi}{4}$},ytick={1},yticklabels={$1$},ymin=0,ymax=1.5,xmin=-pi,xmax=(3*pi)/2]
+          \begin{axis}[axis on top, xtick={(pi)/4,(pi)/2,(3*pi)/4,pi,(5*pi)/4},xticklabels={$\frac{\pi}{4}$,$\frac{\pi}{2}$,$\frac{3\pi}{4}$,$\pi$,$\frac{5\pi}{4}$},ytick={1},yticklabels={$1$},ymin=0,ymax=1.5,xmin=0,xmax=(3*pi)/2]
             \addplot [name path=A,firstcurvestyle,domain=0:pi,samples=100] {sin(deg(x))};
-            \addplot [name path=B,firstcurvestyle,secondcolor,domain=-pi/2:pi/2,samples=100] {cos(deg(x))};
+            \addplot [name path=B,firstcurvestyle,secondcolor,domain=0:pi/2,samples=100] {cos(deg(x))};
             \draw (axis cs:3.34,0.8) node {\(y=\sin(x)\)};
-            \draw (axis cs:-1.77,0.8) node {\(y=\cos(x)\)};
-            \draw (axis cs:-0.6,0.5) node {A};
-            \draw (axis cs:0.3925,0.7) node {B};
-            \draw (axis cs:0.785,0.25) node {C};
-            \draw (axis cs:1.7,0.5) node {D};
-            \addplot [firstcurvestyle,areastyle,secondcolor,domain=-pi/2:0] {cos(deg(x))} \closedcycle;
+            \draw (axis cs:0.44,1.2) node {\(y=\cos(x)\)};
+            \draw (axis cs:0.3925,0.7) node {A};
+            \draw (axis cs:0.785,0.25) node {B};
+            \draw (axis cs:1.7,0.5) node {C};
             \addplot [firstcurvestyle,areastyle] fill between [of=B and A,soft clip={domain=0:0.785}];
             \addplot [firstcurvestyle,areastyle,secondcolor,domain=0:pi/4] {sin(deg(x))} \closedcycle;
             \addplot [firstcurvestyle,areastyle,secondcolor,domain=pi/4:pi/2] {cos(deg(x))} \closedcycle;
@@ -109,35 +134,62 @@
       <task label="ex-volume-review-sine-and-cosine-1a">
         <statement>
         <p>
+        <m>\ds \pi\int_{0}^{\frac{\pi}{4}}(\cos^2(x)-\sin^2(x))\, dx</m>
         </p>
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        Region A rotated about the <m>\ds x</m> axis.
         </p>
         </answer>
       </task>
       <task label="ex-volume-review-sine-and-cosine-1b">
         <statement>
         <p>
+        <m>\ds 2\pi\int_{0}^{\frac{\pi}{4}}x(\cos(x)-\sin(x))\, dx</m>
         </p>
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        Region A rotated about the <m>\ds y</m> axis.
         </p>
         </answer>
       </task>
       <task label="ex-volume-review-sine-and-cosine-1c">
         <statement>
         <p>
+        <m>\ds \pi\int_{0}^{\frac{\pi}{2}}\cos^{2}(x)\, dx</m>
         </p>
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        Regions A<m>\cup</m>B rotated about the <m>\ds x</m> axis.
         </p>
         </answer>
+      </task>
+      <task label="ex-volume-review-sine-and-cosine-1d">
+       <statement>
+       <p>
+       <m>\ds 2\pi\int_{0}^{1}y\cos^{-1}(y)\, dy</m>
+       </p>
+       </statement>
+       <answer>
+       <p>
+       Regions A<m>\cup</m>B rotated about the <m>\ds x</m> axis.
+       </p>
+       </answer>
+      </task>
+      <task label="ex-volume-review-sine-and-cosine-1e">
+       <statement>
+       <p>
+       <m>\ds 2\pi\int_{0}^{\frac{\pi}{4}}x\sin(x)\, dx + 2\pi\int_{\frac{\pi}{4}}^{\frac{\pi}{2}}x\cos(x)\, dx</m>
+       </p>
+       </statement>
+       <answer>
+       <p>
+       Region B rotated about the <m>\ds y</m> axis.
+       </p>
+       </answer>
       </task>
 <!--    </webwork>-->
   </exercise>
@@ -178,7 +230,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        <m>\ds \pi\int_{0}^{\pi}\sin^2(x)\, dx=</m>
         </p>
         </answer>
       </task>
@@ -190,7 +242,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        <m>\ds 2\pi\int_{0}^{\pi}x\sin(x)\, dx=</m>
         </p>
         </answer>
       </task>
@@ -202,7 +254,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        <m>\ds \pi\int_{0}^{\pi}[(1-(1-\sin(x))^2]\, dx=</m>
         </p>
         </answer>
       </task>
@@ -241,7 +293,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        <m>\ds \pi\int_{1}^{5}[(-\frac{1}{2}(x-3)^2+7)^2-((x-3)^2+1)^2]\, dx</m>
         </p>
         </answer>
       </task>
@@ -253,7 +305,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        <m>\ds 2\pi\int_{1}^{5}x[(-\frac{1}{2}(x-3)^2+7)-((x-3)^2+1)]\, dx</m>
         </p>
         </answer>
       </task>
@@ -265,7 +317,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        <m>\ds \pi\int_{1}^{5}[(8-((x-3)^2+1))^2-(8-(-\frac{1}{2}(x-3)^2+7))^2]\, dx</m>
         </p>
         </answer>
       </task>
@@ -303,7 +355,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        <m>\ds \pi\int_{1}^{2}(\ln(x))^2\, dx=</m>
         </p>
         </answer>
       </task>
@@ -315,7 +367,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        <m>\ds 2\pi\int_{1}^{e}x\ln(x)\, dx=</m>
         </p>
         </answer>
       </task>
@@ -327,7 +379,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        <m>\ds 2\pi\int_{1}^{e}(3-x)\ln(x)\, dx=</m>
         </p>
         </answer>
       </task>
@@ -364,7 +416,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        <m>\ds \pi\int_{0}^{2}(4-x^2)^2\, dx=</m>
         </p>
         </answer>
       </task>
@@ -376,7 +428,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        <m>\ds 2\pi\int_{0}^{2}x(4-x^2)\, dx=</m>
         </p>
         </answer>
       </task>
@@ -388,7 +440,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        <m>\ds 2\pi\int_{0}^{2}(x+1)(4-x^2)\, dx=</m>
         </p>
         </answer>
       </task>
@@ -400,7 +452,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        <m>\ds 2\pi\int_{0}^{2}(4-x)(4-x^2)\, dx=</m>
         </p>
         </answer>
       </task>
@@ -440,7 +492,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        <m>\ds \pi\int_{0}^{5}[(-2y+10)^2-(-\frac{1}{2}y+\frac{5}{2})^2]\, dx=</m>
         </p>
         </answer>
       </task>
@@ -452,7 +504,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        <m>\ds 2\pi\int_{0}^{5}y[(-2y+10)-(-\frac{1}{2}y+\frac{5}{2})]\, dx=</m>
         </p>
         </answer>
       </task>
@@ -464,7 +516,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        <m>\ds 2\pi\int_{0}^{5}(5-y)[(-2y+10)-(-\frac{1}{2}y+\frac{5}{2})]\, dx=</m>
         </p>
         </answer>
       </task>
@@ -503,31 +555,31 @@
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        <m>\ds 2\pi\int_{0}^{1}x\right[\frac{1}{1+x^2}-\frac{\sqrt{x}}{2}\left]\, dx=</m>
         </p>
         </answer>
       </task>
     <task label="ex-volume-review-6b">
         <statement>
         <p>
-        Rotate about the <m>x</m> axis.  Evaluate.
+        Rotate about the <m>x</m> axis.
         </p>
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        <m>\ds \pi\int_{0}^{1}\left[\left(\frac{1}{1+x^2}\right)^2-\left(\frac{\sqrt{x}}{2}\right)^2\right]\, dx</m>
         </p>
         </answer>
       </task>
     <task label="ex-volume-review-6c">
         <statement>
         <p>
-        Rotate about <m>x=-1</m>.  Evaluate.
+        Rotate about <m>x=-1</m>.
         </p>
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        <m>\ds 2\pi\int_{0}^{1}(x+1)\right[\frac{1}{1+x^2}-\frac{\sqrt{x}}{2}\left]\, dx</m>
         </p>
         </answer>
       </task>
@@ -569,7 +621,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        <m>\ds \int_{}^{}\, dx</m>
         </p>
         </answer>
       </task>
@@ -581,7 +633,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        <m>\ds \int_{}^{}\, dx</m>
         </p>
         </answer>
       </task>
@@ -621,7 +673,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        <m>\ds \int_{}^{}\, dx</m>
         </p>
         </answer>
       </task>
@@ -633,7 +685,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds </m>
+        <m>\ds \int_{}^{}\, dx</m>
         </p>
         </answer>
       </task>
