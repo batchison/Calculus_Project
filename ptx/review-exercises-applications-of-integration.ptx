@@ -113,7 +113,7 @@
             \addplot [name path=A,firstcurvestyle,domain=0:pi,samples=100] {sin(deg(x))};
             \addplot [name path=B,firstcurvestyle,secondcolor,domain=0:pi/2,samples=100] {cos(deg(x))};
             \draw (axis cs:3.34,0.8) node {\(y=\sin(x)\)};
-            \draw (axis cs:0.44,1.2) node {\(y=\cos(x)\)};
+            \draw (axis cs:0.74,1.2) node {\(y=\cos(x)\)};
             \draw (axis cs:0.3925,0.7) node {A};
             \draw (axis cs:0.785,0.25) node {B};
             \draw (axis cs:1.7,0.5) node {C};
