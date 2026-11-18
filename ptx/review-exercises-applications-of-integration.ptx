@@ -242,7 +242,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds \pi\int_{0}^{\pi}\sin^2(x)\, dx=</m>
+        <m>\ds \pi\int_{0}^{\pi}\sin^2(x)\, dx=\frac{\pi^2}{2}</m>
         </p>
         </answer>
       </task>
@@ -254,7 +254,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds 2\pi\int_{0}^{\pi}x\sin(x)\, dx=</m>
+        <m>\ds 2\pi\int_{0}^{\pi}x\sin(x)\, dx=2\pi^2</m>
         </p>
         </answer>
       </task>
@@ -266,7 +266,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds \pi\int_{0}^{\pi}[(1-(1-\sin(x))^2]\, dx=</m>
+        <m>\ds \pi\int_{0}^{\pi}[(1-(1-\sin(x))^2]\, dx=4\pi-\frac{\pi^2}{2}</m>
         </p>
         </answer>
       </task>
@@ -367,7 +367,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds \pi\int_{1}^{2}(\ln(x))^2\, dx=</m>
+        <m>\ds \pi\int_{1}^{e}(\ln(x))^2\, dx=\pi(e-2)</m>
         </p>
         </answer>
       </task>
@@ -379,7 +379,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds 2\pi\int_{1}^{e}x\ln(x)\, dx=</m>
+        <m>\ds 2\pi\int_{1}^{e}x\ln(x)\, dx=\frac{\pi}{2}(e^2+1)</m>
         </p>
         </answer>
       </task>
@@ -391,7 +391,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds 2\pi\int_{1}^{e}(3-x)\ln(x)\, dx=</m>
+        <m>\ds 2\pi\int_{1}^{e}(3-x)\ln(x)\, dx=\frac{\pi}{2}(11-e^2)</m>
         </p>
         </answer>
       </task>
@@ -428,7 +428,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds \pi\int_{0}^{2}(4-x^2)^2\, dx=</m>
+        <m>\ds \pi\int_{0}^{2}(4-x^2)^2\, dx=\frac{256\pi}{15}</m>
         </p>
         </answer>
       </task>
@@ -440,7 +440,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds 2\pi\int_{0}^{2}x(4-x^2)\, dx=</m>
+        <m>\ds 2\pi\int_{0}^{2}x(4-x^2)\, dx=8\pi</m>
         </p>
         </answer>
       </task>
@@ -452,7 +452,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds 2\pi\int_{0}^{2}(x+1)(4-x^2)\, dx=</m>
+        <m>\ds 2\pi\int_{0}^{2}(x+1)(4-x^2)\, dx=\frac{56\pi}{3}</m>
         </p>
         </answer>
       </task>
@@ -464,7 +464,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds 2\pi\int_{0}^{2}(4-x)(4-x^2)\, dx=</m>
+        <m>\ds 2\pi\int_{0}^{2}(4-x)(4-x^2)\, dx=\frac{104\pi}{3}</m>
         </p>
         </answer>
       </task>
@@ -504,7 +504,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds \pi\int_{0}^{5}\left[\left(-2y+10\right)^2-\left(-\frac{1}{2}y+\frac{5}{2}\right)^2\right]\, dx=</m>
+        <m>\ds \pi\int_{0}^{5}\left[\left(-2y+10\right)^2-\left(-\frac{1}{2}y+\frac{5}{2}\right)^2\right]\, dy=\frac{625\pi}{4}</m>
         </p>
         </answer>
       </task>
@@ -516,7 +516,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds 2\pi\int_{0}^{5}y\left[\left(-2y+10\right)-\left(-\frac{1}{2}y+\frac{5}{2}\right)\right]\, dx=</m>
+        <m>\ds 2\pi\int_{0}^{5}y\left[\left(-2y+10\right)-\left(-\frac{1}{2}y+\frac{5}{2}\right)\right]\, dy=\frac{125\pi}{2}</m>
         </p>
         </answer>
       </task>
@@ -528,7 +528,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds 2\pi\int_{0}^{5}(5-y)\left[\left(-2y+10\right)-\left(-\frac{1}{2}y+\frac{5}{2}\right)\right]\, dx=</m>
+        <m>\ds 2\pi\int_{0}^{5}(5-y)\left[\left(-2y+10\right)-\left(-\frac{1}{2}y+\frac{5}{2}\right)\right]\, dy=125\pi</m>
         </p>
         </answer>
       </task>
@@ -567,7 +567,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds 2\pi\int_{0}^{1}x\left[\frac{1}{1+x^2}-\frac{\sqrt{x}}{2}\right]\, dx=</m>
+        <m>\ds 2\pi\int_{0}^{1}x\left[\frac{1}{1+x^2}-\frac{\sqrt{x}}{2}\right]\, dx=\pi\left(\ln(2)-\frac{2}{5}\right)</m>
         </p>
         </answer>
       </task>
@@ -685,7 +685,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds 2\pi\int_{0}^{4}x(-2x+8)\, dx - 2\pi\int_{0}^{2}x\sqrt{4-x^2}\, dx =</m>
+        <m>\ds 2\pi\int_{0}^{4}x(-2x+8)\, dx - 2\pi\int_{0}^{2}x\sqrt{4-x^2}\, dx =\frac{112\pi}{3}</m>
         </p>
         </answer>
       </task>
@@ -697,7 +697,7 @@
         </statement>
         <answer>
         <p>
-        <m>\ds \pi\int_{0}^{4}(-2x+8)^2\, dx - \pi\int_{0}^{2}(\sqrt{4-x^2})^2\, dx=</m>
+        <m>\ds \pi\int_{0}^{4}(-2x+8)^2\, dx - \pi\int_{0}^{2}(\sqrt{4-x^2})^2\, dx=80\pi</m>
         </p>
         </answer>
       </task>
