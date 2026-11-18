@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "1",
   "title": "Integration",
-  "body": " Integration      Review Exercises    Evaluate the given indefinite integral.                                                                  Find the general antiderivative of the given function.                                                                                                               Use one or more familiar properties from algebra or precalculus to rewrite and evaluate the given indefinite integral.                                                                                                                                                                                                          Find the function described by the given initial value problem.       and               and               and ,               and ,              Sketch the graph of the given function over the specified interval, . Then, using the geometry of the graph, evaluate the definite integral .       over               over               over               over               over               over               over               over               over               over               over               over              Use your knowledge of the graphs of the cosine and sine functions to determine whether each of the following definite integrals is positive, negative, or zero.           0             0             positive             0             positive             0             0             positive        Use your knowledge of the graphs of the given functions to determine whether each of the following definite integrals is positive, negative, or zero.           positive             0             positive             negative             positive             positive             0             negative             positive             negative             positive             negative        Find the specified value.      Consider the function below.   Find such that .             Sketch a graph of the function . Use your graph to find such that .             Evaluate the summation.                                                Using either the Left or Right Hand Rule, find a formula to approximate each definite integral using subintervals. Find the limit of the formula as , to find the exact value of the definite integral.                         RHR:              LHR:              LHR:              RHR:              RHR:         Find the average value of the function on the given interval.       on               on               on               on              Find .                                                              Evaluate the definite integral.                                                                                                                                                                                                                                                    Sketch the given relations and find the area of the enclosed region(s).       and               and               and               and               , , and               , , and              Find a value guaranteed by the Mean Value Theorem.                                                              For each item, identify a function and an interval that satisfy the given statement.           Any function such that over will work.             Any function such that over some subinterval of will work. For example, over .        Use the graph pictured below to determine the area of the specified region.   Graph of sine and cosine curves over the interval from zero to one half pi.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is the function , from to . The second curve is the function , from to .         Region             Region            "
+  "body": " Integration      Review Exercises    Evaluate the given indefinite integral.                                                                  Find the general antiderivative of the given function.                                                                                                               Use one or more familiar properties from algebra or precalculus to rewrite and evaluate the given indefinite integral.                                                                                                                                                                                                          Find the function described by the given initial value problem.       and               and               and ,               and ,              Sketch the graph of the given function over the specified interval, . Then, using the geometry of the graph, evaluate the definite integral .       over               over               over               over               over               over               over               over               over               over               over               over              Use your knowledge of the graphs of the cosine and sine functions to determine whether each of the following definite integrals is positive, negative, or zero.           0             0             positive             0             positive             0             0             positive        Use your knowledge of the graphs of the given functions to determine whether each of the following definite integrals is positive, negative, or zero.           positive             0             positive             negative             positive             positive             0             negative             positive             negative             positive             negative        Find the specified value.      Consider the function below.   Find such that .             Sketch a graph of the function . Use your graph to find such that .             Evaluate the summation.                                                Using either the Left or Right Hand Rule, find a formula to approximate each definite integral using subintervals. Find the limit of the formula as , to find the exact value of the definite integral.                         RHR:              LHR:              LHR:              RHR:              RHR:         Find the average value of the function on the given interval.       on               on               on               on              Find .                                                              Evaluate the definite integral.                                                                                                                                                                                                                                                    Sketch the given relations and find the area of the enclosed region(s).       and               and               and               and               , , and               , , and              Find a value guaranteed by the Mean Value Theorem.                                                              For each item, identify a function and an interval that satisfy the given statement.           Any function such that over will work.             Any function such that over some subinterval of will work. For example, over .        Use the graph pictured below to determine the area of the specified region.   Graph of sine and cosine curves over the interval from zero to one half pi.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is the function , from to . The second curve is the function , from to .         Region A            Region B           "
 },
 {
   "id": "ex-indefinite-integral-review-1",
@@ -1006,7 +1006,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.110",
   "title": "",
-  "body": "   Region         "
+  "body": "   Region A        "
 },
 {
   "id": "ex-definite-integrals-graph-2",
@@ -1015,7 +1015,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.111",
   "title": "",
-  "body": "   Region         "
+  "body": "   Region B        "
 },
 {
   "id": "chapter_anti_tech",
@@ -2401,23 +2401,122 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "3",
   "title": "Applications of Integration",
-  "body": " Applications of Integration    Review Exercises    Use the graph provided to identify the labeled region(s) and axis of rotation whose corresponding volume equals the given integral(s).   Graph of various lines from zero to one.   The axis is drawn from to and the axis is drawn from to . The graph of three lines is drawn in the first quadrant. The first line is and the second line is , both drawn from to . The third line is , from to . Two triangular regions bounded by the lines and the and axes are labeled A and B from left to right.               Region B rotated about the axis.           Region B rotated about the axis.           Region A rotated about the axis.           Region A rotated about the line .           Region B rotated about the line .         Use the graph provided to identify the labeled region(s) and axis of rotation whose corresponding volume equals the given integral(s).   Graph of sine curve over the interval from zero to pi and cosine curve over the interval from 0 to pi\/2.   The axis is drawn from to and the axis is drawn from to . The graph of two curves is drawn in the first and second quadrants. The first curve is , from to . The second curve is , from to . Regions bounded by the curves and the and axes are labeled A through C from left to right.               Region A rotated about the axis.           Region A rotated about the axis.           Regions A B rotated about the axis.           Regions A B rotated about the axis.           Region B rotated about the axis.           Region C rotated about the axis.         Use either the Disk\/Washer Method or the Shell Method to determine one or more integrals representing the volume of the solid of revolution formed by revolving the shaded region about each of the given axes. Evaluate your answer only where instructed.       Graph of sine curve over the interval from zero to pi.   The axis is drawn from to and the axis is drawn from to . The graph is drawn in the first quadrant. The curve is , from to . The shaded region is bounded by the curve and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate.           Rotate about . Evaluate.               Graph of intersecting parabolas over the interval from one to five.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is the function , from to . The second curve is the function , from to . The shaded region is bounded by the two curves.        Rotate about the axis.           Rotate about the axis.           Rotate about .               Graph of the natural logarithmic curve over the interval from one to e.   The axis is drawn from to and the axis is drawn from to . The graph is drawn in the first quadrant. The curve is the function , from to . The shaded region is bounded by the curve and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate.           Rotate about . Evaluate.               Graph of a parabola over the interval from zero to two, having y-intercept at four and x-intercept at two.   The axis is drawn from to and the axis is drawn from to .The graph is drawn in the first quadrant. The curve is the function , from to . The shaded region is bounded by the curve and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate.           Rotate about . Evaluate.           Rotate about . Evaluate.               Graph of a triangular region in first quadrant.   The axis is drawn from to and the axis is drawn from to . The graphs of two lines are drawn in the first quadrant. One line is , from to . The second line is , from to . The shaded region is bounded by the two curves and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate.           Rotate about . Evaluate.               Graph of intersecting curves in first quadrant.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is , from to . The second curve is , from to . The shaded region is bounded by the two curves and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis.           Rotate about .               Graph of intersecting sideways parabolas over the interval for y-coordinates from two to six.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is the function , from to . The second curve is the function , from to . The shaded region is bounded by the two curves.        Rotate about the axis.           Rotate about the axis.               Graph of line and semicircle in first quadrant.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is , from to . The second curve is , from to . The shaded region is bounded by the two curves and both the and axes.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate             "
+  "body": " Applications of Integration    Review Exercises    Sketch the given relations and find the area of the enclosed region.       and .              and .              and .             Use the graph provided to identify the labeled region(s) and axis of rotation whose corresponding volume equals the given integral(s).   Graph of various lines from zero to one.   The axis is drawn from to and the axis is drawn from to . The graph of three lines is drawn in the first quadrant. The first line is and the second line is , both drawn from to . The third line is , from to . Two triangular regions bounded by the lines and the and axes are labeled A and B from left to right.               Region B rotated about the axis.           Region B rotated about the axis.           Region A rotated about the axis.           Region A rotated about the line .           Region B rotated about the line .         In each of the following exercises, a region of the Cartesian plane is described. Use the Disk\/Washer Method to determine one or more integrals representing the volume of the solid of revolution formed by revolving the region about each of the given axes. Repeat each exercise using the Shell Method.      Region bounded by: , , and .  Rotate about the axis.             Region bounded by: , , and .  Rotate about the axis.             Region bounded by: , , and .  Rotate about the line .             Region bounded by: , in the first quadrant.  Rotate about the axis.             Region bounded by: , , and .  Rotate about the axis.             Region bounded by: , , and .  Rotate about the axis.              Use either the Disk\/Washer Method or the Shell Method to determine one or more integrals representing the volume of the solid of revolution formed by revolving the region about each of the given axes.  Region bounded by: and .     Rotate about the axis.    Disk\/Washer Method:       Rotate about the line .    Shell Method:          Use the Disk\/Washer Method to determine one or more integrals representing the volume of the solid of revolution formed by revolving the region about each of the given axes.  Region bounded by: and .     Rotate about the axis.           Rotate about the line .           Rotate about the line .           Rotate about the line .             Use the graph provided to identify the labeled region(s) and axis of rotation whose corresponding volume equals the given integral(s).   Graph of sine curve over the interval from zero to pi and cosine curve over the interval from 0 to pi\/2.   The axis is drawn from to and the axis is drawn from to . The graph of two curves is drawn in the first and second quadrants. The first curve is , from to . The second curve is , from to . Regions bounded by the curves and the and axes are labeled A through C from left to right.               Region A rotated about the axis.           Region A rotated about the axis.           Regions A B rotated about the axis.           Regions A B rotated about the axis.           Region B rotated about the axis.           Region C rotated about the axis.         Use either the Disk\/Washer Method or the Shell Method to determine one or more integrals representing the volume of the solid of revolution formed by revolving the shaded region about each of the given axes. Evaluate your answer only where instructed.       Graph of sine curve over the interval from zero to pi.   The axis is drawn from to and the axis is drawn from to . The graph is drawn in the first quadrant. The curve is , from to . The shaded region is bounded by the curve and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate.           Rotate about . Evaluate.               Graph of intersecting parabolas over the interval from one to five.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is the function , from to . The second curve is the function , from to . The shaded region is bounded by the two curves.        Rotate about the axis.           Rotate about the axis.           Rotate about .               Graph of the natural logarithmic curve over the interval from one to e.   The axis is drawn from to and the axis is drawn from to . The graph is drawn in the first quadrant. The curve is the function , from to . The shaded region is bounded by the curve and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate.           Rotate about . Evaluate.               Graph of a parabola over the interval from zero to two, having y-intercept at four and x-intercept at two.   The axis is drawn from to and the axis is drawn from to .The graph is drawn in the first quadrant. The curve is the function , from to . The shaded region is bounded by the curve and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate.           Rotate about . Evaluate.           Rotate about . Evaluate.               Graph of a triangular region in first quadrant.   The axis is drawn from to and the axis is drawn from to . The graphs of two lines are drawn in the first quadrant. One line is , from to . The second line is , from to . The shaded region is bounded by the two curves and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate.           Rotate about . Evaluate.               Graph of intersecting curves in first quadrant.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is , from to . The second curve is , from to . The shaded region is bounded by the two curves and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis.           Rotate about .               Graph of intersecting sideways parabolas over the interval for y-coordinates from two to six.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is the function , from to . The second curve is the function , from to . The shaded region is bounded by the two curves.        Rotate about the axis.           Rotate about the axis.               Graph of line and semicircle in first quadrant.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is , from to . The second curve is , from to . The shaded region is bounded by the two curves and both the and axes.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate             "
+},
+{
+  "id": "ex-area-review-1",
+  "level": "2",
+  "url": "exercises-applications-of-integration-review.html#ex-area-review-1",
+  "type": "Exercise",
+  "number": "3.1",
+  "title": "",
+  "body": "    and .         "
+},
+{
+  "id": "ex-area-review-2",
+  "level": "2",
+  "url": "exercises-applications-of-integration-review.html#ex-area-review-2",
+  "type": "Exercise",
+  "number": "3.2",
+  "title": "",
+  "body": "    and .         "
+},
+{
+  "id": "ex-area-review-3",
+  "level": "2",
+  "url": "exercises-applications-of-integration-review.html#ex-area-review-3",
+  "type": "Exercise",
+  "number": "3.3",
+  "title": "",
+  "body": "    and .         "
 },
 {
   "id": "ex-volume-review-square-1",
   "level": "2",
   "url": "exercises-applications-of-integration-review.html#ex-volume-review-square-1",
   "type": "Exercise",
-  "number": "3.1",
+  "number": "3.4",
   "title": "",
   "body": "         Region B rotated about the axis.           Region B rotated about the axis.           Region A rotated about the axis.           Region A rotated about the line .           Region B rotated about the line .     "
+},
+{
+  "id": "ex-volume-review-no-graphs-1",
+  "level": "2",
+  "url": "exercises-applications-of-integration-review.html#ex-volume-review-no-graphs-1",
+  "type": "Exercise",
+  "number": "3.5",
+  "title": "",
+  "body": "   Region bounded by: , , and .  Rotate about the axis.         "
+},
+{
+  "id": "ex-volume-review-no-graphs-2",
+  "level": "2",
+  "url": "exercises-applications-of-integration-review.html#ex-volume-review-no-graphs-2",
+  "type": "Exercise",
+  "number": "3.6",
+  "title": "",
+  "body": "   Region bounded by: , , and .  Rotate about the axis.         "
+},
+{
+  "id": "ex-volume-review-no-graphs-3",
+  "level": "2",
+  "url": "exercises-applications-of-integration-review.html#ex-volume-review-no-graphs-3",
+  "type": "Exercise",
+  "number": "3.7",
+  "title": "",
+  "body": "   Region bounded by: , , and .  Rotate about the line .         "
+},
+{
+  "id": "ex-volume-review-no-graphs-4",
+  "level": "2",
+  "url": "exercises-applications-of-integration-review.html#ex-volume-review-no-graphs-4",
+  "type": "Exercise",
+  "number": "3.8",
+  "title": "",
+  "body": "   Region bounded by: , in the first quadrant.  Rotate about the axis.         "
+},
+{
+  "id": "ex-volume-review-no-graphs-5",
+  "level": "2",
+  "url": "exercises-applications-of-integration-review.html#ex-volume-review-no-graphs-5",
+  "type": "Exercise",
+  "number": "3.9",
+  "title": "",
+  "body": "   Region bounded by: , , and .  Rotate about the axis.         "
+},
+{
+  "id": "ex-volume-review-no-graphs-6",
+  "level": "2",
+  "url": "exercises-applications-of-integration-review.html#ex-volume-review-no-graphs-6",
+  "type": "Exercise",
+  "number": "3.10",
+  "title": "",
+  "body": "   Region bounded by: , , and .  Rotate about the axis.         "
+},
+{
+  "id": "ex-volume-parabola-and-line",
+  "level": "2",
+  "url": "exercises-applications-of-integration-review.html#ex-volume-parabola-and-line",
+  "type": "Exercise",
+  "number": "3.11",
+  "title": "",
+  "body": "   Use either the Disk\/Washer Method or the Shell Method to determine one or more integrals representing the volume of the solid of revolution formed by revolving the region about each of the given axes.  Region bounded by: and .     Rotate about the axis.    Disk\/Washer Method:       Rotate about the line .    Shell Method:      "
+},
+{
+  "id": "ex-volume-two-parabolas",
+  "level": "2",
+  "url": "exercises-applications-of-integration-review.html#ex-volume-two-parabolas",
+  "type": "Exercise",
+  "number": "3.12",
+  "title": "",
+  "body": "   Use the Disk\/Washer Method to determine one or more integrals representing the volume of the solid of revolution formed by revolving the region about each of the given axes.  Region bounded by: and .     Rotate about the axis.           Rotate about the line .           Rotate about the line .           Rotate about the line .          "
 },
 {
   "id": "ex-volume-review-sine-and-cosine-1",
   "level": "2",
   "url": "exercises-applications-of-integration-review.html#ex-volume-review-sine-and-cosine-1",
   "type": "Exercise",
-  "number": "3.2",
+  "number": "3.13",
   "title": "",
   "body": "         Region A rotated about the axis.           Region A rotated about the axis.           Regions A B rotated about the axis.           Regions A B rotated about the axis.           Region B rotated about the axis.           Region C rotated about the axis.     "
 },
@@ -2426,7 +2525,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-applications-of-integration-review.html#ex-volume-review-1",
   "type": "Exercise",
-  "number": "3.3",
+  "number": "3.14",
   "title": "",
   "body": "    Graph of sine curve over the interval from zero to pi.   The axis is drawn from to and the axis is drawn from to . The graph is drawn in the first quadrant. The curve is , from to . The shaded region is bounded by the curve and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate.           Rotate about . Evaluate.          "
 },
@@ -2435,7 +2534,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-applications-of-integration-review.html#ex-volume-review-2",
   "type": "Exercise",
-  "number": "3.4",
+  "number": "3.15",
   "title": "",
   "body": "    Graph of intersecting parabolas over the interval from one to five.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is the function , from to . The second curve is the function , from to . The shaded region is bounded by the two curves.        Rotate about the axis.           Rotate about the axis.           Rotate about .          "
 },
@@ -2444,7 +2543,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-applications-of-integration-review.html#ex-volume-review-3",
   "type": "Exercise",
-  "number": "3.5",
+  "number": "3.16",
   "title": "",
   "body": "    Graph of the natural logarithmic curve over the interval from one to e.   The axis is drawn from to and the axis is drawn from to . The graph is drawn in the first quadrant. The curve is the function , from to . The shaded region is bounded by the curve and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate.           Rotate about . Evaluate.          "
 },
@@ -2453,7 +2552,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-applications-of-integration-review.html#ex-volume-review-4",
   "type": "Exercise",
-  "number": "3.6",
+  "number": "3.17",
   "title": "",
   "body": "    Graph of a parabola over the interval from zero to two, having y-intercept at four and x-intercept at two.   The axis is drawn from to and the axis is drawn from to .The graph is drawn in the first quadrant. The curve is the function , from to . The shaded region is bounded by the curve and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate.           Rotate about . Evaluate.           Rotate about . Evaluate.          "
 },
@@ -2462,7 +2561,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-applications-of-integration-review.html#ex-volume-review-5",
   "type": "Exercise",
-  "number": "3.7",
+  "number": "3.18",
   "title": "",
   "body": "    Graph of a triangular region in first quadrant.   The axis is drawn from to and the axis is drawn from to . The graphs of two lines are drawn in the first quadrant. One line is , from to . The second line is , from to . The shaded region is bounded by the two curves and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate.           Rotate about . Evaluate.          "
 },
@@ -2471,7 +2570,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-applications-of-integration-review.html#ex-volume-review-6",
   "type": "Exercise",
-  "number": "3.8",
+  "number": "3.19",
   "title": "",
   "body": "    Graph of intersecting curves in first quadrant.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is , from to . The second curve is , from to . The shaded region is bounded by the two curves and the axis.        Rotate about the axis. Evaluate.           Rotate about the axis.           Rotate about .          "
 },
@@ -2480,7 +2579,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-applications-of-integration-review.html#ex-volume-review-7",
   "type": "Exercise",
-  "number": "3.9",
+  "number": "3.20",
   "title": "",
   "body": "    Graph of intersecting sideways parabolas over the interval for y-coordinates from two to six.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is the function , from to . The second curve is the function , from to . The shaded region is bounded by the two curves.        Rotate about the axis.           Rotate about the axis.          "
 },
@@ -2489,7 +2588,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "exercises-applications-of-integration-review.html#ex-volume-review-8",
   "type": "Exercise",
-  "number": "3.10",
+  "number": "3.21",
   "title": "",
   "body": "    Graph of line and semicircle in first quadrant.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is , from to . The second curve is , from to . The shaded region is bounded by the two curves and both the and axes.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate          "
 },
