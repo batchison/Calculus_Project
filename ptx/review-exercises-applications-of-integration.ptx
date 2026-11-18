@@ -130,7 +130,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds \pi\int_{5}^{7}(x-3)^2\, dx + \pi\int_{7}^{11}\left(\frac{15-x}{2}\right)^2\, dx = 2\pi\int_{2}^{4}y[(15-2y)-(y+3)]\, dy</m>
+            <m>\ds \pi\int_{5}^{7}(x-3)^2\, dx + \pi\int_{7}^{11}\left(\frac{15-x}{2}\right)^2\, dx -\pi\int_{5}^{11}4\, dx = 2\pi\int_{2}^{4}y[(15-2y)-(y+3)]\, dy</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -147,7 +147,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds \pi\int_{0}^{1}(2y)^2\, dy+\pi\int_{1}^{4}4\, dy-\pi\int_{0}^{4}\left(\frac{y}{2}\right)^2\, dy = 2\pi\int_{0}^{2}(3+x)\left(2x-\frac{x}{2}\right)\, dx</m>
+            <m>\ds \pi\int_{0}^{1}(3+2y)^2\, dy+\pi\int_{1}^{4}25\, dy-\pi\int_{0}^{4}\left(3+\frac{y}{2}\right)^2\, dy = 2\pi\int_{0}^{2}(3+x)\left(2x-\frac{x}{2}\right)\, dx</m>
             </p>
           </answer>
 <!--    </webwork>-->
