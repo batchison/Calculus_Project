@@ -706,7 +706,7 @@
  </exercisegroup>
 <exercisegroup xml:id="exset-volume-review-no-graphs">
   <introduction>
-    <p>In each of the following exercises, a region of the Cartesian plane is described.  Use both the Disk/Washer Method and the Shell Method to determine one or more integrals representing the volume of the solid of revolution formed by revolving the region about each of the given axes.
+    <p>In each of the following exercises, a region of the Cartesian plane is described.  Use the Disk/Washer Method to determine one or more integrals representing the volume of the solid of revolution formed by revolving the region about each of the given axes.  Repeat each exercise using the Shell Method.
     </p>
   </introduction>
   <exercise label="ex-volume-review-no-graphs-1">
@@ -715,7 +715,8 @@
           </pg-code>-->
           <statement>
             <p>
-            Region bounded by: <m>\ds y=x+2</m>, <m>y=0</m>, <m>x=0</m> and <m>x=3</m>.  Rotate about the <m>y</m> axis.
+            Region bounded by: <m>\ds y=x+2</m>, <m>y=0</m>, <m>x=0</m> and <m>x=3</m>.</p>
+            <p>Rotate about the <m>y</m> axis.
             </p>
           </statement>
           <answer>
@@ -731,7 +732,8 @@
           </pg-code>-->
           <statement>
             <p>
-            Region bounded by: <m>x+2y=15</m>, <m>y=x-3</m>, and <m>y=2</m>.  Rotate about the <m>x</m> axis.
+            Region bounded by: <m>x+2y=15</m>, <m>y=x-3</m>, and <m>y=2</m>.</p>
+            <p>Rotate about the <m>x</m> axis.
             </p>
           </statement>
           <answer>
@@ -747,7 +749,8 @@
           </pg-code>-->
           <statement>
             <p>
-            Region bounded by: <m>\ds y=\frac{x}{2}</m>, <m>y=2x</m>, and <m>x=2</m>.  Rotate about the line <m>x=-3</m>.
+            Region bounded by: <m>\ds y=\frac{x}{2}</m>, <m>y=2x</m>, and <m>x=2</m>.</p>
+            <p>Rotate about the line <m>x=-3</m>.
             </p>
           </statement>
           <answer>
@@ -763,7 +766,8 @@
           </pg-code>-->
           <statement>
             <p>
-            Region bounded by: <m>\ds xy=3</m>, <m>x+y=4</m> in the first quadrant.  Rotate about the <m>x</m> axis.
+            Region bounded by: <m>\ds xy=3</m>, <m>x+y=4</m> in the first quadrant.</p>
+            <p>Rotate about the <m>x</m> axis.
             </p>
           </statement>
           <answer>
