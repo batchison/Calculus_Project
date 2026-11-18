@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="chapter_sequences_series" label="chapter_sequences_series">
   <title>Sequences and Series</title>
-  <introduction>
+<!--  <introduction>
     <p>
       This chapter introduces <em>sequences</em> and <em>series</em>,
       important mathematical constructions that are useful when solving a large variety of mathematical problems.
@@ -31,5 +31,6 @@
   <xi:include href="sec_alt_series.ptx"/>
   <xi:include href="sec_power_series.ptx"/>
   <xi:include href="sec_taylor_poly.ptx"/>
-  <xi:include href="sec_taylor_series.ptx"/>
+  <xi:include href="sec_taylor_series.ptx"/>-->
+  <xi:include href="review-exercises-sequences-and-series.ptx" />   
 </chapter>

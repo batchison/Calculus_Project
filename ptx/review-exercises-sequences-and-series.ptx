@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="exercises-sequences-and-series-review">
+    <title>Review Exercises</title>
+    
+<exercisegroup xml:id="exset-sequence-review">
+      <introduction>
+        <p>
+        </p>
+      </introduction>
+      <exercise label="ex-sequence-review-1">
+<!--    <webwork xml:id="webwork-ex-sequence-review-1">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            Sample Problem
+            </p>
+          </statement>
+          <answer>
+            <p>
+            Sample Answer
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+    </exercisegroup>
+  </exercises>
