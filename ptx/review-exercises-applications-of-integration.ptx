@@ -704,4 +704,74 @@
 <!--  </webwork>-->
   </exercise>
  </exercisegroup>
+<exercisegroup xml:id="exset-volume-review-no-graphs">
+  <introduction>
+    <p>In each of the following exercises, a region of the Cartesian plane is described.  Use both the Disk/Washer Method and the Shell Method to determine one or more integrals representing the volume of the solid of revolution formed by revolving the region about each of the given axes.
+    </p>
+  </introduction>
+  <exercise label="ex-volume-review-no-graphs-1">
+<!--    <webwork xml:id="webwork-ex-volume-review-no-graphs-1">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            Region bounded by: <m>\ds y=x+2</m>, <m>y=0</m>, <m>x=0</m> and <m>x=3</m>.  Rotate about the <m>y</m> axis.
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \pi\int_{0}^{5}9\, dy-\pi\int_{2}^{5}(y-2)^2\, dy = 2\pi\int_{0}^{3}x(x+2)\, dx</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+  <exercise label="ex-volume-review-no-graphs-2">
+<!--    <webwork xml:id="webwork-ex-volume-review-no-graphs-2">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            Region bounded by: <m>x+2y=15</m>, <m>y=x-3</m>, and <m>y=2</m>.  Rotate about the <m>x</m> axis.
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \pi\int_{5}^{7}(x-3)^2\, dx + \pi\int_{7}^{11}\left(\frac{15-x}{2}\right)^2\, dx = 2\pi\int_{2}^{4}y[(15-2y)-(y+3)]\, dy</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+  <exercise label="ex-volume-review-no-graphs-3">
+<!--    <webwork xml:id="webwork-ex-volume-review-no-graphs-3">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            Region bounded by: <m>\ds y=\frac{x}{2}</m>, <m>y=2x</m>, and <m>x=2</m>.  Rotate about the line <m>x=-3</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \pi\int_{0}^{1}(2y)^2\, dy+\pi\int_{1}^{4}4\, dy-\pi\int_{0}^{4}\left(\frac{y}{2}\right)^2\, dy = 2\pi\int_{0}^{2}(3+x)\left(2x-\frac{x}{2}\right)\, dx</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+  <exercise label="ex-volume-review-no-graphs-4">
+<!--    <webwork xml:id="webwork-ex-volume-review-no-graphs-4">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            Region bounded by: <m>\ds xy=3</m>, <m>x+y=4</m> in the first quadrant.  Rotate about the <m>x</m> axis.
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \pi\int_{1}^{3}\left[(4-x)^2-\left(\frac{3}{x}\right)^2\right]\, dx = 2\pi\int_{1}^{3}y\left[(4-y)-\frac{3}{y}\right]\, dy</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+</exercisegroup>
 </exercises>
