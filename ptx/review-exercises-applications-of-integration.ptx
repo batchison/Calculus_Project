@@ -2,14 +2,33 @@
 
 <exercises xml:id="exercises-applications-of-integration-review">
     <title>Review Exercises</title>
-<exercise label="ex-area-review-1">
+<exercisegroup xml:id="exset-area-review">
+  <introduction>
+    <p>
+    Sketch the given relations and find the area of the enclosed region.
+    </p>
+  </introduction>
+    <exercise label="ex-area-review-1">
 <!--    <webwork xml:id="webwork-ex-area-review-1">
           <pg-code>
           </pg-code>-->
           <statement>
             <p>
-            Sketch the given relations and find the area of the enclosed region.
+              <m>\ds x=(y-2)^2</m> and <m>\ds x=y</m>.
             </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \frac{9}{2}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+    <exercise label="ex-area-review-2">
+<!--    <webwork xml:id="webwork-ex-area-review-2">
+          <pg-code>
+          </pg-code>-->
+          <statement>
             <p>
               <m>\ds x=y^2-6y+10</m> and <m>\ds x=\frac{1}{2}y^2-2y+4</m>.
             </p>
@@ -21,6 +40,23 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
+    <exercise label="ex-area-review-3">
+<!--    <webwork xml:id="webwork-ex-area-review-3">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+              <m>\ds y=\sqrt{4-(x-2)^2}</m> and <m>\ds y=0</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds 2\pi</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+</exercisegroup>
 <exercisegroup xml:id="exset-volume-review-square">
   <introduction>
     <p>Use the graph provided to identify the labeled region(s) and axis of rotation whose corresponding volume equals the given integral(s).  
@@ -222,6 +258,88 @@
 <!--    </webwork>-->
       </exercise>
 </exercisegroup>
+<exercise label="ex-volume-parabola-and-line">
+<!--    <webwork xml:id="webwork-ex-parabola-and-line">
+          <pg-code>
+          </pg-code>-->
+          <introduction>
+            <p>
+            Use either the Disk/Washer Method or the Shell Method to determine one or more integrals representing the volume of the solid of revolution formed by revolving the region about each of the given axes.</p>
+            <p>Region bounded by: <m>\ds y=(x-5)^2</m> and <m>y=3x-5</m>.</p>
+          </introduction>
+          <task label="ex-volume-parabola-and-line-1">
+            <statement>
+            <p>Rotate about the <m>x</m> axis.</p>
+            </statement>
+            <answer>
+            <p>
+            Disk/Washer Method: <m>\ds \pi\int_{3}^{7}\left[(3x-5)^2-(x-5)^4\right]\, dx</m>
+            </p>
+            </answer>
+          </task>
+          <task label="ex-volume-parabola-and-line-2">
+            <statement>
+            <p>Rotate about the line <m>x=1</m>.</p>
+            </statement>
+            <answer>
+            <p>
+            Shell Method: <m>\ds 2\pi\int_{3}^{7}(x-1)[(3x-5)-(x-5)^2]\, dx</m>
+            </p>
+            </answer>
+          </task>
+<!--    </webwork>-->
+      </exercise>
+<exercise label="ex-volume-two-parabolas">
+<!--    <webwork xml:id="webwork-ex-two-parabolas">
+          <pg-code>
+          </pg-code>-->
+          <introduction>
+            <p>
+            Use the Disk/Washer Method to determine one or more integrals representing the volume of the solid of revolution formed by revolving the region about each of the given axes.</p>
+            <p>Region bounded by: <m>\ds y=x^2-10x+28</m> and <m>y=-x^2+10x-20</m>.</p>
+          </introduction>
+          <task label="ex-volume-two-parabolas-1">
+            <statement>
+            <p>Rotate about the <m>x</m> axis.</p>
+            </statement>
+            <answer>
+            <p>
+            <m>\ds \pi\int_{4}^{6}[(-x^2+10x-20)^2-(x^2-10x+28)^2]\, dx</m>
+            </p>
+            </answer>
+          </task>
+          <task label="ex-volume-two-parabolas-2">
+            <statement>
+            <p>Rotate about the line <m>y=6</m>.</p>
+            </statement>
+            <answer>
+            <p>
+            <m>\ds \pi\int_{4}^{6}[(6-(x^2-10x+28))^2-(6-(-x^2+10x-20))^2]\, dx</m>
+            </p>
+            </answer>
+          </task>
+          <task label="ex-volume-two-parabolas-3">
+            <statement>
+            <p>Rotate about the line <m>y=-4</m>.</p>
+            </statement>
+            <answer>
+            <p>
+            <m>\ds \pi\int_{4}^{6}[(4+(-x^2+10x-20))^2-(4+(x^2-10x+28))^2]\, dx</m>
+            </p>
+            </answer>
+          </task>
+          <task label="ex-volume-two-parabolas-4">
+            <statement>
+            <p>Rotate about the line <m>y=2</m>.</p>
+            </statement>
+            <answer>
+            <p>
+            <m>\ds \pi\int_{4}^{6}[((-x^2+10x-20)-2)^2-((x^2-10x+28)-2)^2]\, dx</m>
+            </p>
+            </answer>
+          </task>
+<!--    </webwork>-->
+      </exercise>
 <exercisegroup xml:id="exset-volume-review-sine-and-cosine">
   <introduction>
     <p>Use the graph provided to identify the labeled region(s) and axis of rotation whose corresponding volume equals the given integral(s).  
