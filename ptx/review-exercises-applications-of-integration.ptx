@@ -235,7 +235,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds \pi\int_{1}^{4}\left(\ln(y))^2\, dy = 2\pi\int_{0}^{\ln(4)}x\left(4-e^x\right)\, dx</m>
+            <m>\ds \pi\int_{1}^{4}\left(\ln(y)\right)^2\, dy = 2\pi\int_{0}^{\ln(4)}x\left(4-e^x\right)\, dx</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -252,7 +252,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds \pi\int_{0}^{\ln(4)}\left(16-e^{2x})\, dx = 2\pi\int_{1}^{4}y\ln(y)\, dy</m>
+            <m>\ds \pi\int_{0}^{\ln(4)}\left(16-e^{2x}\right)\, dx = 2\pi\int_{1}^{4}y\ln(y)\, dy</m>
             </p>
           </answer>
 <!--    </webwork>-->
