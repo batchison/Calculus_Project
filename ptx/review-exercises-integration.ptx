@@ -1955,11 +1955,11 @@
                     </description>
           <latex-image label="img_05_rev_image_01">
           \begin{tikzpicture}
-          \begin{axis}[axis on top, xtick={(pi)/4,(pi)/2},xticklabels={$\frac{\pi}{4}$,$\frac{\pi}{2}$},ytick={1},yticklabels={$1$},ymin=0,ymax=1.5,xmin=0,xmax=1.5]
-            \addplot [name path=A,firstcurvestyle,domain=0:pi/2,samples=100] {sin(deg(x))};
-            \addplot [name path=B,firstcurvestyle,secondcolor,domain=0:pi/2,samples=100] {cos(deg(x))};
-            \draw (axis cs:3.34,0.8) node {\(y=\sin(x)\)};
-            \draw (axis cs:0.74,1.2) node {\(y=\cos(x)\)};
+          \begin{axis}[axis on top, xtick={(pi)/4,(pi)/2},xticklabels={$\frac{\pi}{4}$,$\frac{\pi}{2}$},ytick={1},yticklabels={$1$},ymin=0,ymax=1.5,xmin=0,xmax=1.75]
+            \addplot [name path=A,firstcurvestyle,secondcolor,domain=0:pi/2,samples=100] {sin(deg(x))};
+            \addplot [name path=B,firstcurvestyle,domain=0:pi/2,samples=100] {cos(deg(x))};
+            \draw (axis cs:1.13,1.2) node {\(y=\sin(x)\)};
+            \draw (axis cs:0.44,1.2) node {\(y=\cos(x)\)};
             \draw (axis cs:0.3925,0.7) node {A};
             \draw (axis cs:0.785,0.25) node {B};
             \addplot [firstcurvestyle,areastyle] fill between [of=B and A,soft clip={domain=0:0.785}];
@@ -1976,7 +1976,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            Region <m>A</m>
+            Region A
             </p>
           </statement>
           <answer>
@@ -1991,7 +1991,7 @@
           </pg-code>-->
           <statement>
             <p>  
-            Region <m>B</m>
+            Region B
             </p>
           </statement>
           <answer>
