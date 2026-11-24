@@ -3,14 +3,14 @@
 <exercises xml:id="exercises-sequences-and-series-review">
     <title>Review Exercises</title>
     
-<exercisegroup cols="2" xml:id="exset-sequence-nth-term-review">
+<exercisegroup xml:id="exset-sequence-nth-term-review">
       <introduction>
         <p>
         Determine the <m>n^{\text{th}}</m> term of the given sequence.
         </p>
       </introduction>
       <exercise label="ex-sequence-nth-term-review-1">
-<!--    <webwork xml:id="webwork-ex-sequence-review-1">
+<!--    <webwork xml:id="webwork-ex-sequence-nth-term-review-1">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -26,7 +26,7 @@
 <!--    </webwork>-->
       </exercise>
       <exercise label="ex-sequence-nth-term-review-2">
-<!--    <webwork xml:id="webwork-ex-sequence-review-2">
+<!--    <webwork xml:id="webwork-ex-sequence-nth-term-review-2">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -42,7 +42,7 @@
 <!--    </webwork>-->
       </exercise>
       <exercise label="ex-sequence-nth-term-review-3">
-<!--    <webwork xml:id="webwork-ex-sequence-review-3">
+<!--    <webwork xml:id="webwork-ex-sequence-nth-term-review-3">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -58,7 +58,7 @@
 <!--    </webwork>-->
       </exercise>
       <exercise label="ex-sequence-nth-term-review-4">
-<!--    <webwork xml:id="webwork-ex-sequence-review-4">
+<!--    <webwork xml:id="webwork-ex-sequence-nth-term-review-4">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -74,7 +74,7 @@
 <!--    </webwork>-->
       </exercise>
       <exercise label="ex-sequence-nth-term-review-5">
-<!--    <webwork xml:id="webwork-ex-sequence-review-5">
+<!--    <webwork xml:id="webwork-ex-sequence-nth-term-review-5">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -90,7 +90,7 @@
 <!--    </webwork>-->
       </exercise>
       <exercise label="ex-sequence-nth-term-review-6">
-<!--    <webwork xml:id="webwork-ex-sequence-review-6">
+<!--    <webwork xml:id="webwork-ex-sequence-nth-term-review-6">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -106,4 +106,220 @@
 <!--    </webwork>-->
       </exercise>
     </exercisegroup>
+<exercisegroup cols="2" xml:id="exset-sequence-limit-review">
+      <introduction>
+        <p>
+        Determine whether the sequence converges or diverges.  If convergent, give the limit of the sequence.
+        </p>
+      </introduction>
+      <exercise label="ex-sequence-limit-review-4">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-4">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left{a_n\right}=\left\{\frac{1-2n}{n+1}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            converges to <m>\ds -2</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-limit-review-3">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-3">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left{a_n\right}=\left\{\frac{2n-1}{2-n^3}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            converges to <m>\ds 0</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-limit-review-8">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-8">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left{a_n\right}=\left\{\frac{3n^2-1}{n^3+1}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            converges to <m>\ds 0</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-limit-review-6">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-6">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left{a_n\right}=\left\{\frac{2-n}{n}-\frac{n}{n-1}\right\}_{n=2}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            converges to <m>\ds -2</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-limit-review-5">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-5">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left{a_n\right}=\left\{\frac{2^n}{n}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            diverges
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-limit-review-10">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-10">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left{a_n\right}=\left\{1+\frac{5}{n^2+1}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            converges to <m>\ds 1</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-limit-review-11">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-11">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left{a_n\right}=\left\{\frac{1}{n}-\frac{5}{n^2+1}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            converges to <m>\ds 0</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-limit-review-7">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-7">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left{a_n\right}=\left\{\frac{1}{n}-\frac{1}{e^n}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            converges to <m>\ds 0</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-limit-review-1">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-1">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left{a_n\right}=\left\{\tan^{-1}(n)\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            converges to <m>\ds \frac{\pi}{2}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-limit-review-9">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-9">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left{a_n\right}=\left\{\frac{\sqrt{n}}{\ln(n)}\right\}_{n=2}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            diverges
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-limit-review-2">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-2">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left{a_n\right}=\left\{(-1)^{n}\ln\left(\frac{1}{n}\right)\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            diverges
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-limit-review-12">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-12">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left{a_n\right}=\left\{\frac{\sqrt{n}}{e^{2n}}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            converges to <m>\ds 0</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-limit-review-13">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-13">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left{a_n\right}=\left\{\frac{e^n}{1-2n^{\frac{3}{2}}}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            diverges
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+</exercisegroup>
+
   </exercises>
