@@ -3,7 +3,7 @@
 <exercises xml:id="exercises-sequences-and-series-review">
     <title>Review Exercises</title>
     
-<exercisegroup xml:id="exset-sequence-nth-term-review">
+<exercisegroup cols="2" xml:id="exset-sequence-nth-term-review">
       <introduction>
         <p>
         Determine the <m>n^{\text{th}}</m> term of the given sequence.
@@ -11,6 +11,22 @@
       </introduction>
       <exercise label="ex-sequence-nth-term-review-1">
 <!--    <webwork xml:id="webwork-ex-sequence-review-1">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \frac{2}{3},\, \frac{4}{5},\, \frac{8}{7},\, \frac{16}{9},\, \ldots</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \left\{\frac{2^n}{2n+1}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-nth-term-review-2">
+<!--    <webwork xml:id="webwork-ex-sequence-review-2">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -25,8 +41,8 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
-      <exercise label="ex-sequence-nth-term-review-2">
-<!--    <webwork xml:id="webwork-ex-sequence-review-2">
+      <exercise label="ex-sequence-nth-term-review-3">
+<!--    <webwork xml:id="webwork-ex-sequence-review-3">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -37,6 +53,54 @@
           <answer>
             <p>
             <m>\ds \left\{\frac{2n}{3+(-1)^{n+1}}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-nth-term-review-4">
+<!--    <webwork xml:id="webwork-ex-sequence-review-4">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \frac{-1}{2^2-1^2},\, 0,\, \frac{1}{4^2-3^2},\, \frac{2}{5^2-4^2},\, \ldots</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \left\{\frac{n-2}{2n+1}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-nth-term-review-5">
+<!--    <webwork xml:id="webwork-ex-sequence-review-5">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \frac{1}{5},\, \frac{2}{3},\, 1,\, \frac{5}{4},\, \frac{13}{9},\, \frac{8}{5},\, \frac{19}{11},\, \ldots</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \left\{\frac{3n-2}{n+4}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-nth-term-review-6">
+<!--    <webwork xml:id="webwork-ex-sequence-review-6">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \frac{\sqrt{2}}{2},\, \frac{1}{2},\, \frac{\sqrt{2}}{6},\, 0,\, -\frac{\sqrt{2}}{10},\, -\frac{1}{6},\, -\frac{\sqrt{2}}{14},\, 0,\, \ldots</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \left\{\frac{\sin\left(\frac{n\pi}{4}\right)}{n}\right\}_{n=1}^{\infty} </m>
             </p>
           </answer>
 <!--    </webwork>-->
