@@ -230,7 +230,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{\frac{1}{n}-\frac{1}{e^n}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{a_n\right\}=\left\{\frac{1}{n+2}-\frac{1}{n}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -246,12 +246,12 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{\tan^{-1}(n)\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{a_n\right\}=\left\{\frac{1}{n}-\frac{1}{e^n}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
             <p>
-            converges to <m>\ds \frac{\pi}{2}</m>
+            converges to <m>\ds 0</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -262,12 +262,12 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{\frac{\sqrt{n}}{\ln(n)}\right\}_{n=2}^{\infty} </m>
+            <m>\ds \left\{a_n\right\}=\left\{\tan^{-1}(n)\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
             <p>
-            diverges
+            converges to <m>\ds \frac{\pi}{2}</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -278,7 +278,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{(-1)^{n}\ln\left(\frac{1}{n}\right)\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{a_n\right\}=\left\{\frac{\sqrt{n}}{\ln(n)}\right\}_{n=2}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -294,6 +294,22 @@
           </pg-code>-->
           <statement>
             <p>
+            <m>\ds \left\{a_n\right\}=\left\{(-1)^{n}\ln\left(\frac{1}{n}\right)\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            diverges
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-limit-review-13">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-13">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
             <m>\ds \left\{a_n\right\}=\left\{\frac{\sqrt{n}}{e^{2n}}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
@@ -304,8 +320,8 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
-      <exercise label="ex-sequence-limit-review-13">
-<!--    <webwork xml:id="webwork-ex-sequence-limit-review-13">
+      <exercise label="ex-sequence-limit-review-14">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-14">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -320,6 +336,124 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
+      <exercise label="ex-sequence-limit-review-15">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-15">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left\{a_n\right\}=\left\{\frac{n\ln(n)}{2-n^2}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            converges to <m>\ds 0</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
 </exercisegroup>
-
-  </exercises>
+<exercisegroup cols="2" xml:id="exset-sequence-bounded-review">
+      <introduction>
+        <p>
+        Determine whether the sequence is bounded, bounded above, bounded below, or none of the above.
+        </p>
+      </introduction>
+      <exercise label="ex-sequence-bounded-review-1">
+<!--    <webwork xml:id="webwork-ex-sequence-bounded-review-1">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left\{a_n\right\}=\left\{5+\frac{(-1)^n}{n}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            bounded
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-bounded-review-2">
+<!--    <webwork xml:id="webwork-ex-sequence-bounded-review-2">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left\{a_n\right\}=\left\{(-1)^n\sqrt{n}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            neither bounded above or below
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-bounded-review-3">
+<!--    <webwork xml:id="webwork-ex-sequence-bounded-review-3">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left\{a_n\right\}=\left\{\frac{\sin(n)}{n}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            bounded
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-bounded-review-4">
+<!--    <webwork xml:id="webwork-ex-sequence-bounded-review-4">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left\{a_n\right\}=\left\{\frac{n}{\cos^2(n)}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            bounded below
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-bounded-review-5">
+<!--    <webwork xml:id="webwork-ex-sequence-bounded-review-5">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left\{a_n\right\}=\left\{\frac{3n^2-1}{n}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            bounded below
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-bounded-review-6">
+<!--    <webwork xml:id="webwork-ex-sequence-bounded-review-6">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left\{a_n\right\}=\left\{\frac{n-6}{3n-20}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            bounded
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+</exercisegroup>
+</exercises>
