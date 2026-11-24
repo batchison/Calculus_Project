@@ -532,7 +532,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{\frac{n}{(2n-5)^2)}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{\frac{n}{(2n-5)^2}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -580,7 +580,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{\frac{\pi^n}{(n-2)!}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{\frac{\pi^n}{(n-2)!}\right\}_{n=3}^{\infty} </m>
             </p>
           </statement>
           <answer>
