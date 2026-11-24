@@ -118,7 +118,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left{a_n\right}=\left\{\frac{1-2n}{n+1}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{a_n\right\}=\left\{\frac{1-2n}{n+1}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -134,7 +134,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left{a_n\right}=\left\{\frac{2n-1}{2-n^3}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{a_n\right\}=\left\{\frac{2n-1}{2-n^3}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -150,7 +150,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left{a_n\right}=\left\{\frac{3n^2-1}{n^3+1}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{a_n\right\}=\left\{\frac{3n^2-1}{n^3+1}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -166,7 +166,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left{a_n\right}=\left\{\frac{2-n}{n}-\frac{n}{n-1}\right\}_{n=2}^{\infty} </m>
+            <m>\ds \left\{a_n\right\}=\left\{\frac{2-n}{n}-\frac{n}{n-1}\right\}_{n=2}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -182,7 +182,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left{a_n\right}=\left\{\frac{2^n}{n}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{a_n\right\}=\left\{\frac{2^n}{n}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -198,7 +198,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left{a_n\right}=\left\{1+\frac{5}{n^2+1}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{a_n\right\}=\left\{1+\frac{5}{n^2+1}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -214,7 +214,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left{a_n\right}=\left\{\frac{1}{n}-\frac{5}{n^2+1}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{a_n\right\}=\left\{\frac{1}{n}-\frac{5}{n^2+1}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -230,7 +230,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left{a_n\right}=\left\{\frac{1}{n}-\frac{1}{e^n}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{a_n\right\}=\left\{\frac{1}{n}-\frac{1}{e^n}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -246,7 +246,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left{a_n\right}=\left\{\tan^{-1}(n)\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{a_n\right\}=\left\{\tan^{-1}(n)\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -262,7 +262,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left{a_n\right}=\left\{\frac{\sqrt{n}}{\ln(n)}\right\}_{n=2}^{\infty} </m>
+            <m>\ds \left\{a_n\right\}=\left\{\frac{\sqrt{n}}{\ln(n)}\right\}_{n=2}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -278,7 +278,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left{a_n\right}=\left\{(-1)^{n}\ln\left(\frac{1}{n}\right)\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{a_n\right\}=\left\{(-1)^{n}\ln\left(\frac{1}{n}\right)\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -294,7 +294,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left{a_n\right}=\left\{\frac{\sqrt{n}}{e^{2n}}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{a_n\right\}=\left\{\frac{\sqrt{n}}{e^{2n}}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -310,7 +310,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left{a_n\right}=\left\{\frac{e^n}{1-2n^{\frac{3}{2}}}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{a_n\right\}=\left\{\frac{e^n}{1-2n^{\frac{3}{2}}}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
