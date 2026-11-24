@@ -118,7 +118,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{\frac{1-2n}{n+1}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{\frac{1-2n}{n+1}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -134,7 +134,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{\frac{2n-1}{2-n^3}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{\frac{2n-1}{2-n^3}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -150,7 +150,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{\frac{3n^2-1}{n^3+1}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{\frac{3n^2-1}{n^3+1}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -166,7 +166,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{\frac{2-n}{n}-\frac{n}{n-1}\right\}_{n=2}^{\infty} </m>
+            <m>\ds \left\{\frac{2-n}{n}-\frac{n}{n-1}\right\}_{n=2}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -182,7 +182,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{\frac{2^n}{n}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{\frac{2^n}{n}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -198,7 +198,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{1+\frac{5}{n^2+1}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{1+\frac{5}{n^2+1}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -214,7 +214,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{\frac{1}{n}-\frac{5}{n^2+1}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{\frac{1}{n}-\frac{5}{n^2+1}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -230,7 +230,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{\frac{1}{n+2}-\frac{1}{n}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{\frac{1}{n+2}-\frac{1}{n}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -246,7 +246,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{\frac{1}{n}-\frac{1}{e^n}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{\frac{1}{n}-\frac{1}{e^n}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -262,7 +262,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{\tan^{-1}(n)\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{\tan^{-1}(n)\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -278,7 +278,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{\frac{\sqrt{n}}{\ln(n)}\right\}_{n=2}^{\infty} </m>
+            <m>\ds \left\{\frac{\sqrt{n}}{\ln(n)}\right\}_{n=2}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -294,7 +294,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{(-1)^{n}\ln\left(\frac{1}{n}\right)\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{(-1)^{n}\ln\left(\frac{1}{n}\right)\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -310,7 +310,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{\frac{\sqrt{n}}{e^{2n}}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{\frac{\sqrt{n}}{e^{2n}}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -326,7 +326,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{\frac{e^n}{1-2n^{\frac{3}{2}}}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{\frac{e^n}{1-2n^{\frac{3}{2}}}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -342,7 +342,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{\frac{n\ln(n)}{2-n^2}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{\frac{n\ln(n)}{2-n^2}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -365,7 +365,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{5+\frac{(-1)^n}{n}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{5+\frac{(-1)^n}{n}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -381,7 +381,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{(-1)^n\sqrt{n}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{(-1)^n\sqrt{n}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -397,7 +397,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{\frac{\sin(n)}{n}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{\frac{\sin(n)}{n}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -413,7 +413,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{\frac{n}{\cos^2(n)}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{\frac{n}{\cos^2(n)}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -429,7 +429,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{\frac{3n^2-1}{n}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{\frac{3n^2-1}{n}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -445,7 +445,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{a_n\right\}=\left\{\frac{n-6}{3n-20}\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{\frac{n^2-2}{n^2+2n+2}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -456,4 +456,139 @@
 <!--    </webwork>-->
       </exercise>
 </exercisegroup>
-</exercises>
+<exercisegroup cols="2" xml:id="exset-sequence-monotone-review">
+      <introduction>
+        <p>
+        Determine whether the sequence is monotonically increasing or decreasing.  If it is not, determine if there is an <m>m</m> such that it is monotonic for all <m>n\geq m</m>.
+        </p>
+      </introduction>
+      <exercise label="ex-sequence-monotone-review-1">
+<!--    <webwork xml:id="webwork-ex-sequence-monotone-review-1">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left\{\frac{n+2}{n+1}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            decreasing
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-monotone-review-2">
+<!--    <webwork xml:id="webwork-ex-sequence-monotone-review-2">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left\{\ln(n)\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            increasing
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-monotone-review-3">
+<!--    <webwork xml:id="webwork-ex-sequence-monotone-review-3">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left\{\frac{n-6}{2n-7}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            increasing for all <m>n\neq 3</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-monotone-review-4">
+<!--    <webwork xml:id="webwork-ex-sequence-monotone-review-4">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left\{\frac{n-6}{3n-20}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            decreasing for all <m>n\neq 6</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-monotone-review-5">
+<!--    <webwork xml:id="webwork-ex-sequence-monotone-review-5">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left\{\frac{n}{(2n-5)^2)}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            decreasing for all <m>n\geq 3</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-monotone-review-6">
+<!--    <webwork xml:id="webwork-ex-sequence-monotone-review-6">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left\{\frac{2n-3}{e^n}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            decreasing for all <m>n\geq 3</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-monotone-review-7">
+<!--    <webwork xml:id="webwork-ex-sequence-monotone-review-7">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left\{\frac{n!}{\pi^n}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            increasing for all <m>n\geq 3</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-monotone-review-8">
+<!--    <webwork xml:id="webwork-ex-sequence-monotone-review-8">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \left\{\frac{\pi^n}{(n-2)!}\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            decreasing for all <m>n\geq 5</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+    </exercisegroup>
+  </exercises>
