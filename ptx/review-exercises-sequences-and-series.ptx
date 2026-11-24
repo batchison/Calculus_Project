@@ -112,8 +112,8 @@
         Determine whether the sequence converges or diverges.  If convergent, give the limit of the sequence.
         </p>
       </introduction>
-      <exercise label="ex-sequence-limit-review-4">
-<!--    <webwork xml:id="webwork-ex-sequence-limit-review-4">
+      <exercise label="ex-sequence-limit-review-1">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-1">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -128,8 +128,8 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
-      <exercise label="ex-sequence-limit-review-3">
-<!--    <webwork xml:id="webwork-ex-sequence-limit-review-3">
+      <exercise label="ex-sequence-limit-review-2">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-2">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -144,8 +144,8 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
-      <exercise label="ex-sequence-limit-review-8">
-<!--    <webwork xml:id="webwork-ex-sequence-limit-review-8">
+      <exercise label="ex-sequence-limit-review-3">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-3">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -160,8 +160,8 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
-      <exercise label="ex-sequence-limit-review-6">
-<!--    <webwork xml:id="webwork-ex-sequence-limit-review-6">
+      <exercise label="ex-sequence-limit-review-4">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-4">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -192,8 +192,8 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
-      <exercise label="ex-sequence-limit-review-10">
-<!--    <webwork xml:id="webwork-ex-sequence-limit-review-10">
+      <exercise label="ex-sequence-limit-review-6">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-6">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -208,8 +208,8 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
-      <exercise label="ex-sequence-limit-review-11">
-<!--    <webwork xml:id="webwork-ex-sequence-limit-review-11">
+      <exercise label="ex-sequence-limit-review-7">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-7">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -224,8 +224,8 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
-      <exercise label="ex-sequence-limit-review-7">
-<!--    <webwork xml:id="webwork-ex-sequence-limit-review-7">
+      <exercise label="ex-sequence-limit-review-8">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-8">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -240,8 +240,8 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
-      <exercise label="ex-sequence-limit-review-1">
-<!--    <webwork xml:id="webwork-ex-sequence-limit-review-1">
+      <exercise label="ex-sequence-limit-review-9">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-9">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -256,8 +256,8 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
-      <exercise label="ex-sequence-limit-review-9">
-<!--    <webwork xml:id="webwork-ex-sequence-limit-review-9">
+      <exercise label="ex-sequence-limit-review-10">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-10">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -272,8 +272,8 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
-      <exercise label="ex-sequence-limit-review-2">
-<!--    <webwork xml:id="webwork-ex-sequence-limit-review-2">
+      <exercise label="ex-sequence-limit-review-11">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-11">
           <pg-code>
           </pg-code>-->
           <statement>
