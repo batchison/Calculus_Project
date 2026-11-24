@@ -15,12 +15,12 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \frac{3}{2},\, \frac{-3}{4},\, \frac{3}{8},\, \frac{-3}{16},\, \ldots</m>
+            <m>\ds \frac{3}{2},\, -\frac{3}{4},\, \frac{3}{8},\, -\frac{3}{16},\, \ldots</m>
             </p>
           </statement>
           <answer>
             <p>
-            <m>\ds \left{\frac{3(-1)^{n+1}}{2^n}\right}_{n=1}^{\infty}</m>
+            <m>\ds \left\{\frac{3(-1)^{n+1}}{2^n}\right\}_{n=1}^{\infty}</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -31,12 +31,12 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \frac{1}{2}, 2, \frac{3}{2}, 4, \frac{5}{2}, 6, \ldots</m>
+            <m>\ds \frac{1}{2},\, 2,\, \frac{3}{2},\, 4,\, \frac{5}{2},\, 6,\, \ldots</m>
             </p>
           </statement>
           <answer>
             <p>
-            <m>\ds \left{\frac{2n}{3+(-1)^{n+1}}\right}_{n=1}^{\infty} </m>
+            <m>\ds \left\{\frac{2n}{3+(-1)^{n+1}}\right\}_{n=1}^{\infty} </m>
             </p>
           </answer>
 <!--    </webwork>-->
