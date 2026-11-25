@@ -738,12 +738,12 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds 12+10+\frac{25}{3}+\frac{125}{18}+\frac{625}{108}+\ldots</m>
+            <m>\ds 9+\frac{15}{2}+\frac{75}{12}+\frac{375}{72}+\ldots</m>
             </p>
           </statement>
           <answer>
             <p>
-            <m>\ds \sum_{n=0}^{\infty}12\left(\frac{5}{6}\right)^{n}= 72</m>
+            <m>\ds \sum_{n=0}^{\infty}9\left(\frac{5}{6}\right)^{n}= 54</m>
             </p>
           </answer>
 <!--    </webwork>-->
