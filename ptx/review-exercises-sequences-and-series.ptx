@@ -262,12 +262,12 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{\tan^{-1}(n)\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{\cos^2\left(\frac{n\pi}{6}\right)\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
             <p>
-            converges to <m>\ds \frac{\pi}{2}</m>
+            diverges
             </p>
           </answer>
 <!--    </webwork>-->
@@ -278,12 +278,12 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{\frac{\sqrt{n}}{\ln(n)}\right\}_{n=2}^{\infty} </m>
+            <m>\ds \left\{\tan^{-1}(n)\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
           <answer>
             <p>
-            diverges
+            converges to <m>\ds \frac{\pi}{2}</m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -294,7 +294,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \left\{(-1)^{n}\ln\left(\frac{1}{n}\right)\right\}_{n=1}^{\infty} </m>
+            <m>\ds \left\{\frac{\sqrt{n}}{\ln(n)}\right\}_{n=2}^{\infty} </m>
             </p>
           </statement>
           <answer>
@@ -310,6 +310,22 @@
           </pg-code>-->
           <statement>
             <p>
+            <m>\ds \left\{(-1)^{n}\ln\left(\frac{1}{n}\right)\right\}_{n=1}^{\infty} </m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            diverges
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-sequence-limit-review-14">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-14">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
             <m>\ds \left\{\frac{\sqrt{n}}{e^{2n}}\right\}_{n=1}^{\infty} </m>
             </p>
           </statement>
@@ -320,8 +336,8 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
-      <exercise label="ex-sequence-limit-review-14">
-<!--    <webwork xml:id="webwork-ex-sequence-limit-review-14">
+      <exercise label="ex-sequence-limit-review-15">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-15">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -336,8 +352,8 @@
           </answer>
 <!--    </webwork>-->
       </exercise>
-      <exercise label="ex-sequence-limit-review-15">
-<!--    <webwork xml:id="webwork-ex-sequence-limit-review-15">
+      <exercise label="ex-sequence-limit-review-16">
+<!--    <webwork xml:id="webwork-ex-sequence-limit-review-16">
           <pg-code>
           </pg-code>-->
           <statement>
@@ -591,4 +607,91 @@
 <!--    </webwork>-->
       </exercise>
     </exercisegroup>
-  </exercises>
+<exercisegroup cols="2" xml:id="exset-geometric-series-review">
+      <introduction>
+        <p>
+        Express each of the given geometric series as <m>\ds \sum_{n=0}^{\infty}ar^n,</m> where <m>a</m> is a non-zero constant and determine whether the series converges or diverges.  If it converges, state what it converges to.
+        </p>
+      </introduction>
+      <exercise label="ex-geometric-series-review-1">
+<!--    <webwork xml:id="webwork-ex-geometric-series-review-1">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \sum_{n=2}^{\infty}\left(\frac{1}{5}\right)^{n+1}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \sum_{n=0}^{\infty}\frac{1}{125}\left(\frac{1}{5}\right)^{n}= \frac{1}{100}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-geometric-series-review-2">
+<!--    <webwork xml:id="webwork-ex-geometric-series-review-2">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \sum_{n=2}^{\infty}\left(\frac{3(-1)^n}{2^{n+1}}\right)</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \sum_{n=0}^{\infty}\frac{3}{8}\left(-\frac{1}{2}\right)^{n}= \frac{1}{4}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-geometric-series-review-3">
+<!--    <webwork xml:id="webwork-ex-geometric-series-review-3">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \sum_{n=1}^{\infty}\frac{3}{2}\left(\frac{4}{5}\right)^n</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \sum_{n=0}^{\infty}\frac{6}{5}\left(\frac{4}{5}\right)^{n}=6</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-geometric-series-review-4">
+<!--    <webwork xml:id="webwork-ex-geometric-series-review-4">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \sum_{n=1}^{\infty}\frac{e^{n+1}}{\pi^{n-1}}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \sum_{n=0}^{\infty}e^2\left(\frac{e}{\pi}\right)^{n}=\frac{e^2\pi}{\pi-e}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-geometric-series-review-5">
+<!--    <webwork xml:id="webwork-ex-geometric-series-review-5">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \sum_{n=1}^{\infty}\left(\frac{1}{3^{n+1}}-\frac{1}{3^n}\right)</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \sum_{n=0}^{\infty}\frac{-2}{9}\left(\frac{1}{3}\right)^{n}=-\frac{1}{3}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+</exercisegroup>
+</exercises>
