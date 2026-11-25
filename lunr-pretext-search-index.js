@@ -2593,6 +2593,438 @@ var ptx_lunr_docs = [
   "body": "    Graph of line and semicircle in first quadrant.   The axis is drawn from to and the axis is drawn from to . The graphs of two curves are drawn in the first quadrant. One curve is , from to . The second curve is , from to . The shaded region is bounded by the two curves and both the and axes.        Rotate about the axis. Evaluate.           Rotate about the axis. Evaluate          "
 },
 {
+  "id": "chapter_sequences_series",
+  "level": "1",
+  "url": "chapter_sequences_series.html",
+  "type": "Chapter",
+  "number": "4",
+  "title": "Sequences and Series",
+  "body": " Sequences and Series    Review Exercises    Determine the term of the given sequence.                                                                                          Determine whether the sequence converges or diverges. If convergent, give the limit of the sequence.           converges to              converges to              converges to              converges to              diverges             converges to              converges to              converges to              converges to              diverges             converges to              diverges             diverges             converges to              diverges             converges to         Determine whether the sequence is bounded, bounded above, bounded below, or none of the above.           bounded             neither bounded above or below             bounded             bounded below             bounded below             bounded        Determine whether the sequence is monotonically increasing or decreasing. If it is not, determine if there is an such that it is monotonic for all .           decreasing             increasing             increasing for all              decreasing for all              decreasing for all              decreasing for all              increasing for all              decreasing for all         Express each of the given geometric series as where is a non-zero constant and determine whether the series converges or diverges. If it converges, state what it converges to.                                                                                           Express as a convergent geometric series and find its equivalent fraction.            Express each of the given geometric series as where is a non-zero constant and determine whether the series converges or diverges. If it converges, state what it converges to.                                        diverges                     "
+},
+{
+  "id": "ex-sequence-nth-term-review-1",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-nth-term-review-1",
+  "type": "Exercise",
+  "number": "4.1",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-sequence-nth-term-review-2",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-nth-term-review-2",
+  "type": "Exercise",
+  "number": "4.2",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-sequence-nth-term-review-3",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-nth-term-review-3",
+  "type": "Exercise",
+  "number": "4.3",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-sequence-nth-term-review-4",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-nth-term-review-4",
+  "type": "Exercise",
+  "number": "4.4",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-sequence-nth-term-review-5",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-nth-term-review-5",
+  "type": "Exercise",
+  "number": "4.5",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-sequence-nth-term-review-6",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-nth-term-review-6",
+  "type": "Exercise",
+  "number": "4.6",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-sequence-limit-review-1",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-limit-review-1",
+  "type": "Exercise",
+  "number": "4.7",
+  "title": "",
+  "body": "        converges to     "
+},
+{
+  "id": "ex-sequence-limit-review-2",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-limit-review-2",
+  "type": "Exercise",
+  "number": "4.8",
+  "title": "",
+  "body": "        converges to     "
+},
+{
+  "id": "ex-sequence-limit-review-3",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-limit-review-3",
+  "type": "Exercise",
+  "number": "4.9",
+  "title": "",
+  "body": "        converges to     "
+},
+{
+  "id": "ex-sequence-limit-review-4",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-limit-review-4",
+  "type": "Exercise",
+  "number": "4.10",
+  "title": "",
+  "body": "        converges to     "
+},
+{
+  "id": "ex-sequence-limit-review-5",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-limit-review-5",
+  "type": "Exercise",
+  "number": "4.11",
+  "title": "",
+  "body": "        diverges    "
+},
+{
+  "id": "ex-sequence-limit-review-6",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-limit-review-6",
+  "type": "Exercise",
+  "number": "4.12",
+  "title": "",
+  "body": "        converges to     "
+},
+{
+  "id": "ex-sequence-limit-review-7",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-limit-review-7",
+  "type": "Exercise",
+  "number": "4.13",
+  "title": "",
+  "body": "        converges to     "
+},
+{
+  "id": "ex-sequence-limit-review-8",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-limit-review-8",
+  "type": "Exercise",
+  "number": "4.14",
+  "title": "",
+  "body": "        converges to     "
+},
+{
+  "id": "ex-sequence-limit-review-9",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-limit-review-9",
+  "type": "Exercise",
+  "number": "4.15",
+  "title": "",
+  "body": "        converges to     "
+},
+{
+  "id": "ex-sequence-limit-review-10",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-limit-review-10",
+  "type": "Exercise",
+  "number": "4.16",
+  "title": "",
+  "body": "        diverges    "
+},
+{
+  "id": "ex-sequence-limit-review-11",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-limit-review-11",
+  "type": "Exercise",
+  "number": "4.17",
+  "title": "",
+  "body": "        converges to     "
+},
+{
+  "id": "ex-sequence-limit-review-12",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-limit-review-12",
+  "type": "Exercise",
+  "number": "4.18",
+  "title": "",
+  "body": "        diverges    "
+},
+{
+  "id": "ex-sequence-limit-review-13",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-limit-review-13",
+  "type": "Exercise",
+  "number": "4.19",
+  "title": "",
+  "body": "        diverges    "
+},
+{
+  "id": "ex-sequence-limit-review-14",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-limit-review-14",
+  "type": "Exercise",
+  "number": "4.20",
+  "title": "",
+  "body": "        converges to     "
+},
+{
+  "id": "ex-sequence-limit-review-15",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-limit-review-15",
+  "type": "Exercise",
+  "number": "4.21",
+  "title": "",
+  "body": "        diverges    "
+},
+{
+  "id": "ex-sequence-limit-review-16",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-limit-review-16",
+  "type": "Exercise",
+  "number": "4.22",
+  "title": "",
+  "body": "        converges to     "
+},
+{
+  "id": "ex-sequence-bounded-review-1",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-bounded-review-1",
+  "type": "Exercise",
+  "number": "4.23",
+  "title": "",
+  "body": "        bounded    "
+},
+{
+  "id": "ex-sequence-bounded-review-2",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-bounded-review-2",
+  "type": "Exercise",
+  "number": "4.24",
+  "title": "",
+  "body": "        neither bounded above or below    "
+},
+{
+  "id": "ex-sequence-bounded-review-3",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-bounded-review-3",
+  "type": "Exercise",
+  "number": "4.25",
+  "title": "",
+  "body": "        bounded    "
+},
+{
+  "id": "ex-sequence-bounded-review-4",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-bounded-review-4",
+  "type": "Exercise",
+  "number": "4.26",
+  "title": "",
+  "body": "        bounded below    "
+},
+{
+  "id": "ex-sequence-bounded-review-5",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-bounded-review-5",
+  "type": "Exercise",
+  "number": "4.27",
+  "title": "",
+  "body": "        bounded below    "
+},
+{
+  "id": "ex-sequence-bounded-review-6",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-bounded-review-6",
+  "type": "Exercise",
+  "number": "4.28",
+  "title": "",
+  "body": "        bounded    "
+},
+{
+  "id": "ex-sequence-monotone-review-1",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-monotone-review-1",
+  "type": "Exercise",
+  "number": "4.29",
+  "title": "",
+  "body": "        decreasing    "
+},
+{
+  "id": "ex-sequence-monotone-review-2",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-monotone-review-2",
+  "type": "Exercise",
+  "number": "4.30",
+  "title": "",
+  "body": "        increasing    "
+},
+{
+  "id": "ex-sequence-monotone-review-3",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-monotone-review-3",
+  "type": "Exercise",
+  "number": "4.31",
+  "title": "",
+  "body": "        increasing for all     "
+},
+{
+  "id": "ex-sequence-monotone-review-4",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-monotone-review-4",
+  "type": "Exercise",
+  "number": "4.32",
+  "title": "",
+  "body": "        decreasing for all     "
+},
+{
+  "id": "ex-sequence-monotone-review-5",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-monotone-review-5",
+  "type": "Exercise",
+  "number": "4.33",
+  "title": "",
+  "body": "        decreasing for all     "
+},
+{
+  "id": "ex-sequence-monotone-review-6",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-monotone-review-6",
+  "type": "Exercise",
+  "number": "4.34",
+  "title": "",
+  "body": "        decreasing for all     "
+},
+{
+  "id": "ex-sequence-monotone-review-7",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-monotone-review-7",
+  "type": "Exercise",
+  "number": "4.35",
+  "title": "",
+  "body": "        increasing for all     "
+},
+{
+  "id": "ex-sequence-monotone-review-8",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-sequence-monotone-review-8",
+  "type": "Exercise",
+  "number": "4.36",
+  "title": "",
+  "body": "        decreasing for all     "
+},
+{
+  "id": "ex-geometric-series-review-1",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-geometric-series-review-1",
+  "type": "Exercise",
+  "number": "4.37",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-geometric-series-review-2",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-geometric-series-review-2",
+  "type": "Exercise",
+  "number": "4.38",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-geometric-series-review-3",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-geometric-series-review-3",
+  "type": "Exercise",
+  "number": "4.39",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-geometric-series-review-4",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-geometric-series-review-4",
+  "type": "Exercise",
+  "number": "4.40",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-geometric-series-review-5",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-geometric-series-review-5",
+  "type": "Exercise",
+  "number": "4.41",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-geometric-series-review-6",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-geometric-series-review-6",
+  "type": "Exercise",
+  "number": "4.42",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-geometric-series-decimal-1",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-geometric-series-decimal-1",
+  "type": "Exercise",
+  "number": "4.43",
+  "title": "",
+  "body": "   Express as a convergent geometric series and find its equivalent fraction.         "
+},
+{
+  "id": "ex-geometric-closed-form-review-1",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-geometric-closed-form-review-1",
+  "type": "Exercise",
+  "number": "4.44",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-geometric-closed-form-review-2",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-geometric-closed-form-review-2",
+  "type": "Exercise",
+  "number": "4.45",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "ex-geometric-closed-form-review-3",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-geometric-closed-form-review-3",
+  "type": "Exercise",
+  "number": "4.46",
+  "title": "",
+  "body": "         diverges    "
+},
+{
+  "id": "ex-geometric-closed-form-review-4",
+  "level": "2",
+  "url": "exercises-sequences-and-series-review.html#ex-geometric-closed-form-review-4",
+  "type": "Exercise",
+  "number": "4.47",
+  "title": "",
+  "body": "             "
+},
+{
   "id": "selected-answers",
   "level": "1",
   "url": "selected-answers.html",
