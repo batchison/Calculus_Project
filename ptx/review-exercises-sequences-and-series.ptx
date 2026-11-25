@@ -635,7 +635,7 @@
           </pg-code>-->
           <statement>
             <p>
-            <m>\ds \sum_{n=2}^{\infty}\left(\frac{3(-1)^n}{2^{n+1}}\right)</m>
+            <m>\ds \sum_{n=2}^{\infty}\frac{3(-1)^n}{2^{n+1}}</m>
             </p>
           </statement>
           <answer>
@@ -656,7 +656,7 @@
           </statement>
           <answer>
             <p>
-            <m>\ds \sum_{n=0}^{\infty}\frac{6}{5}\left(\frac{4}{5}\right)^{n}=6</m>
+            <m>\ds \sum_{n=0}^{\infty}\frac{6}{5}\left(\frac{4}{5}\right)^{n}=6 </m>
             </p>
           </answer>
 <!--    </webwork>-->
@@ -683,12 +683,67 @@
           </pg-code>-->
           <statement>
             <p>
+            <m>\ds \sum_{n=1}^{\infty}\left(\frac{5}{2}\right)^{1-n}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \sum_{n=0}^{\infty}\left(\frac{2}{5}\right)^{n}=-\frac{5}{3}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+      <exercise label="ex-geometric-series-review-6">
+<!--    <webwork xml:id="webwork-ex-geometric-series-review-6">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
             <m>\ds \sum_{n=1}^{\infty}\left(\frac{1}{3^{n+1}}-\frac{1}{3^n}\right)</m>
             </p>
           </statement>
           <answer>
             <p>
             <m>\ds \sum_{n=0}^{\infty}\frac{-2}{9}\left(\frac{1}{3}\right)^{n}=-\frac{1}{3}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+      </exercise>
+</exercisegroup>
+<exercise label="ex-geometric-series-decimal-1">
+<!--    <webwork xml:id="webwork-ex-geometric-series-decimal-1">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            Express <m>0.454545\ldots</m> as a convergent geometric series and find its equivalent fraction.
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \sum_{n=0}^{\infty}\frac{9}{20}\left(\frac{1}{100}\right)^{n}=\frac{38}{11}</m>
+            </p>
+          </answer>
+<!--    </webwork>-->
+</exercise>
+<exercisegroup xml:id="exset-geometric-closed-form-review">
+      <introduction>
+        <p>
+        Express each of the given geometric series as <m>\ds \sum_{n=0}^{\infty}ar^n,</m> where <m>a</m> is a non-zero constant and determine whether the series converges or diverges.  If it converges, state what it converges to.
+        </p>
+      </introduction>
+      <exercise label="ex-geometric-closed-form-review-1">
+<!--    <webwork xml:id="webwork-ex-geometric-closed-form-review-1">
+          <pg-code>
+          </pg-code>-->
+          <statement>
+            <p>
+            <m>\ds \frac{1}{2}+\frac{1}{2}+\frac{1}{2}+\frac{1}{2}+\ldots</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>\ds \sum_{n=0}^{\infty}\frac{1}{125}\left(\frac{1}{5}\right)^{n}= \frac{1}{100}</m>
             </p>
           </answer>
 <!--    </webwork>-->
